@@ -49,4 +49,22 @@ final class Vinyl
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
         return $row ?: null;
     }
+
+    public static function createForUser(int $userId, array $data): int
+    {
+        $pdo = Database::pdo();
+        $sql = "INSERT INTO VINYLS_TBL (User_Id, Title, Producer, Release_date, Is_Favorite, Is_Desired)
+            VALUES (:uid, :title, :producer, :release_date, :fav, :desired)";
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute([
+            'uid' => $userId,
+            'title' => $data['title'] ?? '',
+            'producer' => $data['producer'] ?? null,
+            'release_date' => $data['release_date'] ?? null,
+            'fav' => (int)($data['is_favorite'] ?? 0),
+            'desired' => (int)($data['is_desired'] ?? 0),
+        ]);
+
+        return (int)$pdo->lastInsertId();
+    }
 }
