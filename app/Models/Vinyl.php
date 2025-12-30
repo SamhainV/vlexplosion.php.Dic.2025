@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App\Models;
@@ -34,5 +35,18 @@ final class Vinyl
         $stmt->bindValue(':off', $offset, PDO::PARAM_INT);
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public static function findByIdForUser(int $vinylId, int $userId): ?array
+    {
+        $pdo = Database::pdo();
+        $sql = "SELECT Id, Title, Producer, Release_date, Is_Favorite, Is_Desired, Image_Path
+            FROM VINYLS_TBL
+            WHERE Id = :id AND User_Id = :uid
+            LIMIT 1";
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute(['id' => $vinylId, 'uid' => $userId]);
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
+        return $row ?: null;
     }
 }

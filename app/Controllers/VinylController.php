@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App\Controllers;
@@ -27,5 +28,26 @@ final class VinylController extends Controller
             'items' => $items,
             'p' => $p,
         ]);
+    }
+
+    public function show(): void
+    {
+        Auth::requireLogin();
+
+        $id = (int)($_GET['id'] ?? 0);
+        if ($id <= 0) {
+            redirect('/vinyls');
+        }
+
+        $userId = Auth::id() ?? 0;
+        $vinyl = Vinyl::findByIdForUser($id, $userId);
+
+        if (!$vinyl) {
+            http_response_code(404);
+            $this->view('vinyls/show', ['vinyl' => null]);
+            return;
+        }
+
+        $this->view('vinyls/show', ['vinyl' => $vinyl]);
     }
 }
