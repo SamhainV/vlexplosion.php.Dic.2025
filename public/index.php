@@ -20,6 +20,8 @@ $router->get('/', [AuthController::class, 'showLogin']);
 $router->get('/login', [AuthController::class, 'showLogin']);
 $router->post('/login', [AuthController::class, 'login']);
 $router->post('/logout', [AuthController::class, 'logout']);
+$router->get('/vinyls/show', [VinylController::class, 'show']);
+
 
 // Vinyls
 $router->get('/vinyls', [VinylController::class, 'index']);

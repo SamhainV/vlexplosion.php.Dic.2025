@@ -15,7 +15,12 @@
       <div class="rounded-2xl border border-zinc-800 bg-zinc-900 p-4">
         <div class="flex items-start justify-between gap-3">
           <div>
-            <div class="font-semibold"><?= e($v['Title'] ?? '') ?></div>
+
+            <a class="font-semibold hover:underline"
+              href="/vinyls/show?id=<?= (int)$v['Id'] ?>">
+              <?= e($v['Title'] ?? '') ?>
+            </a>
+
             <div class="text-xs text-zinc-400 mt-1">
               <?= e((string)($v['Producer'] ?? '')) ?> · <?= e((string)($v['Release_date'] ?? '')) ?>
             </div>
@@ -37,19 +42,19 @@
   <?php if ($p->pages > 1): ?>
     <div class="mt-8 flex items-center justify-center gap-2 text-sm">
       <?php
-        $prev = max(1, $p->page - 1);
-        $next = min($p->pages, $p->page + 1);
+      $prev = max(1, $p->page - 1);
+      $next = min($p->pages, $p->page + 1);
       ?>
 
       <a class="px-3 py-1 rounded border border-zinc-700 hover:bg-zinc-800 <?= $p->page === 1 ? 'opacity-40 pointer-events-none' : '' ?>"
-         href="/vinyls?page=<?= $prev ?>">Anterior</a>
+        href="/vinyls?page=<?= $prev ?>">Anterior</a>
 
       <span class="px-3 py-1 text-zinc-300">
         Página <?= (int)$p->page ?> / <?= (int)$p->pages ?>
       </span>
 
       <a class="px-3 py-1 rounded border border-zinc-700 hover:bg-zinc-800 <?= $p->page === $p->pages ? 'opacity-40 pointer-events-none' : '' ?>"
-         href="/vinyls?page=<?= $next ?>">Siguiente</a>
+        href="/vinyls?page=<?= $next ?>">Siguiente</a>
     </div>
   <?php endif; ?>
 
