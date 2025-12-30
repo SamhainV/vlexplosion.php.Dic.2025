@@ -1,0 +1,5 @@
+/vendor/
+/storage/*.log
+/public/assets/*.css
+/public/assets/*.js
+.env

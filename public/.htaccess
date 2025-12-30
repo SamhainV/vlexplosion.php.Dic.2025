@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# If your app is in a subfolder, you may need RewriteBase /subfolder/public/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
