@@ -50,4 +50,41 @@ final class VinylController extends Controller
 
         $this->view('vinyls/show', ['vinyl' => $vinyl]);
     }
+
+    public function create(): void
+    {
+        Auth::requireLogin();
+        $this->view('vinyls/create', ['error' => null, 'old' => []]);
+    }
+
+    public function store(): void
+    {
+        Auth::requireLogin();
+
+        $title = trim($_POST['title'] ?? '');
+        $producer = trim($_POST['producer'] ?? '');
+        $release = trim($_POST['release_date'] ?? '');
+        $isFav = isset($_POST['is_favorite']) ? 1 : 0;
+        $isDesired = isset($_POST['is_desired']) ? 1 : 0;
+
+        if ($title === '') {
+            $this->view('vinyls/create', [
+                'error' => 'El título es obligatorio.',
+                'old' => $_POST,
+            ]);
+            return;
+        }
+
+        $userId = Auth::id() ?? 0;
+
+        $newId = Vinyl::createForUser($userId, [
+            'title' => $title,
+            'producer' => $producer,
+            'release_date' => $release,
+            'is_favorite' => $isFav,
+            'is_desired' => $isDesired,
+        ]);
+
+        redirect('/vinyls/show?id=' . $newId);
+    }
 }

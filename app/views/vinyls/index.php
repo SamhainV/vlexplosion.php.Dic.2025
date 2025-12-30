@@ -1,3 +1,9 @@
+<a class="inline-flex items-center px-3 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-sm mb-4"
+   href="/vinyls/create">
+  + Añadir vinilo
+</a>
+
+
 <h1 class="text-2xl font-semibold mb-6">Mis vinilos</h1>
 
 <div class="mb-4 text-sm text-zinc-400">
