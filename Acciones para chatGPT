@@ -1,0 +1,25 @@
+Ahí tienes el fichero con la bbdd de mysql. la bbdd se llama igual que el fichero.
+
+Las opciones para conectar a a bbdd son:  
+if ($_SERVER['HTTP_HOST'] === 'www.samhain.org') {
+            $this->dbHost = 'localhost';
+            $this->dbName = 's01f7025_VinylLibraryDB';
+            $this->dbUser = 's01f7025_vlexplosion';
+            $this->dbPass = 'A29xxRamones';
+}
+
+Quiero que me generes una app en php para la gestion de una bbdd de discos de vinilo.
+Cada usuario tiene su propia coleccion.
+En la página principal abrá un menu de login para que el usuario entre al sistema.
+Dentro de login pedira los datos del usuario (fijate en como estab distribuidas las tablas en el fichero sql que te he pasado)
+
+una vez dentro el usuario podra administrar sus coleccion de discos.
+tiene que tener un paginator pues hay usuarios que tienen muchos discos.
+
+Quiero que utilices PDO y el la arquitectura Modelo Vista controlador.
+
+quiero que me generes un script con todos los ficheros que vamos a necesitar para que se generen solos. Luego ya iremos insertando codsigo en cada uno de ellos.
+
+Usaremos Tailwind.
+
+Por favor si tienes dudas de como instalar tailwind o algo, no dudes en buscar por internet.
