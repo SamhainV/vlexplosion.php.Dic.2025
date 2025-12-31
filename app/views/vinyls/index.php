@@ -1,9 +1,33 @@
 <?php
 $highlightId = (int)($_GET['highlight'] ?? 0);
+
+// sort actual (viene del controller idealmente; si no, lo cogemos de GET)
+$sort = (string)($sort ?? ($_GET['sort'] ?? 'newest'));
+$sortOptions = $sortOptions ?? [
+  'newest' => 'Nuevos primero',
+  'oldest' => 'Antiguos primero',
+  'title_asc' => 'Título A → Z',
+  'title_desc' => 'Título Z → A',
+  'year_asc' => 'Año ↑',
+  'year_desc' => 'Año ↓',
+  'producer_asc' => 'Producer A → Z',
+  'producer_desc' => 'Producer Z → A',
+  'fav_first' => 'Favoritos primero',
+  'desired_first' => 'Deseados primero',
+  'fav_then_title' => 'Fav primero + A→Z',
+  'desired_then_title' => 'Deseado primero + A→Z',
+];
+
+// normalizar por si alguien mete un sort raro
+if (!isset($sortOptions[$sort])) {
+  $sort = 'newest';
+}
+
+$sortQ = urlencode($sort);
 ?>
 
 <a class="inline-flex items-center px-3 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-sm mb-4"
-   href="/vinyls/create">
+   href="/vinyls/create?sort=<?= $sortQ ?>">
   + Añadir vinilo
 </a>
 
@@ -12,6 +36,24 @@ $highlightId = (int)($_GET['highlight'] ?? 0);
 <div class="mb-4 text-sm text-zinc-400">
   Total: <span class="text-zinc-200 font-medium"><?= (int)$p->total ?></span>
 </div>
+
+<!-- Selector de orden -->
+<form method="GET" action="/vinyls" class="mb-4 flex items-center gap-3">
+  <input type="hidden" name="page" value="1">
+  <label class="text-sm text-zinc-400">Orden:</label>
+
+  <select
+    name="sort"
+    onchange="this.form.submit()"
+    class="rounded-lg bg-zinc-900 text-zinc-100 border border-zinc-800 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-zinc-700"
+  >
+    <?php foreach ($sortOptions as $key => $label): ?>
+      <option value="<?= e($key) ?>" <?= ($sort === $key) ? 'selected' : '' ?>>
+        <?= e($label) ?>
+      </option>
+    <?php endforeach; ?>
+  </select>
+</form>
 
 <?php if (empty($items)): ?>
   <div class="rounded-xl border border-zinc-800 bg-zinc-900 p-5">
@@ -68,14 +110,14 @@ $highlightId = (int)($_GET['highlight'] ?? 0);
       ?>
 
       <a class="px-3 py-1 rounded border border-zinc-700 hover:bg-zinc-800 <?= $p->page === 1 ? 'opacity-40 pointer-events-none' : '' ?>"
-         href="/vinyls?page=<?= $prev ?>">Anterior</a>
+         href="/vinyls?page=<?= $prev ?>&sort=<?= $sortQ ?>">Anterior</a>
 
       <span class="px-3 py-1 text-zinc-300">
         Página <?= (int)$p->page ?> / <?= (int)$p->pages ?>
       </span>
 
       <a class="px-3 py-1 rounded border border-zinc-700 hover:bg-zinc-800 <?= $p->page === $p->pages ? 'opacity-40 pointer-events-none' : '' ?>"
-         href="/vinyls?page=<?= $next ?>">Siguiente</a>
+         href="/vinyls?page=<?= $next ?>&sort=<?= $sortQ ?>">Siguiente</a>
     </div>
   <?php endif; ?>
 
@@ -103,7 +145,7 @@ $highlightId = (int)($_GET['highlight'] ?? 0);
       );
       el.classList.add('border-zinc-800', 'bg-zinc-900');
 
-      // Limpiar URL: quitar highlight y hash, manteniendo page
+      // Limpiar URL: quitar highlight y hash, manteniendo page y sort
       const url = new URL(window.location.href);
       url.searchParams.delete('highlight');
       url.hash = '';

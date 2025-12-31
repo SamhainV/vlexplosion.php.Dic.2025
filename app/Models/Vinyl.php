@@ -18,21 +18,27 @@ final class Vinyl
         return (int)($stmt->fetch(PDO::FETCH_ASSOC)['c'] ?? 0);
     }
 
-    public static function paginateByUser(int $userId, int $limit, int $offset): array
+
+    public static function paginateByUser(int $userId, int $limit, int $offset, string $sort = 'newest'): array
     {
         $pdo = Database::pdo();
+        $order = self::orderByForSort($sort);
+
         $sql = "SELECT Id, Title, Producer, Release_date, Is_Favorite, Is_Desired
-                FROM VINYLS_TBL
-                WHERE User_Id = :uid
-                ORDER BY Id DESC
-                LIMIT :lim OFFSET :off";
+            FROM VINYLS_TBL
+            WHERE User_Id = :uid
+            ORDER BY $order
+            LIMIT :lim OFFSET :off";
+
         $stmt = $pdo->prepare($sql);
         $stmt->bindValue('uid', $userId, PDO::PARAM_INT);
         $stmt->bindValue('lim', $limit, PDO::PARAM_INT);
         $stmt->bindValue('off', $offset, PDO::PARAM_INT);
         $stmt->execute();
+
         return $stmt->fetchAll(PDO::FETCH_ASSOC) ?: [];
     }
+
 
     public static function findByIdForUser(int $id, int $userId): ?array
     {
@@ -159,22 +165,200 @@ final class Vinyl
     }
 
 
-    public static function pageForIdByUser(int $userId, int $vinylId, int $perPage): int
+    public static function pageForIdByUser(int $userId, int $vinylId, int $perPage, string $sort = 'newest'): int
     {
         $pdo = Database::pdo();
 
-        // Como el listado va ORDER BY Id DESC,
-        // los que tienen Id mayor aparecen antes.
+        // Datos del vinilo recién creado (para comparaciones)
         $stmt = $pdo->prepare("
-        SELECT COUNT(*) 
+        SELECT Id, Title, Producer, Release_date, Is_Favorite, Is_Desired
         FROM VINYLS_TBL
-        WHERE User_Id = :uid AND Id > :id
+        WHERE User_Id = :uid AND Id = :id
+        LIMIT 1
     ");
         $stmt->execute(['uid' => $userId, 'id' => $vinylId]);
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
-        $countBefore = (int)$stmt->fetchColumn(); // cuántos van antes
-        $position = $countBefore + 1;            // posición 1-based
+        if (!$row) {
+            return 1;
+        }
+
+        $id = (int)$row['Id'];
+        $title = (string)$row['Title'];
+        $producer = (string)$row['Producer'];
+        $year = (int)$row['Release_date'];
+        $fav = (int)$row['Is_Favorite'];
+        $desired = (int)$row['Is_Desired'];
+
+        // Whitelist
+        $allowed = self::allowedSorts();
+        if (!isset($allowed[$sort])) {
+            $sort = 'newest';
+        }
+
+        // Construimos condición "cuántos van antes" según el sort
+        $where = '';
+        $params = ['uid' => $userId];
+
+        switch ($sort) {
+            case 'oldest': // Id ASC
+                $where = "Id < :id";
+                $params['id'] = $id;
+                break;
+
+            case 'title_asc': // Title ASC, Id DESC
+                $where = "(Title < :t) OR (Title = :t AND Id > :id)";
+                $params['t'] = $title;
+                $params['id'] = $id;
+                break;
+
+            case 'title_desc': // Title DESC, Id DESC
+                $where = "(Title > :t) OR (Title = :t AND Id > :id)";
+                $params['t'] = $title;
+                $params['id'] = $id;
+                break;
+
+            case 'year_asc': // Release_date ASC, Title ASC, Id DESC
+                $where = "(Release_date < :y)
+                   OR (Release_date = :y AND Title < :t)
+                   OR (Release_date = :y AND Title = :t AND Id > :id)";
+                $params['y'] = $year;
+                $params['t'] = $title;
+                $params['id'] = $id;
+                break;
+
+            case 'year_desc': // Release_date DESC, Title ASC, Id DESC
+                $where = "(Release_date > :y)
+                   OR (Release_date = :y AND Title < :t)
+                   OR (Release_date = :y AND Title = :t AND Id > :id)";
+                $params['y'] = $year;
+                $params['t'] = $title;
+                $params['id'] = $id;
+                break;
+
+            case 'producer_asc': // Producer ASC, Title ASC, Id DESC
+                $where = "(Producer < :p)
+                   OR (Producer = :p AND Title < :t)
+                   OR (Producer = :p AND Title = :t AND Id > :id)";
+                $params['p'] = $producer;
+                $params['t'] = $title;
+                $params['id'] = $id;
+                break;
+
+            case 'producer_desc': // Producer DESC, Title ASC, Id DESC
+                $where = "(Producer > :p)
+                   OR (Producer = :p AND Title < :t)
+                   OR (Producer = :p AND Title = :t AND Id > :id)";
+                $params['p'] = $producer;
+                $params['t'] = $title;
+                $params['id'] = $id;
+                break;
+
+            case 'fav_first': // Is_Favorite DESC, Id DESC
+                $where = "(Is_Favorite > :f) OR (Is_Favorite = :f AND Id > :id)";
+                $params['f'] = $fav;
+                $params['id'] = $id;
+                break;
+
+            case 'desired_first': // Is_Desired DESC, Id DESC
+                $where = "(Is_Desired > :d) OR (Is_Desired = :d AND Id > :id)";
+                $params['d'] = $desired;
+                $params['id'] = $id;
+                break;
+
+            case 'fav_then_title': // Is_Favorite DESC, Title ASC, Id DESC
+                $where = "(Is_Favorite > :f)
+                   OR (Is_Favorite = :f AND Title < :t)
+                   OR (Is_Favorite = :f AND Title = :t AND Id > :id)";
+                $params['f'] = $fav;
+                $params['t'] = $title;
+                $params['id'] = $id;
+                break;
+
+            case 'desired_then_title': // Is_Desired DESC, Title ASC, Id DESC
+                $where = "(Is_Desired > :d)
+                   OR (Is_Desired = :d AND Title < :t)
+                   OR (Is_Desired = :d AND Title = :t AND Id > :id)";
+                $params['d'] = $desired;
+                $params['t'] = $title;
+                $params['id'] = $id;
+                break;
+
+            case 'newest':
+            default: // Id DESC
+                $where = "Id > :id";
+                $params['id'] = $id;
+                break;
+        }
+
+        $sql = "SELECT COUNT(*)
+            FROM VINYLS_TBL
+            WHERE User_Id = :uid AND ($where)";
+
+        $stmt2 = $pdo->prepare($sql);
+
+        // FILTRAR params => solo los que realmente aparecen en el SQL
+        preg_match_all('/:([a-zA-Z_][a-zA-Z0-9_]*)/', $sql, $m);
+        $need = array_unique($m[1]); // nombres sin ':'
+
+        $exec = [];
+        foreach ($need as $k) {
+            if (!array_key_exists($k, $params)) {
+                throw new \RuntimeException("Falta parámetro :$k en pageForIdByUser()");
+            }
+            $exec[$k] = $params[$k];
+        }
+
+        $stmt2->execute($exec);
+
+
+
+        $countBefore = (int)$stmt2->fetchColumn();
+        $position = $countBefore + 1;
 
         return (int)ceil($position / max(1, $perPage));
+    }
+
+    public static function allowedSorts(): array
+    {
+        return [
+            'newest'        => 'Nuevos primero',
+            'oldest'        => 'Antiguos primero',
+            'title_asc'     => 'Título A → Z',
+            'title_desc'    => 'Título Z → A',
+            'year_asc'      => 'Año ↑',
+            'year_desc'     => 'Año ↓',
+            'producer_asc'  => 'Producer A → Z',
+            'producer_desc' => 'Producer Z → A',
+            'fav_first'     => 'Favoritos primero',
+            'desired_first' => 'Deseados primero',
+            'fav_then_title' => 'Fav primero + A→Z',
+            'desired_then_title' => 'Deseado primero + A→Z',
+        ];
+    }
+
+    private static function orderByForSort(string $sort): string
+    {
+        // Orden estable: siempre acabamos con Title e Id para estabilidad
+        // (así no “baila” la lista entre recargas)
+        return match ($sort) {
+            'oldest'        => 'Id ASC',
+            'title_asc'     => 'Title ASC, Id DESC',
+            'title_desc'    => 'Title DESC, Id DESC',
+            'year_asc'      => 'Release_date ASC, Title ASC, Id DESC',
+            'year_desc'     => 'Release_date DESC, Title ASC, Id DESC',
+            'producer_asc'  => 'Producer ASC, Title ASC, Id DESC',
+            'producer_desc' => 'Producer DESC, Title ASC, Id DESC',
+
+            // primero los 1 (true), luego los 0
+            'fav_first'     => 'Is_Favorite DESC, Id DESC',
+            'desired_first' => 'Is_Desired DESC, Id DESC',
+
+            // “bonitos” (primero flag y luego alfabético)
+            'fav_then_title'        => 'Is_Favorite DESC, Title ASC, Id DESC',
+            'desired_then_title'    => 'Is_Desired DESC, Title ASC, Id DESC',
+
+            default         => 'Id DESC', // newest
+        };
     }
 }

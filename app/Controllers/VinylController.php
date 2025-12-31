@@ -15,12 +15,20 @@ final class VinylController extends Controller
     {
         Auth::requireLogin();
 
+        $sort = (string)($_GET['sort'] ?? 'newest');
+        $allowed = Vinyl::allowedSorts();
+        if (!isset($allowed[$sort])) {
+            $sort = 'newest';
+        }
+
+
         $q = trim($_GET['q'] ?? '');
         $fav = (int)($_GET['fav'] ?? 0);
         $desired = (int)($_GET['desired'] ?? 0);
 
-        $page = (int)($_GET['page'] ?? 1);
+        $page = max(1, (int)($_GET['page'] ?? 1));
         $perPage = 12;
+
 
         $userId = Auth::id() ?? 0;
 
@@ -28,11 +36,15 @@ final class VinylController extends Controller
         $total = Vinyl::countByUser($userId);
         $p = new Paginator($page, $perPage, $total);
 
-        $items = Vinyl::paginateByUser($userId, $p->perPage, $p->offset());
+
+        $items = Vinyl::paginateByUser($userId, $p->perPage, $p->offset(), $sort);
+
 
         $this->view('vinyls/index', [
             'items' => $items,
             'p' => $p,
+            'sort' => $sort,
+            'sortOptions' => $allowed,
         ]);
     }
 
@@ -61,6 +73,12 @@ final class VinylController extends Controller
     {
         Auth::requireLogin();
 
+        $sort = (string)($_GET['sort'] ?? 'newest');
+        $allowed = Vinyl::allowedSorts();
+        if (!isset($allowed[$sort])) {
+            $sort = 'newest';
+        }
+
         $this->view('vinyls/create', [
             'error' => null,
             'old' => [],
@@ -69,6 +87,8 @@ final class VinylController extends Controller
             'conditions' => Vinyl::listConditions(),
             'labels' => Vinyl::listRecordLabels(),
             'editions' => Vinyl::listEditions(),
+            'return_sort' => $sort,
+
         ]);
     }
 
@@ -141,10 +161,15 @@ final class VinylController extends Controller
         ]);
 
 
+        $sort = (string)($_POST['return_sort'] ?? 'newest');
+        $allowed = Vinyl::allowedSorts();
+        if (!isset($allowed[$sort])) {
+            $sort = 'newest';
+        }
 
-        $perPage = 12; // IMPORTANTE: el mismo que en index()
-        $page = Vinyl::pageForIdByUser($userId, $newId, $perPage);
+        $perPage = 12;
+        $page = Vinyl::pageForIdByUser($userId, $newId, $perPage, $sort);
 
-        redirect('/vinyls?page=' . $page . '&highlight=' . $newId . '#vinyl-' . $newId);
+        redirect('/vinyls?page=' . $page . '&sort=' . urlencode($sort) . '&highlight=' . $newId . '#vinyl-' . $newId);
     }
 }
