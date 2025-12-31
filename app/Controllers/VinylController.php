@@ -93,8 +93,10 @@ final class VinylController extends Controller
         $isDesired = isset($_POST['is_desired']) ? 1 : 0;
 
         // Validación mínima basada en tu schema (NOT NULL en casi todo)
-        if ($title === '' || $author === '' || $producer === '' || $release === '' ||
-            $genreId <= 0 || $formatId <= 0 || $conditionId <= 0 || $labelId <= 0 || $editionId <= 0) {
+        if (
+            $title === '' || $author === '' || $producer === '' || $release === '' ||
+            $genreId <= 0 || $formatId <= 0 || $conditionId <= 0 || $labelId <= 0 || $editionId <= 0
+        ) {
 
             $this->view('vinyls/create', [
                 'error' => 'Rellena todos los campos obligatorios (título, género, autor, formato, estado, discográfica, producer, año y edición).',
@@ -138,6 +140,11 @@ final class VinylController extends Controller
             'is_desired' => $isDesired,
         ]);
 
-        redirect('/vinyls/show?id=' . $newId);
+
+
+        $perPage = 12; // IMPORTANTE: el mismo que en index()
+        $page = Vinyl::pageForIdByUser($userId, $newId, $perPage);
+
+        redirect('/vinyls?page=' . $page . '&highlight=' . $newId . '#vinyl-' . $newId);
     }
 }
