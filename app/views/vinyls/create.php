@@ -20,17 +20,17 @@ $old = $old ?? [];
       <a
         href="/vinyls"
         class="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-zinc-800 bg-zinc-900 hover:bg-zinc-800 text-zinc-200"
-        aria-label="Cerrar"
-      >✕</a>
+        aria-label="Cerrar">✕</a>
     </div>
 
     <form method="POST" action="/vinyls/store" class="p-4 space-y-3">
+      <input type="hidden" name="return_sort" value="<?= e((string)($return_sort ?? 'newest')) ?>">
+
       <input
         name="title"
         placeholder="Título"
         value="<?= e((string)($old['title'] ?? '')) ?>"
-        class="w-full rounded-lg bg-zinc-900 text-zinc-100 placeholder-zinc-500 border border-zinc-800 px-3 py-2 outline-none focus:ring-2 focus:ring-zinc-700"
-      />
+        class="w-full rounded-lg bg-zinc-900 text-zinc-100 placeholder-zinc-500 border border-zinc-800 px-3 py-2 outline-none focus:ring-2 focus:ring-zinc-700" />
 
       <select
         name="genre_id"
@@ -47,8 +47,7 @@ $old = $old ?? [];
         name="author"
         placeholder="Autor"
         value="<?= e((string)($old['author'] ?? '')) ?>"
-        class="w-full rounded-lg bg-zinc-900 text-zinc-100 placeholder-zinc-500 border border-zinc-800 px-3 py-2 outline-none focus:ring-2 focus:ring-zinc-700"
-      />
+        class="w-full rounded-lg bg-zinc-900 text-zinc-100 placeholder-zinc-500 border border-zinc-800 px-3 py-2 outline-none focus:ring-2 focus:ring-zinc-700" />
 
       <select
         name="format_id"
@@ -87,12 +86,11 @@ $old = $old ?? [];
         name="producer"
         placeholder="Producer"
         value="<?= e((string)($old['producer'] ?? '')) ?>"
-        class="w-full rounded-lg bg-zinc-900 text-zinc-100 placeholder-zinc-500 border border-zinc-800 px-3 py-2 outline-none focus:ring-2 focus:ring-zinc-700"
-      />
+        class="w-full rounded-lg bg-zinc-900 text-zinc-100 placeholder-zinc-500 border border-zinc-800 px-3 py-2 outline-none focus:ring-2 focus:ring-zinc-700" />
 
       <?php
-        $currentYear = (int)date('Y');
-        $selectedYear = (string)($old['release_date'] ?? $currentYear);
+      $currentYear = (int)date('Y');
+      $selectedYear = (string)($old['release_date'] ?? $currentYear);
       ?>
       <select
         name="release_date"
