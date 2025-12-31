@@ -157,4 +157,24 @@ final class Vinyl
         $stmt2->execute(['n' => $authorName]);
         return (int)$pdo->lastInsertId();
     }
+
+
+    public static function pageForIdByUser(int $userId, int $vinylId, int $perPage): int
+    {
+        $pdo = Database::pdo();
+
+        // Como el listado va ORDER BY Id DESC,
+        // los que tienen Id mayor aparecen antes.
+        $stmt = $pdo->prepare("
+        SELECT COUNT(*) 
+        FROM VINYLS_TBL
+        WHERE User_Id = :uid AND Id > :id
+    ");
+        $stmt->execute(['uid' => $userId, 'id' => $vinylId]);
+
+        $countBefore = (int)$stmt->fetchColumn(); // cuántos van antes
+        $position = $countBefore + 1;            // posición 1-based
+
+        return (int)ceil($position / max(1, $perPage));
+    }
 }
