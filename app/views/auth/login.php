@@ -23,9 +23,4 @@
     </button>
   </form>
 
-  <p class="text-xs text-zinc-400 mt-4">
-    Nota: La tabla es <code class="bg-zinc-950 px-1 py-0.5 rounded">Users_TBL</code> con
-    <code class="bg-zinc-950 px-1 py-0.5 rounded">username</code>,
-    <code class="bg-zinc-950 px-1 py-0.5 rounded">email</code> y contraseña en bcrypt.
-  </p>
 </div>
