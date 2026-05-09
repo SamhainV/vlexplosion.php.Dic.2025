@@ -1,8 +1,8 @@
 <?php
 $highlightId = (int)($_GET['highlight'] ?? 0);
 
-// sort actual (viene del controller idealmente; si no, lo cogemos de GET)
 $sort = (string)($sort ?? ($_GET['sort'] ?? 'newest'));
+
 $sortOptions = $sortOptions ?? [
   'newest' => 'Nuevos primero',
   'oldest' => 'Antiguos primero',
@@ -18,27 +18,29 @@ $sortOptions = $sortOptions ?? [
   'desired_then_title' => 'Deseado primero + A→Z',
 ];
 
-// normalizar por si alguien mete un sort raro
 if (!isset($sortOptions[$sort])) {
   $sort = 'newest';
 }
 
 $sortQ = urlencode($sort);
+
+$items = $items ?? [];
+$p = $p ?? null;
+$total = $p->total ?? count($items);
 ?>
 
 <a class="inline-flex items-center px-3 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-sm mb-4"
-   href="/vinyls/create?sort=<?= $sortQ ?>">
+   href="<?= base_url('vinyls/create?sort=' . $sortQ) ?>">
   + Añadir vinilo
 </a>
 
 <h1 class="text-2xl font-semibold mb-6">Mis vinilos</h1>
 
 <div class="mb-4 text-sm text-zinc-400">
-  Total: <span class="text-zinc-200 font-medium"><?= (int)$p->total ?></span>
+  Total: <span class="text-zinc-200 font-medium"><?= (int)$total ?></span>
 </div>
 
-<!-- Selector de orden -->
-<form method="GET" action="/vinyls" class="mb-4 flex items-center gap-3">
+<form method="GET" action="<?= base_url('vinyls') ?>" class="mb-4 flex items-center gap-3">
   <input type="hidden" name="page" value="1">
   <label class="text-sm text-zinc-400">Orden:</label>
 
@@ -67,6 +69,7 @@ $sortQ = urlencode($sort);
         $id = (int)($v['Id'] ?? 0);
         $isHighlight = ($highlightId > 0 && $id === $highlightId);
       ?>
+
       <div
         id="vinyl-<?= $id ?>"
         data-vinyl-id="<?= $id ?>"
@@ -79,7 +82,7 @@ $sortQ = urlencode($sort);
         <div class="flex items-start justify-between gap-3">
           <div>
             <a class="font-semibold hover:underline"
-               href="/vinyls/show?id=<?= $id ?>">
+               href="<?= base_url('vinyls/show?id=' . $id) ?>">
               <?= e($v['Title'] ?? '') ?>
             </a>
 
@@ -92,6 +95,7 @@ $sortQ = urlencode($sort);
             <?php if (!empty($v['Is_Favorite'])): ?>
               <span class="px-2 py-0.5 rounded bg-amber-900/40 border border-amber-700">Fav</span>
             <?php endif; ?>
+
             <?php if (!empty($v['Is_Desired'])): ?>
               <span class="px-2 py-0.5 rounded bg-sky-900/40 border border-sky-700">Wish</span>
             <?php endif; ?>
@@ -101,8 +105,7 @@ $sortQ = urlencode($sort);
     <?php endforeach; ?>
   </div>
 
-  <!-- Paginación -->
-  <?php if ($p->pages > 1): ?>
+  <?php if ($p !== null && $p->pages > 1): ?>
     <div class="mt-8 flex items-center justify-center gap-2 text-sm">
       <?php
       $prev = max(1, $p->page - 1);
@@ -110,14 +113,18 @@ $sortQ = urlencode($sort);
       ?>
 
       <a class="px-3 py-1 rounded border border-zinc-700 hover:bg-zinc-800 <?= $p->page === 1 ? 'opacity-40 pointer-events-none' : '' ?>"
-         href="/vinyls?page=<?= $prev ?>&sort=<?= $sortQ ?>">Anterior</a>
+         href="<?= base_url('vinyls?page=' . $prev . '&sort=' . $sortQ) ?>">
+        Anterior
+      </a>
 
       <span class="px-3 py-1 text-zinc-300">
         Página <?= (int)$p->page ?> / <?= (int)$p->pages ?>
       </span>
 
       <a class="px-3 py-1 rounded border border-zinc-700 hover:bg-zinc-800 <?= $p->page === $p->pages ? 'opacity-40 pointer-events-none' : '' ?>"
-         href="/vinyls?page=<?= $next ?>&sort=<?= $sortQ ?>">Siguiente</a>
+         href="<?= base_url('vinyls?page=' . $next . '&sort=' . $sortQ) ?>">
+        Siguiente
+      </a>
     </div>
   <?php endif; ?>
 
@@ -130,10 +137,8 @@ $sortQ = urlencode($sort);
     const el = document.getElementById('vinyl-' + id);
     if (!el) return;
 
-    // Scroll suave por si el navegador no lo hace (a veces con layout tarda)
     el.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
-    // Quitar highlight después de 3s
     setTimeout(() => {
       el.classList.remove(
         'border-emerald-500',
@@ -143,9 +148,9 @@ $sortQ = urlencode($sort);
         'shadow-lg',
         'shadow-emerald-500/10'
       );
+
       el.classList.add('border-zinc-800', 'bg-zinc-900');
 
-      // Limpiar URL: quitar highlight y hash, manteniendo page y sort
       const url = new URL(window.location.href);
       url.searchParams.delete('highlight');
       url.hash = '';

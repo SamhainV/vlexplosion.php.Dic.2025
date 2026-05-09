@@ -7,7 +7,7 @@
     </div>
   <?php endif; ?>
 
-  <form method="POST" action="/login" class="space-y-3">
+  <form method="POST" action="<?= base_url('login') ?>" class="space-y-3">
     <div>
       <label class="block text-sm text-zinc-300 mb-1">Usuario o email</label>
       <input name="login" class="w-full rounded-lg bg-zinc-950 border border-zinc-700 px-3 py-2 outline-none focus:ring focus:ring-zinc-600" placeholder="username o email" />
@@ -22,5 +22,4 @@
       Entrar
     </button>
   </form>
-
 </div>

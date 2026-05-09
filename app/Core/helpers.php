@@ -1,9 +1,20 @@
 <?php
 declare(strict_types=1);
 
+function base_url(string $path = ''): string
+{
+    $base = '/vlexplosion.php.Dic.2025/public';
+
+    if ($path === '') {
+        return $base . '/';
+    }
+
+    return $base . '/' . ltrim($path, '/');
+}
+
 function redirect(string $path): void
 {
-    header('Location: ' . $path);
+    header('Location: ' . base_url($path));
     exit;
 }
 
