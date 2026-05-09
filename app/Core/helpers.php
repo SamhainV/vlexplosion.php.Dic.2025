@@ -1,9 +1,21 @@
 <?php
 declare(strict_types=1);
 
+function app_base_path(): string
+{
+    $scriptName = $_SERVER['SCRIPT_NAME'] ?? '';
+
+    // Ejemplo:
+    // /vlexplosion.php.Dic.2025/public/index.php
+    // /misdiscos/index.php
+    $base = str_replace('/index.php', '', $scriptName);
+
+    return rtrim($base, '/');
+}
+
 function base_url(string $path = ''): string
 {
-    $base = '/vlexplosion.php.Dic.2025/public';
+    $base = app_base_path();
 
     if ($path === '') {
         return $base . '/';
