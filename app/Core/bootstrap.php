@@ -32,6 +32,8 @@ if (file_exists($envFile)) {
     }
 }
 
+$_ENV['APP_BACKGROUND'] = $_ENV['APP_BACKGROUND'] ?? 'assets/images/vintage-bg.png';
+
 /*
 |--------------------------------------------------------------------------
 | Sessions

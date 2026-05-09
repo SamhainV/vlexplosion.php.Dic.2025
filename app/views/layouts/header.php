@@ -18,7 +18,8 @@ use App\Core\Auth;
   style="
     background-image:
       linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.72)),
-      url('<?= base_url('assets/images/vintage-bg.png') ?>');
+      
+      url('<?= base_url(app_background()) ?>');
   ">
 
   <div class="min-h-screen bg-black/10">
