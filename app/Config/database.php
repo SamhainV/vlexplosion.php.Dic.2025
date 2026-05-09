@@ -2,9 +2,9 @@
 declare(strict_types=1);
 
 return [
-    'host' => 'www.samhain.org',
-    'port' => 3306,
-    'name' => 's01f7025_VinylLibraryDB',
-    'user' => 's01f7025_vlexplosion',
-    'pass' => 'A29xxRamones',
+    'host' => $_ENV['DB_HOST'] ?? 'localhost',
+    'port' => (int)($_ENV['DB_PORT'] ?? 3306),
+    'name' => $_ENV['DB_NAME'] ?? '',
+    'user' => $_ENV['DB_USER'] ?? '',
+    'pass' => $_ENV['DB_PASS'] ?? '',
 ];
