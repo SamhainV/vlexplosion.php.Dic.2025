@@ -14,16 +14,16 @@ $old = $old ?? [];
 
 <div class="fixed inset-0 z-40 flex items-center justify-center bg-black/70 px-4 py-8">
   <div class="relative w-full max-w-sm rounded-2xl border border-zinc-800 bg-zinc-950/95 shadow-2xl">
-    <!-- Header -->
     <div class="flex items-center justify-between px-4 py-3 border-b border-zinc-800">
       <h2 class="text-lg font-semibold text-zinc-100">Añadir vinilo</h2>
+
       <a
-        href="/vinyls"
+        href="<?= base_url('vinyls') ?>"
         class="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-zinc-800 bg-zinc-900 hover:bg-zinc-800 text-zinc-200"
         aria-label="Cerrar">✕</a>
     </div>
 
-    <form method="POST" action="/vinyls/store" class="p-4 space-y-3">
+    <form method="POST" action="<?= base_url('vinyls/store') ?>" class="p-4 space-y-3">
       <input type="hidden" name="return_sort" value="<?= e((string)($return_sort ?? 'newest')) ?>">
 
       <input
@@ -92,11 +92,14 @@ $old = $old ?? [];
       $currentYear = (int)date('Y');
       $selectedYear = (string)($old['release_date'] ?? $currentYear);
       ?>
+
       <select
         name="release_date"
         class="w-full rounded-lg bg-zinc-900 text-zinc-100 border border-zinc-800 px-3 py-2 outline-none focus:ring-2 focus:ring-zinc-700">
         <?php for ($y = $currentYear; $y >= 1900; $y--): ?>
-          <option value="<?= $y ?>" <?= ($selectedYear === (string)$y) ? 'selected' : '' ?>><?= $y ?></option>
+          <option value="<?= $y ?>" <?= ($selectedYear === (string)$y) ? 'selected' : '' ?>>
+            <?= $y ?>
+          </option>
         <?php endfor; ?>
       </select>
 
@@ -131,7 +134,7 @@ $old = $old ?? [];
         Añadir vinilo
       </button>
 
-      <a href="/vinyls" class="block text-center text-sm text-zinc-400 hover:text-zinc-200 mt-2">
+      <a href="<?= base_url('vinyls') ?>" class="block text-center text-sm text-zinc-400 hover:text-zinc-200 mt-2">
         Cancelar
       </a>
     </form>

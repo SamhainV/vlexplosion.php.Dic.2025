@@ -28,8 +28,21 @@ final class Router
         $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
         $uri = $_SERVER['REQUEST_URI'] ?? '/';
 
-        // Strip query string
+        // Quitar query string
         $path = parse_url($uri, PHP_URL_PATH) ?: '/';
+
+        // Base path del proyecto en localhost
+        $basePath = '/vlexplosion.php.Dic.2025/public';
+
+        // Si la URL empieza por la base, se la quitamos
+        if (str_starts_with($path, $basePath)) {
+            $path = substr($path, strlen($basePath));
+        }
+
+        // Normalizar ruta vacía
+        if ($path === '' || $path === false) {
+            $path = '/';
+        }
 
         $handler = $this->routes[$method][$path] ?? null;
 
