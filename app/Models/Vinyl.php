@@ -24,9 +24,28 @@ final class Vinyl
         $pdo = Database::pdo();
         $order = self::orderByForSort($sort);
 
-        $sql = "SELECT Id, Title, Producer, Release_date, Is_Favorite, Is_Desired
-            FROM VINYLS_TBL
-            WHERE User_Id = :uid
+        $sql = "SELECT
+                v.Id,
+                v.Title,
+                v.Producer,
+                v.Release_date,
+                v.Is_Favorite,
+                v.Is_Desired,
+                g.Genre_Name AS genre_name,
+                f.Format_Name AS format_name,
+                c.Condition_Name AS condition_name,
+                rl.Record_Label_Name AS record_label_name,
+                e.Edition_Name AS edition_name,
+                a.Author_Name AS author_name
+            FROM VINYLS_TBL v
+            INNER JOIN GENRES_TBL g ON g.Id = v.Genres_Id
+            INNER JOIN FORMAT_TBL f ON f.Id = v.Format_Id
+            INNER JOIN CONDITION_TBL c ON c.Id = v.Condition_Id
+            INNER JOIN RECORD_LABEL_TBL rl ON rl.Id = v.Record_Label_Id
+            INNER JOIN EDITION_TBL e ON e.Id = v.Edition_Id
+            LEFT JOIN AUTOR_VINYLS_TBL av ON av.Vinilo_Id = v.Id
+            LEFT JOIN AUTHORS_TBL a ON a.Id = av.Autor_Id
+            WHERE v.User_Id = :uid
             ORDER BY $order
             LIMIT :lim OFFSET :off";
 
