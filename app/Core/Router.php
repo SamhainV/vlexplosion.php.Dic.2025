@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App\Core;
@@ -28,18 +29,14 @@ final class Router
         $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
         $uri = $_SERVER['REQUEST_URI'] ?? '/';
 
-        // Quitar query string
         $path = parse_url($uri, PHP_URL_PATH) ?: '/';
 
-        // Base path del proyecto en localhost
-        $basePath = '/vlexplosion.php.Dic.2025/public';
+        $basePath = app_base_path();
 
-        // Si la URL empieza por la base, se la quitamos
-        if (str_starts_with($path, $basePath)) {
+        if ($basePath !== '' && str_starts_with($path, $basePath)) {
             $path = substr($path, strlen($basePath));
         }
 
-        // Normalizar ruta vacía
         if ($path === '' || $path === false) {
             $path = '/';
         }
