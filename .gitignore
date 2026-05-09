@@ -1,5 +1,9 @@
 /vendor/
 /storage/*.log
+/storage/sessions/*
+!/storage/sessions/.gitkeep
+
 /public/assets/*.css
 /public/assets/*.js
+
 .env
