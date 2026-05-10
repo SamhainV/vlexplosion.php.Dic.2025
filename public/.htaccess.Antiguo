@@ -1,6 +1,6 @@
 RewriteEngine On
+RewriteBase /vlexplosion.php.Dic.2025/public/
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-
 RewriteRule ^ index.php [QSA,L]
