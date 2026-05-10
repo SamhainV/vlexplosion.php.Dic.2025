@@ -1,7 +1,0 @@
-DB_HOST=www.samhain.org
-DB_PORT=3306
-DB_NAME=s01f7025_VinylLibraryDB
-DB_USER=s01f7025_vlexplosion
-DB_PASS=A29xxRamones
-
-APP_BACKGROUND=assets/images/punk-bg.png
