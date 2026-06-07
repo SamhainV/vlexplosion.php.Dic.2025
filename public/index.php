@@ -23,6 +23,7 @@ $router->post('/logout', [AuthController::class, 'logout']);
 $router->get('/vinyls/show', [VinylController::class, 'show']);
 $router->get('/vinyls/create', [VinylController::class, 'create']);
 $router->post('/vinyls/store', [VinylController::class, 'store']);
+$router->post('/vinyls/delete', [VinylController::class, 'destroy']);
 
 
 

@@ -172,4 +172,33 @@ final class VinylController extends Controller
 
         redirect('/vinyls?page=' . $page . '&sort=' . urlencode($sort) . '&highlight=' . $newId . '#vinyl-' . $newId);
     }
+
+    public function destroy(): void
+    {
+        Auth::requireLogin();
+
+        $id = (int)($_POST['id'] ?? 0);
+        $userId = Auth::id() ?? 0;
+
+        $sort = (string)($_POST['sort'] ?? 'newest');
+        $allowed = Vinyl::allowedSorts();
+        if (!isset($allowed[$sort])) {
+            $sort = 'newest';
+        }
+
+        $page = max(1, (int)($_POST['page'] ?? 1));
+        $perPage = 12;
+
+        if ($id > 0) {
+            Vinyl::deleteForUser($id, $userId);
+        }
+
+        // Si borras el último disco de la última página, evitamos quedarnos en una página vacía.
+        $total = Vinyl::countByUser($userId);
+        $maxPage = max(1, (int)ceil($total / $perPage));
+        $page = min($page, $maxPage);
+
+        redirect('/vinyls?page=' . $page . '&sort=' . urlencode($sort) . '&deleted=1');
+    }
+
 }

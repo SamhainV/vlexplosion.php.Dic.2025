@@ -5,6 +5,7 @@
 /** @var array $sortOptions */
 
 $highlightId = (int)($_GET['highlight'] ?? 0);
+$deleted = (int)($_GET['deleted'] ?? 0);
 
 $sort = (string)($sort ?? ($_GET['sort'] ?? 'newest'));
 
@@ -32,9 +33,16 @@ $sortQ = urlencode($sort);
 $items = $items ?? [];
 $p = $p ?? null;
 $total = $p->total ?? count($items);
+$currentPage = $p !== null ? (int)$p->page : max(1, (int)($_GET['page'] ?? 1));
 ?>
 
 <section class="space-y-6">
+
+  <?php if ($deleted === 1): ?>
+    <div id="delete-message" class="rounded-2xl border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-200">
+      Vinilo eliminado correctamente.
+    </div>
+  <?php endif; ?>
 
   <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
     <div>
@@ -219,6 +227,8 @@ $total = $p->total ?? count($items);
                 action="<?= base_url('vinyls/delete') ?>"
                 onsubmit="return confirm('¿Seguro que quieres eliminar este vinilo?');">
                 <input type="hidden" name="id" value="<?= $id ?>">
+                <input type="hidden" name="page" value="<?= $currentPage ?>">
+                <input type="hidden" name="sort" value="<?= e($sort) ?>">
 
                 <button
                   type="submit"
@@ -245,10 +255,8 @@ $total = $p->total ?? count($items);
           Anterior
         </a>
 
-        <span class="rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-zinc-300">
-          Página <span class="text-zinc-100 font-semibold"><?= (int)$p->page ?></span>
-          /
-          <span class="text-zinc-100 font-semibold"><?= (int)$p->pages ?></span>
+        <span class="rounded-xl border border-zinc-800 bg-zinc-900/70 px-4 py-2 text-zinc-300">
+          Página <?= (int)$p->page ?> / <?= (int)$p->pages ?>
         </span>
 
         <a
@@ -262,32 +270,43 @@ $total = $p->total ?? count($items);
   <?php endif; ?>
 </section>
 
-<?php if ($highlightId > 0): ?>
-  <script>
-    (function() {
-      const id = <?= (int)$highlightId ?>;
-      const el = document.getElementById('vinyl-' + id);
-      if (!el) return;
+<?php if ($highlightId > 0 || $deleted === 1): ?>
+<script>
+  (function () {
+    const highlightId = <?= (int)$highlightId ?>;
+    const deleted = <?= (int)$deleted ?>;
 
-      el.scrollIntoView({
-        behavior: 'smooth',
-        block: 'center'
-      });
+    if (highlightId > 0) {
+      const el = document.getElementById('vinyl-' + highlightId);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
-      setTimeout(() => {
-        el.classList.remove(
-          'border-emerald-400',
-          'bg-emerald-950/30',
-          'ring-2',
-          'ring-emerald-500/60'
-        );
+        setTimeout(() => {
+          el.classList.remove(
+            'border-emerald-400',
+            'bg-emerald-950/30',
+            'ring-2',
+            'ring-emerald-500/60'
+          );
+          el.classList.add('border-zinc-800', 'bg-gradient-to-br', 'from-zinc-900', 'via-zinc-900', 'to-zinc-950');
+        }, 3000);
+      }
+    }
 
-        el.classList.add('border-zinc-800');
-        const url = new URL(window.location.href);
-        url.searchParams.delete('highlight');
-        url.hash = '';
-        window.history.replaceState({}, '', url.toString());
-      }, 3000);
-    })();
-  </script>
+    if (deleted === 1) {
+      const msg = document.getElementById('delete-message');
+      if (msg) {
+        setTimeout(() => msg.remove(), 3000);
+      }
+    }
+
+    setTimeout(() => {
+      const url = new URL(window.location.href);
+      url.searchParams.delete('highlight');
+      url.searchParams.delete('deleted');
+      url.hash = '';
+      window.history.replaceState({}, '', url.toString());
+    }, 3200);
+  })();
+</script>
 <?php endif; ?>
