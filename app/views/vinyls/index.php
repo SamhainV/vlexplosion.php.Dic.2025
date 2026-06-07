@@ -136,6 +136,29 @@ $coverUrl = static function (?string $path): string {
         $label = (string)($v['record_label_name'] ?? '');
         $edition = (string)($v['edition_name'] ?? '');
         $imagePath = $coverUrl($v['Image_Path'] ?? null);
+
+        $modalData = [
+          'id' => $id,
+          'title' => $title,
+          'author' => $author !== '' ? $author : '—',
+          'producer' => $producer !== '' ? $producer : '—',
+          'year' => $year !== '' ? $year : '—',
+          'genre' => $genre !== '' ? $genre : '—',
+          'format' => $format !== '' ? $format : '—',
+          'condition' => $condition !== '' ? $condition : '—',
+          'label' => $label !== '' ? $label : '—',
+          'edition' => $edition !== '' ? $edition : '—',
+          'image' => $imagePath,
+          'favorite' => !empty($v['Is_Favorite']),
+          'desired' => !empty($v['Is_Desired']),
+          'showUrl' => base_url('vinyls/show?id=' . $id . '&return_page=' . $currentPage . '&return_sort=' . $sortQ),
+        ];
+
+        $modalJson = htmlspecialchars(
+          json_encode($modalData, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
+          ENT_QUOTES,
+          'UTF-8'
+        );
         ?>
 
         <article
@@ -173,13 +196,17 @@ $coverUrl = static function (?string $path): string {
               </div>
             </div>
 
-            <div class="h-20 w-20 shrink-0 overflow-hidden rounded-2xl border border-zinc-700 bg-zinc-950 shadow-inner">
+            <button
+              type="button"
+              class="h-20 w-20 shrink-0 overflow-hidden rounded-2xl border border-zinc-700 bg-zinc-950 shadow-inner transition hover:scale-105 hover:border-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+              data-vinyl-modal='<?= $modalJson ?>'
+              aria-label="Ver carátula e información de <?= e($title !== '' ? $title : 'vinilo') ?>">
               <img
                 src="<?= e($imagePath) ?>"
                 alt="Carátula de <?= e($title !== '' ? $title : 'vinilo') ?>"
                 class="h-full w-full object-cover"
                 loading="lazy">
-            </div>
+            </button>
           </div>
 
           <div class="mt-5 grid gap-2 text-sm">
@@ -290,6 +317,213 @@ $coverUrl = static function (?string $path): string {
 
   <?php endif; ?>
 </section>
+
+<div
+  id="cover-modal"
+  class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 p-4 backdrop-blur-sm"
+  aria-hidden="true">
+  <div
+    id="cover-modal-panel"
+    class="relative max-h-[92vh] w-full max-w-4xl overflow-y-auto rounded-3xl border border-zinc-700 bg-zinc-950 shadow-2xl shadow-black/60">
+
+    <button
+      type="button"
+      id="cover-modal-close"
+      class="absolute right-4 top-4 z-10 rounded-xl border border-zinc-700 bg-zinc-900/90 px-3 py-2 text-zinc-300 hover:bg-zinc-800 hover:text-white"
+      aria-label="Cerrar ventana">
+      ✕
+    </button>
+
+    <div class="grid gap-6 p-5 md:grid-cols-[320px_1fr] md:p-6">
+      <div class="overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900">
+        <img
+          id="cover-modal-image"
+          src=""
+          alt=""
+          class="aspect-square w-full object-cover">
+      </div>
+
+      <div class="flex min-w-0 flex-col">
+        <div class="mb-4">
+          <div id="cover-modal-badges" class="mb-3 flex flex-wrap gap-2"></div>
+
+          <h2 id="cover-modal-title" class="break-words text-2xl font-bold text-zinc-100"></h2>
+
+          <p class="mt-2 text-sm text-zinc-400">
+            Año:
+            <span id="cover-modal-year" class="font-semibold text-zinc-200"></span>
+          </p>
+        </div>
+
+        <div class="grid gap-3 sm:grid-cols-2">
+          <div class="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-4">
+            <div class="text-xs uppercase tracking-wide text-zinc-500">Autor</div>
+            <div id="cover-modal-author" class="mt-1 text-zinc-100"></div>
+          </div>
+
+          <div class="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-4">
+            <div class="text-xs uppercase tracking-wide text-zinc-500">Productor</div>
+            <div id="cover-modal-producer" class="mt-1 text-zinc-100"></div>
+          </div>
+
+          <div class="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-4">
+            <div class="text-xs uppercase tracking-wide text-zinc-500">Género</div>
+            <div id="cover-modal-genre" class="mt-1 text-zinc-100"></div>
+          </div>
+
+          <div class="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-4">
+            <div class="text-xs uppercase tracking-wide text-zinc-500">Formato</div>
+            <div id="cover-modal-format" class="mt-1 text-zinc-100"></div>
+          </div>
+
+          <div class="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-4">
+            <div class="text-xs uppercase tracking-wide text-zinc-500">Estado</div>
+            <div id="cover-modal-condition" class="mt-1 text-zinc-100"></div>
+          </div>
+
+          <div class="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-4">
+            <div class="text-xs uppercase tracking-wide text-zinc-500">Edición</div>
+            <div id="cover-modal-edition" class="mt-1 text-zinc-100"></div>
+          </div>
+        </div>
+
+        <div class="mt-3 rounded-2xl border border-zinc-800 bg-zinc-900/70 p-4">
+          <div class="text-xs uppercase tracking-wide text-zinc-500">Discográfica</div>
+          <div id="cover-modal-label" class="mt-1 text-zinc-100"></div>
+        </div>
+
+        <div class="mt-5 flex flex-wrap items-center justify-end gap-3 border-t border-zinc-800 pt-5">
+          <button
+            type="button"
+            id="cover-modal-close-secondary"
+            class="rounded-xl border border-zinc-700 px-4 py-2 text-sm font-medium text-zinc-300 hover:bg-zinc-800 hover:text-white">
+            Cerrar
+          </button>
+
+          <a
+            id="cover-modal-show-link"
+            href="#"
+            class="rounded-xl bg-emerald-600 px-4 py-2 text-sm font-semibold text-white hover:bg-emerald-500">
+            Ver ficha completa
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const modal = document.getElementById('cover-modal');
+
+    if (!modal) {
+      return;
+    }
+
+    const panel = document.getElementById('cover-modal-panel');
+    const closeButtons = [
+      document.getElementById('cover-modal-close'),
+      document.getElementById('cover-modal-close-secondary')
+    ].filter(Boolean);
+
+    const image = document.getElementById('cover-modal-image');
+    const title = document.getElementById('cover-modal-title');
+    const year = document.getElementById('cover-modal-year');
+    const author = document.getElementById('cover-modal-author');
+    const producer = document.getElementById('cover-modal-producer');
+    const genre = document.getElementById('cover-modal-genre');
+    const format = document.getElementById('cover-modal-format');
+    const condition = document.getElementById('cover-modal-condition');
+    const edition = document.getElementById('cover-modal-edition');
+    const label = document.getElementById('cover-modal-label');
+    const badges = document.getElementById('cover-modal-badges');
+    const showLink = document.getElementById('cover-modal-show-link');
+
+    function text(value) {
+      return value && String(value).trim() !== '' ? String(value) : '—';
+    }
+
+    function badge(label, classes) {
+      const span = document.createElement('span');
+      span.className = classes;
+      span.textContent = label;
+      return span;
+    }
+
+    function openModal(data) {
+      title.textContent = text(data.title);
+      year.textContent = text(data.year);
+      author.textContent = text(data.author);
+      producer.textContent = text(data.producer);
+      genre.textContent = text(data.genre);
+      format.textContent = text(data.format);
+      condition.textContent = text(data.condition);
+      edition.textContent = text(data.edition);
+      label.textContent = text(data.label);
+
+      image.src = text(data.image);
+      image.alt = 'Carátula de ' + text(data.title);
+
+      showLink.href = data.showUrl || '#';
+
+      badges.innerHTML = '';
+
+      if (data.favorite) {
+        badges.appendChild(
+          badge('★ Favorito', 'rounded-full border border-amber-500/40 bg-amber-500/10 px-3 py-1 text-xs text-amber-300')
+        );
+      }
+
+      if (data.desired) {
+        badges.appendChild(
+          badge('◆ Deseado', 'rounded-full border border-sky-500/40 bg-sky-500/10 px-3 py-1 text-xs text-sky-300')
+        );
+      }
+
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('overflow-hidden');
+    }
+
+    function closeModal() {
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    document.querySelectorAll('[data-vinyl-modal]').forEach((button) => {
+      button.addEventListener('click', () => {
+        try {
+          openModal(JSON.parse(button.dataset.vinylModal || '{}'));
+        } catch (error) {
+          console.error('No se pudo abrir el popup del vinilo:', error);
+        }
+      });
+    });
+
+    closeButtons.forEach((button) => {
+      button.addEventListener('click', closeModal);
+    });
+
+    modal.addEventListener('click', (event) => {
+      if (event.target === modal) {
+        closeModal();
+      }
+    });
+
+    if (panel) {
+      panel.addEventListener('click', (event) => event.stopPropagation());
+    }
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && !modal.classList.contains('hidden')) {
+        closeModal();
+      }
+    });
+  })();
+</script>
 
 <?php if ($highlightId > 0 || $deleted === 1): ?>
 <script>
