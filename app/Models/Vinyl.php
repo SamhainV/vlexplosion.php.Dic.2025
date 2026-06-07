@@ -184,6 +184,44 @@ final class Vinyl
     }
 
 
+    public static function deleteForUser(int $vinylId, int $userId): bool
+    {
+        $pdo = Database::pdo();
+
+        try {
+            $pdo->beginTransaction();
+
+            // Primero comprobamos que el vinilo pertenece al usuario logueado.
+            $stmt = $pdo->prepare("SELECT Id FROM VINYLS_TBL WHERE Id = :id AND User_Id = :uid LIMIT 1");
+            $stmt->execute(['id' => $vinylId, 'uid' => $userId]);
+            $exists = (int)($stmt->fetchColumn() ?: 0);
+
+            if ($exists <= 0) {
+                $pdo->rollBack();
+                return false;
+            }
+
+            // Tabla puente autor-vinilo.
+            $stmt = $pdo->prepare("DELETE FROM AUTOR_VINYLS_TBL WHERE Vinilo_Id = :id");
+            $stmt->execute(['id' => $vinylId]);
+
+            // Registro principal.
+            $stmt = $pdo->prepare("DELETE FROM VINYLS_TBL WHERE Id = :id AND User_Id = :uid");
+            $stmt->execute(['id' => $vinylId, 'uid' => $userId]);
+
+            $deleted = $stmt->rowCount() > 0;
+            $pdo->commit();
+
+            return $deleted;
+        } catch (PDOException $e) {
+            if ($pdo->inTransaction()) {
+                $pdo->rollBack();
+            }
+            throw $e;
+        }
+    }
+
+
     public static function pageForIdByUser(int $userId, int $vinylId, int $perPage, string $sort = 'newest'): int
     {
         $pdo = Database::pdo();
