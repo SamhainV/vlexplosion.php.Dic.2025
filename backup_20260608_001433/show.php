@@ -4,22 +4,6 @@ $vinyl = $vinyl ?? null;
 $returnPage = max(1, (int)($return_page ?? ($_GET['return_page'] ?? 1)));
 $returnSort = (string)($return_sort ?? ($_GET['return_sort'] ?? 'newest'));
 $returnUrl = base_url('vinyls?page=' . $returnPage . '&sort=' . urlencode($returnSort));
-
-$coverUrl = static function (?string $path): string {
-  $path = trim((string)$path);
-
-  if ($path === '') {
-    return base_url('assets/images/default-cover.webp');
-  }
-
-  if (preg_match('#^https?://#i', $path) || str_starts_with($path, '/')) {
-    return $path;
-  }
-
-  return base_url(ltrim($path, '/'));
-};
-
-$imagePath = $vinyl ? $coverUrl($vinyl['Image_Path'] ?? null) : '';
 ?>
 
 <?php if (!$vinyl): ?>
@@ -38,13 +22,6 @@ $imagePath = $vinyl ? $coverUrl($vinyl['Image_Path'] ?? null) : '';
       href="<?= $returnUrl ?>">
       Volver
     </a>
-  </div>
-
-  <div class="mb-6 overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-950 shadow-lg shadow-black/30 sm:w-72">
-    <img
-      src="<?= e($imagePath) ?>"
-      alt="Carátula de <?= e((string)($vinyl['Title'] ?? 'vinilo')) ?>"
-      class="aspect-square w-full object-cover">
   </div>
 
   <div class="rounded-2xl border border-zinc-800 bg-zinc-900 p-5 space-y-2">

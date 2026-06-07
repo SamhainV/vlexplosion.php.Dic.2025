@@ -31,7 +31,6 @@ final class Vinyl
                 v.Release_date,
                 v.Is_Favorite,
                 v.Is_Desired,
-                v.Image_Path,
                 g.Genre_Name AS genre_name,
                 f.Format_Name AS format_name,
                 c.Condition_Name AS condition_name,

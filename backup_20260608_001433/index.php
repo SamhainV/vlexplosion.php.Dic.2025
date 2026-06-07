@@ -34,20 +34,6 @@ $items = $items ?? [];
 $p = $p ?? null;
 $total = $p->total ?? count($items);
 $currentPage = $p !== null ? (int)$p->page : max(1, (int)($_GET['page'] ?? 1));
-
-$coverUrl = static function (?string $path): string {
-  $path = trim((string)$path);
-
-  if ($path === '') {
-    return base_url('assets/images/default-cover.webp');
-  }
-
-  if (preg_match('#^https?://#i', $path) || str_starts_with($path, '/')) {
-    return $path;
-  }
-
-  return base_url(ltrim($path, '/'));
-};
 ?>
 
 <section class="space-y-6">
@@ -135,7 +121,6 @@ $coverUrl = static function (?string $path): string {
         $condition = (string)($v['condition_name'] ?? '');
         $label = (string)($v['record_label_name'] ?? '');
         $edition = (string)($v['edition_name'] ?? '');
-        $imagePath = $coverUrl($v['Image_Path'] ?? null);
         ?>
 
         <article
@@ -173,12 +158,8 @@ $coverUrl = static function (?string $path): string {
               </div>
             </div>
 
-            <div class="h-20 w-20 shrink-0 overflow-hidden rounded-2xl border border-zinc-700 bg-zinc-950 shadow-inner">
-              <img
-                src="<?= e($imagePath) ?>"
-                alt="Carátula de <?= e($title !== '' ? $title : 'vinilo') ?>"
-                class="h-full w-full object-cover"
-                loading="lazy">
+            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-zinc-700 bg-zinc-950 text-lg font-black text-emerald-400 shadow-inner">
+              <?= e(mb_strtoupper(mb_substr($title !== '' ? $title : '?', 0, 1))) ?>
             </div>
           </div>
 
