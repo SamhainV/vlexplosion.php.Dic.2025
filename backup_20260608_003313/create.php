@@ -26,7 +26,7 @@ $returnUrl = base_url('vinyls?page=' . $returnPage . '&sort=' . urlencode($retur
         aria-label="Cerrar">✕</a>
     </div>
 
-    <form method="POST" action="<?= base_url('vinyls/store') ?>" enctype="multipart/form-data" class="p-4 space-y-3">
+    <form method="POST" action="<?= base_url('vinyls/store') ?>" class="p-4 space-y-3">
       <input type="hidden" name="return_page" value="<?= $returnPage ?>">
       <input type="hidden" name="return_sort" value="<?= e($returnSort) ?>">
 
@@ -117,53 +117,6 @@ $returnUrl = base_url('vinyls?page=' . $returnPage . '&sort=' . urlencode($retur
           </option>
         <?php endforeach; ?>
       </select>
-
-      <div class="rounded-xl border border-zinc-800 bg-zinc-900/70 p-3">
-        <label for="cover" class="mb-2 block text-sm font-medium text-zinc-200">
-          Carátula
-        </label>
-
-        <input
-          id="cover"
-          type="file"
-          name="cover"
-          accept="image/jpeg,image/png,image/webp"
-          class="block w-full cursor-pointer rounded-lg border border-zinc-800 bg-zinc-950 text-sm text-zinc-300 file:mr-4 file:border-0 file:bg-emerald-600 file:px-4 file:py-2 file:font-semibold file:text-white hover:file:bg-emerald-500" />
-
-        <p class="mt-2 text-xs text-zinc-500">
-          Formatos permitidos: JPG, PNG o WEBP. Máximo 5 MB.
-        </p>
-
-        <img
-          id="coverPreview"
-          src=""
-          alt="Vista previa de la carátula"
-          class="mt-3 hidden h-32 w-32 rounded-xl border border-zinc-700 object-cover shadow-lg" />
-      </div>
-
-      <script>
-        document.addEventListener('DOMContentLoaded', function () {
-          const input = document.getElementById('cover');
-          const preview = document.getElementById('coverPreview');
-
-          if (!input || !preview) {
-            return;
-          }
-
-          input.addEventListener('change', function () {
-            const file = input.files && input.files[0];
-
-            if (!file) {
-              preview.src = '';
-              preview.classList.add('hidden');
-              return;
-            }
-
-            preview.src = URL.createObjectURL(file);
-            preview.classList.remove('hidden');
-          });
-        });
-      </script>
 
       <div class="pt-2 flex items-center justify-center gap-10 text-zinc-200">
         <label class="inline-flex items-center gap-2 text-sm">

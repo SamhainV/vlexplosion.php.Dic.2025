@@ -11,9 +11,6 @@ use App\Models\Vinyl;
 
 final class VinylController extends Controller
 {
-    private const COVER_MAX_SIZE = 5 * 1024 * 1024; // 5 MB
-    private const COVER_UPLOAD_RELATIVE_DIR = 'uploads/covers';
-
     public function index(): void
     {
         Auth::requireLogin();
@@ -24,6 +21,7 @@ final class VinylController extends Controller
             $sort = 'newest';
         }
 
+
         $q = trim($_GET['q'] ?? '');
         $fav = (int)($_GET['fav'] ?? 0);
         $desired = (int)($_GET['desired'] ?? 0);
@@ -31,13 +29,16 @@ final class VinylController extends Controller
         $page = max(1, (int)($_GET['page'] ?? 1));
         $perPage = 12;
 
+
         $userId = Auth::id() ?? 0;
 
         // (De momento) el listado no filtra por $q/$fav/$desired porque este scaffold era mínimo.
         $total = Vinyl::countByUser($userId);
         $p = new Paginator($page, $perPage, $total);
 
+
         $items = Vinyl::paginateByUser($userId, $p->perPage, $p->offset(), $sort);
+
 
         $this->view('vinyls/index', [
             'items' => $items,
@@ -94,7 +95,18 @@ final class VinylController extends Controller
             $sort = 'newest';
         }
 
-        $this->renderCreate(null, [], $returnPage, $sort);
+        $this->view('vinyls/create', [
+            'error' => null,
+            'old' => [],
+            'genres' => Vinyl::listGenres(),
+            'formats' => Vinyl::listFormats(),
+            'conditions' => Vinyl::listConditions(),
+            'labels' => Vinyl::listRecordLabels(),
+            'editions' => Vinyl::listEditions(),
+            'return_page' => $returnPage,
+            'return_sort' => $sort,
+
+        ]);
     }
 
     public function store(): void
@@ -117,37 +129,41 @@ final class VinylController extends Controller
         $isFav = isset($_POST['is_favorite']) ? 1 : 0;
         $isDesired = isset($_POST['is_desired']) ? 1 : 0;
 
-        $returnPage = max(1, (int)($_POST['return_page'] ?? 1));
-        $returnSort = (string)($_POST['return_sort'] ?? 'newest');
-
         // Validación mínima basada en tu schema (NOT NULL en casi todo)
         if (
             $title === '' || $author === '' || $producer === '' || $release === '' ||
             $genreId <= 0 || $formatId <= 0 || $conditionId <= 0 || $labelId <= 0 || $editionId <= 0
         ) {
-            $this->renderCreate(
-                'Rellena todos los campos obligatorios (título, género, autor, formato, estado, discográfica, producer, año y edición).',
-                $old,
-                $returnPage,
-                $returnSort
-            );
+
+            $this->view('vinyls/create', [
+                'error' => 'Rellena todos los campos obligatorios (título, género, autor, formato, estado, discográfica, producer, año y edición).',
+                'old' => $old,
+                'genres' => Vinyl::listGenres(),
+                'formats' => Vinyl::listFormats(),
+                'conditions' => Vinyl::listConditions(),
+                'labels' => Vinyl::listRecordLabels(),
+                'editions' => Vinyl::listEditions(),
+                'return_page' => max(1, (int)($_POST['return_page'] ?? 1)),
+                'return_sort' => (string)($_POST['return_sort'] ?? 'newest'),
+            ]);
             return;
         }
 
         $year = (int)$release;
         if ($year < 1900 || $year > ((int)date('Y') + 1)) {
-            $this->renderCreate('El año no es válido.', $old, $returnPage, $returnSort);
+            $this->view('vinyls/create', [
+                'error' => 'El año no es válido.',
+                'old' => $old,
+                'genres' => Vinyl::listGenres(),
+                'formats' => Vinyl::listFormats(),
+                'conditions' => Vinyl::listConditions(),
+                'labels' => Vinyl::listRecordLabels(),
+                'editions' => Vinyl::listEditions(),
+                'return_page' => max(1, (int)($_POST['return_page'] ?? 1)),
+                'return_sort' => (string)($_POST['return_sort'] ?? 'newest'),
+            ]);
             return;
         }
-
-        $uploadResult = $this->handleCoverUpload();
-
-        if (!$uploadResult['ok']) {
-            $this->renderCreate($uploadResult['error'], $old, $returnPage, $returnSort);
-            return;
-        }
-
-        $imagePath = $uploadResult['path'];
 
         $userId = Auth::id() ?? 0;
 
@@ -163,10 +179,10 @@ final class VinylController extends Controller
             'author' => $author,
             'is_favorite' => $isFav,
             'is_desired' => $isDesired,
-            'image_path' => $imagePath,
         ]);
 
-        $sort = $returnSort;
+
+        $sort = (string)($_POST['return_sort'] ?? 'newest');
         $allowed = Vinyl::allowedSorts();
         if (!isset($allowed[$sort])) {
             $sort = 'newest';
@@ -206,100 +222,4 @@ final class VinylController extends Controller
         redirect('/vinyls?page=' . $page . '&sort=' . urlencode($sort) . '&deleted=1');
     }
 
-    private function renderCreate(?string $error, array $old, int $returnPage, string $returnSort): void
-    {
-        $allowed = Vinyl::allowedSorts();
-        if (!isset($allowed[$returnSort])) {
-            $returnSort = 'newest';
-        }
-
-        $this->view('vinyls/create', [
-            'error' => $error,
-            'old' => $old,
-            'genres' => Vinyl::listGenres(),
-            'formats' => Vinyl::listFormats(),
-            'conditions' => Vinyl::listConditions(),
-            'labels' => Vinyl::listRecordLabels(),
-            'editions' => Vinyl::listEditions(),
-            'return_page' => $returnPage,
-            'return_sort' => $returnSort,
-        ]);
-    }
-
-    /**
-     * Sube la carátula seleccionada desde el formulario.
-     *
-     * Devuelve:
-     * - ok: true/false
-     * - path: ruta relativa que se guarda en VINYLS_TBL.Image_Path, por ejemplo uploads/covers/cover_x.webp
-     * - error: mensaje para mostrar en pantalla si falla
-     *
-     * @return array{ok: bool, path: ?string, error: ?string}
-     */
-    private function handleCoverUpload(): array
-    {
-        if (!isset($_FILES['cover']) || !is_array($_FILES['cover'])) {
-            return ['ok' => true, 'path' => null, 'error' => null];
-        }
-
-        $file = $_FILES['cover'];
-        $error = (int)($file['error'] ?? UPLOAD_ERR_NO_FILE);
-
-        if ($error === UPLOAD_ERR_NO_FILE) {
-            return ['ok' => true, 'path' => null, 'error' => null];
-        }
-
-        if ($error !== UPLOAD_ERR_OK) {
-            return ['ok' => false, 'path' => null, 'error' => 'No se pudo subir la carátula. Código de error: ' . $error];
-        }
-
-        $tmpName = (string)($file['tmp_name'] ?? '');
-        $size = (int)($file['size'] ?? 0);
-
-        if ($tmpName === '' || !is_uploaded_file($tmpName)) {
-            return ['ok' => false, 'path' => null, 'error' => 'La carátula no se ha recibido correctamente.'];
-        }
-
-        if ($size <= 0 || $size > self::COVER_MAX_SIZE) {
-            return ['ok' => false, 'path' => null, 'error' => 'La carátula debe pesar como máximo 5 MB.'];
-        }
-
-        $finfo = new \finfo(FILEINFO_MIME_TYPE);
-        $mime = (string)$finfo->file($tmpName);
-
-        $allowedMimes = [
-            'image/jpeg' => 'jpg',
-            'image/png' => 'png',
-            'image/webp' => 'webp',
-        ];
-
-        if (!isset($allowedMimes[$mime])) {
-            return ['ok' => false, 'path' => null, 'error' => 'Formato de carátula no permitido. Usa JPG, PNG o WEBP.'];
-        }
-
-        $projectRoot = dirname(__DIR__, 2);
-        $uploadDir = $projectRoot . '/public/' . self::COVER_UPLOAD_RELATIVE_DIR;
-
-        if (!is_dir($uploadDir) && !mkdir($uploadDir, 0755, true) && !is_dir($uploadDir)) {
-            return ['ok' => false, 'path' => null, 'error' => 'No se pudo crear la carpeta public/uploads/covers.'];
-        }
-
-        if (!is_writable($uploadDir)) {
-            return ['ok' => false, 'path' => null, 'error' => 'La carpeta public/uploads/covers no tiene permisos de escritura.'];
-        }
-
-        $extension = $allowedMimes[$mime];
-        $fileName = 'cover_' . bin2hex(random_bytes(16)) . '.' . $extension;
-        $absoluteDestination = $uploadDir . '/' . $fileName;
-
-        if (!move_uploaded_file($tmpName, $absoluteDestination)) {
-            return ['ok' => false, 'path' => null, 'error' => 'No se pudo guardar la carátula en public/uploads/covers.'];
-        }
-
-        return [
-            'ok' => true,
-            'path' => self::COVER_UPLOAD_RELATIVE_DIR . '/' . $fileName,
-            'error' => null,
-        ];
-    }
 }
