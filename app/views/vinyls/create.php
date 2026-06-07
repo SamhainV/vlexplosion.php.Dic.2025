@@ -2,6 +2,9 @@
 // Variables esperadas desde el controller:
 // $error, $old, $genres, $formats, $conditions, $labels, $editions
 $old = $old ?? [];
+$returnPage = max(1, (int)($return_page ?? ($_GET['page'] ?? 1)));
+$returnSort = (string)($return_sort ?? ($_GET['sort'] ?? 'newest'));
+$returnUrl = base_url('vinyls?page=' . $returnPage . '&sort=' . urlencode($returnSort));
 ?>
 
 <?php if (!empty($error)): ?>
@@ -18,13 +21,14 @@ $old = $old ?? [];
       <h2 class="text-lg font-semibold text-zinc-100">Añadir vinilo</h2>
 
       <a
-        href="<?= base_url('vinyls') ?>"
+        href="<?= $returnUrl ?>"
         class="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-zinc-800 bg-zinc-900 hover:bg-zinc-800 text-zinc-200"
         aria-label="Cerrar">✕</a>
     </div>
 
     <form method="POST" action="<?= base_url('vinyls/store') ?>" class="p-4 space-y-3">
-      <input type="hidden" name="return_sort" value="<?= e((string)($return_sort ?? 'newest')) ?>">
+      <input type="hidden" name="return_page" value="<?= $returnPage ?>">
+      <input type="hidden" name="return_sort" value="<?= e($returnSort) ?>">
 
       <input
         name="title"
@@ -134,7 +138,7 @@ $old = $old ?? [];
         Añadir vinilo
       </button>
 
-      <a href="<?= base_url('vinyls') ?>" class="block text-center text-sm text-zinc-400 hover:text-zinc-200 mt-2">
+      <a href="<?= $returnUrl ?>" class="block text-center text-sm text-zinc-400 hover:text-zinc-200 mt-2">
         Cancelar
       </a>
     </form>
