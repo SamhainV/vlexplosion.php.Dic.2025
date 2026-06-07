@@ -62,7 +62,7 @@ $currentPage = $p !== null ? (int)$p->page : max(1, (int)($_GET['page'] ?? 1));
 
     <a
       class="inline-flex items-center justify-center gap-2 rounded-xl bg-emerald-600 px-4 py-2.5 text-sm font-semibold text-white shadow-lg shadow-emerald-950/40 hover:bg-emerald-500 transition"
-      href="<?= base_url('vinyls/create?sort=' . $sortQ) ?>">
+      href="<?= base_url('vinyls/create?page=' . $currentPage . '&sort=' . $sortQ) ?>">
       <span class="text-lg leading-none">+</span>
       Añadir vinilo
     </a>
@@ -137,7 +137,7 @@ $currentPage = $p !== null ? (int)$p->page : max(1, (int)($_GET['page'] ?? 1));
           <div class="flex items-start justify-between gap-4">
             <div class="min-w-0">
               <a
-                href="<?= base_url('vinyls/show?id=' . $id) ?>"
+                href="<?= base_url('vinyls/show?id=' . $id . '&return_page=' . $currentPage . '&return_sort=' . $sortQ) ?>"
                 class="block truncate text-lg font-bold text-zinc-100 hover:text-emerald-300 transition"
                 title="<?= e($title) ?>">
                 <?= e($title) ?>
@@ -210,14 +210,14 @@ $currentPage = $p !== null ? (int)$p->page : max(1, (int)($_GET['page'] ?? 1));
 
           <div class="mt-5 flex items-center justify-between gap-3 border-t border-zinc-800 pt-4">
             <a
-              href="<?= base_url('vinyls/show?id=' . $id) ?>"
+              href="<?= base_url('vinyls/show?id=' . $id . '&return_page=' . $currentPage . '&return_sort=' . $sortQ) ?>"
               class="rounded-xl border border-zinc-700 px-3 py-2 text-xs font-medium text-zinc-300 hover:bg-zinc-800 hover:text-white transition">
               Ver ficha
             </a>
 
             <div class="flex items-center gap-2">
               <a
-                href="<?= base_url('vinyls/edit?id=' . $id) ?>"
+                href="<?= base_url('vinyls/edit?id=' . $id . '&return_page=' . $currentPage . '&return_sort=' . $sortQ) ?>"
                 class="rounded-xl bg-blue-600/90 px-3 py-2 text-xs font-semibold text-white hover:bg-blue-500 transition">
                 Editar
               </a>
@@ -229,6 +229,8 @@ $currentPage = $p !== null ? (int)$p->page : max(1, (int)($_GET['page'] ?? 1));
                 <input type="hidden" name="id" value="<?= $id ?>">
                 <input type="hidden" name="page" value="<?= $currentPage ?>">
                 <input type="hidden" name="sort" value="<?= e($sort) ?>">
+                <input type="hidden" name="return_page" value="<?= $currentPage ?>">
+                <input type="hidden" name="return_sort" value="<?= e($sort) ?>">
 
                 <button
                   type="submit"

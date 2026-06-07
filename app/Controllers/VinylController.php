@@ -57,23 +57,39 @@ final class VinylController extends Controller
             redirect('/vinyls');
         }
 
+        $returnPage = max(1, (int)($_GET['return_page'] ?? $_GET['page'] ?? 1));
+        $returnSort = (string)($_GET['return_sort'] ?? $_GET['sort'] ?? 'newest');
+        $allowed = Vinyl::allowedSorts();
+        if (!isset($allowed[$returnSort])) {
+            $returnSort = 'newest';
+        }
+
         $userId = Auth::id() ?? 0;
         $vinyl = Vinyl::findByIdForUser($id, $userId);
 
         if (!$vinyl) {
             http_response_code(404);
-            $this->view('vinyls/show', ['vinyl' => null]);
+            $this->view('vinyls/show', [
+                'vinyl' => null,
+                'return_page' => $returnPage,
+                'return_sort' => $returnSort,
+            ]);
             return;
         }
 
-        $this->view('vinyls/show', ['vinyl' => $vinyl]);
+        $this->view('vinyls/show', [
+            'vinyl' => $vinyl,
+            'return_page' => $returnPage,
+            'return_sort' => $returnSort,
+        ]);
     }
 
     public function create(): void
     {
         Auth::requireLogin();
 
-        $sort = (string)($_GET['sort'] ?? 'newest');
+        $returnPage = max(1, (int)($_GET['page'] ?? $_GET['return_page'] ?? 1));
+        $sort = (string)($_GET['sort'] ?? $_GET['return_sort'] ?? 'newest');
         $allowed = Vinyl::allowedSorts();
         if (!isset($allowed[$sort])) {
             $sort = 'newest';
@@ -87,6 +103,7 @@ final class VinylController extends Controller
             'conditions' => Vinyl::listConditions(),
             'labels' => Vinyl::listRecordLabels(),
             'editions' => Vinyl::listEditions(),
+            'return_page' => $returnPage,
             'return_sort' => $sort,
 
         ]);
@@ -126,6 +143,8 @@ final class VinylController extends Controller
                 'conditions' => Vinyl::listConditions(),
                 'labels' => Vinyl::listRecordLabels(),
                 'editions' => Vinyl::listEditions(),
+                'return_page' => max(1, (int)($_POST['return_page'] ?? 1)),
+                'return_sort' => (string)($_POST['return_sort'] ?? 'newest'),
             ]);
             return;
         }
@@ -140,6 +159,8 @@ final class VinylController extends Controller
                 'conditions' => Vinyl::listConditions(),
                 'labels' => Vinyl::listRecordLabels(),
                 'editions' => Vinyl::listEditions(),
+                'return_page' => max(1, (int)($_POST['return_page'] ?? 1)),
+                'return_sort' => (string)($_POST['return_sort'] ?? 'newest'),
             ]);
             return;
         }
@@ -180,13 +201,13 @@ final class VinylController extends Controller
         $id = (int)($_POST['id'] ?? 0);
         $userId = Auth::id() ?? 0;
 
-        $sort = (string)($_POST['sort'] ?? 'newest');
+        $sort = (string)($_POST['return_sort'] ?? $_POST['sort'] ?? 'newest');
         $allowed = Vinyl::allowedSorts();
         if (!isset($allowed[$sort])) {
             $sort = 'newest';
         }
 
-        $page = max(1, (int)($_POST['page'] ?? 1));
+        $page = max(1, (int)($_POST['return_page'] ?? $_POST['page'] ?? 1));
         $perPage = 12;
 
         if ($id > 0) {
