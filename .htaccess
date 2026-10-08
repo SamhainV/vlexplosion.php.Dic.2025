@@ -1,0 +1,2 @@
+# Private project root. Serve public/ as DocumentRoot.
+Require all denied
