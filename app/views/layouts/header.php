@@ -11,6 +11,7 @@ use App\Core\Auth;
   <title>VinylLibraryDB</title>
 
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="<?= e(base_url('assets/js/covers.js')) ?>"></script>
 </head>
 
 <body
@@ -19,7 +20,7 @@ use App\Core\Auth;
     background-image:
       linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.72)),
       
-      url('<?= base_url(app_background()) ?>');
+      url('<?= e(base_url(app_background())) ?>');
   ">
 
   <div class="min-h-screen bg-black/10">
@@ -43,6 +44,7 @@ use App\Core\Auth;
             </a>
 
             <form method="POST" action="<?= base_url('logout') ?>">
+      <?= csrf_field() ?>
               <button
                 class="rounded-lg bg-zinc-800/90 px-3 py-1.5 text-zinc-100 hover:bg-red-600 transition"
                 type="submit">

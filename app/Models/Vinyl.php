@@ -7,22 +7,25 @@ namespace App\Models;
 use App\Core\Database;
 use PDO;
 use PDOException;
+use App\Core\CollectionFilter;
 
 final class Vinyl
 {
-    public static function countByUser(int $userId): int
+    public static function countByUser(int $userId, array $filters = []): int
     {
         $pdo = Database::pdo();
-        $stmt = $pdo->prepare("SELECT COUNT(*) AS c FROM VINYLS_TBL WHERE User_Id = :uid");
-        $stmt->execute(['uid' => $userId]);
+        [$filterSql, $params] = CollectionFilter::sql($filters);
+        $stmt = $pdo->prepare("SELECT COUNT(*) AS c FROM VINYLS_TBL v WHERE v.User_Id = :uid" . $filterSql);
+        $stmt->execute(['uid' => $userId] + $params);
         return (int)($stmt->fetch(PDO::FETCH_ASSOC)['c'] ?? 0);
     }
 
 
-    public static function paginateByUser(int $userId, int $limit, int $offset, string $sort = 'newest'): array
+    public static function paginateByUser(int $userId, int $limit, int $offset, string $sort = 'newest', array $filters = []): array
     {
         $pdo = Database::pdo();
         $order = self::orderByForSort($sort);
+        [$filterSql, $filterParams] = CollectionFilter::sql($filters);
 
         $sql = "SELECT
                 v.Id,
@@ -37,26 +40,25 @@ final class Vinyl
                 c.Condition_Name AS condition_name,
                 rl.Record_Label_Name AS record_label_name,
                 e.Edition_Name AS edition_name,
-                a.Author_Name AS author_name
+                NULL AS author_name
             FROM VINYLS_TBL v
             INNER JOIN GENRES_TBL g ON g.Id = v.Genres_Id
             INNER JOIN FORMAT_TBL f ON f.Id = v.Format_Id
             INNER JOIN CONDITION_TBL c ON c.Id = v.Condition_Id
             INNER JOIN RECORD_LABEL_TBL rl ON rl.Id = v.Record_Label_Id
             INNER JOIN EDITION_TBL e ON e.Id = v.Edition_Id
-            LEFT JOIN AUTOR_VINYLS_TBL av ON av.Vinilo_Id = v.Id
-            LEFT JOIN AUTHORS_TBL a ON a.Id = av.Autor_Id
-            WHERE v.User_Id = :uid
+            WHERE v.User_Id = :uid $filterSql
             ORDER BY $order
             LIMIT :lim OFFSET :off";
 
         $stmt = $pdo->prepare($sql);
+        foreach ($filterParams as $key => $value) { $stmt->bindValue($key, $value, PDO::PARAM_STR); }
         $stmt->bindValue('uid', $userId, PDO::PARAM_INT);
         $stmt->bindValue('lim', $limit, PDO::PARAM_INT);
         $stmt->bindValue('off', $offset, PDO::PARAM_INT);
         $stmt->execute();
 
-        return $stmt->fetchAll(PDO::FETCH_ASSOC) ?: [];
+        return self::attachAuthors($stmt->fetchAll(PDO::FETCH_ASSOC) ?: [], $pdo);
     }
 
 
@@ -70,20 +72,19 @@ final class Vinyl
                     c.Condition_Name AS condition_name,
                     rl.Record_Label_Name AS record_label_name,
                     e.Edition_Name AS edition_name,
-                    a.Author_Name AS author_name
+                    NULL AS author_name
                 FROM VINYLS_TBL v
                 INNER JOIN GENRES_TBL g ON g.Id = v.Genres_Id
                 INNER JOIN FORMAT_TBL f ON f.Id = v.Format_Id
                 INNER JOIN CONDITION_TBL c ON c.Id = v.Condition_Id
                 INNER JOIN RECORD_LABEL_TBL rl ON rl.Id = v.Record_Label_Id
                 INNER JOIN EDITION_TBL e ON e.Id = v.Edition_Id
-                LEFT JOIN AUTOR_VINYLS_TBL av ON av.Vinilo_Id = v.Id
-                LEFT JOIN AUTHORS_TBL a ON a.Id = av.Autor_Id
                 WHERE v.Id = :id AND v.User_Id = :uid
                 LIMIT 1";
         $stmt = $pdo->prepare($sql);
         $stmt->execute(['id' => $id, 'uid' => $userId]);
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
+        if ($row) { $row['authors'] = self::authorsForId($id, $pdo); $row['author_name'] = implode(', ', array_unique(array_column($row['authors'], 'Author_Name'))); }
         return $row ?: null;
     }
 
@@ -120,15 +121,14 @@ final class Vinyl
         return array_map(fn($r) => ['id' => (int)$r['Id'], 'name' => (string)$r['name']], $rows);
     }
 
-    public static function createForUser(int $userId, array $data): int
+    public static function createForUser(int $userId, array $data, int $attempt = 0): int
     {
         $pdo = Database::pdo();
 
         try {
             $pdo->beginTransaction();
 
-            $authorName = trim((string)($data['author'] ?? ''));
-            $authorId = self::findOrCreateAuthor($authorName, $pdo);
+
 
             $sql = "INSERT INTO VINYLS_TBL
                         (User_Id, Title, Genres_Id, Format_Id, Condition_Id, Record_Label_Id, Producer, Release_date, Edition_Id, Is_Favorite, Is_Desired, Image_Path)
@@ -152,15 +152,15 @@ final class Vinyl
 
             $vinylId = (int)$pdo->lastInsertId();
 
-            $stmt2 = $pdo->prepare("INSERT INTO AUTOR_VINYLS_TBL (Autor_Id, Vinilo_Id) VALUES (:aid, :vid)");
-            $stmt2->execute(['aid' => $authorId, 'vid' => $vinylId]);
+            self::replaceAuthors($vinylId, $data, $pdo);
 
             $pdo->commit();
             return $vinylId;
-        } catch (PDOException $e) {
+        } catch (\Throwable $e) {
             if ($pdo->inTransaction()) {
                 $pdo->rollBack();
             }
+            if ($e instanceof PDOException && in_array((int)($e->errorInfo[1] ?? 0), [1020, 1205, 1213], true) && $attempt < 2) { return self::createForUser($userId, $data, $attempt + 1); }
             throw $e;
         }
     }
@@ -172,7 +172,7 @@ final class Vinyl
             return 0;
         }
 
-        $stmt = $pdo->prepare("SELECT Id FROM AUTHORS_TBL WHERE Author_Name = :n LIMIT 1");
+        $stmt = $pdo->prepare("SELECT Id FROM AUTHORS_TBL WHERE Author_Name = :n ORDER BY Id ASC LIMIT 1 FOR UPDATE");
         $stmt->execute(['n' => $authorName]);
         $id = (int)($stmt->fetchColumn() ?: 0);
         if ($id > 0) {
@@ -193,7 +193,7 @@ final class Vinyl
             $pdo->beginTransaction();
 
             // Primero comprobamos que el vinilo pertenece al usuario logueado.
-            $stmt = $pdo->prepare("SELECT Id FROM VINYLS_TBL WHERE Id = :id AND User_Id = :uid LIMIT 1");
+            $stmt = $pdo->prepare("SELECT Id FROM VINYLS_TBL WHERE Id = :id AND User_Id = :uid LIMIT 1 FOR UPDATE");
             $stmt->execute(['id' => $vinylId, 'uid' => $userId]);
             $exists = (int)($stmt->fetchColumn() ?: 0);
 
@@ -214,7 +214,7 @@ final class Vinyl
             $pdo->commit();
 
             return $deleted;
-        } catch (PDOException $e) {
+        } catch (\Throwable $e) {
             if ($pdo->inTransaction()) {
                 $pdo->rollBack();
             }
@@ -223,7 +223,70 @@ final class Vinyl
     }
 
 
-    public static function pageForIdByUser(int $userId, int $vinylId, int $perPage, string $sort = 'newest'): int
+    private static function attachAuthors(array $rows, PDO $pdo): array
+    {
+        if (!$rows) { return []; }
+        $ids = array_map('intval', array_column($rows, 'Id'));
+        $placeholders = implode(',', array_fill(0, count($ids), '?'));
+        $stmt = $pdo->prepare("SELECT av.Vinilo_Id, a.Id, a.Author_Name FROM AUTOR_VINYLS_TBL av JOIN AUTHORS_TBL a ON a.Id = av.Autor_Id WHERE av.Vinilo_Id IN ($placeholders) ORDER BY a.Author_Name, a.Id");
+        $stmt->execute($ids);
+        $authors = [];
+        foreach ($stmt->fetchAll(PDO::FETCH_ASSOC) as $author) { $authors[(int)$author['Vinilo_Id']][] = $author; }
+        foreach ($rows as &$row) {
+            $row['authors'] = $authors[(int)$row['Id']] ?? [];
+            $row['author_name'] = implode(', ', array_unique(array_column($row['authors'], 'Author_Name')));
+        }
+        unset($row);
+        return $rows;
+    }
+
+    public static function authorsForId(int $id, PDO $pdo): array
+    {
+        $stmt = $pdo->prepare("SELECT a.Id, a.Author_Name FROM AUTOR_VINYLS_TBL av JOIN AUTHORS_TBL a ON a.Id = av.Autor_Id WHERE av.Vinilo_Id = :id ORDER BY a.Author_Name, a.Id");
+        $stmt->execute(['id' => $id]);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    private static function replaceAuthors(int $id, array $data, PDO $pdo): void
+    {
+        $existing = self::authorsForId($id, $pdo);
+        $ids = [];
+        foreach ($data['authors'] ?? [$data['author']] as $name) {
+            $match = array_values(array_filter($existing, static fn(array $row): bool => $row['Author_Name'] === $name));
+            $ids[] = $match ? (int)$match[0]['Id'] : self::findOrCreateAuthor($name, $pdo);
+        }
+        $stmt = $pdo->prepare("DELETE FROM AUTOR_VINYLS_TBL WHERE Vinilo_Id = :id");
+        $stmt->execute(['id' => $id]);
+        $stmt = $pdo->prepare("INSERT INTO AUTOR_VINYLS_TBL (Autor_Id, Vinilo_Id) VALUES (:aid, :vid)");
+        foreach (array_unique($ids) as $authorId) { $stmt->execute(['aid' => $authorId, 'vid' => $id]); }
+    }
+
+    public static function updateForUser(int $id, int $userId, array $data, int $attempt = 0): bool
+    {
+        $pdo = Database::pdo();
+        try {
+            $pdo->beginTransaction();
+            $check = $pdo->prepare("SELECT Id FROM VINYLS_TBL WHERE Id = :id AND User_Id = :uid FOR UPDATE");
+            $check->execute(['id' => $id, 'uid' => $userId]);
+            if (!$check->fetchColumn()) { $pdo->rollBack(); return false; }
+            $stmt = $pdo->prepare("UPDATE VINYLS_TBL SET Title=:title, Genres_Id=:genre_id, Format_Id=:format_id, Condition_Id=:condition_id, Record_Label_Id=:label_id, Producer=:producer, Release_date=:release_date, Edition_Id=:edition_id, Is_Favorite=:fav, Is_Desired=:desired, Image_Path=:image_path WHERE Id=:id AND User_Id=:uid");
+            $stmt->execute(['id' => $id, 'uid' => $userId, 'title' => $data['title'], 'genre_id' => $data['genre_id'], 'format_id' => $data['format_id'], 'condition_id' => $data['condition_id'], 'label_id' => $data['record_label_id'], 'producer' => $data['producer'], 'release_date' => $data['release_date'], 'edition_id' => $data['edition_id'], 'fav' => $data['is_favorite'], 'desired' => $data['is_desired'], 'image_path' => $data['image_path'] ?? null]);
+            self::replaceAuthors($id, $data, $pdo);
+            $pdo->commit(); return true;
+        } catch (\Throwable $error) {
+            if ($pdo->inTransaction()) { $pdo->rollBack(); }
+            if ($error instanceof PDOException && in_array((int)($error->errorInfo[1] ?? 0), [1020, 1205, 1213], true) && $attempt < 2) { return self::updateForUser($id, $userId, $data, $attempt + 1); }
+            throw $error;
+        }
+    }
+
+    public static function imageReferences(string $path): int
+    {
+        $stmt = Database::pdo()->prepare("SELECT COUNT(*) FROM VINYLS_TBL WHERE Image_Path = :path");
+        $stmt->execute(['path' => $path]); return (int)$stmt->fetchColumn();
+    }
+
+    public static function pageForIdByUser(int $userId, int $vinylId, int $perPage, string $sort = 'newest', array $filters = []): int
     {
         $pdo = Database::pdo();
 
@@ -349,9 +412,9 @@ final class Vinyl
                 break;
         }
 
-        $sql = "SELECT COUNT(*)
-            FROM VINYLS_TBL
-            WHERE User_Id = :uid AND ($where)";
+        [$filterSql, $filterParams] = CollectionFilter::sql($filters);
+        $params += $filterParams;
+        $sql = "SELECT COUNT(*) FROM VINYLS_TBL v WHERE v.User_Id = :uid AND ($where) $filterSql";
 
         $stmt2 = $pdo->prepare($sql);
 

@@ -9,7 +9,7 @@ declare(strict_types=1);
 
 $envFile = __DIR__ . '/../../.env';
 
-if (file_exists($envFile)) {
+if (!(defined('VLEXPLOSION_TESTING') && VLEXPLOSION_TESTING === true) && file_exists($envFile)) {
     $lines = file($envFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
     foreach ($lines as $line) {
@@ -33,22 +33,6 @@ if (file_exists($envFile)) {
 }
 
 $_ENV['APP_BACKGROUND'] = $_ENV['APP_BACKGROUND'] ?? 'assets/images/vintage-bg.png';
-
-/*
-|--------------------------------------------------------------------------
-| Sessions
-|--------------------------------------------------------------------------
-*/
-
-$sessionPath = __DIR__ . '/../../storage/sessions';
-
-if (!is_dir($sessionPath)) {
-    mkdir($sessionPath, 0770, true);
-}
-
-session_save_path($sessionPath);
-
-session_start();
 
 /*
 |--------------------------------------------------------------------------
@@ -81,3 +65,4 @@ spl_autoload_register(function (string $class): void {
 */
 
 require_once __DIR__ . '/helpers.php';
+\App\Core\SessionManager::start();

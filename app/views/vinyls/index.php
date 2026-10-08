@@ -4,57 +4,33 @@
 /** @var string $sort */
 /** @var array $sortOptions */
 
-$highlightId = (int)($_GET['highlight'] ?? 0);
-$deleted = (int)($_GET['deleted'] ?? 0);
+$highlightId = \App\Core\Input::integer($_GET['highlight'] ?? 0);
+$deleted = 0;
+$flash = $_SESSION['_flash'] ?? null; unset($_SESSION['_flash']);
 
 $sort = (string)($sort ?? ($_GET['sort'] ?? 'newest'));
 
-$sortOptions = $sortOptions ?? [
-  'newest' => 'Nuevos primero',
-  'oldest' => 'Antiguos primero',
-  'title_asc' => 'Título A → Z',
-  'title_desc' => 'Título Z → A',
-  'year_asc' => 'Año ↑',
-  'year_desc' => 'Año ↓',
-  'producer_asc' => 'Producer A → Z',
-  'producer_desc' => 'Producer Z → A',
-  'fav_first' => 'Favoritos primero',
-  'desired_first' => 'Deseados primero',
-  'fav_then_title' => 'Fav primero + A→Z',
-  'desired_then_title' => 'Deseado primero + A→Z',
-];
+$sortOptions = $sortOptions ?? \App\Models\Vinyl::allowedSorts();
 
 if (!isset($sortOptions[$sort])) {
   $sort = 'newest';
 }
 
-$sortQ = urlencode($sort);
+$sortQ = urlencode($sort) . '&' . http_build_query(\App\Core\CollectionFilter::read());
 
 $items = $items ?? [];
 $p = $p ?? null;
 $total = $p->total ?? count($items);
 $currentPage = $p !== null ? (int)$p->page : max(1, (int)($_GET['page'] ?? 1));
 
-$coverUrl = static function (?string $path): string {
-  $path = trim((string)$path);
-
-  if ($path === '') {
-    return base_url('assets/images/default-cover.webp');
-  }
-
-  if (preg_match('#^https?://#i', $path) || str_starts_with($path, '/')) {
-    return $path;
-  }
-
-  return base_url(ltrim($path, '/'));
-};
+$coverUrl = [\App\Core\CoverStore::class, 'url'];
 ?>
 
 <section class="space-y-6">
 
-  <?php if ($deleted === 1): ?>
-    <div id="delete-message" class="rounded-2xl border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-200">
-      Vinilo eliminado correctamente.
+  <?php if ($flash): ?>
+    <div id="delete-message" role="status" class="rounded-2xl border border-emerald-500/30 bg-emerald-500/10 px-4 py-3 text-sm text-emerald-200">
+      <?= e($flash) ?>
     </div>
   <?php endif; ?>
 
@@ -85,6 +61,12 @@ $coverUrl = static function (?string $path): string {
   <div class="rounded-2xl border border-zinc-800 bg-zinc-900/60 p-4 shadow-lg shadow-black/20">
     <form method="GET" action="<?= base_url('vinyls') ?>" class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
       <input type="hidden" name="page" value="1">
+      <div class="flex flex-wrap items-center gap-3">
+        <label for="search">Buscar</label><input id="search" name="q" value="<?= e((string)($filters['q'] ?? '')) ?>" maxlength="200" placeholder="Título, autor o productor" class="rounded-lg bg-zinc-950 border border-zinc-700 px-3 py-2">
+        <label><input type="checkbox" name="fav" value="1" <?= !empty($filters['fav']) ? 'checked' : '' ?>> Favoritos</label>
+        <label><input type="checkbox" name="desired" value="1" <?= !empty($filters['desired']) ? 'checked' : '' ?>> Deseados</label>
+        <button type="submit" class="rounded-lg bg-emerald-600 px-3 py-2">Aplicar</button>
+      </div>
 
       <div>
         <label class="block text-xs uppercase tracking-wide text-zinc-500 mb-1">Ordenar colección</label>
@@ -114,8 +96,8 @@ $coverUrl = static function (?string $path): string {
 
     <div class="rounded-2xl border border-dashed border-zinc-700 bg-zinc-900/60 p-8 text-center">
       <div class="text-4xl mb-3">🎵</div>
-      <h2 class="text-lg font-semibold text-zinc-100">No tienes vinilos aún</h2>
-      <p class="mt-1 text-sm text-zinc-400">Añade el primero y empieza tu colección.</p>
+      <h2 class="text-lg font-semibold text-zinc-100">No hay vinilos para esta selección</h2>
+      <p class="mt-1 text-sm text-zinc-400">Prueba otra búsqueda o añade un vinilo.</p>
     </div>
 
   <?php else: ?>
@@ -155,7 +137,7 @@ $coverUrl = static function (?string $path): string {
         ];
 
         $modalJson = htmlspecialchars(
-          json_encode($modalData, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
+          json_encode($modalData, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_INVALID_UTF8_SUBSTITUTE | JSON_THROW_ON_ERROR),
           ENT_QUOTES,
           'UTF-8'
         );
@@ -201,7 +183,8 @@ $coverUrl = static function (?string $path): string {
               class="h-20 w-20 shrink-0 overflow-hidden rounded-2xl border border-zinc-700 bg-zinc-950 shadow-inner transition hover:scale-105 hover:border-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-500"
               data-vinyl-modal='<?= $modalJson ?>'
               aria-label="Ver carátula e información de <?= e($title !== '' ? $title : 'vinilo') ?>">
-              <img
+              <img decoding="async"
+          data-fallback="<?= e(\App\Core\CoverStore::fallbackUrl()) ?>"
                 src="<?= e($imagePath) ?>"
                 alt="Carátula de <?= e($title !== '' ? $title : 'vinilo') ?>"
                 class="h-full w-full object-cover"
@@ -264,14 +247,16 @@ $coverUrl = static function (?string $path): string {
             <div class="flex items-center gap-2">
               <a
                 href="<?= base_url('vinyls/edit?id=' . $id . '&return_page=' . $currentPage . '&return_sort=' . $sortQ) ?>"
-                class="rounded-xl bg-blue-600/90 px-3 py-2 text-xs font-semibold text-white hover:bg-blue-500 transition">
+                class="rounded-xl bg-emerald-700 px-3 py-2 text-xs font-semibold text-white hover:bg-emerald-800 transition">
                 Editar
               </a>
 
               <form
                 method="POST"
                 action="<?= base_url('vinyls/delete') ?>"
-                onsubmit="return confirm('¿Seguro que quieres eliminar este vinilo?');">
+                class="delete-vinyl-form" data-title="<?= e($v['Title']) ?>">
+      <?= csrf_field() ?>
+      <?= collection_hidden_fields() ?>
                 <input type="hidden" name="id" value="<?= $id ?>">
                 <input type="hidden" name="page" value="<?= $currentPage ?>">
                 <input type="hidden" name="sort" value="<?= e($sort) ?>">
@@ -279,7 +264,7 @@ $coverUrl = static function (?string $path): string {
                 <input type="hidden" name="return_sort" value="<?= e($sort) ?>">
 
                 <button
-                  type="submit"
+                  type="submit" data-delete-trigger disabled
                   class="rounded-xl bg-red-600/90 px-3 py-2 text-xs font-semibold text-white hover:bg-red-500 transition">
                   Eliminar
                 </button>
@@ -319,7 +304,7 @@ $coverUrl = static function (?string $path): string {
 </section>
 
 <div
-  id="cover-modal"
+  id="cover-modal" role="dialog" aria-modal="true" aria-labelledby="cover-modal-title" tabindex="-1"
   class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 p-4 backdrop-blur-sm"
   aria-hidden="true">
   <div
@@ -336,9 +321,10 @@ $coverUrl = static function (?string $path): string {
 
     <div class="grid gap-6 p-5 md:grid-cols-[320px_1fr] md:p-6">
       <div class="overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900">
-        <img
+        <img decoding="async"
+          data-fallback="<?= e(\App\Core\CoverStore::fallbackUrl()) ?>"
           id="cover-modal-image"
-          src=""
+          src="<?= e(\App\Core\CoverStore::fallbackUrl()) ?>"
           alt=""
           class="aspect-square w-full object-cover">
       </div>
@@ -450,7 +436,9 @@ $coverUrl = static function (?string $path): string {
       return span;
     }
 
+    let previousFocus = null;
     function openModal(data) {
+      previousFocus = document.activeElement;
       title.textContent = text(data.title);
       year.textContent = text(data.year);
       author.textContent = text(data.author);
@@ -462,6 +450,7 @@ $coverUrl = static function (?string $path): string {
       label.textContent = text(data.label);
 
       image.src = text(data.image);
+      image.dataset.coverTitle = text(data.title);
       image.alt = 'Carátula de ' + text(data.title);
 
       showLink.href = data.showUrl || '#';
@@ -484,6 +473,9 @@ $coverUrl = static function (?string $path): string {
       modal.classList.add('flex');
       modal.setAttribute('aria-hidden', 'false');
       document.body.classList.add('overflow-hidden');
+      document.querySelector('header').inert = true;
+      modal.previousElementSibling.inert = true;
+      closeButtons[0].focus();
     }
 
     function closeModal() {
@@ -491,6 +483,9 @@ $coverUrl = static function (?string $path): string {
       modal.classList.remove('flex');
       modal.setAttribute('aria-hidden', 'true');
       document.body.classList.remove('overflow-hidden');
+      document.querySelector('header').inert = false;
+      modal.previousElementSibling.inert = false;
+      if (previousFocus) previousFocus.focus();
     }
 
     document.querySelectorAll('[data-vinyl-modal]').forEach((button) => {
@@ -518,7 +513,13 @@ $coverUrl = static function (?string $path): string {
     }
 
     document.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape' && !modal.classList.contains('hidden')) {
+      if (event.key === 'Tab' && !modal.classList.contains('hidden')) {
+        const focusable = [...modal.querySelectorAll('button, a[href]')];
+        const first = focusable[0], last = focusable[focusable.length - 1];
+        if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+        else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+      }
+      if (event.key === 'Escape'  && !modal.classList.contains('hidden')) {
         closeModal();
       }
     });
@@ -565,3 +566,14 @@ $coverUrl = static function (?string $path): string {
   })();
 </script>
 <?php endif; ?>
+
+<noscript><p class="mx-auto max-w-lg p-4 text-zinc-300">Para confirmar la eliminación de forma segura, activa JavaScript en el navegador.</p></noscript>
+<dialog id="delete-dialog" aria-labelledby="delete-title" aria-describedby="delete-description" class="w-[calc(100%-2rem)] max-w-lg rounded-2xl border border-zinc-700 bg-zinc-950 p-6 text-zinc-100 shadow-2xl backdrop:bg-black/75">
+  <h2 id="delete-title" class="text-xl font-semibold">Eliminar vinilo</h2>
+  <p id="delete-description" class="mt-4 text-zinc-300">Vas a eliminar <strong id="delete-record-title" class="break-words text-white"></strong> de tu colección. Esta acción no se puede deshacer.</p>
+  <div class="mt-6 flex flex-wrap justify-end gap-3">
+    <button type="button" id="delete-cancel" autofocus class="rounded-xl border border-zinc-600 px-5 py-3 hover:bg-zinc-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-emerald-400">Cancelar</button>
+    <button type="button" id="delete-confirm" class="rounded-xl bg-red-700 px-5 py-3 font-semibold hover:bg-red-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-red-400 disabled:opacity-50">Eliminar definitivamente</button>
+  </div>
+</dialog>
+<script src="<?= base_url('assets/js/delete-confirmation.js') ?>" defer></script>

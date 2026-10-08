@@ -8,14 +8,15 @@
   <?php endif; ?>
 
   <form method="POST" action="<?= base_url('login') ?>" class="space-y-3">
+      <?= csrf_field() ?>
     <div>
-      <label class="block text-sm text-zinc-300 mb-1">Usuario o email</label>
-      <input name="login" class="w-full rounded-lg bg-zinc-950 border border-zinc-700 px-3 py-2 outline-none focus:ring focus:ring-zinc-600" placeholder="username o email" />
+      <label for="login" class="block text-sm text-zinc-300 mb-1">Usuario o email</label>
+      <input id="login" required maxlength="254" autocomplete="username" name="login" class="w-full rounded-lg bg-zinc-950 border border-zinc-700 px-3 py-2 outline-none focus:ring focus:ring-zinc-600" placeholder="username o email" />
     </div>
 
     <div>
-      <label class="block text-sm text-zinc-300 mb-1">Contraseña</label>
-      <input type="password" name="password" class="w-full rounded-lg bg-zinc-950 border border-zinc-700 px-3 py-2 outline-none focus:ring focus:ring-zinc-600" placeholder="••••••••" />
+      <label for="password" class="block text-sm text-zinc-300 mb-1">Contraseña</label>
+      <input id="password" required autocomplete="current-password" type="password" name="password" class="w-full rounded-lg bg-zinc-950 border border-zinc-700 px-3 py-2 outline-none focus:ring focus:ring-zinc-600" placeholder="••••••••" />
     </div>
 
     <button type="submit" class="w-full rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white py-2 font-medium">
