@@ -49,6 +49,8 @@ final class Router
             return;
         }
 
+        if ($method === 'POST') { Csrf::verifyRequest(); }
+
         [$class, $action] = $handler;
         $controller = new $class();
         $controller->$action();

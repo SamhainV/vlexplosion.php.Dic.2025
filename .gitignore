@@ -7,3 +7,14 @@
 /public/assets/*.js
 
 .env
+/storage/security/
+/storage/logs/
+/tests/runtime/
+.env.*
+!.env.example
+*.zip
+*.sql
+
+.env~
+
+/tests/t/

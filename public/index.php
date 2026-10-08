@@ -1,9 +1,11 @@
 <?php
 declare(strict_types=1);
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-error_reporting(E_ALL);
-
+require_once __DIR__ . '/../app/Core/HttpException.php';
+require_once __DIR__ . '/../app/Core/ErrorHandler.php';
+\App\Core\ErrorHandler::install();
+header('Cache-Control: no-store');
+header('X-Content-Type-Options: nosniff');
+header('Referrer-Policy: same-origin');
 
 require_once __DIR__ . '/../app/Core/bootstrap.php';
 
@@ -26,6 +28,9 @@ $router->post('/vinyls/store', [VinylController::class, 'store']);
 $router->post('/vinyls/delete', [VinylController::class, 'destroy']);
 
 
+
+$router->get('/vinyls/edit', [VinylController::class, 'edit']);
+$router->post('/vinyls/update', [VinylController::class, 'update']);
 
 // Vinyls
 $router->get('/vinyls', [VinylController::class, 'index']);
