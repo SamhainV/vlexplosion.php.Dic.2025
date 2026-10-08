@@ -1,3 +1,9 @@
+# Public entry directory only; no system configuration is changed here.
+Require all granted
+Options -Indexes
+<FilesMatch "(?i)(^\.|\.(env|sql|zip|log|bak|old)$|~$)">
+    Require all denied
+</FilesMatch>
 RewriteEngine On
 
 RewriteCond %{REQUEST_FILENAME} !-f
