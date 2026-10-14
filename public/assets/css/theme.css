@@ -1,0 +1,127 @@
+/* Shared visual foundation. No routes, fields, visibility or data behavior changes. */
+.vl-app {
+  --vl-bg:#0e1011; --vl-panel:#151c18; --vl-line:#303e35;
+  --vl-text:#edf2ee; --vl-muted:#a4b2a9; --vl-green:#b2dfb6;
+  --vl-radius:14px; --vl-content:1180px;
+  color:var(--vl-text); color-scheme:dark;
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.vl-app:not(.vl-collection-page) {
+  background-color:var(--vl-bg)!important;
+  background-image:radial-gradient(ellipse at 82% 5%,#36573f35,transparent 52%),radial-gradient(ellipse at 4% 62%,#1d3b3030,transparent 46%),linear-gradient(135deg,#101715,#0e1011 65%)!important;
+  background-attachment:fixed;
+}
+.vl-app.vl-detail-page {background-image:radial-gradient(ellipse at 4% 8%,#284b3b55,transparent 48%),radial-gradient(ellipse at 90% 60%,#2d443630,transparent 50%),linear-gradient(135deg,#101715,#0e1011 65%)!important}
+.vl-app.vl-editor-page {background-image:radial-gradient(ellipse at 75% 0%,#29463340,transparent 60%),linear-gradient(145deg,#111916,#0e1011 75%)!important}
+.vl-app>div {background:transparent}
+.vl-app header {background:#0e1011ed;border-color:#2b3730;backdrop-filter:blur(18px)}
+.vl-app header>div,.vl-app footer>div {max-width:1580px;margin:auto;padding:20px 48px;gap:24px}
+.vl-app header>div>a {font-size:19px;letter-spacing:-.7px;line-height:1.2}
+.vl-app .collection-brand-mark {color:var(--vl-green);display:inline-block;font-size:27px;vertical-align:middle;margin-right:7px}
+.vl-app header nav {gap:24px;font-size:13px}
+.vl-app header nav a {color:var(--vl-muted);padding:8px 0;border-radius:0;background:transparent}
+.vl-app header nav a:hover {color:var(--vl-green);background:transparent}
+.vl-app header nav button {border:1px solid #2b3730;background:transparent;border-radius:8px;padding:8px 13px;color:var(--vl-muted)}
+.vl-app header nav button:hover {border-color:#749780;color:#d1e9d7;background:#22362a}
+.vl-app main {max-width:1580px;margin:auto;padding:49px 48px 0}
+.vl-app footer {background:transparent;border-color:#2b3730;margin-top:58px;backdrop-filter:none}
+.vl-app footer>div {padding-top:24px;padding-bottom:24px;color:#929f96;font-size:11px}
+.vl-app :is(button,a,input,textarea,select,summary):focus-visible {outline:2px solid var(--vl-green);outline-offset:4px}
+.vl-app:not(.vl-collection-page) main {font-size:14px;line-height:1.7}
+.vl-app:not(.vl-collection-page) main h1 {font-size:clamp(28px,3.2vw,40px);line-height:1.2;letter-spacing:-1.2px;font-weight:600;color:var(--vl-text)}
+.vl-app:not(.vl-collection-page) main h2 {font-size:21px;line-height:1.4;letter-spacing:-.3px;font-weight:500;color:#e0ece3}
+.vl-app:not(.vl-collection-page) main h3 {font-size:16px;line-height:1.5;font-weight:600;color:#d5e5da;letter-spacing:-.15px}
+.vl-app:not(.vl-collection-page) main a {color:var(--vl-green);transition:color .18s}
+.vl-app:not(.vl-collection-page) main a:hover {color:#def4e2;text-decoration:underline;text-underline-offset:4px}
+.vl-app #vinyl-detail,.vl-app #vinyl-editor,.vl-app main>.enc {
+  max-width:var(--vl-content);margin:24px auto;padding:32px;
+  border:1px solid var(--vl-line);border-radius:var(--vl-radius);
+  background:linear-gradient(150deg,#18241dee,#121a16f5);
+  box-shadow:0 12px 40px #0003;color:var(--vl-text);
+}
+.vl-app #vinyl-detail,.vl-app #vinyl-editor {padding:0;overflow:hidden}
+.vl-app #vinyl-editor {margin-top:0}
+.vl-app #vinyl-detail>div:first-child,.vl-app #vinyl-editor>div:first-of-type {border-color:var(--vl-line)}
+.vl-app #vinyl-detail>div:first-child p,.vl-app #vinyl-editor>div:first-of-type>p:first-child {font-size:10px;letter-spacing:1.8px;color:var(--vl-green)}
+.vl-app #vinyl-cover {border-radius:10px}
+.vl-app #vinyl-artwork>div {border-radius:11px;border-color:#3b5142;box-shadow:0 12px 30px #0003}
+.vl-app #vinyl-information dl,.vl-app #vinyl-information nav {border-color:var(--vl-line)}
+.vl-app #vinyl-information dt {font-size:10px;letter-spacing:1.1px;color:var(--vl-muted)}
+.vl-app #vinyl-information dd {font-size:14px;color:#e0eae3}
+.vl-app #vinyl-information h1+p {color:var(--vl-green);font-size:16px}
+.vl-app.vl-detail-page main>p:not(.enc) {max-width:var(--vl-content);margin:0 auto 16px;font-size:12px}
+.vl-app .enc {font:inherit;min-width:0;overflow-wrap:anywhere}
+.vl-app .enc .muted,.vl-app .enc small,.vl-app .enc .steps {color:var(--vl-muted);font-size:13px;line-height:1.8}
+.vl-app .enc .accent {color:var(--vl-green)}
+.vl-app .enc>p.accent:first-child {font-size:10px;letter-spacing:1.5px;margin:0 0 12px}
+.vl-app .enc h2 {margin:28px 0 12px}
+.vl-app .enc h3 {margin:26px 0 10px}
+.vl-app .enc p {margin:10px 0}
+.vl-app .enc .card,.vl-app .enc section.enc {
+  border:1px solid #3b4e40;border-radius:10px;background:#1a281fe0;
+  padding:20px;margin:18px 0;box-shadow:0 4px 18px #0001;
+}
+.vl-app #copy-personal,.vl-app .enc #enc-private {border-color:#486451;background:linear-gradient(120deg,#21382a8c,#16261cbb)}
+.vl-app #copy-personal h2,.vl-app .enc #enc-private h2 {margin:0 0 12px}
+.vl-app .enc .alert {background:#32231e;border:1px solid #82654c;border-radius:9px;color:#efd9ba;padding:15px 18px;font-size:13px}
+.vl-app .enc .format-badge {background:#23382b;border:1px solid #4b6954;border-radius:8px;color:#cce6d1;padding:12px 16px}
+.vl-app .enc .format-badge.alert {background:#302820;border-color:#766449;color:#e3d3ac}
+.vl-app .enc table {font-size:13px;line-height:1.7}
+.vl-app .enc th {font-size:10px;letter-spacing:.7px;text-transform:uppercase;color:#bacfc1;background:#223129}
+.vl-app .enc th,.vl-app .enc td {padding:13px 15px;border-color:#344b3b;vertical-align:top}
+.vl-app .enc tbody tr:hover {background:#2c453328}
+.vl-app .enc .table-wrap {border:1px solid #344b3b;border-radius:9px;max-width:100%;overflow:auto;margin:16px 0}
+.vl-app .enc dd {min-width:0;color:#e4ece6}
+.vl-app .enc dt {color:var(--vl-muted);font-size:12px}
+.vl-app .enc .cover {border-radius:10px;border:1px solid #3a5444;box-shadow:0 10px 24px #0003}
+/* A reading layout for the musical record, while retaining the existing DOM order. */
+.vl-app #enc-record {display:grid;grid-template-columns:240px minmax(0,1fr);column-gap:32px}
+.vl-app #enc-record>* {grid-column:1 / -1;min-width:0}
+.vl-app #enc-record>.cover {grid-column:1;max-width:100%;align-self:start;margin:18px 0}
+.vl-app #enc-record>#enc-shared {grid-column:2;max-width:none;padding:0;margin:18px 0;border:0;border-radius:0;background:transparent;box-shadow:none}
+.vl-app .enc .enc-metadata {max-width:none}
+.vl-app:not(.vl-collection-page) main :where(button,.button,#vinyl-edit-link,#vinyl-return-link) {
+  border-radius:8px;border:1px solid #45614e;background:#213328;color:#d0e7d7;
+  padding:10px 16px;font-size:13px;line-height:1.5;min-height:44px;
+  font-weight:500;transition:background .18s,border-color .18s;
+}
+.vl-app:not(.vl-collection-page) main :where(button,.button,#vinyl-edit-link,#vinyl-return-link):hover {background:#2c4936;border-color:#80a88b;text-decoration:none}
+.vl-app:not(.vl-collection-page) main button[type=submit],.vl-app .enc form button:not([type=button]),.vl-app #vinyl-edit-link {
+  background:var(--vl-green);border-color:var(--vl-green);color:#173322;font-weight:600;
+}
+.vl-app:not(.vl-collection-page) main button[type=submit]:hover,.vl-app .enc form button:not([type=button]):hover,.vl-app #vinyl-edit-link:hover {background:#ccebd0;color:#122c1b}
+.vl-app:not(.vl-collection-page) main :is(input:not([type=checkbox]):not([type=hidden]):not([type=file]),textarea,select) {
+  border:1px solid #44594b;border-radius:8px;background:#101b15;color:#edf5ef;padding:11px 13px;font-size:14px;min-height:44px;
+}
+.vl-app main input[type=checkbox] {accent-color:var(--vl-green)}
+.vl-app #vinyl-editor label {color:#c4d4ca;font-size:12px}
+.vl-app #vinyl-editor details>summary,.vl-app .manual-section>summary {padding:20px 24px;border-bottom:1px solid #34463a;color:#d6e7dc;font-size:17px}
+.vl-app #editor-personal>summary {color:var(--vl-green)}
+.vl-app #editor-shared {border-top:1px solid #3a4f41;background:#14201a;padding:16px}
+.vl-app #editor-shared>summary {font-size:17px;color:#c8ddcf}
+.vl-app #vinyl-editor [class*=text-zinc-400] {color:var(--vl-muted)}
+@media(max-width:1200px) {
+  .vl-app main {padding:35px 28px 0}
+  .vl-app header>div,.vl-app footer>div {padding-left:28px;padding-right:28px}
+}
+@media(max-width:760px) {
+  .vl-app main {padding:29px 20px 0}
+  .vl-app header>div {padding:16px 20px;gap:16px}
+  .vl-app header>div>a {font-size:18px}
+  .vl-app header nav {width:100%;justify-content:space-between;gap:12px;font-size:11px}
+  .vl-app header nav a,.vl-app header nav button {min-height:44px;display:flex;align-items:center}
+  .vl-app header nav button {font-size:10px;padding:7px 9px}
+  .vl-app footer>div {padding:20px;gap:6px}
+  .vl-app footer {margin-top:35px}
+  .vl-app main>.enc {padding:20px;margin:20px auto}
+  .vl-app #vinyl-detail,.vl-app #vinyl-editor {margin:16px auto}
+  .vl-app #enc-record {display:block}
+  .vl-app #enc-record>.cover {width:190px;max-width:100%;margin:18px 0 25px}
+  .vl-app #enc-record>#enc-shared {margin:20px 0}
+  .vl-app .enc .card,.vl-app .enc section.enc {padding:16px}
+  .vl-app .enc th,.vl-app .enc td {padding:10px;font-size:12px}
+  .vl-app .enc dl {grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:10px}
+  .vl-app #editor-shared {padding:8px}
+  .vl-app #vinyl-editor details>summary,.vl-app .manual-section>summary {padding:16px;font-size:16px}
+}
+@media(prefers-reduced-motion:reduce) {.vl-app * {transition:none!important;scroll-behavior:auto!important}}

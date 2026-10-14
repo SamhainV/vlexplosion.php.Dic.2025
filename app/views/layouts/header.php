@@ -1,6 +1,8 @@
 <?php
 
 use App\Core\Auth;
+$collectionPage = ($view ?? '') === 'vinyls/index';
+$visualPage = $collectionPage ? 'collection' : (($view ?? '') === 'vinyls/show' ? 'detail' : (($view ?? '') === 'vinyls/create' ? 'editor' : (str_starts_with($view ?? '', 'encyclopedia/') ? 'encyclopedia' : 'standard')));
 ?>
 <!doctype html>
 <html lang="es">
@@ -8,14 +10,16 @@ use App\Core\Auth;
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>VinylLibraryDB</title>
+  <title>VLexPlosion</title>
 
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="<?= e(base_url('assets/js/covers.js')) ?>"></script>
+<?php if ($collectionPage): ?><link rel="stylesheet" href="<?= e(base_url('assets/css/collection.css')) ?>"><?php endif; ?>
+  <link rel="stylesheet" href="<?= e(base_url('assets/css/theme.css')) ?>">
 </head>
 
 <body
-  class="min-h-screen text-zinc-100 bg-black bg-cover bg-fixed bg-center"
+  class="min-h-screen text-zinc-100 bg-black bg-cover bg-fixed bg-center vl-app vl-<?= e($visualPage) ?>-page"
   style="
     background-image:
       linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.72)),
@@ -31,7 +35,7 @@ use App\Core\Auth;
         <a
           href="<?= base_url(Auth::check() ? 'vinyls' : 'login') ?>"
           class="font-bold tracking-wide text-zinc-100 hover:text-emerald-300 transition">
-          VinylLibraryDB
+          <span class="collection-brand-mark" aria-hidden="true">◎</span> VLexPlosion
           <?php if (defined('VLEXPLOSION_TESTING') && VLEXPLOSION_TESTING === true): ?><span style="display:block;font-size:11px;color:#fcd34d;font-weight:normal">Desarrollo · colección ficticia</span><?php endif; ?>
         </a>
 
@@ -42,7 +46,7 @@ use App\Core\Auth;
             <a
               class="rounded-lg px-3 py-1.5 text-zinc-200 hover:bg-zinc-800/80 hover:text-white transition"
               href="<?= base_url('vinyls') ?>">
-              Mis vinilos
+              Mis discos
             </a>
 
             <form method="POST" action="<?= base_url('logout') ?>">

@@ -4,7 +4,7 @@
   <div class="max-w-6xl mx-auto px-4 py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-zinc-500">
 
     <div>
-      © <?= date('Y') ?> VinylLibraryDB
+      © <?= date('Y') ?> VLexPlosion
     </div>
 
     <div class="flex items-center gap-2 text-zinc-600">
