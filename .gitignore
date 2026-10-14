@@ -1,20 +1,38 @@
-/vendor/
-/storage/*.log
-/storage/sessions/*
-!/storage/sessions/.gitkeep
-
-/public/assets/*.css
-/public/assets/*.js
-
+# Credenciales y configuración local
 .env
-/storage/security/
-/storage/logs/
-/tests/runtime/
 .env.*
 !.env.example
-*.zip
-*.sql
-
-.env~
-
+*.pem
+*.key
+# Dependencias
+/vendor/
+/node_modules/
+# Datos privados y cachés de ejecución
+/storage/**
+!/storage/sessions/
+!/storage/sessions/.gitkeep
+/public/uploads/**
+/tests/runtime/
 /tests/t/
+__pycache__/
+*.pyc
+*.log
+*.lock
+*.tmp
+*.swp
+*~
+# Respaldos y documentación operativa privada
+/backup*/
+/backups/
+/Copias*/
+/docs/despliegue/
+/docs/enciclopedia/revision-*/
+*.zip
+*.tar
+*.tar.gz
+*.sql
+# Excepciones explícitas: estructura y migraciones, nunca volcados
+!/database/schema-pre005.sql
+!/migrations/*.sql
+!/tests/schema.sql
+!package-lock.json

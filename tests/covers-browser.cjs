@@ -3,7 +3,7 @@ const fs=require('fs');const path=require('path');
 const runtime=process.env.VLEX_COVER_RUNTIME, base=process.env.VLEX_COVER_BASE;
 let count=0;function check(ok,label){if(!ok)throw new Error('FAIL: '+label);count++;}
 (async()=>{
- const browser=await chromium.launchPersistentContext(path.join(runtime,'chrome-profile'),{executablePath:'/usr/bin/google-chrome',headless:true,ignoreHTTPSErrors:true,viewport:{width:1280,height:900},extraHTTPHeaders:{'X-Test-Key':process.env.VLEX_COVER_KEY},env:{...process.env,TMPDIR:process.env.VLEX_COVER_TEMP},args:['--no-sandbox','--disable-breakpad','--disable-crash-reporter','--disable-background-networking','--disable-component-update','--disk-cache-dir='+path.join(runtime,'cache')]});
+ const browser=await chromium.launchPersistentContext(path.join(runtime,'chrome-profile'),{executablePath:process.env.VLEX_TEST_BROWSER || '/usr/bin/google-chrome',headless:true,ignoreHTTPSErrors:true,viewport:{width:1280,height:900},extraHTTPHeaders:{'X-Test-Key':process.env.VLEX_COVER_KEY},env:{...process.env,TMPDIR:process.env.VLEX_COVER_TEMP},args:['--no-sandbox','--disable-breakpad','--disable-crash-reporter','--disable-background-networking','--disable-component-update','--disk-cache-dir='+path.join(runtime,'cache')]});
  try{
   const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
   for(const id of [1,2,3,4,5]){

@@ -80,6 +80,7 @@ final class VinylController extends Controller
 
         $this->view('vinyls/show', [
             'vinyl' => $vinyl,
+            'encRecord' => \App\Core\Encyclopedia::enabled() ? \App\Models\EncyclopediaRecord::forCopy($id, $userId) : null,
             'return_page' => $returnPage,
             'return_sort' => $returnSort,
         ]);
@@ -126,7 +127,12 @@ final class VinylController extends Controller
         $returnPage = max(1, Input::integer($_POST['return_page'] ?? 1));
         $returnSort = Input::text($_POST['return_sort'] ?? 'newest', 40);
         try {
-            $data = VinylInput::validate($_POST);
+            $data = VinylInput::validate($_POST, null, !empty($existing['Album_Id']) || \App\Core\Encyclopedia::enabled());
+            if ($editing && \App\Core\Encyclopedia::enabled() && isset($_POST['enc_personal_edit'])) {
+                $data['enc_personal']=['notes'=>Input::text($_POST['notes']??'',2000)?:null,
+                    'country'=>Input::text($_POST['personal_country']??'',80)?:null,
+                    'catalogue_number'=>Input::text($_POST['personal_catalogue']??'',120)?:null];
+            }
             VinylInput::validateCatalogues($data, [
                 'genre_id' => Vinyl::listGenres(),
                 'format_id' => Vinyl::listFormats(),
@@ -153,7 +159,13 @@ final class VinylController extends Controller
                     if ($editing) {
                         if (!Vinyl::updateForUser($editId, $userId, $saved)) { throw new HttpException(404); }
                         $id = $editId;
-                    } else { $id = Vinyl::createForUser($userId, $saved); }
+                    } else {
+                        if (\App\Core\Encyclopedia::enabled()) {
+                            $key = Input::text($_POST['enc_request_key'] ?? '', 64);
+                            if (!isset($_SESSION['enc_manual_keys'][$key]) || $_SESSION['enc_manual_keys'][$key] < time() - 3600) { throw new HttpException(422, 'El alta ha caducado; abre el formulario de nuevo.'); }
+                            $id = \App\Services\EncyclopediaCollection::create($userId, $saved, null, $key);
+                        } else { $id = Vinyl::createForUser($userId, $saved); }
+                    }
                 } catch (\Throwable $error) {
                     CoverStore::cleanup($newPath, [Vinyl::class, 'imageReferences']);
                     throw $error;
@@ -220,11 +232,20 @@ final class VinylController extends Controller
             $returnSort = 'newest';
         }
 
+        $encRecord=\App\Core\Encyclopedia::enabled() && $id>0 ? \App\Models\EncyclopediaRecord::forCopy($id,Auth::id()??0) : null;
+        if ($encRecord && !empty($encRecord['album']['id'])) {
+            $personal=json_decode($encRecord['copy']['overrides_json']??'{}',true)?:[];
+            foreach (['notes'=>$encRecord['copy']['notes']??'', 'personal_country'=>$personal['country']??'', 'personal_catalogue'=>$personal['catalogue_number']??''] as $key=>$value) {
+                if (!array_key_exists($key,$old)) $old[$key]=$value;
+            }
+        }
         $this->view('vinyls/create', [
+            'encRecord'=>$encRecord,
             'error' => $error,
             'editing' => $id > 0,
             'vinylId' => $id,
             'currentCover' => $currentCover,
+            'allowPending' => \App\Core\Encyclopedia::enabled() || ($id > 0 && !empty(Vinyl::findByIdForUser($id, Auth::id() ?? 0)['Album_Id'])),
             'old' => $old,
             'genres' => Vinyl::listGenres(),
             'formats' => Vinyl::listFormats(),

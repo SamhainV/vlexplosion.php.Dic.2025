@@ -8,19 +8,32 @@ $returnUrl = base_url('vinyls?' . collection_query($returnPage, $returnSort));
 ?>
 
 <article id="vinyl-editor" class="mx-auto my-8 w-full max-w-[1040px] rounded-2xl border border-zinc-800 bg-zinc-950/95 shadow-2xl">
+  <?php if (\App\Core\Encyclopedia::enabled() && empty($editing)): ?><p class="p-5"><a class="text-emerald-300" href="<?= e(base_url('encyclopedia/search')) ?>">Añadir mediante búsqueda musical en MusicBrainz</a></p><?php endif; ?>
   <div class="border-b border-zinc-800 p-5 sm:p-8">
     <p class="text-xs uppercase tracking-widest text-emerald-400">Tu colección</p>
     <h1 id="vinyl-form-title" class="mt-2 text-3xl sm:text-4xl font-semibold text-zinc-100"><?= !empty($editing) ? 'Editar vinilo' : 'Añadir vinilo' ?></h1>
-    <p class="mt-3 text-sm text-zinc-400">Datos del disco, autores y carátula. Los campos del disco son obligatorios.</p>
+    <p class="mt-3 text-sm text-zinc-400">Datos del disco, autores y carátula. <?= !empty($allowPending) ? 'Los datos desconocidos pueden quedar pendientes; título y autores son obligatorios.' : 'Los campos del disco son obligatorios.' ?></p>
     <?php if (!empty($error)): ?><div role="alert" class="mt-5 rounded-xl border border-red-800 bg-red-900/40 p-4 text-sm"><?= e($error) ?></div><?php endif; ?>
   </div>
+  <details open id="editor-personal"><summary class="p-5 text-xl">Mi ejemplar — Datos personales</summary>
     <form method="POST" action="<?= base_url(!empty($editing) ? 'vinyls/update' : 'vinyls/store') ?>" enctype="multipart/form-data" id="vinyl-form" class="p-5 sm:p-8">
       <?= csrf_field() ?>
+      <?php if (\App\Core\Encyclopedia::enabled() && empty($editing)):
+        $encKey = is_string($old['enc_request_key'] ?? null) && isset($_SESSION['enc_manual_keys'][$old['enc_request_key']]) ? $old['enc_request_key'] : bin2hex(random_bytes(32));
+        $_SESSION['enc_manual_keys'] = array_slice($_SESSION['enc_manual_keys'] ?? [], -9, null, true);
+        $_SESSION['enc_manual_keys'][$encKey] = time();
+      ?><input type="hidden" name="enc_request_key" value="<?= e($encKey) ?>"><?php endif; ?>
       <?= collection_hidden_fields() ?>
       <?php if (!empty($editing)): ?><input type="hidden" name="id" value="<?= (int)$vinylId ?>"><?php endif; ?>
       <input type="hidden" name="return_page" value="<?= $returnPage ?>">
       <input type="hidden" name="return_sort" value="<?= e($returnSort) ?>">
 
+      <?php if (!empty($encRecord['album']['id'])): ?>
+      <h2 class="text-xl mb-3">Mi ejemplar · Datos personales editables</h2>
+      <p class="mb-4 text-zinc-400">Estos valores y clasificaciones son propios de tu ejemplar. Un selector vacío significa que no has asignado un catálogo personal; la información musical se muestra debajo y se conserva.</p>
+      <input type="hidden" name="enc_personal_edit" value="1">
+      <div class="mb-5 grid gap-3"><label>País personal revisado<input class="block w-full bg-zinc-900 p-2" name="personal_country" maxlength="80" value="<?= e((string)($old['personal_country']??'')) ?>"></label><label>Catálogo personal revisado<input class="block w-full bg-zinc-900 p-2" name="personal_catalogue" maxlength="120" value="<?= e((string)($old['personal_catalogue']??'')) ?>"></label><label>Notas privadas<textarea class="block w-full bg-zinc-900 p-2" name="notes" maxlength="2000" rows="3"><?= e((string)($old['notes']??'')) ?></textarea></label></div>
+      <?php endif; ?>
       <div id="vinyl-fields" class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-5">
       <div class="md:col-span-2 space-y-2"><label for="title" class="block text-sm">Título</label>
       <input
@@ -32,7 +45,7 @@ $returnUrl = base_url('vinyls?' . collection_query($returnPage, $returnSort));
 
       <div class="space-y-2"><label for="genre_id" class="block text-sm">Género</label>
       <select
-        id="genre_id" required
+        id="genre_id" <?= empty($allowPending) ? 'required' : '' ?>
         name="genre_id"
         class="w-full rounded-lg bg-zinc-900 text-zinc-100 border border-zinc-800 px-3 py-2 outline-none focus:ring-2 focus:ring-emerald-500">
         <option value="">Género musical</option>
@@ -67,7 +80,7 @@ $returnUrl = base_url('vinyls?' . collection_query($returnPage, $returnSort));
 
       <div class="space-y-2"><label for="format_id" class="block text-sm">Formato</label>
       <select
-        id="format_id" required
+        id="format_id" <?= empty($allowPending) ? 'required' : '' ?>
         name="format_id"
         class="w-full rounded-lg bg-zinc-900 text-zinc-100 border border-zinc-800 px-3 py-2 outline-none focus:ring-2 focus:ring-emerald-500">
         <option value="">Formato</option>
@@ -80,7 +93,7 @@ $returnUrl = base_url('vinyls?' . collection_query($returnPage, $returnSort));
 
       <div class="space-y-2"><label for="condition_id" class="block text-sm">Estado</label>
       <select
-        id="condition_id" required
+        id="condition_id" <?= empty($allowPending) ? 'required' : '' ?>
         name="condition_id"
         class="w-full rounded-lg bg-zinc-900 text-zinc-100 border border-zinc-800 px-3 py-2 outline-none focus:ring-2 focus:ring-emerald-500">
         <option value="">Estado de conservación</option>
@@ -93,7 +106,7 @@ $returnUrl = base_url('vinyls?' . collection_query($returnPage, $returnSort));
 
       <div class="space-y-2"><label for="record_label_id" class="block text-sm">Discográfica</label>
       <select
-        id="record_label_id" required
+        id="record_label_id" <?= empty($allowPending) ? 'required' : '' ?>
         name="record_label_id"
         class="w-full rounded-lg bg-zinc-900 text-zinc-100 border border-zinc-800 px-3 py-2 outline-none focus:ring-2 focus:ring-emerald-500">
         <option value="">Discográfica</option>
@@ -106,7 +119,7 @@ $returnUrl = base_url('vinyls?' . collection_query($returnPage, $returnSort));
 
       <div class="space-y-2"><label for="producer" class="block text-sm">Productor</label>
       <input
-        id="producer" required maxlength="50"
+        id="producer" <?= empty($allowPending) ? 'required' : '' ?> maxlength="50"
         name="producer"
         placeholder="Productor"
         value="<?= e((string)($old['producer'] ?? '')) ?>"
@@ -114,14 +127,15 @@ $returnUrl = base_url('vinyls?' . collection_query($returnPage, $returnSort));
 
       <?php
       $currentYear = (int)date('Y');
-      $selectedYear = (string)($old['release_date'] ?? $currentYear);
+      $selectedYear = (string)($old['release_date'] ?? (!empty($allowPending) ? '' : $currentYear));
       ?>
 
       <div class="space-y-2"><label for="release_date" class="block text-sm">Año</label>
       <select
-        id="release_date" required
+        id="release_date" <?= empty($allowPending) ? 'required' : '' ?>
         name="release_date"
         class="w-full rounded-lg bg-zinc-900 text-zinc-100 border border-zinc-800 px-3 py-2 outline-none focus:ring-2 focus:ring-emerald-500">
+        <?php if (!empty($allowPending)): ?><option value="">Pendiente</option><?php endif; ?>
         <?php for ($y = min(2155, $currentYear + 1); $y >= 1901; $y--): ?>
           <option value="<?= $y ?>" <?= ($selectedYear === (string)$y) ? 'selected' : '' ?>>
             <?= $y ?>
@@ -131,7 +145,7 @@ $returnUrl = base_url('vinyls?' . collection_query($returnPage, $returnSort));
 
       <div class="space-y-2"><label for="edition_id" class="block text-sm">Edición</label>
       <select
-        id="edition_id" required
+        id="edition_id" <?= empty($allowPending) ? 'required' : '' ?>
         name="edition_id"
         class="w-full rounded-lg bg-zinc-900 text-zinc-100 border border-zinc-800 px-3 py-2 outline-none focus:ring-2 focus:ring-emerald-500">
         <option value="">Edición</option>
@@ -222,6 +236,12 @@ $returnUrl = base_url('vinyls?' . collection_query($returnPage, $returnSort));
         Cancelar
       </a></div>
     </form>
+  </details>
+  <?php if (!empty($editing) && \App\Core\Encyclopedia::enabled()): ?>
+  <details id="editor-shared"><summary class="p-5 text-xl">Información enciclopédica</summary>
+  <?php if (!empty($encRecord['album']['id'])): ?><?php $record=$encRecord;require __DIR__.'/../encyclopedia/metadata.php'; ?><?php else: ?><p>Este ejemplar todavía no tiene una ficha musical vinculada.</p><?php endif; ?>
+  </details>
+  <?php endif; ?>
 </article>
 <script>
 document.addEventListener('DOMContentLoaded', () => {

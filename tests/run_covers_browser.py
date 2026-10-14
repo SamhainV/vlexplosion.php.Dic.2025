@@ -1,3 +1,4 @@
+import shutil
 #!/usr/bin/env python3
 import pathlib,os,socket,subprocess,uuid,time,json
 from PIL import Image
@@ -14,7 +15,7 @@ with (runtime/'server.log').open('w') as log:
    try:
     with socket.create_connection(('127.0.0.1',port),timeout=.1):break
    except OSError:time.sleep(.1)
-  result=subprocess.run(['node','tests/covers-browser.cjs'],cwd=root,env=env,check=False)
+  result=subprocess.run([shutil.which('node') or 'node','tests/covers-browser.cjs'],cwd=root,env=env,check=False)
   print('Screenshots:',runtime)
   raise SystemExit(result.returncode)
  finally:

@@ -1,0 +1,849 @@
+{
+  "data": {
+    "status": "Official",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "text-representation": {
+      "language": "eng",
+      "script": "Latn"
+    },
+    "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+    "release-group": {
+      "title": "Enjoy the Silence / World in My Eyes",
+      "first-release-date": "1992-06-02",
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "name": "Depeche Mode",
+            "id": "8538e728-ca0b-4321-b7e5-cff6565dd4c0",
+            "disambiguation": "",
+            "sort-name": "Depeche Mode",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Depeche Mode"
+        }
+      ],
+      "primary-type": "Single",
+      "secondary-type-ids": [],
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "disambiguation": "",
+      "id": "761a4a62-ce36-436f-8a66-5596328a1dc4",
+      "secondary-types": []
+    },
+    "disambiguation": "",
+    "country": "US",
+    "packaging": "Cardboard/Paper Sleeve",
+    "barcode": "054391889027",
+    "label-info": [
+      {
+        "label": {
+          "label-code": 5834,
+          "type-id": "b6285b2a-3514-3d43-80df-fcf528824ded",
+          "type": "Imprint",
+          "sort-name": "Mute",
+          "id": "e0b106a5-4add-4839-9e40-c192457e1bf8",
+          "name": "Mute",
+          "disambiguation": "UK label"
+        },
+        "catalog-number": "9 18890-2"
+      },
+      {
+        "label": {
+          "type": null,
+          "sort-name": "Reprise Records",
+          "label-code": 322,
+          "type-id": null,
+          "id": "af6d6f49-2b4d-40fe-86d4-241906772b59",
+          "name": "Reprise Records",
+          "disambiguation": ""
+        },
+        "catalog-number": "9 18890-2"
+      },
+      {
+        "label": {
+          "type": "Original Production",
+          "sort-name": "Sire Records",
+          "label-code": 3228,
+          "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+          "id": "be0fec81-5c18-4494-8bbf-0d81dec006bf",
+          "name": "Sire Records",
+          "disambiguation": ""
+        },
+        "catalog-number": "9 18890-2"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Depeche Mode",
+        "joinphrase": "",
+        "artist": {
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "sort-name": "Depeche Mode",
+          "type": "Group",
+          "name": "Depeche Mode",
+          "id": "8538e728-ca0b-4321-b7e5-cff6565dd4c0",
+          "disambiguation": "",
+          "country": "GB"
+        }
+      }
+    ],
+    "quality": "normal",
+    "cover-art-archive": {
+      "darkened": false,
+      "artwork": true,
+      "front": true,
+      "back": false,
+      "count": 3
+    },
+    "title": "Enjoy the Silence / World in My Eyes",
+    "asin": null,
+    "release-events": [
+      {
+        "date": "1992-06-02",
+        "area": {
+          "type": null,
+          "iso-3166-1-codes": [
+            "US"
+          ],
+          "sort-name": "United States",
+          "type-id": null,
+          "disambiguation": "",
+          "id": "489ce91b-6658-3307-9877-795b68554c98",
+          "name": "United States"
+        }
+      }
+    ],
+    "date": "1992-06-02",
+    "relations": [],
+    "id": "988a12b7-3b75-4fd5-8bb2-06b4c72e2c56",
+    "media": [
+      {
+        "track-offset": 0,
+        "track-count": 2,
+        "id": "d0b73290-216f-40a3-b793-f0cbd2770fd7",
+        "tracks": [
+          {
+            "length": 259893,
+            "position": 1,
+            "artist-credit": [
+              {
+                "name": "Depeche Mode",
+                "joinphrase": "",
+                "artist": {
+                  "sort-name": "Depeche Mode",
+                  "type": "Group",
+                  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                  "country": "GB",
+                  "name": "Depeche Mode",
+                  "id": "8538e728-ca0b-4321-b7e5-cff6565dd4c0",
+                  "disambiguation": ""
+                }
+              }
+            ],
+            "number": "1",
+            "title": "Enjoy the Silence (single mix)",
+            "id": "c017427b-84ff-41a6-92ba-912a3af61f33",
+            "recording": {
+              "first-release-date": "1990-02-05",
+              "title": "Enjoy the Silence",
+              "length": 255973,
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Depeche Mode",
+                  "artist": {
+                    "country": "GB",
+                    "disambiguation": "",
+                    "id": "8538e728-ca0b-4321-b7e5-cff6565dd4c0",
+                    "name": "Depeche Mode",
+                    "type": "Group",
+                    "sort-name": "Depeche Mode",
+                    "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+                  }
+                }
+              ],
+              "id": "8caee4aa-bc6e-454d-b8ab-16695a398c75",
+              "relations": [
+                {
+                  "attribute-values": [],
+                  "ended": false,
+                  "attribute-ids": [],
+                  "target-type": "artist",
+                  "end": null,
+                  "target-credit": "",
+                  "begin": null,
+                  "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                  "artist": {
+                    "sort-name": "Iversen, Peter",
+                    "type": "Person",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "DK",
+                    "name": "Peter Iversen",
+                    "id": "3ad805a9-e0bf-4904-9968-fc7ab176f05f",
+                    "disambiguation": "audio engineer"
+                  },
+                  "attributes": [],
+                  "source-credit": "",
+                  "direction": "backward",
+                  "type": "engineer"
+                },
+                {
+                  "attributes": [],
+                  "source-credit": "",
+                  "direction": "backward",
+                  "type": "mix",
+                  "attribute-values": [],
+                  "ended": false,
+                  "attribute-ids": [],
+                  "target-type": "artist",
+                  "target-credit": "",
+                  "end": null,
+                  "artist": {
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "Legg, Phil",
+                    "type": "Person",
+                    "name": "Phil Legg",
+                    "id": "ac46972c-1d65-4117-9066-0fe8cd324a8f",
+                    "disambiguation": "",
+                    "country": null
+                  },
+                  "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                  "begin": null
+                },
+                {
+                  "source-credit": "",
+                  "attributes": [],
+                  "type": "mix",
+                  "direction": "backward",
+                  "attribute-ids": [],
+                  "ended": false,
+                  "target-type": "artist",
+                  "attribute-values": [],
+                  "target-credit": "",
+                  "end": null,
+                  "artist": {
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "type": "Person",
+                    "sort-name": "Miller, Daniel",
+                    "disambiguation": "British music producer and founder of Mute Records",
+                    "id": "5abdec70-4e68-4eab-ad17-3448f280960d",
+                    "name": "Daniel Miller",
+                    "country": "GB"
+                  },
+                  "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                  "begin": null
+                },
+                {
+                  "source-credit": "",
+                  "attributes": [],
+                  "type": "producer",
+                  "direction": "backward",
+                  "ended": false,
+                  "attribute-ids": [],
+                  "target-type": "artist",
+                  "attribute-values": [],
+                  "end": null,
+                  "target-credit": "",
+                  "begin": null,
+                  "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                  "artist": {
+                    "name": "Depeche Mode",
+                    "id": "8538e728-ca0b-4321-b7e5-cff6565dd4c0",
+                    "disambiguation": "",
+                    "country": "GB",
+                    "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                    "sort-name": "Depeche Mode",
+                    "type": "Group"
+                  }
+                },
+                {
+                  "source-credit": "",
+                  "attributes": [],
+                  "type": "producer",
+                  "direction": "backward",
+                  "target-type": "artist",
+                  "attribute-ids": [],
+                  "ended": false,
+                  "attribute-values": [],
+                  "begin": null,
+                  "artist": {
+                    "country": "GB",
+                    "name": "Flood",
+                    "id": "f1461e6c-c008-414b-bad0-bce88f71724e",
+                    "disambiguation": "British producer Mark Ellis",
+                    "sort-name": "Flood",
+                    "type": "Person",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                  },
+                  "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                  "end": null,
+                  "target-credit": ""
+                },
+                {
+                  "type": "vocal",
+                  "direction": "backward",
+                  "source-credit": "",
+                  "attributes": [
+                    "lead vocals"
+                  ],
+                  "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                  "artist": {
+                    "country": "GB",
+                    "disambiguation": "",
+                    "name": "Dave Gahan",
+                    "id": "d547b148-cf1f-421b-9464-ce7411ba44b8",
+                    "sort-name": "Gahan, Dave",
+                    "type": "Person",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                  },
+                  "begin": null,
+                  "target-credit": "",
+                  "end": null,
+                  "target-type": "artist",
+                  "attribute-ids": {
+                    "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                  },
+                  "ended": false,
+                  "attribute-values": [],
+                  "attribute-credits": []
+                },
+                {
+                  "attributes": [],
+                  "source-credit": "",
+                  "direction": "forward",
+                  "type": "performance",
+                  "attribute-values": [],
+                  "work": {
+                    "relations": [
+                      {
+                        "attributes": [],
+                        "source-credit": "",
+                        "direction": "backward",
+                        "type": "composer",
+                        "attribute-values": [],
+                        "ended": false,
+                        "attribute-ids": [],
+                        "target-type": "artist",
+                        "target-credit": "",
+                        "end": null,
+                        "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                        "artist": {
+                          "name": "Martin L. Gore",
+                          "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                          "disambiguation": "",
+                          "country": "US",
+                          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                          "sort-name": "Gore, Martin L.",
+                          "type": "Person"
+                        },
+                        "begin": null
+                      },
+                      {
+                        "end": null,
+                        "target-credit": "",
+                        "begin": null,
+                        "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                        "artist": {
+                          "type": "Person",
+                          "sort-name": "Gore, Martin L.",
+                          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                          "country": "US",
+                          "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                          "name": "Martin L. Gore",
+                          "disambiguation": ""
+                        },
+                        "ended": false,
+                        "attribute-ids": [],
+                        "target-type": "artist",
+                        "attribute-values": [],
+                        "type": "lyricist",
+                        "direction": "backward",
+                        "source-credit": "",
+                        "attributes": []
+                      },
+                      {
+                        "work": {
+                          "title": "Enjoy the Silence",
+                          "type": "Song",
+                          "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                          "iswcs": [],
+                          "language": null,
+                          "id": "f79a51cc-913d-4ccd-bcb8-728d0e0170f8",
+                          "languages": [],
+                          "attributes": [],
+                          "disambiguation": "rearranged by Eric Whitacre"
+                        },
+                        "attribute-values": [],
+                        "target-type": "work",
+                        "ended": false,
+                        "attribute-ids": [],
+                        "begin": null,
+                        "type-id": "51975ed8-bbfa-486b-9f28-5947f4370299",
+                        "end": null,
+                        "target-credit": "",
+                        "attributes": [],
+                        "source-credit": "",
+                        "direction": "forward",
+                        "type": "arrangement"
+                      },
+                      {
+                        "type": "musical quotation",
+                        "direction": "backward",
+                        "source-credit": "",
+                        "attributes": [],
+                        "end": null,
+                        "target-credit": "",
+                        "begin": null,
+                        "type-id": "c5decae0-535c-4730-aa5f-ab78eadd98ba",
+                        "attribute-ids": [],
+                        "ended": false,
+                        "target-type": "work",
+                        "work": {
+                          "id": "67a7d3f8-7051-43e8-9355-a9ac1a5094ed",
+                          "languages": [],
+                          "attributes": [],
+                          "disambiguation": "",
+                          "language": null,
+                          "iswcs": [],
+                          "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                          "type": "Song",
+                          "title": "All by Myself"
+                        },
+                        "attribute-values": []
+                      },
+                      {
+                        "attributes": [
+                          "translated"
+                        ],
+                        "source-credit": "",
+                        "direction": "forward",
+                        "type": "other version",
+                        "work": {
+                          "type-id": null,
+                          "type": null,
+                          "title": "Gaudeix el silenci",
+                          "id": "8fcb3227-9e88-3aaa-96e7-fd59e8955cb2",
+                          "attributes": [],
+                          "languages": [],
+                          "disambiguation": "",
+                          "iswcs": [],
+                          "language": null
+                        },
+                        "attribute-values": [],
+                        "target-type": "work",
+                        "ended": false,
+                        "attribute-ids": {
+                          "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+                        },
+                        "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                        "begin": null,
+                        "target-credit": "",
+                        "end": null
+                      },
+                      {
+                        "direction": "forward",
+                        "type": "other version",
+                        "attributes": [],
+                        "source-credit": "",
+                        "begin": null,
+                        "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                        "end": null,
+                        "target-credit": "",
+                        "attribute-values": [],
+                        "work": {
+                          "type": "Song",
+                          "title": "The Silence",
+                          "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                          "iswcs": [],
+                          "language": null,
+                          "id": "7a400126-e17c-3e43-a975-a9da6f99187a",
+                          "attributes": [],
+                          "languages": [],
+                          "disambiguation": ""
+                        },
+                        "target-type": "work",
+                        "attribute-ids": [],
+                        "ended": false
+                      },
+                      {
+                        "type": "other version",
+                        "direction": "forward",
+                        "source-credit": "",
+                        "attributes": [
+                          "translated"
+                        ],
+                        "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                        "begin": null,
+                        "target-credit": "",
+                        "end": null,
+                        "target-type": "work",
+                        "ended": false,
+                        "attribute-ids": {
+                          "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+                        },
+                        "attribute-values": [],
+                        "work": {
+                          "title": "El silencio",
+                          "type": "Song",
+                          "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                          "iswcs": [],
+                          "language": null,
+                          "id": "09e0f20b-adf2-4916-af62-c6c5fa1ed8eb",
+                          "languages": [],
+                          "attributes": [],
+                          "disambiguation": ""
+                        }
+                      }
+                    ],
+                    "id": "2ba22996-f8fa-3c9c-8913-7707225ea704",
+                    "languages": [
+                      "eng"
+                    ],
+                    "attributes": [],
+                    "disambiguation": "",
+                    "language": "eng",
+                    "iswcs": [
+                      "T-011.391.707-9"
+                    ],
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                    "title": "Enjoy the Silence",
+                    "type": "Song"
+                  },
+                  "ended": false,
+                  "attribute-ids": [],
+                  "target-type": "work",
+                  "end": null,
+                  "target-credit": "",
+                  "begin": null,
+                  "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                }
+              ],
+              "video": false,
+              "disambiguation": "single version"
+            }
+          },
+          {
+            "number": "2",
+            "title": "World in My Eyes (single version)",
+            "length": 238133,
+            "position": 2,
+            "artist-credit": [
+              {
+                "artist": {
+                  "id": "8538e728-ca0b-4321-b7e5-cff6565dd4c0",
+                  "name": "Depeche Mode",
+                  "disambiguation": "",
+                  "country": "GB",
+                  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                  "type": "Group",
+                  "sort-name": "Depeche Mode"
+                },
+                "joinphrase": "",
+                "name": "Depeche Mode"
+              }
+            ],
+            "recording": {
+              "id": "1fdff0d9-1ec6-434c-9301-0cc8de6562d3",
+              "relations": [
+                {
+                  "type": "engineer",
+                  "direction": "backward",
+                  "source-credit": "",
+                  "attributes": [],
+                  "end": null,
+                  "target-credit": "",
+                  "begin": null,
+                  "artist": {
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "Gregorie, Alan",
+                    "type": "Person",
+                    "disambiguation": "",
+                    "name": "Alan Gregorie",
+                    "id": "bc7759a9-15fb-43b4-9454-eacbb6c32a02",
+                    "country": "US"
+                  },
+                  "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                  "attribute-ids": [],
+                  "ended": false,
+                  "target-type": "artist",
+                  "attribute-values": []
+                },
+                {
+                  "end": null,
+                  "target-credit": "",
+                  "begin": null,
+                  "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                  "artist": {
+                    "type": "Person",
+                    "sort-name": "Lyon, Steve",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "GB",
+                    "disambiguation": "audio recording engineer and record producer",
+                    "id": "8d70d9d0-e658-4811-9d09-1b2e475d23e2",
+                    "name": "Steve Lyon"
+                  },
+                  "attribute-ids": [],
+                  "ended": false,
+                  "target-type": "artist",
+                  "attribute-values": [],
+                  "type": "engineer",
+                  "direction": "backward",
+                  "source-credit": "",
+                  "attributes": []
+                },
+                {
+                  "type": "engineer",
+                  "direction": "backward",
+                  "source-credit": "",
+                  "attributes": [],
+                  "begin": null,
+                  "artist": {
+                    "country": "IT",
+                    "name": "Pino Pischetola",
+                    "id": "2c8ece3c-987c-406f-8939-eb9543b8fe1b",
+                    "disambiguation": "",
+                    "sort-name": "Pischetola, Pino",
+                    "type": "Person",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                  },
+                  "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                  "end": null,
+                  "target-credit": "",
+                  "target-type": "artist",
+                  "attribute-ids": [],
+                  "ended": false,
+                  "attribute-values": []
+                },
+                {
+                  "attributes": [],
+                  "source-credit": "",
+                  "direction": "backward",
+                  "type": "mix",
+                  "attribute-values": [],
+                  "ended": false,
+                  "attribute-ids": [],
+                  "target-type": "artist",
+                  "end": null,
+                  "target-credit": "",
+                  "begin": null,
+                  "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                  "artist": {
+                    "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                    "type": "Group",
+                    "sort-name": "Depeche Mode",
+                    "disambiguation": "",
+                    "id": "8538e728-ca0b-4321-b7e5-cff6565dd4c0",
+                    "name": "Depeche Mode",
+                    "country": "GB"
+                  }
+                },
+                {
+                  "source-credit": "",
+                  "attributes": [],
+                  "type": "mix",
+                  "direction": "backward",
+                  "target-type": "artist",
+                  "ended": false,
+                  "attribute-ids": [],
+                  "attribute-values": [],
+                  "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                  "artist": {
+                    "type": "Person",
+                    "sort-name": "François K",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "id": "093b79fc-d913-4580-8403-c2430f7a18ee",
+                    "name": "François K",
+                    "disambiguation": ""
+                  },
+                  "begin": null,
+                  "target-credit": "François Kevorkian",
+                  "end": null
+                },
+                {
+                  "attributes": [],
+                  "source-credit": "",
+                  "direction": "backward",
+                  "type": "producer",
+                  "attribute-values": [],
+                  "ended": false,
+                  "attribute-ids": [],
+                  "target-type": "artist",
+                  "end": null,
+                  "target-credit": "",
+                  "begin": null,
+                  "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                  "artist": {
+                    "sort-name": "Depeche Mode",
+                    "type": "Group",
+                    "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                    "country": "GB",
+                    "name": "Depeche Mode",
+                    "id": "8538e728-ca0b-4321-b7e5-cff6565dd4c0",
+                    "disambiguation": ""
+                  }
+                },
+                {
+                  "attribute-values": [],
+                  "target-type": "artist",
+                  "ended": false,
+                  "attribute-ids": [],
+                  "begin": null,
+                  "artist": {
+                    "country": "GB",
+                    "name": "Flood",
+                    "id": "f1461e6c-c008-414b-bad0-bce88f71724e",
+                    "disambiguation": "British producer Mark Ellis",
+                    "sort-name": "Flood",
+                    "type": "Person",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                  },
+                  "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                  "end": null,
+                  "target-credit": "",
+                  "attributes": [],
+                  "source-credit": "",
+                  "direction": "backward",
+                  "type": "producer"
+                },
+                {
+                  "end": null,
+                  "target-credit": "",
+                  "begin": null,
+                  "artist": {
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "type": "Person",
+                    "sort-name": "Gahan, Dave",
+                    "id": "d547b148-cf1f-421b-9464-ce7411ba44b8",
+                    "name": "Dave Gahan",
+                    "disambiguation": "",
+                    "country": "GB"
+                  },
+                  "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                  "attribute-ids": {
+                    "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                  },
+                  "ended": false,
+                  "target-type": "artist",
+                  "attribute-credits": [],
+                  "attribute-values": [],
+                  "type": "vocal",
+                  "direction": "backward",
+                  "source-credit": "",
+                  "attributes": [
+                    "lead vocals"
+                  ]
+                },
+                {
+                  "type": "performance",
+                  "direction": "forward",
+                  "source-credit": "",
+                  "attributes": [],
+                  "target-credit": "",
+                  "end": null,
+                  "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                  "begin": null,
+                  "attribute-ids": [],
+                  "ended": false,
+                  "target-type": "work",
+                  "work": {
+                    "language": "eng",
+                    "iswcs": [
+                      "T-011.391.703-5"
+                    ],
+                    "languages": [
+                      "eng"
+                    ],
+                    "attributes": [],
+                    "disambiguation": "",
+                    "relations": [
+                      {
+                        "attributes": [],
+                        "source-credit": "",
+                        "direction": "backward",
+                        "type": "composer",
+                        "attribute-values": [],
+                        "attribute-ids": [],
+                        "ended": false,
+                        "target-type": "artist",
+                        "end": null,
+                        "target-credit": "",
+                        "begin": null,
+                        "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                        "artist": {
+                          "country": "US",
+                          "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                          "name": "Martin L. Gore",
+                          "disambiguation": "",
+                          "type": "Person",
+                          "sort-name": "Gore, Martin L.",
+                          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                        }
+                      },
+                      {
+                        "source-credit": "",
+                        "attributes": [],
+                        "type": "lyricist",
+                        "direction": "backward",
+                        "target-type": "artist",
+                        "ended": false,
+                        "attribute-ids": [],
+                        "attribute-values": [],
+                        "begin": null,
+                        "artist": {
+                          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                          "type": "Person",
+                          "sort-name": "Gore, Martin L.",
+                          "disambiguation": "",
+                          "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                          "name": "Martin L. Gore",
+                          "country": "US"
+                        },
+                        "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                        "end": null,
+                        "target-credit": ""
+                      }
+                    ],
+                    "id": "311aea2a-5085-313d-973c-2fe938f16779",
+                    "type": "Song",
+                    "title": "World in My Eyes",
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+                  },
+                  "attribute-values": []
+                }
+              ],
+              "disambiguation": "single version",
+              "video": false,
+              "length": 237840,
+              "artist-credit": [
+                {
+                  "artist": {
+                    "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                    "sort-name": "Depeche Mode",
+                    "type": "Group",
+                    "disambiguation": "",
+                    "name": "Depeche Mode",
+                    "id": "8538e728-ca0b-4321-b7e5-cff6565dd4c0",
+                    "country": "GB"
+                  },
+                  "joinphrase": "",
+                  "name": "Depeche Mode"
+                }
+              ],
+              "first-release-date": "1990-09-17",
+              "title": "World in My Eyes"
+            },
+            "id": "939529ca-643b-40cd-af4e-7a63776275ef"
+          }
+        ],
+        "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+        "title": "",
+        "position": 1,
+        "format": "CD"
+      }
+    ]
+  },
+  "fetched_at": 1791904329.370862
+}

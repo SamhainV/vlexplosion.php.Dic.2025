@@ -26,7 +26,7 @@ final class Database
             throw new \RuntimeException('Database configuration incomplete');
         }
 
-        $dsn = sprintf(
+        $dsn = $config['socket'] !== '' ? sprintf('mysql:unix_socket=%s;dbname=%s;charset=utf8mb4', $config['socket'], $config['name']) : sprintf(
             'mysql:host=%s;port=%d;dbname=%s;charset=utf8mb4',
             $config['host'],
             (int)($config['port'] ?? 3306),

@@ -1,0 +1,104 @@
+{
+  "data": {
+    "secondary-types": [],
+    "genres": [],
+    "id": "761a4a62-ce36-436f-8a66-5596328a1dc4",
+    "artist-credit": [
+      {
+        "name": "Depeche Mode",
+        "artist": {
+          "type": "Group",
+          "country": "GB",
+          "genres": [
+            {
+              "count": 3,
+              "id": "8301f73c-9166-4108-bfeb-4fd22dc19083",
+              "disambiguation": "",
+              "name": "alternative dance"
+            },
+            {
+              "name": "alternative rock",
+              "count": 9,
+              "id": "ceeaa283-5d7b-4202-8d1d-e25d116b2a18",
+              "disambiguation": ""
+            },
+            {
+              "name": "dark wave",
+              "count": 7,
+              "id": "c4a72fcd-e291-43c8-a546-9ce1764ff31b",
+              "disambiguation": ""
+            },
+            {
+              "name": "electronic",
+              "disambiguation": "",
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+              "count": 28
+            },
+            {
+              "count": 2,
+              "id": "c4a69842-f891-4569-9506-1882aa5db433",
+              "disambiguation": "",
+              "name": "electronic rock"
+            },
+            {
+              "name": "electronica",
+              "count": 2,
+              "id": "53a3cea3-17af-4421-a07a-5824b540aeb5",
+              "disambiguation": ""
+            },
+            {
+              "name": "gothic",
+              "count": 1,
+              "disambiguation": "",
+              "id": "d9f42dc1-3a92-4217-8ae5-e9672f595b8e"
+            },
+            {
+              "name": "industrial",
+              "id": "060beed7-e597-4c42-8e25-5bf8bd5dd3cb",
+              "disambiguation": "",
+              "count": 2
+            },
+            {
+              "name": "new romantic",
+              "id": "391a797d-50d7-46df-b380-39ccacd52a09",
+              "disambiguation": "",
+              "count": 2
+            },
+            {
+              "id": "56407f9d-3398-4bf3-bbbd-ea372fa5adeb",
+              "disambiguation": "",
+              "count": 22,
+              "name": "new wave"
+            },
+            {
+              "id": "f6d8cadd-6a5e-4ec9-9c2b-996b5332a639",
+              "disambiguation": "",
+              "count": 1,
+              "name": "post-punk"
+            },
+            {
+              "name": "synth-pop",
+              "count": 25,
+              "disambiguation": "",
+              "id": "988e91a3-3341-416d-b7f8-7dbef6848dac"
+            }
+          ],
+          "disambiguation": "",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "name": "Depeche Mode",
+          "sort-name": "Depeche Mode",
+          "id": "8538e728-ca0b-4321-b7e5-cff6565dd4c0"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "Single",
+    "first-release-date": "1992-06-02",
+    "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+    "title": "Enjoy the Silence / World in My Eyes",
+    "disambiguation": "",
+    "relations": [],
+    "secondary-type-ids": []
+  },
+  "fetched_at": 1791904321.098069
+}

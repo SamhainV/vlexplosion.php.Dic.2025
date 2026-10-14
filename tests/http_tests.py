@@ -1,3 +1,4 @@
+import shutil
 #!/usr/bin/env python3
 import os,pathlib,subprocess,socket,time,urllib.request,urllib.error,urllib.parse,http.cookiejar,re,uuid,base64,json
 root=pathlib.Path(__file__).resolve().parent.parent
@@ -87,7 +88,7 @@ with (runtime/'http.log').open('w') as log:
   status,_,headers=request('/login',{'_csrf':csrf,'login':'HTTP-no-such-user','password':'fiction'});check(status==429 and headers.get('Retry-After')=='900','HTTP login throttle')
   temp=root/'tests/t';temp.mkdir(parents=True,exist_ok=True,mode=0o700)
   browser_env=env.copy();browser_env.update(VLEX_CRUD_RUNTIME=str(runtime),VLEX_CRUD_BASE=base,VLEX_CRUD_TEMP=str(temp),TMPDIR=str(temp))
-  subprocess.run(['node','tests/crud-browser.cjs'],cwd=root,env=browser_env,check=True)
+  subprocess.run([shutil.which('node') or 'node','tests/crud-browser.cjs'],cwd=root,env=browser_env,check=True)
   print('OK:',count,'HTTP checks; real multipart uploads; isolated test server and database.')
  finally:
   server.terminate()

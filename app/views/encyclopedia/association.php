@@ -1,0 +1,6 @@
+<link rel="stylesheet" href="<?= e(base_url('assets/css/encyclopedia.css')) ?>">
+<section class="enc"><h1>Relación musical de mi ejemplar</h1><p><?= e($record['vinyl']['Title']) ?> · #<?= (int)$record['vinyl']['Id'] ?></p>
+<?php if ($record['edition']): ?><?php require __DIR__.'/metadata.php'; ?>
+<p><a href="<?= e(base_url('encyclopedia/link?id='.$record['vinyl']['Id'])) ?>">Corregir vinculación: buscar otra edición</a></p>
+<form method="post" action="<?= e(base_url('encyclopedia/detach')) ?>"><?= csrf_field() ?><input type="hidden" name="id" value="<?= (int)$record['vinyl']['Id'] ?>"><input type="hidden" name="expected" value="<?= e(\App\Services\EncyclopediaLink::state($record['copy'])) ?>"><input type="hidden" name="key" value="<?= e($key) ?>"><p>Desvincular deja el ejemplar y sus datos personales intactos, sin borrar el álbum ni la edición compartidos. Se conserva un historial privado de relaciones.</p><label><input type="checkbox" name="confirm" required> Confirmo la desvinculación de esta edición</label><button>Desvincular edición</button></form>
+<?php else: ?><p>No tiene una edición confirmada.</p><a href="<?= e(base_url('encyclopedia/link?id='.$record['vinyl']['Id'])) ?>">Vincular a MusicBrainz</a><?php endif; ?></section>

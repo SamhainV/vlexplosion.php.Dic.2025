@@ -26,16 +26,18 @@ use App\Core\Auth;
   <div class="min-h-screen bg-black/10">
 
     <header class="sticky top-0 z-50 border-b border-zinc-800/70 bg-black/45 backdrop-blur-xl">
-      <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex flex-wrap gap-3 items-center justify-between">
 
         <a
           href="<?= base_url(Auth::check() ? 'vinyls' : 'login') ?>"
           class="font-bold tracking-wide text-zinc-100 hover:text-emerald-300 transition">
           VinylLibraryDB
+          <?php if (defined('VLEXPLOSION_TESTING') && VLEXPLOSION_TESTING === true): ?><span style="display:block;font-size:11px;color:#fcd34d;font-weight:normal">Desarrollo · colección ficticia</span><?php endif; ?>
         </a>
 
         <nav class="flex items-center gap-3 text-sm">
           <?php if (Auth::check()): ?>
+            <?php if (\App\Core\Encyclopedia::enabled()): ?><a class="text-emerald-300" href="<?= e(base_url('encyclopedia/search')) ?>">Búsqueda musical</a><?php endif; ?>
 
             <a
               class="rounded-lg px-3 py-1.5 text-zinc-200 hover:bg-zinc-800/80 hover:text-white transition"

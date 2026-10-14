@@ -56,6 +56,7 @@ $coverUrl = [\App\Core\CoverStore::class, 'url'];
       <span class="text-lg leading-none">+</span>
       Añadir vinilo
     </a>
+    <a class="inline-flex justify-center rounded-xl border border-emerald-500/50 bg-zinc-900 px-4 py-2.5 text-emerald-200" href="<?= e(base_url(\App\Core\Encyclopedia::enabled() ? 'encyclopedia/search' : 'vinyls/ai')) ?>"><?= \App\Core\Encyclopedia::enabled() ? 'Añadir mediante búsqueda musical' : (\App\Core\AiFeature::enabled() ? 'Añadir vinilo con IA' : 'Opciones para añadir vinilos') ?></a>
   </div>
 
   <div class="rounded-2xl border border-zinc-800 bg-zinc-900/60 p-4 shadow-lg shadow-black/20">

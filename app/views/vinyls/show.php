@@ -24,6 +24,7 @@ $metadata = [
     <a class="mt-5 inline-flex rounded-xl border border-zinc-700 px-4 py-2 text-sm hover:bg-zinc-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-emerald-400" href="<?= e($returnUrl) ?>">Volver a la colección</a>
   </section>
 <?php else: ?>
+  <?php if (\App\Core\Encyclopedia::enabled()): ?><p class="mb-4"><a class="text-emerald-300" href="<?= e(base_url('encyclopedia/copy?id=' . (int)$vinyl['Id'])) ?>">Consultar ficha enciclopédica</a></p><?php endif; ?>
   <article id="vinyl-detail" class="mx-auto w-full max-w-[1040px] overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950/95 shadow-2xl shadow-black/40" aria-labelledby="vinyl-title">
     <div class="flex items-center justify-between gap-4 border-b border-zinc-800 px-5 py-4 sm:px-8">
       <p class="text-xs font-medium uppercase tracking-[0.18em] text-emerald-400">Ficha de la colección</p>
@@ -57,15 +58,30 @@ $metadata = [
           <?php foreach ($metadata as $label => $value): ?>
             <div class="min-w-0">
               <dt class="mb-1 text-xs font-medium uppercase tracking-wide text-zinc-400"><?= e($label) ?></dt>
-              <dd class="break-words text-sm leading-relaxed text-zinc-200 [overflow-wrap:anywhere]"><?= e((string)$value) ?></dd>
+              <dd class="break-words text-sm leading-relaxed text-zinc-200 [overflow-wrap:anywhere]"><?= e((string)($value === null || $value === '' ? 'Pendiente' : $value)) ?></dd>
             </div>
           <?php endforeach; ?>
         </dl>
         <nav aria-label="Acciones del vinilo" class="mt-7 flex flex-wrap gap-3 border-t border-zinc-800 pt-5">
           <a id="vinyl-edit-link" href="<?= e($editUrl) ?>" class="inline-flex items-center justify-center rounded-xl bg-emerald-700 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-400">Editar</a>
           <a id="vinyl-return-link" href="<?= e($returnUrl) ?>" class="inline-flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-2.5 text-sm font-medium text-zinc-200 transition hover:bg-zinc-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-400">Volver</a>
+          <?php if (\App\Core\AiFeature::enabled()): ?>
+          <a class="rounded-xl border border-emerald-600 px-5 py-2.5" href="<?=e(base_url('vinyls/edition?id='.$vinyl['Id']))?>">Identificar mi edición</a>
+          <?php if(!empty($vinyl['Album_Id'])): ?><a class="rounded-xl border border-zinc-700 px-5 py-2.5" href="<?=e(base_url('albums/show?id='.$vinyl['Album_Id']))?>">Ver álbum y ejemplares</a><?php endif;?>
+          <?php endif;?>
         </nav>
       </div>
     </div>
   </article>
 <?php endif; ?>
+
+<?php if (!empty($encRecord['edition'])): ?>
+<?php $personal=json_decode($encRecord['copy']['overrides_json']??'{}',true)?:[]; ?>
+<section class="enc card" id="copy-personal"><h2>Datos personales de mi ejemplar</h2>
+<?php foreach (['country'=>'País revisado','catalogue_number'=>'Catálogo revisado'] as $key=>$label): if (!empty($personal[$key])): ?><p><?= e($label.': '.$personal[$key]) ?></p><?php endif; endforeach; ?>
+<?php if (!empty($encRecord['copy']['notes'])): ?><p style="white-space:pre-wrap"><?= e($encRecord['copy']['notes']) ?></p><?php endif; ?>
+<p>Los campos tradicionales de la ficha son tus clasificaciones y correcciones personales.</p></section>
+<?php $record=$encRecord;require __DIR__.'/../encyclopedia/metadata.php'; ?>
+<?php endif; ?>
+
+<?php if ($vinyl && \App\Core\Encyclopedia::enabled()): ?><p class="enc"><a href="<?= e(base_url('encyclopedia/'.(!empty($encRecord['edition'])?'association':'link').'?id='.$vinyl['Id'])) ?>"><?= !empty($encRecord['edition'])?'Consultar o corregir vinculación':'Vincular a MusicBrainz' ?></a> · <a href="<?= e(base_url('encyclopedia/manual?id='.$vinyl['Id'])) ?>">Completar información musical manualmente</a></p><?php endif; ?>

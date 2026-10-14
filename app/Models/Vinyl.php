@@ -42,11 +42,11 @@ final class Vinyl
                 e.Edition_Name AS edition_name,
                 NULL AS author_name
             FROM VINYLS_TBL v
-            INNER JOIN GENRES_TBL g ON g.Id = v.Genres_Id
-            INNER JOIN FORMAT_TBL f ON f.Id = v.Format_Id
-            INNER JOIN CONDITION_TBL c ON c.Id = v.Condition_Id
-            INNER JOIN RECORD_LABEL_TBL rl ON rl.Id = v.Record_Label_Id
-            INNER JOIN EDITION_TBL e ON e.Id = v.Edition_Id
+            LEFT JOIN GENRES_TBL g ON g.Id = v.Genres_Id
+            LEFT JOIN FORMAT_TBL f ON f.Id = v.Format_Id
+            LEFT JOIN CONDITION_TBL c ON c.Id = v.Condition_Id
+            LEFT JOIN RECORD_LABEL_TBL rl ON rl.Id = v.Record_Label_Id
+            LEFT JOIN EDITION_TBL e ON e.Id = v.Edition_Id
             WHERE v.User_Id = :uid $filterSql
             ORDER BY $order
             LIMIT :lim OFFSET :off";
@@ -74,11 +74,11 @@ final class Vinyl
                     e.Edition_Name AS edition_name,
                     NULL AS author_name
                 FROM VINYLS_TBL v
-                INNER JOIN GENRES_TBL g ON g.Id = v.Genres_Id
-                INNER JOIN FORMAT_TBL f ON f.Id = v.Format_Id
-                INNER JOIN CONDITION_TBL c ON c.Id = v.Condition_Id
-                INNER JOIN RECORD_LABEL_TBL rl ON rl.Id = v.Record_Label_Id
-                INNER JOIN EDITION_TBL e ON e.Id = v.Edition_Id
+                LEFT JOIN GENRES_TBL g ON g.Id = v.Genres_Id
+                LEFT JOIN FORMAT_TBL f ON f.Id = v.Format_Id
+                LEFT JOIN CONDITION_TBL c ON c.Id = v.Condition_Id
+                LEFT JOIN RECORD_LABEL_TBL rl ON rl.Id = v.Record_Label_Id
+                LEFT JOIN EDITION_TBL e ON e.Id = v.Edition_Id
                 WHERE v.Id = :id AND v.User_Id = :uid
                 LIMIT 1";
         $stmt = $pdo->prepare($sql);
@@ -124,9 +124,10 @@ final class Vinyl
     public static function createForUser(int $userId, array $data, int $attempt = 0): int
     {
         $pdo = Database::pdo();
+        $ownsTransaction = !$pdo->inTransaction();
 
         try {
-            $pdo->beginTransaction();
+            if ($ownsTransaction) { $pdo->beginTransaction(); }
 
 
 
@@ -138,13 +139,13 @@ final class Vinyl
             $stmt->execute([
                 'uid' => $userId,
                 'title' => (string)($data['title'] ?? ''),
-                'genre_id' => (int)($data['genre_id'] ?? 0),
-                'format_id' => (int)($data['format_id'] ?? 0),
-                'condition_id' => (int)($data['condition_id'] ?? 0),
-                'label_id' => (int)($data['record_label_id'] ?? 0),
-                'producer' => (string)($data['producer'] ?? ''),
-                'release_date' => (int)($data['release_date'] ?? 0),
-                'edition_id' => (int)($data['edition_id'] ?? 0),
+                'genre_id' => $data['genre_id'] ?? null,
+                'format_id' => $data['format_id'] ?? null,
+                'condition_id' => $data['condition_id'] ?? null,
+                'label_id' => $data['record_label_id'] ?? null,
+                'producer' => $data['producer'] ?? null,
+                'release_date' => $data['release_date'] ?? null,
+                'edition_id' => $data['edition_id'] ?? null,
                 'fav' => (int)($data['is_favorite'] ?? 0),
                 'desired' => (int)($data['is_desired'] ?? 0),
                 'image_path' => $data['image_path'] ?? null,
@@ -153,14 +154,15 @@ final class Vinyl
             $vinylId = (int)$pdo->lastInsertId();
 
             self::replaceAuthors($vinylId, $data, $pdo);
+            if ($ownsTransaction && \App\Core\AiFeature::enabled() && AlbumCollection::ready()) { AlbumCollection::associateManual($vinylId, $userId, $data); }
 
-            $pdo->commit();
+            if ($ownsTransaction) { $pdo->commit(); }
             return $vinylId;
         } catch (\Throwable $e) {
-            if ($pdo->inTransaction()) {
+            if ($ownsTransaction && $pdo->inTransaction()) {
                 $pdo->rollBack();
             }
-            if ($e instanceof PDOException && in_array((int)($e->errorInfo[1] ?? 0), [1020, 1205, 1213], true) && $attempt < 2) { return self::createForUser($userId, $data, $attempt + 1); }
+            if ($ownsTransaction && $e instanceof PDOException && in_array((int)($e->errorInfo[1] ?? 0), [1020, 1205, 1213], true) && $attempt < 2) { return self::createForUser($userId, $data, $attempt + 1); }
             throw $e;
         }
     }
@@ -272,6 +274,21 @@ final class Vinyl
             $stmt = $pdo->prepare("UPDATE VINYLS_TBL SET Title=:title, Genres_Id=:genre_id, Format_Id=:format_id, Condition_Id=:condition_id, Record_Label_Id=:label_id, Producer=:producer, Release_date=:release_date, Edition_Id=:edition_id, Is_Favorite=:fav, Is_Desired=:desired, Image_Path=:image_path WHERE Id=:id AND User_Id=:uid");
             $stmt->execute(['id' => $id, 'uid' => $userId, 'title' => $data['title'], 'genre_id' => $data['genre_id'], 'format_id' => $data['format_id'], 'condition_id' => $data['condition_id'], 'label_id' => $data['record_label_id'], 'producer' => $data['producer'], 'release_date' => $data['release_date'], 'edition_id' => $data['edition_id'], 'fav' => $data['is_favorite'], 'desired' => $data['is_desired'], 'image_path' => $data['image_path'] ?? null]);
             self::replaceAuthors($id, $data, $pdo);
+            if (\App\Core\Encyclopedia::enabled()) {
+                $draft = $pdo->prepare('UPDATE ENC_ALBUMS a JOIN ENC_COPIES c ON c.album_id=a.id SET a.title=? WHERE c.vinyl_id=? AND c.owner_id=? AND a.draft_owner_id=? AND c.edition_id IS NULL');
+                $draft->execute([$data['title'], $id, $userId, $userId]);
+                if (isset($data['enc_personal'])) {
+                    $existing=$pdo->prepare('SELECT overrides_json FROM ENC_COPIES WHERE vinyl_id=? AND owner_id=? FOR UPDATE');
+                    $existing->execute([$id,$userId]);$copy=$existing->fetch(PDO::FETCH_ASSOC);
+                    if (!$copy) throw new \App\Core\HttpException(422,'No hay una ficha personal vinculada a este ejemplar.');
+                    $overrides=json_decode($copy['overrides_json']??'{}',true)?:[];
+                    $personal=$data['enc_personal'];
+                    foreach (['country'=>80,'catalogue_number'=>120] as $key=>$limit) $overrides[$key]=\App\Core\Input::text($personal[$key]??'',$limit)?:null;
+                    $notes=\App\Core\Input::text($personal['notes']??'',2000)?:null;
+                    $update=$pdo->prepare('UPDATE ENC_COPIES SET notes=?,overrides_json=? WHERE vinyl_id=? AND owner_id=?');
+                    $update->execute([$notes,json_encode($overrides,JSON_THROW_ON_ERROR),$id,$userId]);
+                }
+            }
             $pdo->commit(); return true;
         } catch (\Throwable $error) {
             if ($pdo->inTransaction()) { $pdo->rollBack(); }
@@ -412,6 +429,15 @@ final class Vinyl
                 break;
         }
 
+        if (in_array($sort, ['year_asc','year_desc','producer_asc','producer_desc'], true)) {
+            $column = str_starts_with($sort, 'year_') ? 'Release_date' : 'Producer';
+            $value = $row[$column];
+            if ($value === null) {
+                $where = "($column IS NULL AND (Title < :t OR (Title = :t AND Id > :id)))";
+                if (str_ends_with($sort, '_desc')) { $where = "$column IS NOT NULL OR ($where)"; }
+                $params['t'] = $title; $params['id'] = $id;
+            } elseif (str_ends_with($sort, '_asc')) { $where = "$column IS NULL OR ($where)"; }
+        }
         [$filterSql, $filterParams] = CollectionFilter::sql($filters);
         $params += $filterParams;
         $sql = "SELECT COUNT(*) FROM VINYLS_TBL v WHERE v.User_Id = :uid AND ($where) $filterSql";
