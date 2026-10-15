@@ -1,0 +1,4485 @@
+{
+    "data": {
+        "title": "Policy of Truth",
+        "disambiguation": "",
+        "languages": [
+            "eng"
+        ],
+        "attributes": [
+            {
+                "type": "SUISA ID",
+                "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+                "value": "001687 741 27"
+            },
+            {
+                "value": "261713",
+                "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+                "type": "SPA ID"
+            },
+            {
+                "value": "12571361",
+                "type": "SOCAN ID",
+                "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+            },
+            {
+                "type": "SIAE ID",
+                "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+                "value": "90130056800"
+            },
+            {
+                "type": "SGAE ID",
+                "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+                "value": "2.097.329"
+            },
+            {
+                "type": "SAYCO ID",
+                "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+                "value": "623780"
+            },
+            {
+                "value": "623780",
+                "type": "SAYCE ID",
+                "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+            },
+            {
+                "value": "713869",
+                "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+                "type": "SADAIC ID"
+            },
+            {
+                "value": "3977522",
+                "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+                "type": "SACVEN ID"
+            },
+            {
+                "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+                "type": "SACEM ID",
+                "value": "90 162 397 11"
+            },
+            {
+                "value": "248156800",
+                "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+                "type": "SABAM ID"
+            },
+            {
+                "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+                "type": "PRS tune code",
+                "value": "6814153Q"
+            },
+            {
+                "type": "OSA ID",
+                "type-id": "2f9f66e4-c32c-4215-b7f4-4a146d0b2a0e",
+                "value": "I000.16.92.54"
+            },
+            {
+                "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+                "type": "JASRAC ID",
+                "value": "0P2-6840-8"
+            },
+            {
+                "value": "2484359-001",
+                "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+                "type": "GEMA ID"
+            },
+            {
+                "value": "10519412",
+                "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+                "type": "ECAD ID"
+            },
+            {
+                "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+                "type": "COMPASS ID",
+                "value": "1972595"
+            },
+            {
+                "value": "5362236",
+                "type": "COMPASS ID",
+                "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+            },
+            {
+                "type": "BUMA/STEMRA ID",
+                "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+                "value": "W-000813453"
+            },
+            {
+                "value": "1842225",
+                "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+                "type": "BMI ID"
+            },
+            {
+                "value": "460287083",
+                "type": "ASCAP ID",
+                "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+            },
+            {
+                "type": "APRA ID",
+                "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+                "value": "GW03242774"
+            },
+            {
+                "value": "759017",
+                "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+                "type": "APDAYC ID"
+            },
+            {
+                "value": "5253445",
+                "type": "APA ID",
+                "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65"
+            },
+            {
+                "value": "165215601",
+                "type": "AKM ID",
+                "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
+            },
+            {
+                "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+                "type": "AGADU ID",
+                "value": "6131921"
+            }
+        ],
+        "type": "Song",
+        "language": "eng",
+        "iswcs": [
+            "T-011.391.709-1"
+        ],
+        "id": "4d1fd5e0-dea6-316c-afd8-843668826145",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "relations": [
+            {
+                "type": "composer",
+                "source-credit": "",
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-ids": [],
+                "attributes": [],
+                "end": null,
+                "direction": "backward",
+                "target-type": "artist",
+                "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                "artist": {
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "name": "Martin L. Gore",
+                    "sort-name": "Gore, Martin L.",
+                    "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                    "type": "Person",
+                    "country": "US",
+                    "disambiguation": ""
+                },
+                "attribute-values": []
+            },
+            {
+                "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                "artist": {
+                    "sort-name": "Gore, Martin L.",
+                    "name": "Martin L. Gore",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                    "type": "Person",
+                    "disambiguation": "",
+                    "country": "US"
+                },
+                "attribute-values": [],
+                "target-type": "artist",
+                "attributes": [],
+                "end": null,
+                "direction": "backward",
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-ids": [],
+                "source-credit": "",
+                "type": "lyricist"
+            },
+            {
+                "target-type": "label",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "attribute-values": [],
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "attributes": [],
+                "end": null,
+                "direction": "backward",
+                "source-credit": "",
+                "label": {
+                    "id": "ec2eb4b6-5815-4df0-8967-8b642952ebe2",
+                    "name": "Grabbing Hands Ltd.",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "sort-name": "Grabbing Hands Ltd.",
+                    "disambiguation": "",
+                    "type": "Publisher",
+                    "label-code": null
+                },
+                "type": "publishing"
+            },
+            {
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "attribute-values": [],
+                "target-type": "label",
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "label": {
+                    "label-code": null,
+                    "type": "Publisher",
+                    "disambiguation": "",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "name": "Sonet Publishing",
+                    "sort-name": "Sonet Publishing",
+                    "id": "83d3a034-313d-4b66-add1-35d9e913b6b5"
+                },
+                "source-credit": "",
+                "type": "publishing"
+            },
+            {
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "disambiguation": "live, 1990-06-21: Montreal Forum, Montreal, QC, Canada",
+                    "id": "b56319c6-a101-45a0-bc6f-4478b09d4f51",
+                    "length": null
+                },
+                "type": "performance",
+                "source-credit": "",
+                "direction": "backward",
+                "end": "1990-06-21",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "begin": "1990-06-21",
+                "target-credit": "",
+                "ended": true,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": "1990-06-24",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "target-credit": "",
+                "ended": true,
+                "begin": "1990-06-24",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "id": "bea86452-0ef2-42ef-b8d7-26aeadc2e359",
+                    "disambiguation": "live, 1990-06-24: Star Lake Amphitheater, Pittsburgh, PA, USA",
+                    "length": null
+                }
+            },
+            {
+                "attributes": [
+                    "live"
+                ],
+                "end": "1990-06-30",
+                "direction": "backward",
+                "begin": "1990-06-30",
+                "target-credit": "",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "type": "performance",
+                "recording": {
+                    "disambiguation": "live, 1990-06-30: Marcus Amphitheatre, Milwaukee, WI, USA",
+                    "id": "5f1b6b53-29ff-4309-8110-9a1534de5947",
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "length": null
+                },
+                "source-credit": ""
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "disambiguation": "live, 1990-07-02: World Music Theatre, Chicago, IL, USA",
+                    "id": "853b817e-3586-4e41-90a7-bcc49f8a5212",
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "length": null
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": "1990-07-02",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "target-credit": "",
+                "begin": "1990-07-02",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                }
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "disambiguation": "live, 1990-07-03: World Music Theatre, Chicago, IL, USA",
+                    "id": "ab2343b4-1511-4a49-80b3-c8e430f51d8b",
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "length": null
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "begin": "1990-07-03",
+                "target-credit": "",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "end": "1990-07-03",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": "1990-07-06",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "begin": "1990-07-06",
+                "target-credit": "",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 298493,
+                    "id": "d6a21777-482d-408b-a338-175fbaa564b5",
+                    "disambiguation": "live, 1990-07-06: Cynthia Woods Mitchell Pavilion, Houston, TX, USA",
+                    "video": false,
+                    "title": "Policy of Truth"
+                }
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "id": "fd3233a2-1f1c-4d85-834b-79e6042e4f1d",
+                    "disambiguation": "live, 1990-07-21: Shoreline Amphitheatre, Mountain View, CA, USA",
+                    "length": 305000
+                },
+                "source-credit": "",
+                "ended": true,
+                "target-credit": "",
+                "begin": "1990-07-21",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "end": "1990-07-21",
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": []
+            },
+            {
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "direction": "backward",
+                "end": "1990-07-31",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "begin": "1990-07-31",
+                "target-credit": "",
+                "ended": true,
+                "source-credit": "",
+                "recording": {
+                    "length": 277000,
+                    "disambiguation": "live, 1990-07-31: San Diego Sports Arena, San Diego, CA, USA",
+                    "id": "e513e273-d3c2-456a-9146-e5e5f323460b",
+                    "title": "Policy of Truth",
+                    "video": false
+                },
+                "type": "performance"
+            },
+            {
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "ended": true,
+                "target-credit": "",
+                "begin": "1990-08-04",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "end": "1990-08-04",
+                "direction": "backward",
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 297939,
+                    "disambiguation": "live, 1990-08-04: Dodger Stadium, Los Angeles, CA, USA",
+                    "id": "99d86f7e-0871-4226-9ecf-c61b929b3992",
+                    "video": false,
+                    "title": "Policy of Truth"
+                }
+            },
+            {
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "end": "1990-08-05",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "ended": true,
+                "begin": "1990-08-05",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "length": null,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "disambiguation": "live, 1990-08-05: Dodger Stadium, Los Angeles, CA, USA",
+                    "id": "955da68e-7674-4402-b552-db02adc0cc67"
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": "1990-09-28",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "begin": "1990-09-28",
+                "target-credit": "",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "disambiguation": "live, 1990-09-28: Vorst Nationaal, Brussels, Belgium",
+                    "id": "24d862fd-b881-4d10-af15-8e1031ae9fdc",
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "length": null
+                }
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": "1990-10-06",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "ended": true,
+                "target-credit": "",
+                "begin": "1990-10-06",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "disambiguation": "live, 1990-10-06: Globe Arena, Stockholm, Sweden",
+                    "id": "c17c680f-e74d-4af4-bfef-32e0f728ee4f",
+                    "length": 231000
+                }
+            },
+            {
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "ended": true,
+                "begin": "1990-10-17",
+                "direction": "backward",
+                "end": "1990-10-17",
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "live, 1990-10-17: Olympiahalle, München, Germany",
+                    "id": "83bbddba-4c2c-49eb-993d-737a746871b0",
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "length": 307000
+                },
+                "type": "performance"
+            },
+            {
+                "recording": {
+                    "disambiguation": "live, 1990-10-23: Palais Omnisports de Paris-Bercy, Paris, France",
+                    "id": "3f53296d-ba77-4260-9657-28667ef414c2",
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "length": 289734
+                },
+                "type": "performance",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "end": "1990-10-23",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-credit": "",
+                "begin": "1990-10-23",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "id": "47b4efe7-851f-4d9d-8bbb-3530e89f4a76",
+                    "disambiguation": "live, 1990‐11‐11: PalaTrussardi, Milan, Italy",
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "length": 314000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": "1990-11-11",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "begin": "1990-11-11",
+                "target-credit": "",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                }
+            },
+            {
+                "direction": "backward",
+                "end": "1990-11-19",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "begin": "1990-11-19",
+                "ended": true,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "disambiguation": "live, 1990‐11‐19: Wembley Arena, London, UK",
+                    "id": "30b461a9-58cb-49a1-a18d-90160257ede0",
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "length": null
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "direction": "backward",
+                "end": "1993-05-19",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "begin": "1993-05-19",
+                "target-credit": "",
+                "ended": true,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "length": 314000,
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "disambiguation": "live, 1993-05-19: Espace Foire, Lille, France",
+                    "id": "f74c5921-6cb4-4a93-b4ce-7270fee6c467"
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 305000,
+                    "disambiguation": "live, 1993‐05‐21: Hallenstadion, Zurich, Switzerland",
+                    "id": "f0a60ca3-0025-4e63-8553-030ecb9cfa0d",
+                    "title": "Policy of Truth",
+                    "video": false
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-credit": "",
+                "ended": true,
+                "begin": "1993-05-21",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "end": "1993-05-21",
+                "direction": "backward"
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "length": 303000,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "disambiguation": "live, 1993-05-29: Stockholm Globe Arena, Stockholm, Sweden",
+                    "id": "548d2b65-929a-43cc-a723-d98f28218a94"
+                },
+                "type": "performance",
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "begin": "1993-05-29",
+                "ended": true,
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "end": "1993-05-29"
+            },
+            {
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "direction": "backward",
+                "end": "1993-06-01",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "ended": true,
+                "begin": "1993-06-01",
+                "source-credit": "",
+                "recording": {
+                    "length": 305373,
+                    "id": "8d812e31-1425-490e-b0e2-67276d6a72cb",
+                    "disambiguation": "live, 1993-06-01: The Ahoy, Rotterdam, Netherlands",
+                    "video": false,
+                    "title": "Policy of Truth"
+                },
+                "type": "performance"
+            },
+            {
+                "end": "1993-06-03",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "target-credit": "",
+                "begin": "1993-06-03",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "type": "performance",
+                "recording": {
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "disambiguation": "live, 1993-06-03: Patinoire de Malley, Lausanne, Switzerland",
+                    "id": "21aeeb65-4ae4-4c30-8134-6d2e935b4d09",
+                    "length": 305040
+                },
+                "source-credit": ""
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "length": 308000,
+                    "id": "9e0df484-7177-46ef-b33b-a1cacf349a16",
+                    "disambiguation": "live, 1993-06-21: Olympiahalle, München, Germany",
+                    "video": false,
+                    "title": "Policy of Truth"
+                },
+                "type": "performance",
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "begin": "1993-06-21",
+                "ended": true,
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "end": "1993-06-21"
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "length": 308000,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "disambiguation": "live, 1993-07-29: Stade Couvert Régional, Liévin, France",
+                    "id": "54229f49-3053-4c4a-a9ea-2db5401b8c0e"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "ended": true,
+                "begin": "1993-07-29",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "end": "1993-07-29",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": []
+            },
+            {
+                "recording": {
+                    "length": 307000,
+                    "title": "Policy of Truth",
+                    "video": true,
+                    "id": "04bca619-f679-46b7-8de2-2fc93ddd86c0",
+                    "disambiguation": "live video, 1993-07-29: Stade Couvert Régional, Liévin, France"
+                },
+                "type": "performance",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "end": "1993-07-29",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "ended": true,
+                "begin": "1993-07-29",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording"
+            },
+            {
+                "target-credit": "",
+                "ended": true,
+                "begin": "1993-07-29",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "end": "1993-07-29",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "type": "performance",
+                "recording": {
+                    "length": 319000,
+                    "disambiguation": "live, 1993-07-29: Stade Couvert Régional, Liévin, France",
+                    "id": "b271d6bd-930c-44e0-ab75-4925f089b922",
+                    "title": "Policy of Truth",
+                    "video": false
+                },
+                "source-credit": ""
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": "1993-07-31",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "target-credit": "",
+                "begin": "1993-07-31",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 299666,
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "disambiguation": "live, 1993‐07‐31: Crystal Palace National Sports Centre, London, UK",
+                    "id": "92399973-fc64-4fd6-a757-9406239e0b79"
+                }
+            },
+            {
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "begin": "1993-09-23",
+                "ended": true,
+                "direction": "backward",
+                "end": "1993-09-23",
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "length": null,
+                    "id": "cecd731f-c47f-4a42-b701-36cecc2ee363",
+                    "disambiguation": "live, 1993-09-23: Madison Square Garden, New York City, NY, USA",
+                    "title": "Policy of Truth",
+                    "video": false
+                },
+                "type": "performance"
+            },
+            {
+                "direction": "backward",
+                "end": "1993-12-20",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-credit": "",
+                "begin": "1993-12-20",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "length": null,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "disambiguation": "live, 1993-12-20: Wembley Arena, London, UK",
+                    "id": "f444b129-09dc-4aff-ba80-c3eb2ebe25d4"
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "ended": true,
+                "target-credit": "",
+                "begin": "1994-03-26",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "end": "1994-03-26",
+                "direction": "backward",
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 307000,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "id": "2aedb7c1-c4e2-4de0-89d1-604a5e52eb82",
+                    "disambiguation": "live, 1994-03-26: Blaisdell Arena, Honolulu, HI, USA"
+                }
+            },
+            {
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "id": "100b91cc-2249-4e9d-ba0b-6a0ca6d5344a",
+                    "disambiguation": "live, 1998-09-13: Ericsson Globe, Stockholm, Sweden",
+                    "length": 307000
+                },
+                "type": "performance",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "end": "1998-09-13",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "begin": "1998-09-13",
+                "target-credit": "",
+                "ended": true,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "id": "2da80612-2b0a-4fa6-a3f5-f86c5156c0cf",
+                    "disambiguation": "live, 1998-09-18: Waldbühne, Berlin, Germany",
+                    "length": 302866
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-credit": "",
+                "begin": "1998-09-18",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "end": "1998-09-18",
+                "direction": "backward"
+            },
+            {
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-credit": "",
+                "begin": "1998-09-25",
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "end": "1998-09-25",
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "disambiguation": "live, 1998‐09‐25: Hallenstadion, Zürich, Switzerland",
+                    "id": "c11a70ef-c15f-4020-8b26-1c10a37a304b",
+                    "length": null
+                },
+                "type": "performance"
+            },
+            {
+                "end": "1998-10-13",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "begin": "1998-10-13",
+                "target-credit": "",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "type": "performance",
+                "recording": {
+                    "length": 303000,
+                    "disambiguation": "live, 1998-10-13: Olympiahalle, München, Germany",
+                    "id": "a1c43fd6-f306-484b-b005-9c6bd073eeb8",
+                    "video": false,
+                    "title": "Policy of Truth"
+                },
+                "source-credit": ""
+            },
+            {
+                "direction": "backward",
+                "end": "1998-11-05",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "begin": "1998-11-05",
+                "target-credit": "",
+                "ended": true,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "id": "def35eeb-0439-4278-9f94-839220f46f6d",
+                    "disambiguation": "live, 1998-11-05: SkyTent, SkyDome, Toronto, Canada",
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "length": null
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "length": 302000,
+                    "disambiguation": "live, 1998-12-12: KROQ Almost Acoustic Christmas, Shrine Auditorium, Los Angeles, CA, USA",
+                    "id": "64f4715a-4b7a-480e-89eb-83c03283395b",
+                    "title": "Policy of Truth",
+                    "video": false
+                },
+                "type": "performance",
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-credit": "",
+                "begin": "1998-12-12",
+                "direction": "backward",
+                "end": "1998-12-12",
+                "attributes": [
+                    "live"
+                ]
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": "1998-12-18",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "target-credit": "",
+                "begin": "1998-12-18",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 293973,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "disambiguation": "live, 1998-12-18: The Forum, Inglewood, CA, USA",
+                    "id": "6e50c5b0-c11f-4f09-b42e-c14d11711815"
+                }
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "disambiguation": "live, 1998-12-19: The Forum, Inglewood, CA, USA",
+                    "id": "76501a5c-1fa8-433b-a4e1-086734827efd",
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "length": null
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "ended": true,
+                "target-credit": "",
+                "begin": "1998-12-19",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "end": "1998-12-19",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward"
+            },
+            {
+                "end": "1998-12-20",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "target-credit": "",
+                "ended": true,
+                "begin": "1998-12-20",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "type": "performance",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "disambiguation": "live, 1998-12-20: Anaheim, Los Angeles, CA, USA",
+                    "id": "074394a8-782c-4f7d-ac09-87eaad8d79ad",
+                    "length": null
+                },
+                "source-credit": ""
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attributes": [
+                    "live"
+                ],
+                "end": "2003-07-05",
+                "direction": "backward",
+                "target-credit": "",
+                "ended": true,
+                "begin": "2003-07-05",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 153000,
+                    "disambiguation": "live, 2003-07-05: L’Olympia, Paris, France",
+                    "id": "818ac847-068a-4983-b7af-4e905891a73a",
+                    "video": false,
+                    "title": "Policy of Truth"
+                }
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth (live: 2003)",
+                    "disambiguation": "",
+                    "id": "a19aa832-bac9-447e-8faa-a5cacc573adb",
+                    "length": 230000
+                },
+                "type": "performance",
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "begin": "2003",
+                "target-credit": "",
+                "ended": true,
+                "direction": "backward",
+                "end": "2003",
+                "attributes": [
+                    "live"
+                ]
+            },
+            {
+                "recording": {
+                    "length": null,
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "id": "c48616c2-0745-47ac-850d-8718b2767633",
+                    "disambiguation": "live, 2005-11-25: Glendale Arena, Glendale, AZ, USA"
+                },
+                "type": "performance",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "end": "2005-11-25",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-credit": "",
+                "begin": "2005-11-25",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording"
+            },
+            {
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "end": "2006-01-18",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "begin": "2006-01-18",
+                "target-credit": "",
+                "ended": true,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "length": null,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "id": "ce8d62d0-77ec-429f-bc4d-f23a4e1905c6",
+                    "disambiguation": "live, 2006-01-18: Velodrom, Berlin, Germany"
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attributes": [
+                    "live"
+                ],
+                "end": "2006-01-20",
+                "direction": "backward",
+                "begin": "2006-01-20",
+                "target-credit": "",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": null,
+                    "id": "92f98d5d-3bcb-4bdd-a292-f20f857673c7",
+                    "disambiguation": "live, 2006-01-20: LTU Arena, Düsseldorf, Germany",
+                    "video": false,
+                    "title": "Policy of Truth"
+                }
+            },
+            {
+                "recording": {
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "id": "e18841c3-f241-4f9f-8afa-6087e778165c",
+                    "disambiguation": "live, 2006-01-21: LTU Arena, Düsseldorf, Germany",
+                    "length": null
+                },
+                "type": "performance",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "end": "2006-01-21",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-credit": "",
+                "begin": "2006-01-21",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "id": "5d48bdd9-8396-4f6d-b6e0-81354dda29d0",
+                    "disambiguation": "live, 2006-02-14: Olympiahalle, München, Germany",
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "length": null
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-credit": "",
+                "ended": true,
+                "begin": "2006-02-14",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "end": "2006-02-14",
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": "2006-02-15",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "begin": "2006-02-15",
+                "target-credit": "",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "disambiguation": "live, 2006-02-15: Olympiahalle, München, Germany",
+                    "id": "f74a93ca-b70b-49a1-acbc-5dbb8a07cd42",
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "length": null
+                }
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "length": 314000,
+                    "title": "Policy of Truth",
+                    "video": true,
+                    "disambiguation": "live video, 2006-02-18/19: Mediolanum Forum, Milan, Italy",
+                    "id": "0c13d684-fd8d-480a-bc32-ac9b736b9f59"
+                },
+                "source-credit": "",
+                "end": "2006-02",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "ended": true,
+                "target-credit": "",
+                "begin": "2006-02",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "length": null,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "id": "37e272e7-5388-4618-adf5-481edfe243d7",
+                    "disambiguation": "live, 2006-03-28: Hallenstadion, Zürich, Switzerland"
+                },
+                "type": "performance",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "end": "2006-03-28",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-credit": "",
+                "begin": "2006-03-28"
+            },
+            {
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-credit": "",
+                "begin": "2009-06-08",
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "end": "2009-06-08",
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 310000,
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "disambiguation": "live, 2009-06-08: Zentralstadion, Leipzig, Germany",
+                    "id": "e88db6c5-5ca1-4482-9ac3-4331d26415a6"
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "end": "2009-06-13",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "target-credit": "",
+                "ended": true,
+                "begin": "2009-06-13",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "type": "performance",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "id": "7b2c223c-5a68-49a8-bc23-5844ade8efc9",
+                    "disambiguation": "live, 2009-06-13: Olympiastadion, München, Germany",
+                    "length": 301000
+                },
+                "source-credit": ""
+            },
+            {
+                "target-credit": "",
+                "ended": true,
+                "begin": "2009-06-16",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "end": "2009-06-16",
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "type": "performance",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "id": "9e14f9e7-c118-49d3-a9f8-59d7808f97f4",
+                    "disambiguation": "live, 2009-06-16: Stadio Olimpico, Rome, Italy",
+                    "length": 301066
+                },
+                "source-credit": ""
+            },
+            {
+                "recording": {
+                    "length": 300000,
+                    "id": "12a01d47-8ca0-4dff-9467-8aee6a5e44a8",
+                    "disambiguation": "live, 2009‐06‐27: Stade de France, Paris, France",
+                    "title": "Policy of Truth",
+                    "video": false
+                },
+                "type": "performance",
+                "source-credit": "",
+                "direction": "backward",
+                "end": "2009-06-27",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "begin": "2009-06-27",
+                "ended": true,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording"
+            },
+            {
+                "recording": {
+                    "disambiguation": "live, 2009-06-30: Parken Stadium, Copenhagen, Denmark",
+                    "id": "40a17dc1-2422-497d-981f-871b4450514e",
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "length": 298000
+                },
+                "type": "performance",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "end": "2009-06-30",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "begin": "2009-06-30",
+                "target-credit": "",
+                "ended": true,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 311000,
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "disambiguation": "live, 2009‐07‐28: Nissan Pavilion, Bristow, VA, USA",
+                    "id": "57c63a5c-b9a4-4d7c-a235-49004df5af22"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": "2009-07-28",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "target-credit": "",
+                "begin": "2009-07-28",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                }
+            },
+            {
+                "recording": {
+                    "length": 314853,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "disambiguation": "live, 2009-08-25: E-Center, Salt Lake City, UT, USA",
+                    "id": "39532e51-97b5-40ec-b1db-857233aabdb4"
+                },
+                "type": "performance",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "end": "2009-08-25",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "begin": "2009-08-25",
+                "target-credit": "",
+                "ended": true,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 310000,
+                    "id": "e46ef991-0e27-430f-a1b2-046b3b02421f",
+                    "disambiguation": "live, 2009-08-29: Superpages, Dallas, TX, USA",
+                    "video": false,
+                    "title": "Policy of Truth"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": "2009-08-29",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "target-credit": "",
+                "begin": "2009-08-29",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                }
+            },
+            {
+                "direction": "backward",
+                "end": "2009-11",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "ended": true,
+                "begin": "2009-11",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "id": "e02ba05e-82e2-42ec-838d-b9efddd0d318",
+                    "disambiguation": "live, 2009-11-20/21: Palau Sant Jordi, Barcelona, Spain",
+                    "length": 314066
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-credit": "",
+                "begin": "2009-11",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "end": "2009-11",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 310000,
+                    "video": true,
+                    "title": "Policy of Truth",
+                    "id": "fe7738bf-af0a-4cc8-b60b-15c5a6330dd0",
+                    "disambiguation": "live, 2009-11-20/21: Palau Sant Jordi, Barcelona, Spain"
+                }
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "length": 308000,
+                    "id": "719a1d6f-286c-4ab5-b917-e191e2f82299",
+                    "disambiguation": "live, 2009-11-20/21: Palau Sant Jordi, Barcelona, Spain",
+                    "video": true,
+                    "title": "Tour of the Universe Screens: Policy of Truth"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "end": "2009-11",
+                "direction": "backward",
+                "ended": true,
+                "target-credit": "",
+                "begin": "2009-11",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording"
+            },
+            {
+                "end": "2009-12-13",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "ended": true,
+                "target-credit": "",
+                "begin": "2009-12-13",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "type": "performance",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "disambiguation": "live, 2009-12-13: LG Arena, Birmingham, UK",
+                    "id": "95cba284-e25a-4f34-b406-bf45598353ec",
+                    "length": 311373
+                },
+                "source-credit": ""
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "length": 310000,
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "disambiguation": "live, 2010-02-17: The Royal Albert Hall, London, UK",
+                    "id": "df7b9470-1e9f-4cc4-bbf6-545ee303021c"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "ended": true,
+                "begin": "2010-02-17",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "end": "2010-02-17",
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": []
+            },
+            {
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "end": "2013-06-01",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "begin": "2013-06-01",
+                "target-credit": "",
+                "ended": true,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "disambiguation": "live, 2013-06-01: Olympiastadion, München, Germany",
+                    "id": "132cbd36-1a9e-4858-bcd6-643a8b09c848",
+                    "length": null
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "end": "2013-11",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "begin": "2013-11",
+                "ended": true,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "length": 326573,
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "disambiguation": "live, 2013-11: O2 World Forum, Berlin, Germany",
+                    "id": "712e1ad2-22ad-4514-aa82-f39020483d4d"
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "recording": {
+                    "length": 352000,
+                    "title": "Policy of Truth",
+                    "video": true,
+                    "id": "d3c4ff89-d76e-4c90-9059-bd7331d09be0",
+                    "disambiguation": "live film, 2013-11: O2 World Forum, Berlin, Germany"
+                },
+                "type": "performance",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "end": "2013-11",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "begin": "2013-11",
+                "ended": true,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": "2013-11",
+                "attributes": [
+                    "live"
+                ],
+                "direction": "backward",
+                "target-credit": "",
+                "ended": true,
+                "begin": "2013-11",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "id": "0d79954c-50c1-4471-8262-7221b4615dd2",
+                    "disambiguation": "live video, 2013-11: O2 World Forum, Berlin, Germany",
+                    "title": "Policy of Truth",
+                    "video": true,
+                    "length": 343000
+                }
+            },
+            {
+                "target-credit": "",
+                "ended": true,
+                "begin": "2019-11-09",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a",
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "end": "2019-11-09",
+                "attributes": [
+                    "cover",
+                    "live"
+                ],
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "type": "performance",
+                "recording": {
+                    "length": 291000,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "id": "8618c586-e783-47b8-85af-35e5fd160d9a",
+                    "disambiguation": "live, 2019-11-09: Club Seilerstrasse, Zwickau, Germany"
+                },
+                "source-credit": ""
+            },
+            {
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "direction": "backward",
+                "end": null,
+                "attributes": [
+                    "medley"
+                ],
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ordering-key": 2,
+                "recording": {
+                    "length": 618000,
+                    "video": false,
+                    "title": "A Continuous Mix",
+                    "id": "971a0bd9-c485-4b16-881b-d4742a94b7f6",
+                    "disambiguation": ""
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "type": "performance",
+                "ordering-key": 8,
+                "recording": {
+                    "video": false,
+                    "title": "Australian Megamix Medley",
+                    "id": "b7145212-b728-431b-826c-8b1bdba1fd8b",
+                    "disambiguation": "",
+                    "length": 1504093
+                },
+                "source-credit": "",
+                "attributes": [
+                    "medley"
+                ],
+                "end": null,
+                "direction": "backward",
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 1059000,
+                    "disambiguation": "",
+                    "id": "61796d6a-a25d-4325-b760-394d14d3b22a",
+                    "video": false,
+                    "title": "Enjoy the Silence / Policy of Truth megamix"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attributes": [
+                    "medley"
+                ],
+                "end": null,
+                "direction": "backward",
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                }
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": null,
+                "attributes": [
+                    "medley"
+                ],
+                "direction": "backward",
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "video": false,
+                    "title": "Hey Track (megamix)",
+                    "id": "9afd2c11-a554-4abd-96de-68ebe97a2238",
+                    "disambiguation": "",
+                    "length": 668000
+                }
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "length": 2866000,
+                    "disambiguation": "",
+                    "id": "24aebc84-edf3-485b-8189-0b574d40d351",
+                    "title": "In De Mode Megamix",
+                    "video": false
+                },
+                "ordering-key": 2,
+                "source-credit": "",
+                "end": null,
+                "attributes": [
+                    "medley"
+                ],
+                "direction": "backward",
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording"
+            },
+            {
+                "direction": "backward",
+                "end": null,
+                "attributes": [
+                    "medley"
+                ],
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "In De Mode Megamix",
+                    "id": "24aebc84-edf3-485b-8189-0b574d40d351",
+                    "disambiguation": "",
+                    "length": 2866000
+                },
+                "ordering-key": 6,
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "ordering-key": 1,
+                "recording": {
+                    "disambiguation": "",
+                    "id": "e9ba3573-f5d6-40f4-86eb-e8afda43867c",
+                    "video": false,
+                    "title": "Megamix, Part 2",
+                    "length": 652669
+                },
+                "type": "performance",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [
+                    "medley"
+                ],
+                "end": null,
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "ordering-key": 8,
+                "recording": {
+                    "disambiguation": "",
+                    "id": "00ba1cb3-77c5-4a49-8fa6-9dbdcdb23701",
+                    "title": "Mix of Faith and Devotion",
+                    "video": false,
+                    "length": 1489000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attributes": [
+                    "medley"
+                ],
+                "end": null,
+                "direction": "backward",
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                }
+            },
+            {
+                "source-credit": "",
+                "ordering-key": 13,
+                "recording": {
+                    "length": 965800,
+                    "id": "afd89771-6ded-40e4-953c-de59810bad59",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "New Mode Mecca '90"
+                },
+                "type": "performance",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "direction": "backward",
+                "attributes": [
+                    "medley"
+                ],
+                "end": null,
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "target-credit": "",
+                "begin": null,
+                "ended": false
+            },
+            {
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "end": null,
+                "attributes": [
+                    "medley"
+                ],
+                "direction": "backward",
+                "source-credit": "",
+                "type": "performance",
+                "ordering-key": 2,
+                "recording": {
+                    "title": "Old School Megamix",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "f726f439-ffa3-4657-9154-0fccd9c02a9d",
+                    "length": 455000
+                }
+            },
+            {
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "direction": "backward",
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "id": "64743113-df44-42e8-ab4c-2eef3a8badd6",
+                    "disambiguation": "",
+                    "length": 230000
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "disambiguation": "different single version from The Singles 86>90",
+                    "id": "3dc22664-4d21-4668-a8d7-3167f25428f0",
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "length": 314493
+                }
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "id": "81abfff0-8a86-4376-b29a-fe2624901ef1",
+                    "disambiguation": "single version",
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "length": 310266
+                },
+                "source-credit": "",
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": [],
+                "attributes": [],
+                "end": null,
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": []
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "c4b68aa7-3d9f-4776-a565-7296b8f298e7",
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "length": 225800
+                },
+                "type": "performance",
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "direction": "backward",
+                "attributes": [
+                    "cover"
+                ],
+                "end": null
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "length": 231880,
+                    "id": "053ecdb7-be67-4490-ab2c-d1bc72943c78",
+                    "disambiguation": "radio mix",
+                    "title": "Policy of Truth",
+                    "video": false
+                },
+                "source-credit": "",
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "direction": "backward",
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "id": "6ef1e2d5-eb9a-4bfa-b247-f0bf2c756d42",
+                    "disambiguation": "album version",
+                    "length": 277000
+                },
+                "type": "performance",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "direction": "backward",
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": "",
+                "ended": false,
+                "begin": null
+            },
+            {
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "direction": "backward",
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "id": "44789fcd-4441-4c2c-a670-866433af266f",
+                    "disambiguation": "",
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "length": 262040
+                },
+                "type": "performance"
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "e114f72f-92e6-4ffc-b075-f7c1b7672b39",
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "length": 247920
+                },
+                "type": "performance",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "direction": "backward",
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": "",
+                "begin": null,
+                "ended": false
+            },
+            {
+                "direction": "backward",
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "length": 271240,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "id": "63c5bf8e-649f-41ed-82c2-ac2d877954ff",
+                    "disambiguation": ""
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "e76e0c65-8be3-4663-a560-8581300e9f92",
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "length": 227133
+                },
+                "source-credit": "",
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+                },
+                "end": null,
+                "attributes": [
+                    "cover",
+                    "instrumental"
+                ],
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": []
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "length": 296000,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "056f893e-00d4-4330-85ae-13dcfb6f8dbc"
+                },
+                "source-credit": "",
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": []
+            },
+            {
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "direction": "backward",
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "source-credit": "",
+                "recording": {
+                    "length": 214466,
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "disambiguation": "",
+                    "id": "ff5917e2-12b8-432d-8d43-9f2b4477b732"
+                },
+                "type": "performance"
+            },
+            {
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "type": "performance",
+                "recording": {
+                    "length": 224000,
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "id": "d59a5563-95dc-40b2-8521-2842451c4dd5",
+                    "disambiguation": ""
+                },
+                "source-credit": ""
+            },
+            {
+                "recording": {
+                    "length": 271133,
+                    "id": "9a248edd-aa9c-42ab-a9bc-19f0a66bf737",
+                    "disambiguation": "",
+                    "title": "Policy of Truth",
+                    "video": false
+                },
+                "type": "performance",
+                "source-credit": "",
+                "direction": "backward",
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 246826,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "disambiguation": "radio edit",
+                    "id": "6125681b-c502-4ead-a7e2-14a81a089faa"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attributes": [],
+                "end": null,
+                "direction": "backward",
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "attribute-ids": []
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "id": "bd4509b5-cd68-4d86-89e5-4fdd93372ff1",
+                    "disambiguation": "",
+                    "length": 200960
+                },
+                "type": "performance",
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "direction": "backward",
+                "attributes": [
+                    "cover"
+                ],
+                "end": null
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "01cb3f45-7658-4f4a-bfa3-13078361a451",
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "length": null
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "direction": "backward",
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                }
+            },
+            {
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "direction": "backward",
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "source-credit": "",
+                "recording": {
+                    "length": 260935,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "2913f656-586d-4628-8a2c-c3bb72901560"
+                },
+                "type": "performance"
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 295000,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "disambiguation": "album version",
+                    "id": "8897f48f-7e5e-44ad-b814-325dc32edd4a"
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "direction": "backward"
+            },
+            {
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 110000,
+                    "disambiguation": "DJ-mixed by That Girl DJ",
+                    "id": "32ac5a2a-59ee-49e5-b990-8974639a49bc",
+                    "video": false,
+                    "title": "Policy of Truth"
+                }
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "length": 275000,
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "id": "ac40eb67-0bd2-469b-9195-28bdfc7f4c7b",
+                    "disambiguation": ""
+                },
+                "type": "performance",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "direction": "backward",
+                "end": null,
+                "attributes": [
+                    "cover",
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a",
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "target-credit": "",
+                "begin": null
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "e25889cf-6f4a-4b04-9639-57c81f9feeda",
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "length": 303053
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "direction": "backward",
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                }
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "length": null,
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "disambiguation": "",
+                    "id": "b45d0cd7-0ebd-41ea-8355-c18d97fd6702"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "direction": "backward",
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording"
+            },
+            {
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "direction": "backward",
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "f29fabe3-cc4f-436e-8f96-336291fb634c",
+                    "length": 264000
+                }
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "length": 305000,
+                    "id": "53f6fb49-b6fa-4957-82f6-720414920be2",
+                    "disambiguation": "",
+                    "title": "Policy of Truth",
+                    "video": false
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": []
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "id": "f357d7d5-9f7d-407d-a20a-76a86d6c932d",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "length": 219000
+                },
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "direction": "backward",
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "id": "874ebb73-162f-43b2-88bf-3999b7384de4",
+                    "disambiguation": "",
+                    "length": 208000
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "direction": "backward"
+            },
+            {
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "direction": "backward",
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "type": "performance",
+                "recording": {
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "3c0d5399-e153-450f-b714-633d73a81110",
+                    "length": 227000
+                },
+                "source-credit": ""
+            },
+            {
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "direction": "backward",
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 236213,
+                    "id": "088baecd-bae3-4bac-bcde-38c86ec6c198",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Policy of Truth"
+                }
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "id": "58042972-17a4-4144-8f96-07373c442c04",
+                    "disambiguation": "",
+                    "length": 199000
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": []
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "disambiguation": "album version; 5.1 mix",
+                    "id": "548a6209-425e-4656-b1a9-9a723889c660",
+                    "length": 302000
+                }
+            },
+            {
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "direction": "backward",
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "source-credit": "",
+                "recording": {
+                    "length": 204080,
+                    "id": "0c44a04a-8ecc-46ed-af47-3adb009d0500",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Policy of Truth"
+                },
+                "type": "performance"
+            },
+            {
+                "direction": "backward",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": [],
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "length": 415000,
+                    "disambiguation": "Violator 2000 Reload version",
+                    "id": "550d7c58-70f4-491e-ae20-280e147fd30b",
+                    "video": false,
+                    "title": "Policy of Truth"
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 235000,
+                    "id": "071f93c5-c1d2-4887-b18d-5c2e86aee874",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Policy of Truth"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "direction": "backward",
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                }
+            },
+            {
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": [],
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "direction": "backward",
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "recording": {
+                    "length": 252316,
+                    "title": "Policy of Truth",
+                    "video": true,
+                    "id": "3d83a42d-e095-4c23-9985-6ec060c49c8d",
+                    "disambiguation": ""
+                },
+                "type": "performance"
+            },
+            {
+                "recording": {
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "id": "7d5fafad-1350-4eb9-9e28-9c834567cbc3",
+                    "disambiguation": "Megamix, by D58",
+                    "length": 339644
+                },
+                "type": "performance",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": [],
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording"
+            },
+            {
+                "direction": "backward",
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "length": 467853,
+                    "disambiguation": "",
+                    "id": "044c5f2f-179d-4c9b-8fea-591d8352ca1a",
+                    "title": "Policy of Truth",
+                    "video": false
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "recording": {
+                    "length": 205000,
+                    "disambiguation": "",
+                    "id": "a2168884-7f02-43c6-b253-bb0c9ce91955",
+                    "video": false,
+                    "title": "Policy of Truth"
+                },
+                "type": "performance",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [
+                    "cover",
+                    "instrumental"
+                ],
+                "end": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+                },
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "id": "66eaaa84-c982-4a9b-aa32-404029df836f",
+                    "disambiguation": "",
+                    "length": 275000
+                },
+                "type": "performance",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "direction": "backward",
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": "",
+                "begin": null,
+                "ended": false
+            },
+            {
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "direction": "backward",
+                "end": null,
+                "attributes": [
+                    "cover",
+                    "instrumental"
+                ],
+                "attribute-ids": {
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae",
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "58a8d8d4-c277-4ef7-9ecb-42ca1c4c5d0c",
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "length": 189266
+                },
+                "type": "performance"
+            },
+            {
+                "recording": {
+                    "length": 245000,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "id": "7bc3420a-deed-464c-b358-053659fcec93",
+                    "disambiguation": ""
+                },
+                "type": "performance",
+                "source-credit": "",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "direction": "backward",
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 250547,
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "disambiguation": "",
+                    "id": "243d1768-173a-416b-85e9-13286580b796"
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+                },
+                "attributes": [
+                    "cover",
+                    "instrumental"
+                ],
+                "end": null,
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attributes": [],
+                "end": null,
+                "direction": "backward",
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-ids": [],
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "disambiguation": "part of a “Deep Presents: Depeche Mode in the Mix” DJ‐mix",
+                    "id": "182972d8-0ca7-486c-a664-2f7887512a70",
+                    "length": 140000
+                }
+            },
+            {
+                "attributes": [
+                    "cover",
+                    "live"
+                ],
+                "end": null,
+                "direction": "backward",
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a",
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "type": "performance",
+                "recording": {
+                    "length": null,
+                    "id": "540af2f2-100e-447f-b79a-4c7674e7dae9",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Policy of Truth"
+                },
+                "source-credit": ""
+            },
+            {
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "direction": "backward",
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "disambiguation": "",
+                    "id": "87304677-2d44-4245-817d-55c9615045c1",
+                    "length": 211557
+                }
+            },
+            {
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "attribute-ids": {
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae",
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "end": null,
+                "attributes": [
+                    "cover",
+                    "instrumental"
+                ],
+                "direction": "backward",
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 244000,
+                    "id": "7cec536e-78ed-49a9-83f5-46c6f17fb9c0",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Policy of Truth"
+                }
+            },
+            {
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "direction": "backward",
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "id": "f464853c-df93-45e0-8e7d-34879af665b6",
+                    "disambiguation": "",
+                    "length": 212000
+                }
+            },
+            {
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "direction": "backward",
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "f4e63664-9cbf-4470-a745-dd1dcb157c04",
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "length": 244558
+                }
+            },
+            {
+                "attributes": [
+                    "instrumental"
+                ],
+                "end": null,
+                "direction": "backward",
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": {
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "type": "performance",
+                "recording": {
+                    "disambiguation": "instrumental",
+                    "id": "79813c0d-9380-4c61-ac2e-06ed4d3d8493",
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "length": 166000
+                },
+                "source-credit": ""
+            },
+            {
+                "recording": {
+                    "length": 234667,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "id": "d2515738-3607-42f3-9d86-b4856f4a2d19",
+                    "disambiguation": ""
+                },
+                "type": "performance",
+                "source-credit": "",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "direction": "backward",
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "8135fe6c-d253-4faa-bc44-600a9bfcc947",
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "length": 261093
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "direction": "backward",
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                }
+            },
+            {
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "direction": "backward",
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "id": "67f04faf-25c7-4b4a-b376-fc8db27685d4",
+                    "disambiguation": "",
+                    "length": 335906
+                }
+            },
+            {
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "direction": "backward",
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 278587,
+                    "title": "Policy of Truth",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "0ce3ffa1-86bb-43bb-a60b-a08e9f536252"
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth",
+                    "id": "b38ac5da-fc03-4bdc-99bb-09852fb33e33",
+                    "disambiguation": "",
+                    "length": 319000
+                }
+            },
+            {
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": [],
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "direction": "backward",
+                "end": null,
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "e807515a-066c-4d0b-86cf-452a9334145c",
+                    "video": false,
+                    "title": "Policy of Truth (4 GP edit)",
+                    "length": 373280
+                },
+                "type": "performance"
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "length": 231000,
+                    "video": true,
+                    "title": "Policy of Truth (2015 remix)",
+                    "id": "32c2e765-d853-4817-8f22-1086323bd96a",
+                    "disambiguation": "probably remixed by King'iz Back"
+                },
+                "type": "performance",
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "direction": "backward",
+                "attributes": [],
+                "end": null
+            },
+            {
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth (Abstructure’s Side of the Case)",
+                    "id": "a474e76e-9dc1-42b0-8272-17b546573406",
+                    "disambiguation": "",
+                    "length": null
+                }
+            },
+            {
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "direction": "backward",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": [],
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth (Ambi dub °98)",
+                    "id": "13f762a8-ee8b-4763-9ef5-ad3e83cddc05",
+                    "disambiguation": "",
+                    "length": 491000
+                },
+                "type": "performance"
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth (Arabian mix)",
+                    "disambiguation": "",
+                    "id": "f892868a-9626-455d-be25-7f90fddcf766",
+                    "length": 371266
+                },
+                "type": "performance",
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": [],
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "direction": "backward",
+                "end": null,
+                "attributes": []
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "length": 391693,
+                    "title": "Policy of Truth (Beat Box)",
+                    "video": false,
+                    "id": "a81b423a-9f04-44d7-878b-7f7fa0eec10e",
+                    "disambiguation": "edit"
+                },
+                "source-credit": "",
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": []
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "length": 433000,
+                    "disambiguation": "",
+                    "id": "10d96e06-bf77-4053-b2bb-fe43d414c1fe",
+                    "title": "Policy of Truth (Beat Box)",
+                    "video": false
+                },
+                "type": "performance",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "direction": "backward",
+                "end": null,
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "",
+                "begin": null,
+                "ended": false
+            },
+            {
+                "attribute-ids": [],
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "direction": "backward",
+                "end": null,
+                "attributes": [],
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 281000,
+                    "video": false,
+                    "title": "Policy of Truth (Bumtschak “Policy of Alcatraz” mashup)",
+                    "id": "e5cbfb99-b49e-48f9-90c8-0184bb44a1c4",
+                    "disambiguation": ""
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "type": "performance",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "be9e24c4-80ca-4713-853f-3769edd23452",
+                    "title": "Policy of Truth (Capitol mix)",
+                    "video": false,
+                    "length": 480360
+                },
+                "source-credit": ""
+            },
+            {
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "direction": "backward",
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 375000,
+                    "id": "a9dc9e37-1c54-4b67-967e-6ff9e5f771ae",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Policy of Truth (dance version)"
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "recording": {
+                    "length": 421000,
+                    "disambiguation": "",
+                    "id": "7b3fce44-4a73-4051-b48c-7f80244d542b",
+                    "title": "Policy of Truth (Development mix)",
+                    "video": false
+                },
+                "type": "performance",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": [],
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 253000,
+                    "video": false,
+                    "title": "Policy of Truth (DJ Tripp club edit 2011)",
+                    "disambiguation": "",
+                    "id": "567719b7-7eb1-48bb-938a-34bc070b2518"
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "attributes": [],
+                "end": null,
+                "direction": "backward"
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "length": 353000,
+                    "video": false,
+                    "title": "Policy of Truth (DJ Vision mix)",
+                    "id": "a31afc5e-076e-4f67-b0d4-eaf1237246d7",
+                    "disambiguation": ""
+                },
+                "source-credit": "",
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording"
+            },
+            {
+                "attribute-ids": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "direction": "backward",
+                "end": null,
+                "attributes": [],
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 305000,
+                    "id": "85e3b458-8559-4f4d-806b-1379ebcdd036",
+                    "disambiguation": "",
+                    "title": "Policy of Truth (Energy remix)",
+                    "video": false
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "recording": {
+                    "id": "1dde771c-584a-4c87-acc1-e0e01f7799de",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Policy of Truth (extended mix)",
+                    "length": 313160
+                },
+                "type": "performance",
+                "source-credit": "",
+                "direction": "backward",
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording"
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "length": 313000,
+                    "video": false,
+                    "title": "Policy of Truth (Fluke remix)",
+                    "disambiguation": "",
+                    "id": "4a63f62d-7b69-485b-b236-3d461a3a0bc6"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "end": null,
+                "direction": "backward",
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording"
+            },
+            {
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "direction": "backward",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": [],
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "source-credit": "",
+                "recording": {
+                    "id": "a1a83262-53e5-4f21-9546-6ddc3fba78b5",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Policy of Truth (Framewerk chillout rewerk)",
+                    "length": 348718
+                },
+                "type": "performance"
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "96b912c9-f61f-4523-9091-448bae9fcb7b",
+                    "title": "Policy of Truth (Framewerk intro rewerk)",
+                    "video": false,
+                    "length": 158710
+                },
+                "source-credit": "",
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": []
+            },
+            {
+                "direction": "backward",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": [],
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "length": 332903,
+                    "video": false,
+                    "title": "Policy of Truth (Framewerk rewerk)",
+                    "id": "bc5b89bd-458a-4e00-9103-aab631f109c7",
+                    "disambiguation": ""
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "attribute-ids": [],
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "direction": "backward",
+                "end": null,
+                "attributes": [],
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 314000,
+                    "disambiguation": "",
+                    "id": "1dd676a6-fc2a-4bee-9a8b-16dd759a817c",
+                    "title": "Policy of Truth (G‐mix)",
+                    "video": false
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "direction": "backward",
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "964794d7-c5ac-40db-9221-88ad79d058c1",
+                    "title": "Policy of Truth (Generic mix)",
+                    "video": false,
+                    "length": 311000
+                },
+                "type": "performance"
+            },
+            {
+                "attribute-ids": [],
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "direction": "backward",
+                "end": null,
+                "attributes": [],
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 457000,
+                    "id": "f2ae4c07-f867-4fdc-8df7-dcbd54892489",
+                    "disambiguation": "",
+                    "title": "Policy of Truth (German 1945 mix)",
+                    "video": false
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "type": "performance",
+                "recording": {
+                    "length": 546000,
+                    "video": false,
+                    "title": "Policy of Truth (Mastermix)",
+                    "disambiguation": "",
+                    "id": "4f25b7b8-9616-48f1-b5ce-be6e358d8f1e"
+                },
+                "source-credit": ""
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 224000,
+                    "title": "Policy of Truth (Matthew Kramer trance edit)",
+                    "video": false,
+                    "id": "013a9065-d036-4938-aa6e-cc2752352f0a",
+                    "disambiguation": ""
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "direction": "backward",
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                }
+            },
+            {
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "type": "performance",
+                "recording": {
+                    "length": 492026,
+                    "video": false,
+                    "title": "Policy of Truth (Memorandum mix)",
+                    "id": "20884ee8-cd9b-4152-8ac0-2f4f3024e57e",
+                    "disambiguation": "aka Art of Noise remix / Mix of Lie / Never Again remix"
+                },
+                "source-credit": ""
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "title": "Policy of Truth (Mighty Fat Wah! remix)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "2ecc7e7d-6871-46e5-8628-ba8a185e58ce",
+                    "length": 354000
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "direction": "backward"
+            },
+            {
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 505000,
+                    "disambiguation": "",
+                    "id": "24f129f0-0580-48db-b410-cc1fb0fbfb70",
+                    "title": "Policy of Truth (Never Again remix)",
+                    "video": false
+                }
+            },
+            {
+                "recording": {
+                    "length": 505944,
+                    "disambiguation": "",
+                    "id": "213709bf-ab5f-4af6-bf23-bab07889eb29",
+                    "video": false,
+                    "title": "Policy of Truth (New Style mix)"
+                },
+                "type": "performance",
+                "source-credit": "",
+                "direction": "backward",
+                "end": null,
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording"
+            },
+            {
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "attributes": [],
+                "end": null,
+                "direction": "backward",
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "title": "Policy of Truth (Oriental mix)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "d40d2fd8-07ae-4a98-b6ff-31b4dfeccdb2",
+                    "length": 371400
+                }
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 67000,
+                    "id": "ab90c6cf-dcff-408e-8724-3149e68be5c1",
+                    "disambiguation": "video from Strange Too",
+                    "title": "Policy of Truth (outtake)",
+                    "video": true
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": []
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth (Pavlov’s dub)",
+                    "disambiguation": "",
+                    "id": "7a8311b3-2396-486c-aae5-1d5f55bd2314",
+                    "length": 362000
+                },
+                "source-credit": "",
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": [],
+                "attributes": [],
+                "end": null,
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": []
+            },
+            {
+                "attributes": [],
+                "end": null,
+                "direction": "backward",
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "type": "performance",
+                "recording": {
+                    "length": 290000,
+                    "video": false,
+                    "title": "Policy of Truth (Plymo remix)",
+                    "id": "2227af9e-dbc5-491c-87f5-e89874633436",
+                    "disambiguation": ""
+                },
+                "source-credit": ""
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "title": "Policy of Truth (Pure Lies remix)",
+                    "video": false,
+                    "id": "74fe0715-3a55-4b6d-85b3-edf8e5ae36b0",
+                    "disambiguation": "",
+                    "length": 348000
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": []
+            },
+            {
+                "attribute-ids": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "direction": "backward",
+                "end": null,
+                "attributes": [],
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 294000,
+                    "id": "779e6317-aef1-45b1-9255-b25a93c2f7c1",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Policy of Truth (Reev remix)"
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "length": 265000,
+                    "video": false,
+                    "title": "Policy of Truth (Renoise mix)",
+                    "disambiguation": "",
+                    "id": "6f018894-eeae-435e-8506-1f5984513292"
+                },
+                "source-credit": "",
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 599000,
+                    "video": false,
+                    "title": "Policy of Truth (Retro 12 Inch mix)",
+                    "disambiguation": "",
+                    "id": "784fe69c-c5bb-49a5-9a0d-21f031401426"
+                }
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth (Stone Cold Spaciofunk mix)",
+                    "disambiguation": "",
+                    "id": "33842988-9ed5-4541-9454-346ecaa1720d",
+                    "length": 386000
+                },
+                "type": "performance",
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": [],
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "direction": "backward",
+                "attributes": [],
+                "end": null
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "title": "Policy of Truth (The Brat Mastermix)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "1ab0869e-f65f-472d-b7a1-d25231f1ffc9",
+                    "length": 367000
+                },
+                "type": "performance",
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": [],
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "direction": "backward",
+                "attributes": [],
+                "end": null
+            },
+            {
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": [],
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "direction": "backward",
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "recording": {
+                    "video": true,
+                    "title": "Policy of Truth (Trancentral mix outtake)",
+                    "id": "c78275a0-1fc4-4001-888c-664904c443a7",
+                    "disambiguation": "video from Strange Too",
+                    "length": 60000
+                },
+                "type": "performance"
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "video": false,
+                    "title": "Policy of Truth (Trancentral mix)",
+                    "id": "f34b4852-37b1-4b07-adf9-0b4159a6dca9",
+                    "disambiguation": "",
+                    "length": 355000
+                },
+                "source-credit": "",
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": []
+            },
+            {
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "type": "performance",
+                "recording": {
+                    "length": 388000,
+                    "disambiguation": "Razormaid! remix",
+                    "id": "7d46cd6c-4c2b-45af-9460-2ff782fa4e01",
+                    "video": false,
+                    "title": "Policy of Truth (Trust No One mix)"
+                },
+                "source-credit": ""
+            },
+            {
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "type": "performance",
+                "recording": {
+                    "length": 198512,
+                    "title": "Policy of Truth (Y2K single edit)",
+                    "video": false,
+                    "id": "e50478bb-bee9-4a5a-81df-4d1faf63bb6c",
+                    "disambiguation": ""
+                },
+                "source-credit": ""
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attributes": [],
+                "end": null,
+                "direction": "backward",
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "source-credit": "",
+                "type": "performance",
+                "recording": {
+                    "length": 217000,
+                    "video": false,
+                    "title": "Policy of Truth (Yesterday remix)",
+                    "disambiguation": "",
+                    "id": "7c8880be-100d-47b7-b65f-71485d70dc7b"
+                }
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "length": 608906,
+                    "disambiguation": "",
+                    "id": "7246090f-28e3-4d6d-85b6-aa69cdae4a41",
+                    "title": "Policy Zoom Megamix",
+                    "video": false
+                },
+                "ordering-key": 1,
+                "source-credit": "",
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "end": null,
+                "attributes": [
+                    "medley"
+                ],
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": []
+            },
+            {
+                "direction": "backward",
+                "end": null,
+                "attributes": [
+                    "live",
+                    "medley"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a",
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "title": "Technology Megamix",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "53453661-af5a-4148-9eac-a9b74b96f0fb",
+                    "length": 1364000
+                },
+                "ordering-key": 7,
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "type": "secondhandsongs",
+                "source-credit": "",
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": [],
+                "attributes": [],
+                "end": null,
+                "direction": "backward",
+                "url": {
+                    "resource": "https://secondhandsongs.com/work/3880",
+                    "id": "b8a8d86a-b4eb-4bc2-9a15-8bccdf218365"
+                },
+                "target-type": "url",
+                "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                "attribute-values": []
+            },
+            {
+                "attribute-ids": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "direction": "backward",
+                "url": {
+                    "id": "4dd37e1a-f891-4792-aaa6-10cfb37037a4",
+                    "resource": "https://www.wikidata.org/wiki/Q2305046"
+                },
+                "attributes": [],
+                "end": null,
+                "target-type": "url",
+                "attribute-values": [],
+                "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
+                "type": "wikidata",
+                "source-credit": ""
+            }
+        ]
+    },
+    "fetched_at": 1792075093.438664,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

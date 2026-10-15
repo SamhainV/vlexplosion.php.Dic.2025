@@ -1,0 +1,27 @@
+{
+    "data": {
+        "id": "8429b73d-43ee-43d2-a24f-e0c590969df5",
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "life-span": {
+            "begin": null,
+            "end": null,
+            "ended": false
+        },
+        "area": null,
+        "ipis": [
+            "00342842860"
+        ],
+        "label-code": null,
+        "disambiguation": "",
+        "sort-name": "Ludacris Music Publishing Inc.",
+        "country": null,
+        "type": "Publisher",
+        "isnis": [],
+        "name": "Ludacris Music Publishing Inc.",
+        "aliases": []
+    },
+    "fetched_at": 1792076117.435714,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

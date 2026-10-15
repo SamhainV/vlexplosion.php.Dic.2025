@@ -1,0 +1,44 @@
+{
+    "data": {
+        "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+        "address": "Via Piacenza, 14, 20135 Milano, Italy",
+        "name": "Logic Studios",
+        "aliases": [
+            {
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type": null,
+                "type-id": null,
+                "sort-name": "Logic Studio Milano",
+                "primary": null,
+                "locale": null,
+                "name": "Logic Studio Milano"
+            }
+        ],
+        "type": "Studio",
+        "area": {
+            "id": "d793f202-faf0-4de8-83e2-9ddfca54a35f",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "Milano",
+            "name": "Milano"
+        },
+        "coordinates": {
+            "latitude": 45.44912,
+            "longitude": 9.20441
+        },
+        "life-span": {
+            "begin": "1985",
+            "ended": false,
+            "end": null
+        },
+        "id": "33d173aa-2fbc-4ced-9ad0-c4fcfb3c90a5",
+        "disambiguation": ""
+    },
+    "fetched_at": 1792074768.023546,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "place"
+}

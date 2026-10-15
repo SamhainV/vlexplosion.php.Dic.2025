@@ -1,0 +1,2873 @@
+{
+    "data": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "type": "Song",
+        "title": "Halo",
+        "disambiguation": "",
+        "attributes": [
+            {
+                "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+                "value": "001785 494 21",
+                "type": "SUISA ID"
+            },
+            {
+                "type": "SPAC ID",
+                "type-id": "fd46ccc3-b3bb-4c5a-b40d-23b81899ef46",
+                "value": "3383616"
+            },
+            {
+                "type": "SPA ID",
+                "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+                "value": "261710"
+            },
+            {
+                "type": "SOCAN ID",
+                "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+                "value": "10713779"
+            },
+            {
+                "type": "SOBODAYCOM ID",
+                "value": "3383616",
+                "type-id": "3667d8d9-9fe4-4df0-873b-4dc00a886d80"
+            },
+            {
+                "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+                "value": "90130057200",
+                "type": "SIAE ID"
+            },
+            {
+                "type": "SGAE ID",
+                "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+                "value": "2.097.333"
+            },
+            {
+                "value": "3383616",
+                "type-id": "33fe1f90-d812-48ef-839f-bc151afecaca",
+                "type": "SGACEDOM ID"
+            },
+            {
+                "value": "1673605",
+                "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+                "type": "SAYCO ID"
+            },
+            {
+                "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+                "value": "1673605",
+                "type": "SAYCE ID"
+            },
+            {
+                "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+                "value": "713870",
+                "type": "SADAIC ID"
+            },
+            {
+                "type-id": "43b74305-291f-4ae3-9e59-0dca457c00fe",
+                "value": "3383616",
+                "type": "SACIM ID"
+            },
+            {
+                "value": "90 194 692 11",
+                "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+                "type": "SACEM ID"
+            },
+            {
+                "type": "SABAM ID",
+                "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+                "value": "248156500"
+            },
+            {
+                "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+                "value": "6814149K",
+                "type": "PRS tune code"
+            },
+            {
+                "type": "NICAUTOR ID",
+                "value": "3383616",
+                "type-id": "5ab3cd1a-b9ad-4244-8b32-b3a958d4ede6"
+            },
+            {
+                "type": "JASRAC ID",
+                "value": "0H2-3594-5",
+                "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c"
+            },
+            {
+                "type": "GEMA ID",
+                "value": "2517330-001",
+                "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+            },
+            {
+                "value": "1835064",
+                "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+                "type": "ECAD ID"
+            },
+            {
+                "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+                "value": "5362233",
+                "type": "COMPASS ID"
+            },
+            {
+                "type": "COMPASS ID",
+                "value": "8844044",
+                "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+            },
+            {
+                "type": "BUMA/STEMRA ID",
+                "value": "W-000815022",
+                "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+            },
+            {
+                "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+                "value": "1842193",
+                "type": "BMI ID"
+            },
+            {
+                "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+                "value": "380307668",
+                "type": "ASCAP ID"
+            },
+            {
+                "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+                "value": "887340375",
+                "type": "ASCAP ID"
+            },
+            {
+                "type": "APRA ID",
+                "value": "GW03989237",
+                "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+            },
+            {
+                "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+                "value": "8935723",
+                "type": "APDAYC ID"
+            },
+            {
+                "value": "166811601",
+                "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+                "type": "AKM ID"
+            },
+            {
+                "type": "AGADU ID",
+                "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+                "value": "6131820"
+            },
+            {
+                "value": "3383616",
+                "type-id": "d12e548d-4579-4ddd-abb6-9ffa4fee6826",
+                "type": "AEI ID"
+            },
+            {
+                "type": "ACAM ID",
+                "value": "3383616",
+                "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c"
+            },
+            {
+                "type": "AACIMH ID",
+                "value": "3383616",
+                "type-id": "a9551cb7-ee2c-4b05-87b6-18ef0e549865"
+            }
+        ],
+        "languages": [
+            "eng"
+        ],
+        "id": "3a3ae6e0-3a6c-335f-8268-5ccc67a41cce",
+        "relations": [
+            {
+                "type": "composer",
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [],
+                "artist": {
+                    "name": "Martin L. Gore",
+                    "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                    "disambiguation": "",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "Gore, Martin L.",
+                    "type": "Person"
+                },
+                "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "target-type": "artist",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": []
+            },
+            {
+                "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                "artist": {
+                    "country": "US",
+                    "name": "Martin L. Gore",
+                    "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                    "disambiguation": "",
+                    "sort-name": "Gore, Martin L.",
+                    "type": "Person",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                },
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "target-type": "artist",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "type": "lyricist",
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": []
+            },
+            {
+                "target-type": "label",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "label": {
+                    "disambiguation": "do not use as a release label!",
+                    "name": "EMI Music Publishing",
+                    "id": "45a4e6b3-2567-4e7d-b872-a412cdf2d0ae",
+                    "sort-name": "EMI Music Publishing",
+                    "type": "Publisher",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "label-code": null
+                },
+                "begin": null,
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "end": null,
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "type": "publishing",
+                "direction": "backward"
+            },
+            {
+                "end": "1990-06-21",
+                "target-credit": "",
+                "begin": "1990-06-21",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo",
+                    "video": false,
+                    "disambiguation": "live, 1990-06-21: Montreal Forum, Montreal, QC, Canada",
+                    "length": null,
+                    "id": "d9b959a6-53ce-4461-9c26-c50a96b4c649"
+                }
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1990-06-24",
+                "target-credit": "",
+                "end": "1990-06-24",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "live"
+                ],
+                "recording": {
+                    "disambiguation": "live, 1990-06-24: Star Lake Amphitheater, Pittsburgh, PA, USA",
+                    "video": false,
+                    "length": null,
+                    "id": "b4b89164-954e-4f19-8631-b1cf8a17c5da",
+                    "title": "Halo"
+                },
+                "source-credit": ""
+            },
+            {
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-type": "recording",
+                "target-credit": "",
+                "end": "1990-06-30",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1990-06-30",
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "live, 1990-06-30: Marcus Amphitheatre, Milwaukee, WI, USA",
+                    "id": "407bf13d-f006-4752-9e22-b468810e8f41",
+                    "length": null,
+                    "title": "Halo"
+                },
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "end": "1990-07-02",
+                "target-credit": "",
+                "begin": "1990-07-02",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-type": "recording",
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo",
+                    "length": null,
+                    "id": "8db4f617-9fc9-4969-87e0-3f30c7eb81c7",
+                    "disambiguation": "live, 1990-07-02: World Music Theatre, Chicago, IL, USA",
+                    "video": false
+                },
+                "attributes": [
+                    "live"
+                ]
+            },
+            {
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo",
+                    "id": "10fbd921-f1f4-41cb-805f-2d519138014f",
+                    "length": null,
+                    "video": false,
+                    "disambiguation": "live, 1990-07-03: World Music Theatre, Chicago, IL, USA"
+                },
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-type": "recording",
+                "target-credit": "",
+                "end": "1990-07-03",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1990-07-03"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1990-07-06",
+                "target-credit": "",
+                "end": "1990-07-06",
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "live"
+                ],
+                "recording": {
+                    "video": false,
+                    "disambiguation": "live, 1990-07-06: Cynthia Woods Mitchell Pavilion, Houston, TX, USA",
+                    "length": 275480,
+                    "id": "b8d73320-ae7f-4460-bf4d-0a8d6948ef49",
+                    "title": "Halo"
+                },
+                "source-credit": ""
+            },
+            {
+                "begin": "1990-07-21",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": "1990-07-21",
+                "target-credit": "",
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "live"
+                ],
+                "recording": {
+                    "title": "Halo",
+                    "video": false,
+                    "disambiguation": "live, 1990-07-21: Shoreline Amphitheatre, Mountain View, CA, USA",
+                    "id": "4a88c8e0-1406-4ebc-87e3-22322ffcac97",
+                    "length": 280000
+                },
+                "source-credit": ""
+            },
+            {
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo",
+                    "length": 284000,
+                    "id": "ef75c855-a6cd-407b-9901-0d9bdf5e5f59",
+                    "disambiguation": "live, 1990-07-31: San Diego Sports Arena, San Diego, CA, USA",
+                    "video": false
+                },
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-type": "recording",
+                "end": "1990-07-31",
+                "target-credit": "",
+                "begin": "1990-07-31",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "length": 269253,
+                    "id": "9d8871b3-ee3f-4856-ac94-770cac514d64",
+                    "video": false,
+                    "disambiguation": "live, 1990-08-04: Dodger Stadium, Los Angeles, CA, USA",
+                    "title": "Halo"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "end": "1990-08-04",
+                "target-credit": "",
+                "begin": "1990-08-04",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-type": "recording",
+                "attribute-values": []
+            },
+            {
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "id": "02f7f328-a285-4a3d-b55e-8a7d56ec4d57",
+                    "length": null,
+                    "video": false,
+                    "disambiguation": "live, 1990-08-05: Dodger Stadium, Los Angeles, CA, USA",
+                    "title": "Halo"
+                },
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-type": "recording",
+                "target-credit": "",
+                "end": "1990-08-05",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1990-08-05"
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "id": "eb9876e6-09e4-42ad-ab52-ee543fcc6842",
+                    "length": null,
+                    "disambiguation": "live, 1990-09-28: Vorst Nationaal, Brussels, Belgium",
+                    "video": false,
+                    "title": "Halo"
+                },
+                "target-credit": "",
+                "end": "1990-09-28",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1990-09-28",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-type": "recording"
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "live, 1990-10-06: Globe Arena, Stockholm, Sweden",
+                    "video": false,
+                    "id": "80af6f19-bbfe-4e6f-98e0-ab6075b2020a",
+                    "length": 273000,
+                    "title": "Halo"
+                },
+                "end": "1990-10-06",
+                "target-credit": "",
+                "begin": "1990-10-06",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-type": "recording"
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "id": "a7534965-2025-4485-9a19-76db00851d46",
+                    "length": 280000,
+                    "disambiguation": "live, 1990-10-17: Olympiahalle, München, Germany",
+                    "video": false,
+                    "title": "Halo"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1990-10-17",
+                "target-credit": "",
+                "end": "1990-10-17",
+                "target-type": "recording",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": []
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "disambiguation": "live, 1990-10-23: Palais Omnisports de Paris-Bercy, Paris, France",
+                    "video": false,
+                    "length": 276066,
+                    "id": "4a545833-c0ef-4d9e-b79f-b1dde6ba7e3b",
+                    "title": "Halo"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1990-10-23",
+                "target-credit": "",
+                "end": "1990-10-23",
+                "target-type": "recording",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "attribute-values": []
+            },
+            {
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-type": "recording",
+                "attribute-values": [],
+                "end": "1990-11-11",
+                "target-credit": "",
+                "begin": "1990-11-11",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo",
+                    "disambiguation": "live, 1990‐11‐11: PalaTrussardi, Milan, Italy",
+                    "video": false,
+                    "id": "da34077e-3bd0-4f22-8296-9f602de006fb",
+                    "length": 281666
+                },
+                "attributes": [
+                    "live"
+                ],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "recording": {
+                    "id": "59c19317-c931-4c47-8a5d-84066258f39c",
+                    "length": null,
+                    "video": false,
+                    "disambiguation": "live, 1990‐11‐19: Wembley Arena, London, UK",
+                    "title": "Halo"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "type": "performance",
+                "direction": "backward",
+                "target-type": "recording",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "attribute-values": [],
+                "begin": "1990-11-19",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": "1990-11-19",
+                "target-credit": ""
+            },
+            {
+                "attributes": [
+                    "live"
+                ],
+                "recording": {
+                    "disambiguation": "live, 1993-05-19: Espace Foire, Lille, France",
+                    "video": false,
+                    "length": 281000,
+                    "id": "f95a5dce-2506-46e7-850b-7991a1b358c2",
+                    "title": "Halo"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1993-05-19",
+                "target-credit": "",
+                "end": "1993-05-19"
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "live, 1993‐05‐21: Hallenstadion, Zurich, Switzerland",
+                    "id": "aa436e14-088a-42a4-ade5-7d4d35792157",
+                    "length": 281000,
+                    "title": "Halo"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "type": "performance",
+                "direction": "backward",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-type": "recording",
+                "attribute-values": [],
+                "end": "1993-05-21",
+                "target-credit": "",
+                "begin": "1993-05-21",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "live, 1993-05-29: Stockholm Globe Arena, Stockholm, Sweden",
+                    "length": 280000,
+                    "id": "7566faea-c8fc-4d5c-aed8-dd33f79ca74f",
+                    "title": "Halo"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "end": "1993-05-29",
+                "target-credit": "",
+                "begin": "1993-05-29",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-type": "recording",
+                "attribute-values": []
+            },
+            {
+                "target-type": "recording",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1993-06-01",
+                "target-credit": "",
+                "end": "1993-06-01",
+                "recording": {
+                    "title": "Halo",
+                    "disambiguation": "live, 1993-06-01: The Ahoy, Rotterdam, Netherlands",
+                    "video": false,
+                    "id": "b74c3c90-3b76-485b-a97f-bdf176ea9c97",
+                    "length": 291360
+                },
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-type": "recording",
+                "end": "1993-06-03",
+                "target-credit": "",
+                "begin": "1993-06-03",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "id": "c3a3466a-dafe-48cb-9285-4f240e03f912",
+                    "length": 281306,
+                    "video": false,
+                    "disambiguation": "live, 1993-06-03: Patinoire de Malley, Lausanne, Switzerland",
+                    "title": "Halo"
+                },
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "begin": "1993-06-04",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": "1993-06-04",
+                "target-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "recording": {
+                    "title": "Halo",
+                    "disambiguation": "live, 1993-06-04: The Forum, Milan, Italy",
+                    "video": false,
+                    "id": "979ac946-7d49-47f4-9bda-652bfc604404",
+                    "length": 296000
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "target-type": "recording",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "attribute-values": [],
+                "begin": "1993-06-21",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": "1993-06-21",
+                "target-credit": "",
+                "recording": {
+                    "title": "Halo",
+                    "disambiguation": "live, 1993-06-21: Olympiahalle, München, Germany",
+                    "video": false,
+                    "length": 291000,
+                    "id": "c3774130-b532-41f3-8834-a851d8554c56"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "live"
+                ],
+                "recording": {
+                    "title": "Halo",
+                    "length": 283000,
+                    "id": "53fcf9ec-4f4c-4788-8a24-bf41f2ef5256",
+                    "video": true,
+                    "disambiguation": "live video, 1993-07-29: Stade Couvert Régional, Liévin, France"
+                },
+                "source-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1993-07-29",
+                "target-credit": "",
+                "end": "1993-07-29",
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                }
+            },
+            {
+                "recording": {
+                    "title": "Halo",
+                    "length": 287000,
+                    "id": "31c542bb-a94c-4ab2-9b02-9960dbaa5309",
+                    "video": false,
+                    "disambiguation": "live, 1993-07-29: Stade Couvert Régional, Liévin, France"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "type": "performance",
+                "direction": "backward",
+                "target-type": "recording",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "begin": "1993-07-29",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": "1993-07-29",
+                "target-credit": ""
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1993-07-31",
+                "target-credit": "",
+                "end": "1993-07-31",
+                "target-type": "recording",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "id": "f5ba54fc-b282-45e1-a1e0-3c2530cf28ae",
+                    "length": 277333,
+                    "disambiguation": "live, 1993‐07‐31: Crystal Palace National Sports Centre, London, UK",
+                    "video": false,
+                    "title": "Halo"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ]
+            },
+            {
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-type": "recording",
+                "target-credit": "",
+                "end": "1993-09-23",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1993-09-23",
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "live, 1993-09-23: Madison Square Garden, New York City, NY, USA",
+                    "video": false,
+                    "id": "09f0786f-d110-4d2f-b1dc-ad462fb30a2c",
+                    "length": null,
+                    "title": "Halo"
+                },
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "end": "1993-12-20",
+                "target-credit": "",
+                "begin": "1993-12-20",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo",
+                    "disambiguation": "live, 1993-12-20: Wembley Arena, London, UK; fade in",
+                    "video": false,
+                    "id": "9d92880d-7713-482a-bef2-275c4be2cd9f",
+                    "length": null
+                }
+            },
+            {
+                "target-credit": "",
+                "end": "1994-03-26",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1994-03-26",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-type": "recording",
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo",
+                    "id": "2433c442-80e6-460e-b6a5-0f9ff026cfa8",
+                    "length": 125000,
+                    "video": false,
+                    "disambiguation": "live, 1994-03-26: Blaisdell Arena, Honolulu, HI, USA; incomplete"
+                },
+                "attributes": [
+                    "live"
+                ]
+            },
+            {
+                "begin": "1994-05-14",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": "1994-05-14",
+                "target-credit": "",
+                "target-type": "recording",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "id": "82251ab0-0b17-4a5c-8ee6-c73fd231956c",
+                    "length": 284933,
+                    "video": false,
+                    "disambiguation": "live, 1994-05-14: Shoreline Amphitheater, Mountain View, CA, USA",
+                    "title": "Halo"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ]
+            },
+            {
+                "begin": "2001-07-01",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": "2001-07-01",
+                "target-credit": "",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "live"
+                ],
+                "recording": {
+                    "length": 285000,
+                    "id": "2bbc3adc-6956-47ac-ba74-b278fbba24c5",
+                    "video": false,
+                    "disambiguation": "live, 2001-07-01: Tweeter Center for the Performing Arts, Mansfield, MA, USA",
+                    "title": "Halo"
+                },
+                "source-credit": ""
+            },
+            {
+                "end": "2001-08-14",
+                "target-credit": "",
+                "begin": "2001-08-14",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo",
+                    "disambiguation": "live, 2001-08-14: Staples Center, Los Angeles, CA, USA",
+                    "video": false,
+                    "id": "51a3ce9c-721d-4568-aa84-4f7c59089c78",
+                    "length": 288000
+                }
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "live"
+                ],
+                "recording": {
+                    "title": "Halo",
+                    "video": false,
+                    "disambiguation": "live, 2001-09-02: Tor Służewiec, Warsaw, Poland",
+                    "length": null,
+                    "id": "d8c54079-12df-4721-ba71-088c015f0de2"
+                },
+                "source-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "2001-09-02",
+                "target-credit": "",
+                "end": "2001-09-02",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true
+            },
+            {
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "live, 2001-09-23: Parken Stadium, Copenhagen, Denmark",
+                    "video": false,
+                    "id": "35112481-9d4c-40ed-911d-7b37f6efc2c2",
+                    "length": 288360,
+                    "title": "Halo"
+                },
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-type": "recording",
+                "target-credit": "",
+                "end": "2001-09-23",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "2001-09-23"
+            },
+            {
+                "target-type": "recording",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "begin": "2001-09-29",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": "2001-09-29",
+                "target-credit": "",
+                "recording": {
+                    "title": "Halo",
+                    "id": "896e4e8e-51b8-4522-aa7e-f18d786d3ea5",
+                    "length": 285000,
+                    "video": false,
+                    "disambiguation": "live, 2001-09-29: Olympiahalle, München, Germany"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "2001-09-30",
+                "target-credit": "",
+                "end": "2001-09-30",
+                "target-type": "recording",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "live, 2001-09-30: Olympiahalle, München, Germany",
+                    "id": "c216c0de-b9b3-4d1e-bed6-e047e21acca2",
+                    "length": 290000,
+                    "title": "Halo"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ]
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "2001-10-11",
+                "target-credit": "",
+                "end": "2001-10-11",
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "live"
+                ],
+                "recording": {
+                    "disambiguation": "live, 2001-10-11: Festhalle, Frankfurt, Germany",
+                    "video": false,
+                    "id": "f620b039-bbc0-40a5-9e63-8a41017ca1a1",
+                    "length": 271853,
+                    "title": "Halo"
+                },
+                "source-credit": ""
+            },
+            {
+                "end": "2001-10",
+                "target-credit": "",
+                "begin": "2001-10",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-type": "recording",
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo",
+                    "video": false,
+                    "disambiguation": "live, 2001-10-09/10: Palais Omnisport, Paris Bercy, France",
+                    "id": "310c62cd-4b10-47e1-b16e-399143e631b9",
+                    "length": 289746
+                },
+                "attributes": [
+                    "live"
+                ]
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "live"
+                ],
+                "recording": {
+                    "title": "Halo",
+                    "id": "54c31a12-3fcf-4f9a-9029-4b4a8b42fd68",
+                    "length": 289000,
+                    "video": true,
+                    "disambiguation": "live video, 2001-10-09/10: Palais Omnisport, Paris Bercy, France"
+                },
+                "source-credit": "",
+                "begin": "2001-10",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": "2001-10",
+                "target-credit": "",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true
+            },
+            {
+                "target-credit": "",
+                "end": "2013-06-01",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "2013-06-01",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-type": "recording",
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "live, 2013-06-01: Olympiastadion, München, Germany",
+                    "id": "077034af-52f8-4135-aee0-6904bc2841e1",
+                    "length": null,
+                    "title": "Halo"
+                },
+                "attributes": [
+                    "live"
+                ]
+            },
+            {
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "2013-11",
+                "target-credit": "",
+                "end": "2013-11",
+                "attributes": [
+                    "live"
+                ],
+                "recording": {
+                    "length": 293146,
+                    "id": "f571af61-261a-4879-8c03-97d2b1e03de3",
+                    "disambiguation": "live, 2013-11: O2 World Forum, Berlin, Germany",
+                    "video": false,
+                    "title": "Halo"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "live film, 2013-11: O2 World Forum, Berlin, Germany",
+                    "video": true,
+                    "id": "1565b670-a6cd-4d20-9944-84b2429e30c4",
+                    "length": 294000,
+                    "title": "Halo"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "type": "performance",
+                "direction": "backward",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-type": "recording",
+                "attribute-values": [],
+                "end": "2013-11",
+                "target-credit": "",
+                "begin": "2013-11",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo",
+                    "length": 569000,
+                    "id": "0d8bd2d8-e7fd-43e1-b5e8-4598a4c48425",
+                    "video": true,
+                    "disambiguation": "live video, 2013-11: O2 World Forum, Berlin, Germany"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "target-credit": "",
+                "end": "2013-11",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "2013-11",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-type": "recording",
+                "attribute-values": []
+            },
+            {
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "target-type": "recording",
+                "attribute-values": [],
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "source-credit": "",
+                "recording": {
+                    "length": 299533,
+                    "id": "d3ac1659-1865-4a3c-9f70-271c4f123b67",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Halo"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "recording": {
+                    "length": 192000,
+                    "id": "f4bfd146-f792-4d1e-89e1-3c7739b511fb",
+                    "video": false,
+                    "disambiguation": "studio outtake edit",
+                    "title": "Halo"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward",
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": ""
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo",
+                    "disambiguation": "",
+                    "video": false,
+                    "id": "536932dd-b851-4b9c-9613-8bdf8ad024a0",
+                    "length": 222520
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "target-type": "recording",
+                "attribute-values": []
+            },
+            {
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-type": "recording",
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attributes": [
+                    "cover"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "3f17f070-0554-49f1-8133-b7ba697948f1",
+                    "length": 375947,
+                    "title": "Halo"
+                },
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "target-type": "recording",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "title": "Halo",
+                    "id": "9bed43de-a092-401e-b7a8-061ed69bc1b7",
+                    "length": 310000,
+                    "video": false,
+                    "disambiguation": ""
+                },
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ]
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "title": "Halo",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "271e5c3f-c55d-43da-8a69-777a63e1a4f4",
+                    "length": null
+                },
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "target-type": "recording",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "attribute-values": []
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "title": "Halo",
+                    "length": 271000,
+                    "id": "927f9ede-9bd5-497b-909b-df03d6cb39f1",
+                    "disambiguation": "",
+                    "video": false
+                },
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ]
+            },
+            {
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "attribute-values": [],
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "source-credit": "",
+                "recording": {
+                    "id": "e10f942b-6dfe-4e29-bd3a-b98bbe591af0",
+                    "length": 270000,
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Halo"
+                },
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "cover"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "length": 269000,
+                    "id": "49198d41-57a3-45f3-9052-0456d174e08c",
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Halo"
+                }
+            },
+            {
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": [],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "recording": {
+                    "title": "Halo",
+                    "disambiguation": "",
+                    "video": false,
+                    "length": 244000,
+                    "id": "f0bc31c5-573f-4d75-872b-fdbae0b0b445"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "title": "Halo",
+                    "length": 275000,
+                    "id": "47353878-2c8c-4d40-83d3-274d8687b3be",
+                    "video": false,
+                    "disambiguation": ""
+                },
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "target-type": "recording",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "attribute-values": []
+            },
+            {
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "length": 270000,
+                    "id": "0bdb5fd9-d890-46a9-b455-f30f740d4abf",
+                    "video": false,
+                    "disambiguation": "5.1 mix",
+                    "title": "Halo"
+                }
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "id": "704f595d-c559-4966-9ec6-bc57752e9b5e",
+                    "length": 270000,
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Halo"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "type": "performance",
+                "direction": "backward",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "target-type": "recording",
+                "attribute-values": [],
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null
+            },
+            {
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "length": 247000,
+                    "id": "c3a67eb5-57f7-4ea6-89ee-2ac2b172b4db",
+                    "disambiguation": "Violator 2000 Reload version",
+                    "video": false,
+                    "title": "Halo"
+                }
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "length": 237259,
+                    "id": "38f3c865-a085-464d-9b0d-98077d147bb3",
+                    "title": "Halo"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": []
+            },
+            {
+                "attributes": [
+                    "cover"
+                ],
+                "recording": {
+                    "title": "Halo",
+                    "id": "608cb436-4d32-40fa-bbdf-fa39d0fad3a4",
+                    "length": 274821,
+                    "video": false,
+                    "disambiguation": ""
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo",
+                    "length": 250114,
+                    "id": "28c8d286-22f2-4860-b6cf-6b34e1e23bc2",
+                    "disambiguation": "",
+                    "video": false
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "type": "performance",
+                "direction": "backward",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-type": "recording",
+                "attribute-values": [],
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "target-type": "recording",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "attribute-values": [],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "recording": {
+                    "title": "Halo",
+                    "video": false,
+                    "disambiguation": "",
+                    "length": 293000,
+                    "id": "5df80c08-ec65-441f-90cc-b6f16441611f"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "attributes": [
+                    "cover"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo",
+                    "disambiguation": "",
+                    "video": false,
+                    "id": "5996a4be-ce7b-4d96-aa69-b321b558eb89",
+                    "length": 297659
+                },
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "target-type": "recording",
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "instrumental"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "id": "06c7412f-579b-41ec-8766-3241937566b1",
+                    "length": 279000,
+                    "video": false,
+                    "disambiguation": "instrumental",
+                    "title": "Halo"
+                },
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": {
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+                },
+                "target-type": "recording"
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "studio outtake",
+                    "length": 262000,
+                    "id": "8c33eec7-9c88-4b85-9d75-de57b87d3b2b",
+                    "title": "Halo"
+                },
+                "attributes": [],
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "attribute-values": []
+            },
+            {
+                "attributes": [
+                    "cover"
+                ],
+                "recording": {
+                    "title": "Halo",
+                    "disambiguation": "",
+                    "video": false,
+                    "id": "28f73e91-a774-470e-9d0d-a832e7baa9a9",
+                    "length": 214000
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": ""
+            },
+            {
+                "recording": {
+                    "disambiguation": "video from Strange Too",
+                    "video": true,
+                    "id": "0db6366f-bb80-48b8-9838-85512c7aaa2a",
+                    "length": 285000,
+                    "title": "Halo"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward",
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo (911 remix)",
+                    "length": 399000,
+                    "id": "e024a44e-4155-4057-a51b-3d20688fbfa4",
+                    "video": false,
+                    "disambiguation": ""
+                },
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording"
+            },
+            {
+                "attributes": [],
+                "recording": {
+                    "title": "Halo (Austin Leeds & Christian J main mix) (GT vs. Project C outro edit)",
+                    "length": 430000,
+                    "id": "70b5c96a-cc54-4113-bba0-cfb91de4b16d",
+                    "video": false,
+                    "disambiguation": "part of “Voices of Summer 2007” DJ mix"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": ""
+            },
+            {
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "attribute-values": [],
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo (CJB’s Conversion mix)",
+                    "video": false,
+                    "disambiguation": "",
+                    "length": 322000,
+                    "id": "dc7a21da-5051-42a6-859d-c0a8d796a9e3"
+                },
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo (Comfortable mix)",
+                    "disambiguation": "",
+                    "video": false,
+                    "length": 394400,
+                    "id": "d01650e7-a836-4ceb-97e1-fb0d77c1c670"
+                }
+            },
+            {
+                "attributes": [],
+                "recording": {
+                    "title": "Halo (Dark Tone remix)",
+                    "length": 454000,
+                    "id": "b27c7c0a-abe9-4090-bc43-ebbd403e472b",
+                    "disambiguation": "",
+                    "video": false
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "recording": {
+                    "title": "Halo (Darktone)",
+                    "disambiguation": "",
+                    "video": false,
+                    "id": "b696cf83-5799-4976-b46c-a73285c3e9d3",
+                    "length": 414571
+                },
+                "source-credit": ""
+            },
+            {
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo (Electro mix)",
+                    "length": 352000,
+                    "id": "5922ea89-2d0b-40ec-ac8a-13a9b3548d93",
+                    "disambiguation": "",
+                    "video": false
+                },
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "recording": {
+                    "title": "Halo (extended reinterpreted dance mix)",
+                    "id": "295e3848-bb66-4efa-9ab3-fa5a6852f31e",
+                    "length": 351000,
+                    "video": false,
+                    "disambiguation": ""
+                },
+                "source-credit": ""
+            },
+            {
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "attributes": [],
+                "recording": {
+                    "id": "14f84986-8436-4a3c-905d-1b7409584f55",
+                    "length": 264000,
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Halo (First mix)"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo (Fragment)",
+                    "disambiguation": "",
+                    "video": false,
+                    "id": "3c6689cc-d6da-4f6e-b8be-ef8f72f728c7",
+                    "length": 78148
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "target-type": "recording",
+                "attribute-values": []
+            },
+            {
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": false,
+                "target-type": "recording",
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "length": 329000,
+                    "id": "44afcfb5-9388-4070-93af-344632d7a5ee",
+                    "title": "Halo (Frisco live mix)"
+                },
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "recording": {
+                    "id": "2e1b3fdd-b0f3-4896-a672-0e54977e1dc5",
+                    "length": 263600,
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Halo (Goldfrapp remix)"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward",
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null
+            },
+            {
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo (Goldfrapp remix)",
+                    "length": 256866,
+                    "id": "03c2ebb1-6598-4f32-a1bb-4f98f1b0edc0",
+                    "disambiguation": "DJ-mixed",
+                    "video": false
+                },
+                "attributes": []
+            },
+            {
+                "attributes": [
+                    "partial"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo (Goldfrapp remix)",
+                    "id": "a6c39dc0-fd48-4fda-89b6-debce64832b2",
+                    "length": 259226,
+                    "video": false,
+                    "disambiguation": "part of “Jimmy Van M: Balance 010” DJ-mix"
+                },
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": {
+                    "partial": "d2b63be6-91ec-426a-987a-30b47f8aae2d"
+                },
+                "target-type": "recording",
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null
+            },
+            {
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a",
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "cover",
+                    "live"
+                ],
+                "recording": {
+                    "title": "Halo (Goldfrapp Remix)",
+                    "video": false,
+                    "disambiguation": "",
+                    "length": null,
+                    "id": "2d010066-9541-44e0-b462-78ac4d8ad294"
+                },
+                "source-credit": ""
+            },
+            {
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "target-type": "recording",
+                "attribute-values": [],
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "video": false,
+                    "id": "ce7dc686-da7e-44fd-bd67-55e6225edc0d",
+                    "length": 312000,
+                    "title": "Halo (Goldfrapp version)"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo (Green Fairy mix)",
+                    "length": 429000,
+                    "id": "0c13bc49-d3fa-4350-8702-c28ddff1e453",
+                    "disambiguation": "",
+                    "video": false
+                },
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward",
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "attribute-values": [],
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo (Hellfire mix)",
+                    "disambiguation": "",
+                    "video": false,
+                    "id": "1ff2df64-52aa-4015-aca9-794e9aa27c97",
+                    "length": 389693
+                },
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "video": false,
+                    "length": 293000,
+                    "id": "ac3d093a-eed7-43cb-9d1f-2e13994830eb",
+                    "title": "Halo (instrumental)"
+                },
+                "attributes": [
+                    "cover",
+                    "instrumental"
+                ],
+                "type": "performance",
+                "direction": "backward",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+                },
+                "target-type": "recording",
+                "attribute-values": [],
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "video": false,
+                    "id": "4d4b5397-a095-4db4-8827-7d63df0a966c",
+                    "length": 290000,
+                    "title": "Halo (Jimmi Jammes “Violated Halo” mashup)"
+                },
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "id": "54c24d67-1f30-4d00-9318-2e94299fd86d",
+                    "length": 274000,
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Halo (Light mix)"
+                },
+                "attributes": [],
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "attribute-values": []
+            },
+            {
+                "target-type": "recording",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "recording": {
+                    "id": "12ae416b-5617-41cc-be67-ad944a7757df",
+                    "length": null,
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Halo (live remix)"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "recording": {
+                    "id": "6ac3b06a-d781-4f6d-bdfe-9c26298837d8",
+                    "length": 313000,
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Halo (Luxuries mix)"
+                },
+                "source-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": []
+            },
+            {
+                "attributes": [],
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "length": 417000,
+                    "id": "abb33541-2e45-4535-a34f-00e857d2aa77",
+                    "title": "Halo (Madtracker remix)"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null
+            },
+            {
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "recording": {
+                    "title": "Halo (Maxiblues remix)",
+                    "disambiguation": "",
+                    "video": false,
+                    "length": 285779,
+                    "id": "f4525108-a185-4cbc-96fd-fe9e7dd9a5c6"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "length": 238000,
+                    "id": "af94e5b8-d247-4e8e-9409-b1a7f09903f8",
+                    "title": "Halo (new X‐tended version)"
+                },
+                "source-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": []
+            },
+            {
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "447a00e8-87a0-4ec7-89d1-de99181bb46a",
+                    "length": 222000,
+                    "title": "Halo (Phasing dub remix)"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward",
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": ""
+            },
+            {
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "attribute-values": [],
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo (reinterpreted Dream mix)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "b4e22c90-c5b8-4dd6-87e2-7418b4c0edd4",
+                    "length": 382620
+                },
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "recording": {
+                    "title": "Halo (reinterpreted extended Pop mix)",
+                    "id": "62c8148b-f25b-4fd2-bcf0-0ac20fd77be3",
+                    "length": 532252,
+                    "disambiguation": "",
+                    "video": false
+                },
+                "source-credit": ""
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "video": false,
+                    "length": 358013,
+                    "id": "bce04ec7-c198-458a-8ed2-50cc73c5cb97",
+                    "title": "Halo (reinterpreted Minimal dance mix)"
+                },
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward",
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "attribute-values": [],
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "id": "7121531e-5bc8-4064-b8fd-460b4a4331c0",
+                    "length": 336073,
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Halo (reinterpreted Pop mix)"
+                },
+                "attributes": [],
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "attribute-values": []
+            },
+            {
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo (reinterpreted)",
+                    "length": 358013,
+                    "id": "58552df9-b4f3-4bf1-9a28-36cc77a3f4ff",
+                    "disambiguation": "",
+                    "video": false
+                }
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "title": "Halo (Shiny Example mix)",
+                    "length": 470000,
+                    "id": "2a667fff-edbd-4d37-a87a-70e0bb853c62",
+                    "disambiguation": "",
+                    "video": false
+                },
+                "attributes": [],
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "attribute-values": []
+            },
+            {
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "606dcdf1-f467-433f-8bda-3e03f46a349a",
+                    "length": 922000,
+                    "title": "Halo (Silence Counts in Large Amounts)"
+                }
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "3a58d387-e316-41e4-8586-87067bbfc743",
+                    "length": 268000,
+                    "title": "Halo (Silencer mix)"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": []
+            },
+            {
+                "recording": {
+                    "disambiguation": "",
+                    "video": false,
+                    "length": 303281,
+                    "id": "8b3ddfb2-a4f5-4b02-acf1-da9e02f5e671",
+                    "title": "Halo (single edit)"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward",
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": ""
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "c43c1058-9236-41d4-bc2d-e7bb3e5919fa",
+                    "length": 378000,
+                    "title": "Halo (Southtribe Funk dub)"
+                },
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording"
+            },
+            {
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "recording": {
+                    "title": "Halo (Southtribe Funk mix)",
+                    "id": "2da42562-4a00-444f-89bd-f4414599cbd1",
+                    "length": 454000,
+                    "video": false,
+                    "disambiguation": ""
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "length": 455000,
+                    "id": "2d9a8aeb-9f33-414e-8d5b-500b129e544e",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Halo (To Have and to Change the Landscape)"
+                },
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward",
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "attribute-values": [],
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "length": 267000,
+                    "id": "a5438651-6364-40ba-826b-d455efafdcdd",
+                    "title": "Halo (Uncomfortable mix)"
+                },
+                "source-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false
+            },
+            {
+                "ordering-key": 3,
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "target-type": "recording",
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "length": 1156000,
+                    "id": "9eaae896-b349-4e86-8af4-bfd28b0424f8",
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Mega Depeche v.3"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "medley"
+                ]
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "afd89771-6ded-40e4-953c-de59810bad59",
+                    "length": 965800,
+                    "title": "New Mode Mecca '90"
+                },
+                "attributes": [
+                    "medley"
+                ],
+                "type": "performance",
+                "direction": "backward",
+                "ended": false,
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "target-type": "recording",
+                "attribute-values": [],
+                "ordering-key": 7,
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null
+            },
+            {
+                "attributes": [
+                    "medley"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "video": false,
+                    "id": "7246090f-28e3-4d6d-85b6-aa69cdae4a41",
+                    "length": 608906,
+                    "title": "Policy Zoom Megamix"
+                },
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "ended": false,
+                "target-type": "recording",
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "ordering-key": 3
+            },
+            {
+                "ordering-key": 2,
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "length": 871000,
+                    "id": "216ff21a-01ea-477d-88cf-944308403033",
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Violated Silence"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "medley"
+                ]
+            },
+            {
+                "source-credit": "",
+                "attributes": [],
+                "type": "secondhandsongs",
+                "direction": "backward",
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "url",
+                "attribute-values": [],
+                "url": {
+                    "id": "e0cf16c1-0f25-4568-a41e-100d270d1106",
+                    "resource": "https://secondhandsongs.com/work/60985"
+                },
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "b80dff64-9560-445a-b824-c8b432d77a52"
+            }
+        ],
+        "iswcs": [
+            "T-011.391.705-7"
+        ],
+        "language": "eng"
+    },
+    "fetched_at": 1792074918.019235,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

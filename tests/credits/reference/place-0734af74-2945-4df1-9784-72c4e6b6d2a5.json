@@ -1,0 +1,66 @@
+{
+    "data": {
+        "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+        "address": "421 West 54th, New York City, NY",
+        "id": "0734af74-2945-4df1-9784-72c4e6b6d2a5",
+        "disambiguation": "",
+        "coordinates": {
+            "longitude": -73.98773,
+            "latitude": 40.76634
+        },
+        "area": {
+            "disambiguation": "",
+            "id": "261962ea-d8c2-4eaf-a80c-f14376ffadb0",
+            "type": null,
+            "name": "Manhattan",
+            "type-id": null,
+            "sort-name": "Manhattan"
+        },
+        "aliases": [
+            {
+                "name": "Hit Factory‐DMS",
+                "type": null,
+                "primary": null,
+                "ended": false,
+                "locale": null,
+                "end": null,
+                "begin": null,
+                "sort-name": "Hit Factory‐DMS",
+                "type-id": null
+            },
+            {
+                "primary": true,
+                "ended": false,
+                "name": "The Hit Factory",
+                "type": "Place name",
+                "sort-name": "The Hit Factory",
+                "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+                "locale": "en",
+                "end": null,
+                "begin": null
+            },
+            {
+                "name": "The Hit Factory / DMS",
+                "type": null,
+                "ended": false,
+                "primary": null,
+                "begin": null,
+                "end": null,
+                "locale": null,
+                "sort-name": "The Hit Factory / DMS",
+                "type-id": null
+            }
+        ],
+        "life-span": {
+            "ended": true,
+            "begin": "1975-03-06",
+            "end": "2005-04-01"
+        },
+        "name": "The Hit Factory",
+        "type": "Studio"
+    },
+    "fetched_at": 1792075918.02869,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "place"
+}

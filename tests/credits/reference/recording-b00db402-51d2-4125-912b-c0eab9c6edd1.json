@@ -1,0 +1,180 @@
+{
+    "data": {
+        "length": 367000,
+        "first-release-date": "1990-02-05",
+        "title": "Waiting for the Night",
+        "relations": [
+            {
+                "target-type": "artist",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                "artist": {
+                    "type": "Person",
+                    "sort-name": "François K",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "id": "093b79fc-d913-4580-8403-c2430f7a18ee",
+                    "name": "François K",
+                    "disambiguation": ""
+                },
+                "begin": null,
+                "target-credit": "François Kevorkian",
+                "end": null,
+                "source-credit": "",
+                "attributes": [],
+                "type": "mix",
+                "direction": "backward"
+            },
+            {
+                "type": "vocal",
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [
+                    "lead vocals"
+                ],
+                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                "artist": {
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "Gahan, Dave",
+                    "type": "Person",
+                    "name": "Dave Gahan",
+                    "id": "d547b148-cf1f-421b-9464-ce7411ba44b8",
+                    "disambiguation": "",
+                    "country": "GB"
+                },
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "target-type": "artist",
+                "ended": false,
+                "attribute-ids": {
+                    "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                },
+                "attribute-values": [],
+                "attribute-credits": []
+            },
+            {
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "7e41ef12-a124-4324-afdb-fdbae687a89c",
+                "url": {
+                    "id": "b3326a9f-84af-4cb2-904c-6f17643aa455",
+                    "resource": "https://open.spotify.com/track/1VEIMGVXj7713dHY9gZLyU"
+                },
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "url",
+                "direction": "forward",
+                "type": "free streaming",
+                "attributes": [],
+                "source-credit": ""
+            },
+            {
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "work": {
+                    "title": "Waiting for the Night",
+                    "type": "Song",
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                    "language": "eng",
+                    "iswcs": [
+                        "T-011.391.706-8"
+                    ],
+                    "disambiguation": "",
+                    "attributes": [],
+                    "languages": [
+                        "eng"
+                    ],
+                    "id": "dbd43d93-9648-34c8-8886-243284d370d2",
+                    "relations": [
+                        {
+                            "direction": "backward",
+                            "type": "composer",
+                            "attributes": [],
+                            "source-credit": "",
+                            "end": null,
+                            "target-credit": "",
+                            "begin": null,
+                            "artist": {
+                                "country": "US",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "name": "Martin L. Gore",
+                                "disambiguation": "",
+                                "type": "Person",
+                                "sort-name": "Gore, Martin L.",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                            },
+                            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                            "attribute-values": [],
+                            "attribute-ids": [],
+                            "ended": false,
+                            "target-type": "artist"
+                        },
+                        {
+                            "begin": null,
+                            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                            "artist": {
+                                "country": "US",
+                                "disambiguation": "",
+                                "name": "Martin L. Gore",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "sort-name": "Gore, Martin L.",
+                                "type": "Person",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                            },
+                            "end": null,
+                            "target-credit": "",
+                            "target-type": "artist",
+                            "ended": false,
+                            "attribute-ids": [],
+                            "attribute-values": [],
+                            "type": "lyricist",
+                            "direction": "backward",
+                            "source-credit": "",
+                            "attributes": []
+                        },
+                        {
+                            "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                            "begin": null,
+                            "target-credit": "",
+                            "end": null,
+                            "url": {
+                                "id": "3195d310-1720-4903-8285-75ca22f585fa",
+                                "resource": "https://secondhandsongs.com/work/3894"
+                            },
+                            "attribute-values": [],
+                            "target-type": "url",
+                            "attribute-ids": [],
+                            "ended": false,
+                            "direction": "backward",
+                            "type": "secondhandsongs",
+                            "attributes": [],
+                            "source-credit": ""
+                        }
+                    ]
+                },
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "work",
+                "direction": "forward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": ""
+            }
+        ],
+        "id": "b00db402-51d2-4125-912b-c0eab9c6edd1",
+        "disambiguation": "",
+        "video": false
+    },
+    "fetched_at": 1792074426.915386,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "recording"
+}

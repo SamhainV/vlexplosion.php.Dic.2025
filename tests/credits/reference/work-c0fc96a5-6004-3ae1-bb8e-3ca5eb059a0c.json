@@ -1,0 +1,1133 @@
+{
+    "data": {
+        "language": "eng",
+        "iswcs": [
+            "T-071.651.399-3"
+        ],
+        "relations": [
+            {
+                "type": "writer",
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "Melissa Elliott",
+                "end": null,
+                "artist": {
+                    "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+                    "name": "Missy Elliott",
+                    "disambiguation": "American rapper, singer, dancer & record producer",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "type": "Person",
+                    "sort-name": "Elliott, Missy"
+                },
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "artist",
+                "attribute-values": []
+            },
+            {
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "artist",
+                "target-credit": "Christopher Bridges",
+                "end": null,
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "artist": {
+                    "sort-name": "Ludacris",
+                    "type": "Person",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "disambiguation": "US rapper & actor",
+                    "name": "Ludacris",
+                    "id": "0638ba22-040f-438d-83a5-9b670c4adaf5"
+                },
+                "begin": null,
+                "attributes": [],
+                "source-credit": "",
+                "direction": "backward",
+                "type": "writer"
+            },
+            {
+                "target-credit": "Timothy Mosley",
+                "end": null,
+                "artist": {
+                    "sort-name": "Timbaland",
+                    "type": "Person",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "disambiguation": "",
+                    "name": "Timbaland",
+                    "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1"
+                },
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "artist",
+                "attribute-values": [],
+                "type": "writer",
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": []
+            },
+            {
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "label",
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "label": {
+                    "type-id": null,
+                    "label-code": null,
+                    "sort-name": "EMI April Publishing",
+                    "type": null,
+                    "disambiguation": "",
+                    "name": "EMI April Publishing",
+                    "id": "431863c7-8215-4ba8-abcb-4250af50c31d"
+                },
+                "attributes": [],
+                "source-credit": "",
+                "direction": "backward",
+                "type": "publishing"
+            },
+            {
+                "end": null,
+                "target-credit": "Ludacris Music",
+                "begin": null,
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "label": {
+                    "disambiguation": "",
+                    "name": "Ludacris Music Publishing Inc.",
+                    "id": "8429b73d-43ee-43d2-a24f-e0c590969df5",
+                    "sort-name": "Ludacris Music Publishing Inc.",
+                    "type": "Publisher",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "label-code": null
+                },
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "label",
+                "direction": "backward",
+                "type": "publishing",
+                "attributes": [],
+                "source-credit": ""
+            },
+            {
+                "type": "publishing",
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [],
+                "label": {
+                    "type": "Publisher",
+                    "sort-name": "Mass Confusion Music",
+                    "label-code": null,
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "id": "a8ffb6ad-3e00-474d-b44a-f465026a2e61",
+                    "name": "Mass Confusion Music",
+                    "disambiguation": ""
+                },
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "target-type": "label",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": []
+            },
+            {
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "label": {
+                    "label-code": null,
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "type": "Publisher",
+                    "sort-name": "Virginia Beach Music",
+                    "id": "18313d01-9ea1-4511-875f-7e2fa3ace43f",
+                    "name": "Virginia Beach Music",
+                    "disambiguation": ""
+                },
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "label",
+                "direction": "backward",
+                "type": "publishing",
+                "attributes": [],
+                "source-credit": ""
+            },
+            {
+                "type": "publishing",
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [],
+                "label": {
+                    "type": "Publisher",
+                    "sort-name": "WB Music Corp.",
+                    "label-code": null,
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "id": "883fe539-a89f-4572-8072-4d1e69d4670d",
+                    "name": "WB Music Corp.",
+                    "disambiguation": "1929–2019"
+                },
+                "target-credit": "",
+                "end": null,
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "begin": null,
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "label",
+                "attribute-values": []
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "recording": {
+                    "title": "Gossip Folks",
+                    "disambiguation": "explicit",
+                    "video": false,
+                    "length": 234853,
+                    "id": "9fb992ed-e49e-433c-b59c-93b1c69d917c"
+                },
+                "source-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": []
+            },
+            {
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "title": "Gossip Folks",
+                    "id": "c7e2f1fe-f4f7-491e-9b80-bccafa690ec0",
+                    "length": 210973,
+                    "disambiguation": "",
+                    "video": false
+                },
+                "attributes": []
+            },
+            {
+                "attributes": [],
+                "recording": {
+                    "title": "Gossip Folks",
+                    "video": false,
+                    "disambiguation": "",
+                    "length": 342986,
+                    "id": "3065fb75-47fd-43f1-bead-c29ca9415b98"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": ""
+            },
+            {
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "recording": {
+                    "title": "Gossip Folks",
+                    "length": 235000,
+                    "id": "2f6e9c6b-4359-46bd-879a-b6d7317d0aee",
+                    "disambiguation": "clean",
+                    "video": false
+                },
+                "source-credit": ""
+            },
+            {
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "title": "Gossip Folks",
+                    "disambiguation": "",
+                    "video": false,
+                    "id": "19c2e673-6313-4741-97ff-0eca688b4688",
+                    "length": null
+                },
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "recording": {
+                    "title": "Gossip Folks",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "b42d7d0b-4ffa-4977-b461-35e24be9b186",
+                    "length": 234000
+                },
+                "source-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "length": 206000,
+                    "id": "880e05d2-63be-4fea-a0ac-9f07700b5672",
+                    "title": "Gossip Folks"
+                },
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording"
+            },
+            {
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "title": "Gossip Folks",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "18d058ff-212b-4aa2-924f-116afabb16a5",
+                    "length": 210786
+                },
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "id": "a485e55d-efca-460b-b38f-7a96496c0afd",
+                    "length": 210866,
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Gossip Folks"
+                },
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "attributes": [],
+                "recording": {
+                    "length": 239320,
+                    "id": "d87a2149-05ee-48f1-a826-374bb4616e2f",
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Gossip Folks"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": ""
+            },
+            {
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "title": "Gossip Folks",
+                    "id": "893e9dbe-cdcd-41a2-a6b6-cdbeb155e7c9",
+                    "length": 235000,
+                    "video": false,
+                    "disambiguation": ""
+                },
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "title": "Gossip Folks",
+                    "id": "46b72dfe-d778-4fff-863b-f2e9315ba2e9",
+                    "length": 208840,
+                    "video": false,
+                    "disambiguation": ""
+                },
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward",
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "attribute-values": [],
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "part of “Timbaland Instrumentals, Part 2” DJ‐mix",
+                    "video": false,
+                    "id": "64e4d0ff-af3f-41fa-9ba6-a8660bed4cdb",
+                    "length": 110000,
+                    "title": "Gossip Folks"
+                },
+                "attributes": [
+                    "instrumental"
+                ],
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": {
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+                },
+                "target-type": "recording",
+                "attribute-values": []
+            },
+            {
+                "recording": {
+                    "id": "62e01070-b3c9-47cd-bd47-7af7cdfda3a2",
+                    "length": null,
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Gossip Folks"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward",
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "recording": {
+                    "id": "43c13a61-10c3-48b1-bb33-17d82b683265",
+                    "length": 226000,
+                    "video": true,
+                    "disambiguation": "clean",
+                    "title": "Gossip Folks"
+                },
+                "source-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": []
+            },
+            {
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "length": 134000,
+                    "id": "602256c3-efc1-4507-a79c-26efdc98ed09",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Gossip Folks"
+                }
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "recording": {
+                    "id": "42256878-4b18-41cd-9529-1d51bda8e5b0",
+                    "length": 238866,
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Gossip Folks (a cappella)"
+                },
+                "source-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": []
+            },
+            {
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "title": "Gossip Folks (edIT mix) (CLP mix)",
+                    "video": false,
+                    "disambiguation": "part of “Wedding Wow”’s Chris de Luca vs. Phon.o DJ‐mix",
+                    "id": "183e014c-c9fa-47e9-b5ad-fc3edbb9522e",
+                    "length": 93000
+                }
+            },
+            {
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "attributes": [],
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "length": null,
+                    "id": "22d69bb6-dff8-4ace-bfac-6fbaae94885c",
+                    "title": "Gossip Folks (Fatboy Slim dub mix 1)"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "title": "Gossip Folks (Fatboy Slim dub mix 2 - instrumental)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "5d0ad48a-69e4-42b0-b4a9-e9cfc1f7980a",
+                    "length": null
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": []
+            },
+            {
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "title": "Gossip Folks (Fatboy Slim edit)",
+                    "disambiguation": "",
+                    "video": false,
+                    "id": "8502135d-3a7e-4750-a01d-581b301d8de9",
+                    "length": 204386
+                },
+                "source-credit": "",
+                "attributes": []
+            },
+            {
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "recording": {
+                    "title": "Gossip Folks (Fatboy Slim radio remix - edited version)",
+                    "id": "c2097eb1-5aa2-459f-bf02-2c65155500d9",
+                    "length": null,
+                    "disambiguation": "",
+                    "video": false
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "video": false,
+                    "id": "4dfb9eb9-63cd-497b-990d-d198865b2fe1",
+                    "length": 211960,
+                    "title": "Gossip Folks (Fatboy Slim radio remix)"
+                },
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward",
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "attribute-values": [],
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "id": "7c3a4aa2-e47a-4169-8117-0e67b09e0229",
+                    "length": null,
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Gossip Folks (Fatboy Slim remix - edited version)"
+                },
+                "attributes": [],
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "attribute-values": []
+            },
+            {
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "title": "Gossip Folks (Fatboy Slim remix)",
+                    "id": "55cbdafc-8ea0-4bcf-9bdf-24c5b4e69177",
+                    "length": 403266,
+                    "video": false,
+                    "disambiguation": ""
+                },
+                "attributes": []
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "title": "Gossip Folks (Fatboy Slim remix)",
+                    "id": "51618029-31b6-458b-b522-e886245818be",
+                    "length": 196000,
+                    "video": false,
+                    "disambiguation": "part of “Triple J House Party, Volume Six” DJ‐mix"
+                },
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording"
+            },
+            {
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "title": "Gossip Folks (Fatboy Slim remix)",
+                    "disambiguation": "",
+                    "video": true,
+                    "id": "6c7e471d-e3bb-423d-85ae-e2f03426a1cd",
+                    "length": 195000
+                },
+                "attributes": []
+            },
+            {
+                "attributes": [],
+                "recording": {
+                    "title": "Gossip Folks (Holy Fuck remix)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "674d5768-8d77-453f-aa26-30fb4cb9b262",
+                    "length": 249155
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "c99a7f0a-18bb-4bc2-9963-b69da93b45e9",
+                    "length": 250000,
+                    "title": "Gossip Folks (Hyped Up album version dirty)"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": []
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "length": 251000,
+                    "id": "09359e24-bb7a-48ee-9779-e0899e46151e",
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Gossip Folks (Hyped Up amended radio version)"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": []
+            },
+            {
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "attributes": [],
+                "recording": {
+                    "length": 205893,
+                    "id": "74431af2-6f37-46ac-8e97-66ebcbc664dd",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Gossip Folks (Hyped Up radio)"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": {
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+                },
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "title": "Gossip Folks (instrumental)",
+                    "disambiguation": "",
+                    "video": false,
+                    "id": "cf6a3019-bb0c-4054-938d-f8dcdaf9616e",
+                    "length": 238760
+                },
+                "source-credit": "",
+                "attributes": [
+                    "instrumental"
+                ]
+            },
+            {
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "title": "Gossip Folks (Mousse T remix)",
+                    "id": "bdbba077-925a-4a15-91f4-a4ff9e1d9f4e",
+                    "length": 217000,
+                    "video": false,
+                    "disambiguation": ""
+                }
+            },
+            {
+                "recording": {
+                    "length": 319000,
+                    "id": "cc3fb19f-064b-4cc8-8b08-e2d37c4b1556",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Gossip Folks (Mousse T. & Royal Garden remix extended)"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward",
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "id": "1a1e681b-e076-4fce-98b7-98b2a66dd2c5",
+                    "length": 227000,
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Gossip Folks (Mousse T.’s original alternative)"
+                },
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward",
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "attribute-values": [],
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "id": "d2eb344d-b9c6-49f1-9109-bc21705b62bb",
+                    "length": 304266,
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Gossip Folks (Mousse T.’s Pogo remix extended)"
+                },
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording"
+            },
+            {
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "url",
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
+                "url": {
+                    "resource": "https://www.wikidata.org/wiki/Q5587499",
+                    "id": "db747b6a-a417-48db-90a9-5a0ebb65d5b0"
+                },
+                "attributes": [],
+                "source-credit": "",
+                "direction": "backward",
+                "type": "wikidata"
+            },
+            {
+                "type": "lyrical quotation",
+                "direction": "forward",
+                "source-credit": "",
+                "attributes": [],
+                "begin": null,
+                "type-id": "c8283596-6f1f-42db-be9c-def66d387e78",
+                "end": null,
+                "target-credit": "",
+                "target-type": "work",
+                "ended": false,
+                "attribute-ids": [],
+                "work": {
+                    "id": "fdd41f12-f9db-3770-9d7f-565120a1402b",
+                    "disambiguation": "",
+                    "languages": [],
+                    "attributes": [],
+                    "iswcs": [
+                        "T-070.243.510-6"
+                    ],
+                    "language": null,
+                    "type-id": null,
+                    "type": null,
+                    "title": "She's a Bad Mama Jama (She's Built, She's Stacked)"
+                },
+                "attribute-values": []
+            },
+            {
+                "source-credit": "",
+                "attributes": [],
+                "type": "lyrical quotation",
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "work",
+                "work": {
+                    "attributes": [],
+                    "languages": [
+                        "eng"
+                    ],
+                    "disambiguation": "",
+                    "id": "d758180c-93df-441b-9934-155e872c8bc0",
+                    "iswcs": [
+                        "T-070.233.786-7"
+                    ],
+                    "language": "eng",
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                    "type": "Song",
+                    "title": "Double Dutch Bus"
+                },
+                "attribute-values": [],
+                "target-credit": "",
+                "end": null,
+                "type-id": "c8283596-6f1f-42db-be9c-def66d387e78",
+                "begin": null
+            },
+            {
+                "type": "lyrical quotation",
+                "direction": "forward",
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "c8283596-6f1f-42db-be9c-def66d387e78",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "target-type": "work",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "work": {
+                    "attributes": [],
+                    "languages": [
+                        "eng"
+                    ],
+                    "disambiguation": "",
+                    "id": "61cbcfb4-123f-41ec-b25a-fc5187b4709d",
+                    "language": "eng",
+                    "iswcs": [],
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                    "title": "Pick a Bale of Cotton",
+                    "type": "Song"
+                }
+            }
+        ],
+        "id": "c0fc96a5-6004-3ae1-bb8e-3ca5eb059a0c",
+        "languages": [
+            "eng"
+        ],
+        "attributes": [
+            {
+                "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+                "value": "918994",
+                "type": "SPA ID"
+            },
+            {
+                "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+                "value": "29812328",
+                "type": "SOCAN ID"
+            },
+            {
+                "value": "3159769",
+                "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+                "type": "SAYCO ID"
+            },
+            {
+                "type": "SADAIC ID",
+                "value": "827851",
+                "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+            },
+            {
+                "type": "SABAM ID",
+                "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+                "value": "748229600"
+            },
+            {
+                "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+                "value": "4538159",
+                "type": "COMPASS ID"
+            },
+            {
+                "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+                "value": "2392975",
+                "type": "COMPASS ID"
+            },
+            {
+                "value": "370533236",
+                "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+                "type": "ASCAP ID"
+            },
+            {
+                "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+                "value": "3688356",
+                "type": "APDAYC ID"
+            },
+            {
+                "type": "JASRAC ID",
+                "value": "0O3-5815-2",
+                "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c"
+            },
+            {
+                "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+                "value": "6301350",
+                "type": "BMI ID"
+            },
+            {
+                "type": "GEMA ID",
+                "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+                "value": "7630896-001"
+            }
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "title": "Gossip Folks",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+    },
+    "fetched_at": 1792075933.198839,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

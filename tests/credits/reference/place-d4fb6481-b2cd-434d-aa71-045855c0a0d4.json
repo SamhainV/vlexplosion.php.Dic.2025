@@ -1,0 +1,41 @@
+{
+    "data": {
+        "life-span": {
+            "begin": null,
+            "end": null,
+            "ended": false
+        },
+        "id": "d4fb6481-b2cd-434d-aa71-045855c0a0d4",
+        "coordinates": null,
+        "disambiguation": "",
+        "address": "",
+        "name": "Manhattan Center Studios",
+        "aliases": [
+            {
+                "locale": null,
+                "begin": null,
+                "name": "The Manhattan Center",
+                "type": "Search hint",
+                "primary": null,
+                "end": null,
+                "type-id": "0a438b9c-1850-32de-b4bb-7f58f5048ea3",
+                "ended": false,
+                "sort-name": "The Manhattan Center"
+            }
+        ],
+        "type": "Studio",
+        "area": {
+            "name": "Midtown Manhattan",
+            "type": null,
+            "id": "edd27a39-ff8a-4af4-8bbf-f369b0fb1899",
+            "type-id": null,
+            "disambiguation": "",
+            "sort-name": "Midtown Manhattan"
+        },
+        "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38"
+    },
+    "fetched_at": 1792075922.913818,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "place"
+}

@@ -1,0 +1,104 @@
+{
+    "data": {
+        "aliases": [
+            {
+                "end": "1974-01-07",
+                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                "begin": "1957-12-04",
+                "type": "Label name",
+                "primary": null,
+                "sort-name": "Affiliated Music Publishers Ltd.",
+                "locale": null,
+                "name": "Affiliated Music Publishers Ltd.",
+                "ended": true
+            },
+            {
+                "end": null,
+                "type-id": null,
+                "begin": null,
+                "type": null,
+                "primary": null,
+                "sort-name": "EMI Music (Publishers) Ltd.",
+                "name": "EMI Music (Publishers) Ltd.",
+                "locale": null,
+                "ended": false
+            },
+            {
+                "type": null,
+                "primary": null,
+                "sort-name": "EMI Music Pub Ltd.",
+                "end": null,
+                "type-id": null,
+                "begin": null,
+                "ended": false,
+                "locale": null,
+                "name": "EMI Music Pub Ltd."
+            },
+            {
+                "ended": false,
+                "locale": null,
+                "name": "EMI Music Pub. Ltd",
+                "primary": null,
+                "type": null,
+                "sort-name": "EMI Music Pub. Ltd",
+                "end": null,
+                "type-id": null,
+                "begin": null
+            },
+            {
+                "locale": null,
+                "name": "EMI Music Publ. Ltd.",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "type-id": null,
+                "sort-name": "EMI Music Publ. Ltd.",
+                "type": null,
+                "primary": null
+            },
+            {
+                "type": null,
+                "primary": null,
+                "sort-name": "EMI Music Publishing Limited",
+                "end": null,
+                "type-id": null,
+                "begin": null,
+                "ended": false,
+                "name": "EMI Music Publishing Limited",
+                "locale": null
+            }
+        ],
+        "type": "Publisher",
+        "label-code": null,
+        "country": "GB",
+        "ipis": [
+            "00087019563"
+        ],
+        "name": "EMI Music Publishing Ltd.",
+        "life-span": {
+            "end": null,
+            "begin": "1974-01-07",
+            "ended": false
+        },
+        "disambiguation": "PRS‐affiliated",
+        "sort-name": "EMI Music Publishing Ltd.",
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "id": "97ef6a28-dfed-4eda-bd24-17a45c792d29",
+        "isnis": [],
+        "area": {
+            "type-id": null,
+            "type": null,
+            "iso-3166-1-codes": [
+                "GB"
+            ],
+            "sort-name": "United Kingdom",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom",
+            "disambiguation": ""
+        }
+    },
+    "fetched_at": 1792075397.560467,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

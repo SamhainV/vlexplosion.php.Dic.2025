@@ -1,0 +1,25 @@
+{
+    "data": {
+        "id": "ecb4412f-bfb0-47c6-9dc1-a0f4812ae756",
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "life-span": {
+            "end": null,
+            "begin": null,
+            "ended": false
+        },
+        "area": null,
+        "ipis": [],
+        "label-code": null,
+        "disambiguation": "publisher",
+        "sort-name": "Craig Man Music",
+        "country": null,
+        "name": "Craig Man Music",
+        "type": "Publisher",
+        "isnis": [],
+        "aliases": []
+    },
+    "fetched_at": 1792076124.231403,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

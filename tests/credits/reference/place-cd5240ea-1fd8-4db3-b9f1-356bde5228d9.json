@@ -1,0 +1,32 @@
+{
+    "data": {
+        "id": "cd5240ea-1fd8-4db3-b9f1-356bde5228d9",
+        "area": {
+            "sort-name": "United Kingdom",
+            "type-id": null,
+            "iso-3166-1-codes": [
+                "GB"
+            ],
+            "name": "United Kingdom",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": null,
+            "disambiguation": ""
+        },
+        "name": "Nimbus",
+        "type-id": "ab750f51-cc41-47bb-8ba2-9bc34d7de514",
+        "life-span": {
+            "end": null,
+            "ended": false,
+            "begin": null
+        },
+        "disambiguation": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "type": "Pressing plant"
+    },
+    "fetched_at": 1792074766.582129,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "place"
+}

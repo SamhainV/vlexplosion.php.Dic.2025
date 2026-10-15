@@ -1,0 +1,175 @@
+{
+    "data": {
+        "disambiguation": "",
+        "attributes": [],
+        "languages": [
+            "eng"
+        ],
+        "id": "6696416a-acdc-4eeb-a29a-853eeee2daec",
+        "relations": [
+            {
+                "target-type": "artist",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "begin": null,
+                "artist": {
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "type": "Person",
+                    "sort-name": "Gore, Martin L.",
+                    "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                    "name": "Martin L. Gore",
+                    "disambiguation": "",
+                    "country": "US"
+                },
+                "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                "end": null,
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "type": "composer",
+                "direction": "backward"
+            },
+            {
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-type": "recording",
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attributes": [
+                    "cover"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "title": "Crucified",
+                    "id": "38bf73f1-7a5a-4b2e-a13b-c4367f5a99d4",
+                    "length": 115000,
+                    "video": false,
+                    "disambiguation": ""
+                },
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "recording": {
+                    "title": "Crucified (The Interlude)",
+                    "id": "e9d3d912-cdaa-41b7-a202-b9e044c15f87",
+                    "length": 432000,
+                    "disambiguation": "",
+                    "video": false
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward",
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "length": 372973,
+                    "id": "83b3d37d-8c3d-4a7b-ae9a-d635e4e3374f",
+                    "disambiguation": "album version",
+                    "video": false,
+                    "title": "Enjoy the Silence / Interlude #2: Crucified"
+                },
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ordering-key": 2,
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording"
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "album version; 5.1 mix",
+                    "length": 372000,
+                    "id": "bb437fbd-9752-4f34-bd7f-72a73772607c",
+                    "title": "Enjoy the Silence / Interlude #2: Crucified"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "ordering-key": 2,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": []
+            },
+            {
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "title": "Interlude #2: Crucified",
+                    "length": 100000,
+                    "id": "05d3c8ba-b4db-4a45-ba30-5976dfd45393",
+                    "video": false,
+                    "disambiguation": ""
+                },
+                "source-credit": "",
+                "attributes": []
+            },
+            {
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "url",
+                "attribute-values": [],
+                "url": {
+                    "resource": "https://secondhandsongs.com/work/117463",
+                    "id": "5e743333-00fe-47b6-a7b5-889cdb9ba6e7"
+                },
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                "source-credit": "",
+                "attributes": [],
+                "type": "secondhandsongs",
+                "direction": "backward"
+            }
+        ],
+        "language": "eng",
+        "iswcs": [
+            "T-011.391.708-0"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Interlude #2: Crucified",
+        "type": "Song"
+    },
+    "fetched_at": 1792074999.1789,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

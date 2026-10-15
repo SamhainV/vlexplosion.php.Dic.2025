@@ -1,0 +1,767 @@
+{
+    "data": {
+        "title": "Sweetest Perfection",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "iswcs": [
+            "T-011.391.704-6"
+        ],
+        "disambiguation": "",
+        "attributes": [],
+        "languages": [
+            "eng"
+        ],
+        "id": "79b72fb2-ed89-3294-9d48-2ccb30685e71",
+        "relations": [
+            {
+                "type": "composer",
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [],
+                "artist": {
+                    "sort-name": "Gore, Martin L.",
+                    "type": "Person",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "disambiguation": "",
+                    "name": "Martin L. Gore",
+                    "id": "e08ac443-f1d2-4666-abd1-fa5859592981"
+                },
+                "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "target-type": "artist",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": []
+            },
+            {
+                "direction": "backward",
+                "type": "lyricist",
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                "artist": {
+                    "type": "Person",
+                    "sort-name": "Gore, Martin L.",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "disambiguation": "",
+                    "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                    "name": "Martin L. Gore"
+                },
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "target-type": "artist",
+                "attribute-ids": [],
+                "ended": false
+            },
+            {
+                "target-credit": "",
+                "end": "1990-07-03",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1990-07-03",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-type": "recording",
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "title": "Sweetest Perfection",
+                    "video": false,
+                    "disambiguation": "live, 1990-07-03: World Music Theatre, Chicago, IL, USA",
+                    "length": null,
+                    "id": "9824ad62-5270-433e-9243-7e9b4e384e31"
+                },
+                "attributes": [
+                    "live"
+                ]
+            },
+            {
+                "recording": {
+                    "length": 198960,
+                    "id": "da922fb1-f5d9-409c-b48c-843a7c9a3658",
+                    "video": false,
+                    "disambiguation": "live, 1990-07-06: Cynthia Woods Mitchell Pavilion, Houston, TX, USA",
+                    "title": "Sweetest Perfection"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "type": "performance",
+                "direction": "backward",
+                "target-type": "recording",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "begin": "1990-07-06",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": "1990-07-06",
+                "target-credit": ""
+            },
+            {
+                "end": "1990-07-06",
+                "target-credit": "",
+                "begin": "1990-07-06",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": true,
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "title": "Sweetest Perfection",
+                    "length": 198960,
+                    "id": "da922fb1-f5d9-409c-b48c-843a7c9a3658",
+                    "video": false,
+                    "disambiguation": "live, 1990-07-06: Cynthia Woods Mitchell Pavilion, Houston, TX, USA"
+                }
+            },
+            {
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1990-07-21",
+                "target-credit": "",
+                "end": "1990-07-21",
+                "attributes": [
+                    "live"
+                ],
+                "recording": {
+                    "title": "Sweetest Perfection",
+                    "video": false,
+                    "disambiguation": "live, 1990-07-21: Shoreline Amphitheatre, Mountain View, CA, USA",
+                    "length": 204000,
+                    "id": "8da461aa-601c-41f4-98ad-9811e7f5b60d"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "title": "Sweetest Perfection",
+                    "id": "cf28eb77-eeb7-4adc-904a-2d21e7b8dd48",
+                    "length": null,
+                    "video": false,
+                    "disambiguation": "live, 1990-08-05: Dodger Stadium, Los Angeles, CA, USA"
+                },
+                "end": "1990-08-05",
+                "target-credit": "",
+                "begin": "1990-08-05",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "recording": {
+                    "title": "Sweetest Perfection",
+                    "disambiguation": "live, 2003-04-24: E-Werk, Cologne, Germany",
+                    "video": false,
+                    "id": "ac46cc6f-c00f-4709-aa93-a39ee34290a5",
+                    "length": null
+                },
+                "attributes": [
+                    "live"
+                ],
+                "type": "performance",
+                "direction": "backward",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "target-type": "recording",
+                "attribute-values": [],
+                "target-credit": "",
+                "end": "2003-04-24",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "2003-04-24"
+            },
+            {
+                "ordering-key": 11,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "target-type": "recording",
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "length": 965800,
+                    "id": "afd89771-6ded-40e4-953c-de59810bad59",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "New Mode Mecca '90"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "medley"
+                ]
+            },
+            {
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "ended": false,
+                "target-type": "recording",
+                "attribute-values": [],
+                "ordering-key": 7,
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "source-credit": "",
+                "recording": {
+                    "title": "Policy Zoom Megamix",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "7246090f-28e3-4d6d-85b6-aa69cdae4a41",
+                    "length": 608906
+                },
+                "attributes": [
+                    "medley"
+                ],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "video": false,
+                    "length": 283000,
+                    "id": "8a211e51-b5c8-4fcb-982b-6315b6edcac6",
+                    "title": "Sweetest Perfection"
+                },
+                "direction": "backward",
+                "type": "performance",
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null
+            },
+            {
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "cover"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "title": "Sweetest Perfection",
+                    "disambiguation": "",
+                    "video": false,
+                    "id": "e927ce89-df50-4804-afc0-ab10334b0364",
+                    "length": 259947
+                }
+            },
+            {
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-type": "recording",
+                "attribute-values": [],
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "58e22d00-d9fc-4694-afb7-0cfb056ce2a0",
+                    "length": 313520,
+                    "title": "Sweetest Perfection"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "cover"
+                ],
+                "recording": {
+                    "title": "Sweetest Perfection",
+                    "length": 422000,
+                    "id": "96ec66f6-12d1-4022-a365-8febb4852242",
+                    "video": false,
+                    "disambiguation": ""
+                },
+                "source-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                }
+            },
+            {
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "recording": {
+                    "length": 183000,
+                    "id": "8b82e05e-c180-4566-b503-de7d49c88adf",
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Sweetest Perfection"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "target-type": "recording",
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "title": "Sweetest Perfection",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "39018f59-8245-4430-8691-3a2bc8129d75",
+                    "length": 297000
+                },
+                "attributes": [
+                    "cover"
+                ]
+            },
+            {
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "title": "Sweetest Perfection",
+                    "disambiguation": "5.1 mix",
+                    "video": false,
+                    "length": 283000,
+                    "id": "4d6918bb-dc1c-4adf-bb6d-6ed27bdfa4d9"
+                },
+                "source-credit": "",
+                "attributes": []
+            },
+            {
+                "recording": {
+                    "disambiguation": "Violator 2000 Reload version",
+                    "video": false,
+                    "id": "e9e76f12-35c4-444d-81d4-dbf3832f165f",
+                    "length": 254000,
+                    "title": "Sweetest Perfection"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward",
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null
+            },
+            {
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": {
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+                },
+                "attribute-values": [],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "recording": {
+                    "title": "Sweetest Perfection",
+                    "id": "490db7e3-a112-4b8c-985e-672ca12b82d5",
+                    "length": 292591,
+                    "video": false,
+                    "disambiguation": "instrumental"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "instrumental"
+                ],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "length": 309000,
+                    "id": "574f93ed-d3c0-4809-85fe-64072eb6dd68",
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Sweetest Perfection"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "cover",
+                    "live"
+                ],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": []
+            },
+            {
+                "target-type": "recording",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": false,
+                "attribute-values": [],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "recording": {
+                    "id": "8e6ee4b9-5b0c-4fd2-a76f-08416baf639b",
+                    "length": 310000,
+                    "video": false,
+                    "disambiguation": "live, acoustic",
+                    "title": "Sweetest Perfection (acoustic)"
+                },
+                "source-credit": "",
+                "attributes": [
+                    "cover",
+                    "live"
+                ],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "recording": {
+                    "disambiguation": "",
+                    "video": false,
+                    "id": "125e0c10-8559-4a1b-b07c-ee6801e3b66c",
+                    "length": 261000,
+                    "title": "Sweetest Perfection (Be-Love-In mix)"
+                },
+                "source-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": []
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "recording": {
+                    "title": "Sweetest Perfection (demo)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "acf6437b-711c-4925-9f39-c4deb0c8a5a0",
+                    "length": 203466
+                },
+                "source-credit": ""
+            },
+            {
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "recording": {
+                    "id": "2abd1f42-968e-448f-bc96-02f70a6d2b8b",
+                    "length": 269000,
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Sweetest Perfection (Fettdog “Sweetest Imperfection” mashup)"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type": "performance",
+                "direction": "backward"
+            },
+            {
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "recording": {
+                    "title": "Sweetest Perfection (Mark Reeder’s Sweetest Conception remix)",
+                    "length": 347000,
+                    "id": "18f3b9cd-8837-45be-9398-c68473e12f66",
+                    "video": false,
+                    "disambiguation": ""
+                },
+                "source-credit": "",
+                "attributes": []
+            },
+            {
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "title": "Sweetest Perfection (Phasing mix)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "44740d03-d334-4cba-a416-a31f5cb4355e",
+                    "length": 311760
+                },
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "title": "Sweetest Perfection (Phil Kieran dub mix)",
+                    "video": false,
+                    "disambiguation": "",
+                    "length": 431000,
+                    "id": "6a2a583f-4c19-4af9-abf8-252d7e3f4285"
+                },
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording"
+            },
+            {
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "length": 430000,
+                    "id": "b791a229-910d-48b7-8109-337a01a914db",
+                    "title": "Sweetest Perfection (Phil Kieran vocal mix)"
+                }
+            },
+            {
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "attribute-values": [],
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "title": "Sweetest Perfection (Thugmix)",
+                    "length": 351000,
+                    "id": "1af7d2b8-73d7-4fb4-ba6e-301c9babcf24",
+                    "disambiguation": "",
+                    "video": false
+                },
+                "attributes": []
+            },
+            {
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": "",
+                "attributes": [],
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "b529af4b-ce73-4d78-bded-131bd350a0c3",
+                    "length": 540000,
+                    "title": "Sweetest Perfection (XXL X-Tended remix)"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance"
+            },
+            {
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [
+                    "medley"
+                ],
+                "source-credit": "",
+                "recording": {
+                    "id": "98988171-fd07-4f0b-a1c6-401091e2fdb0",
+                    "length": 2126000,
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Sweetest Pleasure Tonight"
+                },
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ordering-key": 5,
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "target-type": "recording"
+            },
+            {
+                "attributes": [],
+                "source-credit": "",
+                "direction": "backward",
+                "type": "secondhandsongs",
+                "attribute-values": [],
+                "target-type": "url",
+                "attribute-ids": [],
+                "ended": false,
+                "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "url": {
+                    "id": "a1aa0dcf-fd4b-493f-b6d9-5d142686998f",
+                    "resource": "https://secondhandsongs.com/work/74060"
+                }
+            }
+        ]
+    },
+    "fetched_at": 1792074770.293252,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

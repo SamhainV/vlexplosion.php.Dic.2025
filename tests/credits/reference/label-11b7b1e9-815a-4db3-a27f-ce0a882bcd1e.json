@@ -1,0 +1,69 @@
+{
+    "data": {
+        "disambiguation": "sub‐publisher for non‐Japanese works",
+        "sort-name": "ソニー・ミュージックパブリッシング EMI外国事業部",
+        "name": "ソニー・ミュージックパブリッシング EMI外国事業部",
+        "area": {
+            "type": null,
+            "name": "Japan",
+            "type-id": null,
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+                "JP"
+            ],
+            "sort-name": "Japan"
+        },
+        "id": "11b7b1e9-815a-4db3-a27f-ce0a882bcd1e",
+        "aliases": [
+            {
+                "locale": "en",
+                "begin": null,
+                "sort-name": "Sony Music Publishing (Japan) Inc., EMI Overseas Division",
+                "type": "Label name",
+                "name": "Sony Music Publishing (Japan) Inc., EMI Overseas Division",
+                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                "ended": false,
+                "end": null,
+                "primary": true
+            },
+            {
+                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                "ended": false,
+                "primary": false,
+                "end": null,
+                "type": "Label name",
+                "name": "Sony Music Publishing EMI Foreign Division",
+                "sort-name": "Sony Music Publishing EMI Foreign Division",
+                "begin": null,
+                "locale": "en"
+            },
+            {
+                "sort-name": "ソニー・ミュージックパブリッシング EMIがいこく じぎょう ぶ",
+                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                "ended": false,
+                "end": null,
+                "primary": true,
+                "type": "Label name",
+                "name": "ソニー・ミュージックパブリッシング EMI外国事業部",
+                "begin": null,
+                "locale": "ja"
+            }
+        ],
+        "type": "Publisher",
+        "ipis": [],
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "country": "JP",
+        "life-span": {
+            "end": null,
+            "ended": false,
+            "begin": "2021-07-01"
+        },
+        "isnis": [],
+        "label-code": null
+    },
+    "fetched_at": 1792075399.218955,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

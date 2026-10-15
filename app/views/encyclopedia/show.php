@@ -14,3 +14,5 @@
 <?php if ($copy['notes']): ?><p style="white-space:pre-wrap"><?= e($copy['notes']) ?></p><?php endif; ?>
 <a href="<?= e(base_url('vinyls/edit?id=' . $vinyl['Id'])) ?>">Editar mi ficha y carátula</a></section>
 <p class="muted">Datos musicales de MusicBrainz: principales CC0; suplementarios CC BY-NC-SA 3.0. La información disponible puede ser parcial.</p><a href="<?= e(base_url('vinyls')) ?>">Volver a mi colección</a></article>
+
+<?php if (!empty($edition['musicbrainz_release_id']) && \App\Services\EncyclopediaCreditSync::available()): ?><p class="enc"><a href="<?= e(base_url('encyclopedia/credits?id='.(int)$vinyl['Id'])) ?>">Actualizar créditos de esta edición</a></p><?php endif; ?>

@@ -85,3 +85,5 @@ $metadata = [
 <?php endif; ?>
 
 <?php if ($vinyl && \App\Core\Encyclopedia::enabled()): ?><p class="enc"><a href="<?= e(base_url('encyclopedia/'.(!empty($encRecord['edition'])?'association':'link').'?id='.$vinyl['Id'])) ?>"><?= !empty($encRecord['edition'])?'Consultar o corregir vinculación':'Vincular a MusicBrainz' ?></a> · <a href="<?= e(base_url('encyclopedia/manual?id='.$vinyl['Id'])) ?>">Completar información musical manualmente</a></p><?php endif; ?>
+
+<?php if (!empty($encRecord['edition']['musicbrainz_release_id']) && \App\Services\EncyclopediaCreditSync::available()): ?><p class="enc"><a href="<?= e(base_url('encyclopedia/credits?id='.(int)$vinyl['Id'])) ?>">Actualizar créditos de esta edición</a></p><?php endif; ?>

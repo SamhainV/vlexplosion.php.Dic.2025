@@ -1,0 +1,660 @@
+{
+    "data": {
+        "title": "Pussycat",
+        "disambiguation": "explicit",
+        "video": false,
+        "relations": [
+            {
+                "target-credit": "Carlos ‘El Loco’ Bedoya",
+                "artist": {
+                    "name": "Carlos Bedoya",
+                    "type": "Person",
+                    "id": "6a90ada7-9d0c-4f22-b6f4-b42970098c8f",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "disambiguation": "",
+                    "sort-name": "Bedoya, Carlos"
+                },
+                "source-credit": "",
+                "attribute-ids": [],
+                "type": "engineer",
+                "end": null,
+                "ended": false,
+                "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                "attribute-values": [],
+                "begin": null,
+                "attributes": [],
+                "target-type": "artist",
+                "direction": "backward"
+            },
+            {
+                "end": null,
+                "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                "ended": false,
+                "source-credit": "",
+                "type": "engineer",
+                "attribute-ids": {
+                    "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+                },
+                "artist": {
+                    "id": "a414f657-bd76-436c-b58a-350845565b8f",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "name": "Demacio Castellón",
+                    "type": "Person",
+                    "sort-name": "Castellon, Demacio",
+                    "disambiguation": "",
+                    "country": "US"
+                },
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "artist",
+                "attributes": [
+                    "assistant"
+                ],
+                "begin": null,
+                "attribute-values": []
+            },
+            {
+                "begin": null,
+                "attribute-values": [],
+                "direction": "backward",
+                "attributes": [],
+                "target-type": "artist",
+                "artist": {
+                    "disambiguation": "engineer",
+                    "country": "US",
+                    "sort-name": "Douglass, Jimmy",
+                    "type": "Person",
+                    "name": "Jimmy Douglass",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "id": "acd808bb-48a1-4f53-b8cb-3d20377d08ed"
+                },
+                "target-credit": "Senator Jimmy D",
+                "ended": false,
+                "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                "end": null,
+                "type": "engineer",
+                "attribute-ids": [],
+                "source-credit": ""
+            },
+            {
+                "attributes": [
+                    "assistant"
+                ],
+                "target-type": "artist",
+                "direction": "backward",
+                "attribute-values": [],
+                "begin": null,
+                "attribute-ids": {
+                    "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+                },
+                "type": "engineer",
+                "source-credit": "",
+                "ended": false,
+                "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                "end": null,
+                "target-credit": "",
+                "artist": {
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "id": "25e470c5-295a-45a8-bea8-1cde42b27aab",
+                    "type": "Person",
+                    "name": "Marc Lee",
+                    "sort-name": "Lee, Marc",
+                    "disambiguation": "US recording engineer",
+                    "country": "US"
+                }
+            },
+            {
+                "attributes": [],
+                "target-type": "artist",
+                "direction": "backward",
+                "attribute-values": [],
+                "begin": null,
+                "source-credit": "",
+                "attribute-ids": [],
+                "type": "mix",
+                "end": null,
+                "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                "ended": false,
+                "target-credit": "",
+                "artist": {
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "id": "acd808bb-48a1-4f53-b8cb-3d20377d08ed",
+                    "type": "Person",
+                    "name": "Jimmy Douglass",
+                    "sort-name": "Douglass, Jimmy",
+                    "country": "US",
+                    "disambiguation": "engineer"
+                }
+            },
+            {
+                "target-credit": "",
+                "artist": {
+                    "type-id": null,
+                    "id": "2c70e180-92ca-45a9-820e-0370d89bc4c9",
+                    "type": null,
+                    "name": "Steamy",
+                    "sort-name": "Steamy",
+                    "country": null,
+                    "disambiguation": ""
+                },
+                "source-credit": "",
+                "attribute-ids": {
+                    "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+                },
+                "type": "mix",
+                "end": null,
+                "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                "ended": false,
+                "attribute-values": [],
+                "begin": null,
+                "attributes": [
+                    "assistant"
+                ],
+                "target-type": "artist",
+                "direction": "backward"
+            },
+            {
+                "attribute-values": [],
+                "begin": null,
+                "attributes": [],
+                "target-type": "artist",
+                "direction": "backward",
+                "target-credit": "Missy ‘Misdemeanor’ Elliott",
+                "artist": {
+                    "type": "Person",
+                    "name": "Missy Elliott",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+                    "disambiguation": "American rapper, singer, dancer & record producer",
+                    "country": "US",
+                    "sort-name": "Elliott, Missy"
+                },
+                "source-credit": "",
+                "attribute-ids": [],
+                "type": "producer",
+                "end": null,
+                "ended": false,
+                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+            },
+            {
+                "attribute-values": [],
+                "begin": null,
+                "attributes": [],
+                "target-type": "artist",
+                "direction": "backward",
+                "target-credit": "Erroll “Poppi” McCalla, Jr.",
+                "artist": {
+                    "sort-name": "McCalla, Erroll “Poppi”, Jr.",
+                    "disambiguation": "",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "id": "417bb42a-dc07-4fe9-865a-d46d87ccb208",
+                    "type": "Person",
+                    "name": "Erroll “Poppi” McCalla, Jr."
+                },
+                "source-credit": "",
+                "attribute-ids": [],
+                "type": "producer",
+                "end": null,
+                "ended": false,
+                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+            },
+            {
+                "type": "vocal",
+                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                "artist": {
+                    "sort-name": "Elliott, Missy",
+                    "country": "US",
+                    "disambiguation": "American rapper, singer, dancer & record producer",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+                    "type": "Person",
+                    "name": "Missy Elliott"
+                },
+                "target-type": "artist",
+                "direction": "backward",
+                "attribute-values": [],
+                "begin": null,
+                "source-credit": "",
+                "attribute-ids": {
+                    "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                },
+                "end": null,
+                "ended": false,
+                "target-credit": "",
+                "attribute-credits": [],
+                "attributes": [
+                    "lead vocals"
+                ]
+            },
+            {
+                "attributes": [
+                    "additional"
+                ],
+                "target-type": "artist",
+                "direction": "backward",
+                "attribute-values": [],
+                "begin": null,
+                "source-credit": "",
+                "attribute-ids": {
+                    "additional": "0a5341f8-3b1d-4f99-a0c6-26b7f4e42c7f"
+                },
+                "type": "vocal",
+                "end": null,
+                "ended": false,
+                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                "target-credit": "",
+                "artist": {
+                    "sort-name": "Tweet",
+                    "country": "US",
+                    "disambiguation": "",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "id": "db21a231-40ee-4c18-9604-bd7508a05998",
+                    "type": "Person",
+                    "name": "Tweet"
+                }
+            },
+            {
+                "begin": "2002",
+                "attribute-values": [],
+                "direction": "backward",
+                "target-type": "label",
+                "label": {
+                    "sort-name": "Elektra Entertainment",
+                    "disambiguation": "company, DO NOT USE as release label, for releases use “Elektra”",
+                    "label-code": null,
+                    "id": "44edd847-634b-4b65-8e4a-e6cfd5ee9091",
+                    "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+                    "name": "Elektra Entertainment",
+                    "type": "Original Production"
+                },
+                "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+                "type": "phonographic copyright",
+                "attributes": [],
+                "target-credit": "Elektra Entertainment",
+                "end": "2002",
+                "ended": true,
+                "source-credit": "",
+                "attribute-ids": []
+            },
+            {
+                "attribute-values": [],
+                "begin": "2002",
+                "target-type": "label",
+                "direction": "backward",
+                "label": {
+                    "sort-name": "WEA International Inc.",
+                    "disambiguation": "not for release label use! copyrights holder, distributor for the world outside of the US",
+                    "id": "0070482a-06f0-43a1-a81a-ef228a89fc37",
+                    "label-code": null,
+                    "type-id": "53ab8dcc-9946-3b62-966e-7634d78e5034",
+                    "name": "WEA International Inc.",
+                    "type": "Distributor"
+                },
+                "type": "phonographic copyright",
+                "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+                "attributes": [],
+                "target-credit": "WEA International Inc.",
+                "source-credit": "",
+                "attribute-ids": [],
+                "end": "2002",
+                "ended": true
+            },
+            {
+                "direction": "backward",
+                "target-type": "label",
+                "begin": null,
+                "attribute-values": [],
+                "type-id": "ce1529b0-2fd9-4dcc-82d2-4036a044b5b9",
+                "type": "produced for",
+                "label": {
+                    "disambiguation": "",
+                    "sort-name": "Mass Confusion Productions, Inc.",
+                    "type": null,
+                    "name": "Mass Confusion Productions, Inc.",
+                    "type-id": null,
+                    "id": "1b977294-1a8a-43ae-b86c-4dd661fe9a64",
+                    "label-code": null
+                },
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "place": {
+                    "id": "d4fb6481-b2cd-434d-aa71-045855c0a0d4",
+                    "coordinates": null,
+                    "area": {
+                        "type": "City",
+                        "name": "Midtown Manhattan",
+                        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                        "id": "edd27a39-ff8a-4af4-8bbf-f369b0fb1899",
+                        "disambiguation": "",
+                        "sort-name": "Midtown Manhattan"
+                    },
+                    "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+                    "name": "Manhattan Center Studios",
+                    "type": "Studio",
+                    "address": "",
+                    "disambiguation": ""
+                },
+                "attributes": [],
+                "target-credit": "",
+                "end": null,
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": [],
+                "begin": null,
+                "attribute-values": [],
+                "direction": "backward",
+                "target-type": "place",
+                "type-id": "11d74801-1493-4a5d-bc0f-4ddc537acddb",
+                "type": "mixed at"
+            },
+            {
+                "type": "recorded at",
+                "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                "attribute-values": [],
+                "begin": null,
+                "target-type": "place",
+                "direction": "backward",
+                "target-credit": "",
+                "attribute-ids": [],
+                "source-credit": "",
+                "ended": false,
+                "end": null,
+                "place": {
+                    "coordinates": {
+                        "longitude": -80.1638,
+                        "latitude": 25.9133
+                    },
+                    "id": "10f818e1-08f1-4620-9b1a-3a2be3408b1e",
+                    "type": "Studio",
+                    "name": "The Hit Factory Criteria",
+                    "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+                    "area": {
+                        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                        "id": "4a9aeb42-3763-4234-8fb8-1167ac1dfdfe",
+                        "type": "City",
+                        "name": "Miami",
+                        "sort-name": "Miami",
+                        "disambiguation": ""
+                    },
+                    "disambiguation": "",
+                    "address": ""
+                },
+                "attributes": []
+            },
+            {
+                "target-type": "url",
+                "direction": "forward",
+                "attribute-values": [],
+                "begin": null,
+                "type": "free streaming",
+                "type-id": "7e41ef12-a124-4324-afdb-fdbae687a89c",
+                "url": {
+                    "resource": "https://open.spotify.com/track/1o5836JxPIRXFPokPisoMa",
+                    "id": "fbc75d21-6c0f-4dcd-8975-9e85ec45849a"
+                },
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "ended": false,
+                "end": null,
+                "target-credit": ""
+            },
+            {
+                "type": "free streaming",
+                "url": {
+                    "resource": "https://www.deezer.com/track/663576",
+                    "id": "d5153a9d-6769-44ef-bdd1-773fbf85ac92"
+                },
+                "type-id": "7e41ef12-a124-4324-afdb-fdbae687a89c",
+                "attribute-values": [],
+                "begin": null,
+                "target-type": "url",
+                "direction": "forward",
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "end": null,
+                "ended": false,
+                "attributes": []
+            },
+            {
+                "target-type": "url",
+                "direction": "forward",
+                "attribute-values": [],
+                "begin": null,
+                "type": "purchase for download",
+                "type-id": "92777657-504c-4acb-bd33-51a201bd57e1",
+                "url": {
+                    "id": "f07004c5-ce8d-4b25-b8a7-7c6bb6c6b103",
+                    "resource": "https://music.apple.com/gb/song/254168435"
+                },
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "ended": false,
+                "end": null,
+                "target-credit": ""
+            },
+            {
+                "url": {
+                    "resource": "https://music.apple.com/gb/song/254168435",
+                    "id": "f07004c5-ce8d-4b25-b8a7-7c6bb6c6b103"
+                },
+                "type-id": "b5f3058a-666c-406f-aafb-f9249fc7b122",
+                "type": "streaming",
+                "begin": null,
+                "attribute-values": [],
+                "direction": "forward",
+                "target-type": "url",
+                "target-credit": "",
+                "end": null,
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": []
+            },
+            {
+                "type": "streaming",
+                "url": {
+                    "resource": "https://tidal.com/track/533972",
+                    "id": "6369de0f-6c0b-4d88-a798-e6e477758861"
+                },
+                "type-id": "b5f3058a-666c-406f-aafb-f9249fc7b122",
+                "attribute-values": [],
+                "begin": null,
+                "target-type": "url",
+                "direction": "forward",
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "end": null,
+                "ended": false,
+                "attributes": []
+            },
+            {
+                "target-credit": "",
+                "end": null,
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": [],
+                "work": {
+                    "language": "eng",
+                    "id": "a7450310-87fb-35b1-a745-312df93bc2d4",
+                    "iswcs": [
+                        "T-071.850.397-9"
+                    ],
+                    "attributes": [],
+                    "title": "Pussycat",
+                    "disambiguation": "",
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                    "relations": [
+                        {
+                            "attribute-values": [],
+                            "begin": null,
+                            "target-type": "artist",
+                            "attributes": [],
+                            "direction": "backward",
+                            "target-credit": "Melissa Elliott",
+                            "artist": {
+                                "name": "Missy Elliott",
+                                "type": "Person",
+                                "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "country": "US",
+                                "disambiguation": "American rapper, singer, dancer & record producer",
+                                "sort-name": "Elliott, Missy"
+                            },
+                            "type": "writer",
+                            "attribute-ids": [],
+                            "source-credit": "",
+                            "ended": false,
+                            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                            "end": null
+                        },
+                        {
+                            "attribute-values": [],
+                            "begin": null,
+                            "attributes": [],
+                            "target-type": "artist",
+                            "direction": "backward",
+                            "target-credit": "Erroll McCalla, Jr.",
+                            "artist": {
+                                "disambiguation": "",
+                                "country": "US",
+                                "sort-name": "McCalla, Erroll “Poppi”, Jr.",
+                                "type": "Person",
+                                "name": "Erroll “Poppi” McCalla, Jr.",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "id": "417bb42a-dc07-4fe9-865a-d46d87ccb208"
+                            },
+                            "source-credit": "",
+                            "attribute-ids": [],
+                            "type": "writer",
+                            "end": null,
+                            "ended": false,
+                            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+                        },
+                        {
+                            "label": {
+                                "label-code": null,
+                                "id": "c4d96404-f3ec-4d7e-afe5-fe2faa52d19b",
+                                "type-id": null,
+                                "name": "EWM Publishing",
+                                "type": null,
+                                "sort-name": "EWM Publishing",
+                                "disambiguation": "Publishing arm of Eastern Woods Music (Records & Publishing)"
+                            },
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "type": "publishing",
+                            "begin": null,
+                            "attribute-values": [],
+                            "direction": "backward",
+                            "target-type": "label",
+                            "target-credit": "",
+                            "ended": false,
+                            "end": null,
+                            "attribute-ids": [],
+                            "source-credit": "",
+                            "attributes": []
+                        },
+                        {
+                            "ended": false,
+                            "end": null,
+                            "attribute-ids": [],
+                            "source-credit": "",
+                            "target-credit": "",
+                            "attributes": [],
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "type": "publishing",
+                            "label": {
+                                "sort-name": "Foray Music",
+                                "disambiguation": "",
+                                "label-code": null,
+                                "id": "666a2d75-65b7-4917-a776-1a2443abaa65",
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "name": "Foray Music",
+                                "type": "Publisher"
+                            },
+                            "direction": "backward",
+                            "target-type": "label",
+                            "begin": null,
+                            "attribute-values": []
+                        },
+                        {
+                            "attributes": [],
+                            "target-credit": "",
+                            "end": null,
+                            "ended": false,
+                            "source-credit": "",
+                            "attribute-ids": [],
+                            "begin": null,
+                            "attribute-values": [],
+                            "direction": "backward",
+                            "target-type": "label",
+                            "label": {
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "id": "a8ffb6ad-3e00-474d-b44a-f465026a2e61",
+                                "label-code": null,
+                                "type": "Publisher",
+                                "name": "Mass Confusion Music",
+                                "sort-name": "Mass Confusion Music",
+                                "disambiguation": ""
+                            },
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "type": "publishing"
+                        },
+                        {
+                            "target-type": "label",
+                            "direction": "backward",
+                            "attribute-values": [],
+                            "begin": null,
+                            "type": "publishing",
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "label": {
+                                "sort-name": "WB Music Corp.",
+                                "disambiguation": "1929–2019",
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "label-code": null,
+                                "id": "883fe539-a89f-4572-8072-4d1e69d4670d",
+                                "type": "Publisher",
+                                "name": "WB Music Corp."
+                            },
+                            "attributes": [],
+                            "attribute-ids": [],
+                            "source-credit": "",
+                            "ended": false,
+                            "end": null,
+                            "target-credit": ""
+                        }
+                    ],
+                    "languages": [
+                        "eng"
+                    ],
+                    "type": "Song"
+                },
+                "attributes": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "begin": null,
+                "attribute-values": [],
+                "direction": "forward",
+                "target-type": "work"
+            }
+        ],
+        "first-release-date": "2002-11-11",
+        "id": "4d288a26-f345-4c67-930a-d7b5e0476396",
+        "length": 272333
+    },
+    "fetched_at": 1792075613.472566,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "recording"
+}

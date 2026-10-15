@@ -1,0 +1,44 @@
+{
+    "data": {
+        "life-span": {
+            "begin": "1977",
+            "ended": false,
+            "end": null
+        },
+        "id": "6e2e2c73-bd7a-413d-b044-0dbf790b4109",
+        "disambiguation": "",
+        "coordinates": {
+            "longitude": -73.983806,
+            "latitude": 40.75982
+        },
+        "area": {
+            "name": "New York",
+            "type-id": null,
+            "sort-name": "New York",
+            "disambiguation": "",
+            "type": null,
+            "id": "74e50e58-5deb-4b99-93a2-decbb365c07f"
+        },
+        "type": "Studio",
+        "aliases": [
+            {
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "sort-name": "Quad Sound",
+                "primary": null,
+                "type-id": null,
+                "name": "Quad Sound",
+                "locale": null,
+                "type": null
+            }
+        ],
+        "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+        "name": "Quad Recording Studios",
+        "address": "723 7th Avenue, New York, NY 10019, USA"
+    },
+    "fetched_at": 1792076026.636749,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "place"
+}

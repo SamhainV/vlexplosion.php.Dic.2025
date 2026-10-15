@@ -1,0 +1,2570 @@
+{
+    "data": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+            "T-011.391.706-8"
+        ],
+        "type": "Song",
+        "title": "Waiting for the Night",
+        "languages": [
+            "eng"
+        ],
+        "relations": [
+            {
+                "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                "target-credit": "",
+                "type": "composer",
+                "target-type": "artist",
+                "direction": "backward",
+                "source-credit": "",
+                "artist": {
+                    "disambiguation": "",
+                    "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                    "type": "Person",
+                    "name": "Martin L. Gore",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "Gore, Martin L."
+                },
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "attributes": [],
+                "begin": null,
+                "ended": false
+            },
+            {
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "artist": {
+                    "type": "Person",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "Gore, Martin L.",
+                    "name": "Martin L. Gore",
+                    "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                    "disambiguation": ""
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "target-type": "artist",
+                "target-credit": "",
+                "type": "lyricist",
+                "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+            },
+            {
+                "recording": {
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "id": "429bd83e-0e63-431d-a981-d6e9c0b07411",
+                    "disambiguation": "live, 1990-06-21: Montreal Forum, Montreal, QC, Canada",
+                    "length": null
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1990-06-21",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": "1990-06-21",
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "attributes": [
+                    "live"
+                ],
+                "begin": "1990-06-24",
+                "ended": true,
+                "end": "1990-06-24",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "target-type": "recording",
+                "recording": {
+                    "length": null,
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "id": "d7640ba4-96ac-4a06-a5b5-548f9df8263c",
+                    "disambiguation": "live, 1990-06-24: Star Lake Amphitheater, Pittsburgh, PA, USA"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": "1990-06-30",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "begin": "1990-06-30",
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": null,
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "disambiguation": "live, 1990-06-30: Marcus Amphitheatre, Milwaukee, WI, USA",
+                    "id": "6adeb550-2311-41c3-8d45-d40c987382f6"
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "begin": "1990-07-02",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": "1990-07-02",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": null,
+                    "disambiguation": "live, 1990-07-02: World Music Theatre, Chicago, IL, USA",
+                    "id": "7c90a79e-0310-4d36-873c-52acb873039a",
+                    "video": false,
+                    "title": "Waiting for the Night"
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": ""
+            },
+            {
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "begin": "1990-07-03",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": "1990-07-03",
+                "source-credit": "",
+                "direction": "backward",
+                "recording": {
+                    "id": "1eac5605-5a24-4d95-9356-a5c6e6dd8251",
+                    "disambiguation": "live, 1990-07-03: World Music Theatre, Chicago, IL, USA",
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "length": null
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 333226,
+                    "id": "67d1c71d-3b1c-41cd-9ec7-61f179dc7e37",
+                    "disambiguation": "live, 1990-07-06: Cynthia Woods Mitchell Pavilion, Houston, TX, USA",
+                    "video": false,
+                    "title": "Waiting for the Night"
+                },
+                "target-type": "recording",
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": "1990-07-06",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "begin": "1990-07-06"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 343000,
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "id": "71f55d31-3c0b-4430-bda9-b77a2945b50b",
+                    "disambiguation": "live, 1990-07-21: Shoreline Amphitheatre, Mountain View, CA, USA"
+                },
+                "target-type": "recording",
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "end": "1990-07-21",
+                "attributes": [
+                    "live"
+                ],
+                "begin": "1990-07-21",
+                "ended": true
+            },
+            {
+                "direction": "backward",
+                "source-credit": "",
+                "end": "1990-07-31",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "begin": "1990-07-31",
+                "ended": true,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "id": "6db87c68-599d-40d7-b390-e411ebee9ace",
+                    "disambiguation": "live, 1990-07-31: San Diego Sports Arena, San Diego, CA, USA",
+                    "length": 342000
+                }
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "end": "1990-08-04",
+                "ended": true,
+                "attributes": [
+                    "live"
+                ],
+                "begin": "1990-08-04",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 356000,
+                    "id": "97389a39-bbbb-47e7-87f4-3f6240ede54f",
+                    "disambiguation": "live, 1990-08-04: Dodger Stadium, Los Angeles, CA, USA",
+                    "video": false,
+                    "title": "Waiting for the Night"
+                },
+                "target-type": "recording"
+            },
+            {
+                "target-type": "recording",
+                "recording": {
+                    "length": null,
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "disambiguation": "live, 1990-08-05: Dodger Stadium, Los Angeles, CA, USA",
+                    "id": "9d204642-9533-465f-a9aa-a1acf9f1afde"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1990-08-05",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "end": "1990-08-05",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "direction": "backward",
+                "source-credit": ""
+            },
+            {
+                "direction": "backward",
+                "source-credit": "",
+                "end": "1990-09-28",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "begin": "1990-09-28",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "length": null,
+                    "id": "8411e3bc-66fa-4c95-92fa-469e8cac356e",
+                    "disambiguation": "live, 1990-09-28: Vorst Nationaal, Brussels, Belgium",
+                    "title": "Waiting for the Night",
+                    "video": false
+                }
+            },
+            {
+                "end": "1990-10-06",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "begin": "1990-10-06",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "direction": "backward",
+                "source-credit": "",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "id": "8fc94e35-b605-4581-92e9-534fc2513a0b",
+                    "disambiguation": "live, 1990-10-06: Globe Arena, Stockholm, Sweden",
+                    "length": 336000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "end": "1990-10-17",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "begin": "1990-10-17",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "disambiguation": "live, 1990-10-17: Olympiahalle, München, Germany",
+                    "id": "b402bd1a-0b75-46d4-a64e-1131e88d8db8",
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "length": 352000
+                },
+                "target-type": "recording"
+            },
+            {
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "disambiguation": "live, 1990-10-23: Palais Omnisports de Paris-Bercy, Paris, France",
+                    "id": "2f828676-28aa-4b1d-86c8-aae80491931f",
+                    "length": 348866
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": "1990-10-23",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "begin": "1990-10-23",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "direction": "backward",
+                "source-credit": ""
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "disambiguation": "live, 1990‐11‐11: PalaTrussardi, Milan, Italy",
+                    "id": "e4bd6d20-ec55-4f8b-8b63-b82a32b36228",
+                    "length": 356000
+                },
+                "target-type": "recording",
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": "1990-11-11",
+                "attributes": [
+                    "live"
+                ],
+                "begin": "1990-11-11",
+                "ended": true
+            },
+            {
+                "target-type": "recording",
+                "recording": {
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "disambiguation": "live, 1990‐11‐19: Wembley Arena, London, UK",
+                    "id": "ecefd713-3691-490c-8a24-2a8c218cb856",
+                    "length": null
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": true,
+                "attributes": [
+                    "live"
+                ],
+                "begin": "1990-11-19",
+                "end": "1990-11-19",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "direction": "backward",
+                "source-credit": ""
+            },
+            {
+                "recording": {
+                    "disambiguation": "live, 2001-07-01: Tweeter Center for the Performing Arts, Mansfield, MA, USA",
+                    "id": "2181a1bc-3f93-431b-9e8c-123237fa687e",
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "length": 358000
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "2001-07-01",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": "2001-07-01",
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "target-type": "recording",
+                "recording": {
+                    "id": "e7f982d7-c2e7-41d4-ad56-942e35dda373",
+                    "disambiguation": "live, 2001-08-14: Staples Center, Los Angeles, CA, USA",
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "length": 362000
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "begin": "2001-08-14",
+                "end": "2001-08-14",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "direction": "backward",
+                "source-credit": ""
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "disambiguation": "live, 2001-09-02: Tor Służewiec, Warsaw, Poland",
+                    "id": "8ff3e28e-9fdf-4680-bbd2-5042348471e1",
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "length": null
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "end": "2001-09-02",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "begin": "2001-09-02",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true
+            },
+            {
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "id": "b01b774c-3ac7-4b31-8ea9-c9a473d6cb36",
+                    "disambiguation": "live, 2001-09-23: Parken Stadium, Copenhagen, Denmark",
+                    "length": 358053
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "end": "2001-09-23",
+                "begin": "2001-09-23",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 358000,
+                    "id": "01b66143-5617-4b2b-ac77-8690225c4b45",
+                    "disambiguation": "live, 2001-09-29: Olympiahalle, München, Germany",
+                    "title": "Waiting for the Night",
+                    "video": false
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "source-credit": "",
+                "direction": "backward",
+                "ended": true,
+                "attributes": [
+                    "live"
+                ],
+                "begin": "2001-09-29",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "end": "2001-09-29"
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": "2001-09-30",
+                "begin": "2001-09-30",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 369000,
+                    "id": "66989de4-c381-4cbb-b4c2-fd14158cfa1c",
+                    "disambiguation": "live, 2001-09-30: Olympiahalle, München, Germany",
+                    "title": "Waiting for the Night",
+                    "video": false
+                },
+                "target-type": "recording"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "disambiguation": "live, 2001-10-11: Festhalle Frankfurt, Frankfurt, Germany",
+                    "id": "4dc42f4a-fd55-4162-aee4-732047b0b77e",
+                    "length": 353000
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "begin": "2001-10-11",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": "2001-10-11"
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": "2001-10-11",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "begin": "2001-10-11",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "disambiguation": "live, 2001-10-11: Festhalle, Frankfurt, Germany",
+                    "id": "5453f587-9602-43d4-9309-a3ca237b37b1",
+                    "length": 328253
+                },
+                "target-type": "recording"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "title": "The Screening: Waiting for the Night",
+                    "video": true,
+                    "disambiguation": "live video, 2001-10-09/10: Palais Omnisport, Paris Bercy, France",
+                    "id": "89859620-7654-408d-892a-5aaeeddd1c9c",
+                    "length": 334000
+                },
+                "target-credit": "",
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "begin": "2001-10",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "end": "2001-10",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                }
+            },
+            {
+                "recording": {
+                    "length": 364693,
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "disambiguation": "live, 2001-10-09/10: Palais Omnisport, Paris Bercy, France",
+                    "id": "99714fab-f229-4b24-9006-68e02b6de795"
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "2001-10",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": "2001-10",
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "id": "0587437b-2d30-4a3b-8e95-8e388767a9e7",
+                    "disambiguation": "live video, 2001-10-09/10: Palais Omnisport, Paris Bercy, France",
+                    "video": true,
+                    "title": "Waiting for the Night",
+                    "length": 365000
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": "2001-10",
+                "begin": "2001-10",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 348189,
+                    "id": "ee1922ca-90b1-4e24-b7c2-73a2c08fa6e8",
+                    "disambiguation": "live, 2009-05-10: Ramat Gan Stadium, Tel Aviv, Israel",
+                    "title": "Waiting for the Night",
+                    "video": false
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "source-credit": "",
+                "direction": "backward",
+                "begin": "2009-05-10",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "end": "2009-05-10"
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": "2009-06-08",
+                "begin": "2009-06-08",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "id": "ffdbed63-2a63-4df7-9505-8d0451864083",
+                    "disambiguation": "live, 2009-06-08: Zentralstadion, Leipzig, Germany",
+                    "length": 334000
+                },
+                "target-type": "recording"
+            },
+            {
+                "target-type": "recording",
+                "recording": {
+                    "length": 362000,
+                    "id": "038ac2a2-16a8-47c7-ba93-26f4027b8ba0",
+                    "disambiguation": "live, 2009-06-13: Olympiastadion, München, Germany",
+                    "title": "Waiting for the Night",
+                    "video": false
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "2009-06-13",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "end": "2009-06-13",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "direction": "backward",
+                "source-credit": ""
+            },
+            {
+                "recording": {
+                    "length": 341146,
+                    "id": "566ba487-a373-4d51-b172-db89aecc069e",
+                    "disambiguation": "live, 2009-06-16: Stadio Olimpico, Rome, Italy",
+                    "video": false,
+                    "title": "Waiting for the Night"
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "2009-06-16",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "end": "2009-06-16",
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "end": "2009-06-27",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "attributes": [
+                    "live"
+                ],
+                "begin": "2009-06-27",
+                "ended": true,
+                "direction": "backward",
+                "source-credit": "",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "length": 367000,
+                    "id": "b49d0b4b-bb1c-4adc-a8dc-55c78d21a031",
+                    "disambiguation": "live, 2009‐06‐27: Stade de France, Paris, France",
+                    "video": false,
+                    "title": "Waiting for the Night"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "disambiguation": "live, 2009-06-30: Parken Stadium, Copenhagen, Denmark",
+                    "id": "b3342fa6-ee83-49ea-b581-aca154f2e2a0",
+                    "length": 367000
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "begin": "2009-06-30",
+                "end": "2009-06-30",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "direction": "backward",
+                "source-credit": ""
+            },
+            {
+                "end": "2009-07-28",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "ended": true,
+                "attributes": [
+                    "live"
+                ],
+                "begin": "2009-07-28",
+                "direction": "backward",
+                "source-credit": "",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "length": 351000,
+                    "id": "6566c844-ad27-46fd-95a9-badabf581da2",
+                    "disambiguation": "live, 2009‐07‐28: Nissan Pavilion, Bristow, VA, USA",
+                    "video": false,
+                    "title": "Waiting for the Night"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "length": 411146,
+                    "disambiguation": "live, 2009-08-25: E-Center, Salt Lake City, UT, USA",
+                    "id": "317a5bf2-bcef-4413-af58-ccb6b8cce3c2",
+                    "title": "Waiting for the Night",
+                    "video": false
+                },
+                "target-credit": "",
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "ended": true,
+                "attributes": [
+                    "live"
+                ],
+                "begin": "2009-08-25",
+                "end": "2009-08-25",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": []
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "disambiguation": "live, 2009-08-29: Superpages, Dallas, TX, USA",
+                    "id": "d62cb1ca-e700-4a6f-8958-8a373920eb38",
+                    "length": 395000
+                },
+                "target-credit": "",
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "ended": true,
+                "attributes": [
+                    "live"
+                ],
+                "begin": "2009-08-29",
+                "end": "2009-08-29",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": []
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 443000,
+                    "video": true,
+                    "title": "Waiting for the Night / [closing credits]",
+                    "disambiguation": "live, 2009-11-21: Palau Sant Jordi, Barcelona, Spain",
+                    "id": "75ee1b31-9151-46fe-81ad-105b0153f609"
+                },
+                "target-type": "recording",
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "end": "2009-11-21",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "begin": "2009-11-21"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 468266,
+                    "disambiguation": "live, 2009-11-20/21: Palau Sant Jordi, Barcelona, Spain",
+                    "id": "bdf604c8-806b-4404-8e45-746486ea0eaa",
+                    "title": "Waiting for the Night",
+                    "video": false
+                },
+                "target-type": "recording",
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "end": "2009-11",
+                "ended": true,
+                "attributes": [
+                    "live"
+                ],
+                "begin": "2009-11"
+            },
+            {
+                "direction": "backward",
+                "source-credit": "",
+                "end": "2018-08-25",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "cover",
+                    "live"
+                ],
+                "ended": true,
+                "begin": "2018-08-25",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "title": "Waiting for the Night (Backstage session)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "8bbefd0c-058b-4229-907a-3ed1be33bbe2",
+                    "length": null
+                }
+            },
+            {
+                "recording": {
+                    "length": 398000,
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "id": "71e53913-6f7d-4e2e-aa84-f0abbc89b838",
+                    "disambiguation": "live, 2023‐07‐07: Olympiastadion, Berlin, Germany"
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": true,
+                "attributes": [
+                    "live"
+                ],
+                "begin": "2023-07-07",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": "2023-07-07",
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 337574,
+                    "id": "1930fe8a-cc90-4afa-bdc3-2ef9ebaa07e0",
+                    "disambiguation": "live, 2023‐09‐21 / 25: Foro Sol, Ciudad de México, Mexico",
+                    "title": "Waiting for the Night",
+                    "video": false
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": "2023-09",
+                "attributes": [
+                    "live"
+                ],
+                "begin": "2023-09",
+                "ended": true,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "ended": false,
+                "type": "performance",
+                "recording": {
+                    "id": "afd89771-6ded-40e4-953c-de59810bad59",
+                    "disambiguation": "",
+                    "title": "New Mode Mecca '90",
+                    "video": false,
+                    "length": 965800
+                },
+                "source-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "attributes": [
+                    "medley"
+                ],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "target-type": "recording",
+                "ordering-key": 3
+            },
+            {
+                "target-type": "recording",
+                "ordering-key": 1,
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attributes": [
+                    "medley"
+                ],
+                "attribute-values": [],
+                "end": null,
+                "source-credit": "",
+                "recording": {
+                    "length": 871000,
+                    "video": false,
+                    "title": "Violated Silence",
+                    "disambiguation": "",
+                    "id": "216ff21a-01ea-477d-88cf-944308403033"
+                },
+                "type": "performance",
+                "ended": false,
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "length": 367000,
+                    "id": "b00db402-51d2-4125-912b-c0eab9c6edd1",
+                    "disambiguation": "",
+                    "title": "Waiting for the Night",
+                    "video": false
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "attributes": [],
+                "ended": false,
+                "begin": null
+            },
+            {
+                "end": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": [],
+                "ended": false,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "direction": "backward",
+                "source-credit": "",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "41957c14-e263-4a78-8b99-330a51e8d326",
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "length": 454400
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "attributes": [
+                    "cover"
+                ],
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "target-type": "recording",
+                "recording": {
+                    "id": "e8dd480c-b6bd-40fe-8e04-ab7eaf90a033",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "length": 323626
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "id": "f0da2701-082e-4995-91e2-b181110fa842",
+                    "disambiguation": "",
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "length": 458493
+                },
+                "target-type": "recording",
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "end": null,
+                "ended": false,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null
+            },
+            {
+                "direction": "backward",
+                "source-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "id": "2eeb0af1-c54b-49f3-9d2b-3dfb96e98bb9",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "length": 359546
+                }
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 283066,
+                    "disambiguation": "",
+                    "id": "dc32b7df-2ed0-4718-9c07-727a060ea1a8",
+                    "title": "Waiting for the Night",
+                    "video": false
+                },
+                "target-type": "recording",
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": [],
+                "end": null,
+                "ended": false,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "ended": false,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 349880,
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "disambiguation": "",
+                    "id": "45fb448b-a022-4a10-bca7-8985526b29d8"
+                },
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "ended": false,
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "13acb1b7-b23f-42ae-872c-96a0830ca6a9",
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "length": 308000
+                },
+                "target-type": "recording"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "length": 264240,
+                    "id": "12107e4a-5e9a-46ca-9441-e3406dbb3f07",
+                    "disambiguation": "",
+                    "title": "Waiting for the Night",
+                    "video": false
+                },
+                "target-credit": "",
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "ended": false,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "end": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": []
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": [],
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "ended": false,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 327000,
+                    "disambiguation": "",
+                    "id": "51a092c3-256c-4ec5-9b39-384859448311",
+                    "video": false,
+                    "title": "Waiting for the Night"
+                },
+                "target-type": "recording"
+            },
+            {
+                "direction": "backward",
+                "source-credit": "",
+                "ended": false,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "length": 183000,
+                    "id": "d061fdae-042e-4a99-985e-2556455bf071",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Waiting for the Night"
+                },
+                "target-credit": "",
+                "type": "performance"
+            },
+            {
+                "direction": "backward",
+                "source-credit": "",
+                "end": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": [],
+                "begin": null,
+                "attributes": [
+                    "cover"
+                ],
+                "ended": false,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "length": 281000,
+                    "disambiguation": "",
+                    "id": "b61efa98-5d67-47bb-8b69-c671daef983a",
+                    "video": false,
+                    "title": "Waiting for the Night"
+                }
+            },
+            {
+                "direction": "backward",
+                "source-credit": "",
+                "ended": false,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "b83ecbbf-1978-4a96-a106-9639d78fa23b",
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "length": 337723
+                },
+                "target-credit": "",
+                "type": "performance"
+            },
+            {
+                "direction": "backward",
+                "source-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "id": "171d403a-2686-4b31-af5e-3b3963f37a5d",
+                    "disambiguation": "5.1 mix",
+                    "length": 367000
+                }
+            },
+            {
+                "attributes": [
+                    "cover"
+                ],
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": [],
+                "direction": "backward",
+                "source-credit": "",
+                "target-type": "recording",
+                "recording": {
+                    "id": "2cf5d693-e85c-4f14-ac94-f9aa1e7090a0",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "length": null
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 366000,
+                    "disambiguation": "Violator 2000 Reload version",
+                    "id": "3099aca2-a3d8-4fe8-a6f4-3b556b5e5f4a",
+                    "video": false,
+                    "title": "Waiting for the Night"
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": ""
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae",
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "end": null,
+                "begin": null,
+                "attributes": [
+                    "cover",
+                    "instrumental"
+                ],
+                "ended": false,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 302000,
+                    "id": "761f912f-b1ff-4d2a-9bbb-c7287f7a74cf",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Waiting for the Night"
+                },
+                "target-type": "recording"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "id": "a846a4a5-cd1c-4c91-90a3-a42379ea9f83",
+                    "disambiguation": "",
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "length": 178066
+                },
+                "target-type": "recording",
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": [],
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "ended": false
+            },
+            {
+                "recording": {
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "disambiguation": "live: Barcelona, Spain",
+                    "id": "761e99d6-7ada-408c-bd74-d7d320b38c34",
+                    "length": 348000
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attributes": [
+                    "live"
+                ],
+                "begin": null,
+                "ended": false,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": null,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "ended": false,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "end": null,
+                "source-credit": "",
+                "direction": "backward",
+                "recording": {
+                    "length": 140000,
+                    "id": "52435882-aa2c-4f79-974d-d3dc46ccbe94",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Waiting for the Night"
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 350000,
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "id": "1bd39a16-917d-497f-b790-90990e0368e3",
+                    "disambiguation": "album version edit?"
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "id": "cbee81fa-21a8-473f-834d-097570fb2768",
+                    "disambiguation": "",
+                    "length": 309560
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "ended": false
+            },
+            {
+                "end": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": [],
+                "ended": false,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "direction": "backward",
+                "source-credit": "",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "104760e3-0973-48b7-9c99-32948f18bcfd",
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "length": 316000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "ended": false,
+                "begin": null,
+                "direction": "backward",
+                "source-credit": "",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "disambiguation": "",
+                    "id": "4f08d502-9129-4180-bb5f-f83045da15d6",
+                    "length": 254482
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 386000,
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "id": "16f5f0e6-1792-4229-9591-629c7b665ffb",
+                    "disambiguation": ""
+                },
+                "target-type": "recording",
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "end": null,
+                "ended": false,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null
+            },
+            {
+                "recording": {
+                    "length": 394000,
+                    "id": "89a0c739-62bc-4948-b8a9-c28c7d9d6e1e",
+                    "disambiguation": "instrumental",
+                    "title": "Waiting for the Night",
+                    "video": false
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attributes": [
+                    "instrumental"
+                ],
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+                },
+                "end": null,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "id": "d11bb30f-0ece-43ac-a1ab-ad0286792fad",
+                    "disambiguation": "",
+                    "length": 280866
+                },
+                "target-credit": "",
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "ended": false,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "end": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": []
+            },
+            {
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": [],
+                "end": null,
+                "begin": null,
+                "attributes": [
+                    "cover"
+                ],
+                "ended": false,
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 299298,
+                    "title": "Waiting for the Night",
+                    "video": false,
+                    "id": "7577698c-e97b-4632-b17c-389f597d998b",
+                    "disambiguation": ""
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "length": 324000,
+                    "disambiguation": "",
+                    "id": "e6147da9-e0ca-497d-b8ea-64d7a6778d66",
+                    "video": false,
+                    "title": "Waiting for the Night"
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "ended": false
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "video": false,
+                    "title": "Waiting for the Night",
+                    "id": "a4bbb64a-babb-4ac8-ac07-4c5d0cca2603",
+                    "disambiguation": "",
+                    "length": 358710
+                },
+                "target-type": "recording",
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "end": null,
+                "ended": false,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null
+            },
+            {
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 260000,
+                    "disambiguation": "",
+                    "id": "a5accdcd-cbaf-4930-923c-5ab25d240522",
+                    "title": "Waiting for the Night (bare)",
+                    "video": false
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "direction": "backward",
+                "source-credit": "",
+                "target-type": "recording",
+                "recording": {
+                    "length": 371000,
+                    "title": "Waiting for the Night (Be-Love-In mix)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "866d3e51-85c0-48c9-8565-6b3b71b817c2"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "id": "01d86e2a-f135-4ca5-860c-67e1cc105ca0",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Waiting for the Night (Can I Feel You mix)",
+                    "length": 365695
+                },
+                "target-type": "recording",
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "begin": null
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "cb58a410-dfa8-4534-8588-ede83c44b967",
+                    "disambiguation": "",
+                    "title": "Waiting for the Night (D.I.B. Star mix)",
+                    "video": false,
+                    "length": 237000
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "source-credit": "",
+                "direction": "backward",
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 339000,
+                    "title": "Waiting for the Night (Dark Night remix by Synthetik Form)",
+                    "video": false,
+                    "id": "47a1dcfc-23d3-448e-b10a-59fde4275d78",
+                    "disambiguation": ""
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": ""
+            },
+            {
+                "recording": {
+                    "id": "6f9de5ba-72cc-48df-8ae8-5ee811b87ec3",
+                    "disambiguation": "",
+                    "title": "Waiting for the Night (Dragutesku edit)",
+                    "video": false,
+                    "length": 607500
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attributes": [],
+                "ended": false,
+                "begin": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [],
+                "ended": false,
+                "begin": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 260000,
+                    "video": false,
+                    "title": "Waiting for the Night (Esteban Lemonde minimal edit)",
+                    "id": "44424d23-af40-4372-9a3e-aa9903819efe",
+                    "disambiguation": ""
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": ""
+            },
+            {
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae",
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover",
+                    "instrumental"
+                ],
+                "begin": null,
+                "ended": false,
+                "direction": "backward",
+                "source-credit": "",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "title": "Waiting for the Night (extended instrumental)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "9305db57-69ee-455b-839c-cd93761b2cd2",
+                    "length": 470000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "direction": "backward",
+                "source-credit": "",
+                "end": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": [],
+                "attributes": [
+                    "cover"
+                ],
+                "ended": false,
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "36bba317-6fb6-4cf9-b24f-8eb579c8a460",
+                    "title": "Waiting for the Night (extended)",
+                    "video": false,
+                    "length": 470000
+                }
+            },
+            {
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "title": "Waiting for the Night (Gadi Mitrani bootleg)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "d160148b-5301-4525-a49e-9ddea2c333d1",
+                    "length": 451000
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 547600,
+                    "disambiguation": "",
+                    "id": "32ab2bf2-30e5-40dc-bc31-8775bdc971ae",
+                    "title": "Waiting for the Night (L.A. Lunar mix)",
+                    "video": false
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "Waiting for the Night (Love|less Tranquility mix)",
+                    "disambiguation": "",
+                    "id": "9c27b4dc-0f17-487a-a480-1c46adf34310",
+                    "length": 369000
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "recording": {
+                    "length": 362000,
+                    "video": false,
+                    "title": "Waiting for the Night (Martin’s vocal version)",
+                    "disambiguation": "",
+                    "id": "a118ce1b-b431-4bfc-8363-dde7c87f7ff5"
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 519453,
+                    "id": "64391084-666c-4b38-a4f9-1111581fe907",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Waiting for the Night (Maxiblues remix)"
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "37cd6572-5508-4b21-9818-693148645d09",
+                    "video": false,
+                    "title": "Waiting for the Night (Nightfall extended remix)",
+                    "length": 459000
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "Waiting for the Night (Real Night mix)",
+                    "id": "c055ac9c-ae76-4b32-b119-430667910e22",
+                    "disambiguation": "",
+                    "length": 389693
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "source-credit": "",
+                "direction": "backward",
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "986cd451-12d5-47d6-8a49-42bab7fb791a",
+                    "title": "Waiting for the Night (Sonic Integration mix)",
+                    "video": false,
+                    "length": 367000
+                },
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "Waiting for the Night (Stripped Windscreen mix)",
+                    "disambiguation": "",
+                    "id": "761b5098-435b-4145-b3cd-e8fc4b109da7",
+                    "length": 365000
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": ""
+            },
+            {
+                "target-type": "recording",
+                "recording": {
+                    "length": 393000,
+                    "video": false,
+                    "title": "Waiting for the Night (Techni-ka Violator remix)",
+                    "id": "6512c85f-d2e8-4cb8-b501-14b9f3436ff4",
+                    "disambiguation": ""
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "direction": "backward",
+                "source-credit": ""
+            },
+            {
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": [],
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "ended": false,
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "video": false,
+                    "title": "Waiting for the Night (The Bad Night mix)",
+                    "disambiguation": "",
+                    "id": "d8ed13ff-4215-4ff9-a4ff-ea4990589f00",
+                    "length": 356666
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "title": "Waiting for the Night (The Brat Mastermix)",
+                    "video": false,
+                    "id": "da504a04-aded-4728-9c4b-55d52778edac",
+                    "disambiguation": "",
+                    "length": 511000
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "target-type": "recording",
+                "recording": {
+                    "length": 239014,
+                    "disambiguation": "",
+                    "id": "858b5219-916c-44c2-9083-bbf4af17e835",
+                    "video": false,
+                    "title": "Waiting for the Night (The Good Night mix)"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": false,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "direction": "backward",
+                "source-credit": ""
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 393000,
+                    "id": "e761710d-1b02-4b9f-b027-7af35a789950",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Waiting for the Night (The Real Noogman mix)"
+                },
+                "target-type": "recording",
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "begin": null,
+                "attributes": [],
+                "ended": false
+            },
+            {
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "source-credit": "",
+                "direction": "backward",
+                "recording": {
+                    "title": "Waiting for the Night (Trinity Sound System mix)",
+                    "video": false,
+                    "id": "3fbd8118-1222-4c6b-84c9-cf5b28867ed5",
+                    "disambiguation": "",
+                    "length": 394000
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [],
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "d5ee4741-b4f4-4719-a836-5e61c6238c61",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Waiting for the Night (Violator rare version)",
+                    "length": 394000
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": ""
+            },
+            {
+                "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                "target-credit": "",
+                "target-type": "url",
+                "source-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "attributes": [],
+                "begin": null,
+                "type": "secondhandsongs",
+                "url": {
+                    "resource": "https://secondhandsongs.com/work/3894",
+                    "id": "3195d310-1720-4903-8285-75ca22f585fa"
+                },
+                "direction": "backward",
+                "attribute-ids": [],
+                "ended": false
+            }
+        ],
+        "language": "eng",
+        "disambiguation": "",
+        "id": "dbd43d93-9648-34c8-8886-243284d370d2",
+        "attributes": [
+            {
+                "value": "002197 572 45",
+                "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+                "type": "SUISA ID"
+            },
+            {
+                "value": "261711",
+                "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+                "type": "SPA ID"
+            },
+            {
+                "type": "SOCAN ID",
+                "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+                "value": "12571378"
+            },
+            {
+                "value": "90130056500",
+                "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+                "type": "SIAE ID"
+            },
+            {
+                "type": "SGAE ID",
+                "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+                "value": "2.097.332"
+            },
+            {
+                "value": "1673403",
+                "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+                "type": "SAYCO ID"
+            },
+            {
+                "type": "SAYCE ID",
+                "value": "1673403",
+                "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+            },
+            {
+                "type": "SADAIC ID",
+                "value": "713636",
+                "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+            },
+            {
+                "type": "SACVEN ID",
+                "value": "3380576",
+                "type-id": "91064561-0c00-4574-ad18-247c7216675f"
+            },
+            {
+                "type": "SACEM ID",
+                "value": "90 194 694 11",
+                "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+            },
+            {
+                "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+                "value": "248156600",
+                "type": "SABAM ID"
+            },
+            {
+                "type": "PRS tune code",
+                "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+                "value": "6814150L"
+            },
+            {
+                "value": "0W2-7172-3",
+                "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+                "type": "JASRAC ID"
+            },
+            {
+                "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+                "value": "2484357-001",
+                "type": "GEMA ID"
+            },
+            {
+                "type": "ECAD ID",
+                "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+                "value": "3325163"
+            },
+            {
+                "value": "5362234",
+                "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+                "type": "COMPASS ID"
+            },
+            {
+                "type": "BUMA/STEMRA ID",
+                "value": "W-000828767",
+                "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+            },
+            {
+                "type": "BMI ID",
+                "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+                "value": "1842255"
+            },
+            {
+                "value": "530346171",
+                "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+                "type": "ASCAP ID"
+            },
+            {
+                "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+                "value": "GW03989245",
+                "type": "APRA ID"
+            },
+            {
+                "type": "APDAYC ID",
+                "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+                "value": "3124949"
+            },
+            {
+                "type": "APA ID",
+                "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+                "value": "5253372"
+            },
+            {
+                "type": "AKM ID",
+                "value": "166084501",
+                "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
+            },
+            {
+                "type": "AGADU ID",
+                "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+                "value": "6131879"
+            }
+        ]
+    },
+    "fetched_at": 1792074918.640639,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

@@ -1,0 +1,224 @@
+{
+    "data": {
+        "relations": [
+            {
+                "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                "target-credit": "François Kevorkian",
+                "type": "mix",
+                "target-type": "artist",
+                "direction": "backward",
+                "source-credit": "",
+                "artist": {
+                    "disambiguation": "",
+                    "id": "093b79fc-d913-4580-8403-c2430f7a18ee",
+                    "type": "Person",
+                    "name": "François K",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "sort-name": "François K"
+                },
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "attributes": [],
+                "begin": null,
+                "ended": false
+            },
+            {
+                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                "target-type": "artist",
+                "type": "vocal",
+                "target-credit": "",
+                "artist": {
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "GB",
+                    "sort-name": "Gahan, Dave",
+                    "name": "Dave Gahan",
+                    "type": "Person",
+                    "disambiguation": "",
+                    "id": "d547b148-cf1f-421b-9464-ce7411ba44b8"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "begin": null,
+                "attributes": [
+                    "lead vocals"
+                ],
+                "ended": false,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                },
+                "end": null,
+                "attribute-credits": []
+            },
+            {
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                "target-type": "recording",
+                "recording": {
+                    "title": "Halo (Jimmi Jammes “Violated Halo” mashup)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "4d4b5397-a095-4db4-8827-7d63df0a966c",
+                    "length": 290000
+                },
+                "target-credit": "",
+                "type": "mashes up"
+            },
+            {
+                "type-id": "7e41ef12-a124-4324-afdb-fdbae687a89c",
+                "target-credit": "",
+                "target-type": "url",
+                "source-credit": "",
+                "attribute-values": [],
+                "end": null,
+                "begin": null,
+                "attributes": [],
+                "type": "free streaming",
+                "url": {
+                    "id": "9674236a-a9bb-4050-b4a0-c5ece1718a2c",
+                    "resource": "https://open.spotify.com/track/6Rr6wXmEx6w6dsBuqqKJa3"
+                },
+                "direction": "forward",
+                "attribute-ids": [],
+                "ended": false
+            },
+            {
+                "work": {
+                    "type": "Song",
+                    "title": "Halo",
+                    "languages": [
+                        "eng"
+                    ],
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                    "iswcs": [
+                        "T-011.391.705-7"
+                    ],
+                    "disambiguation": "",
+                    "id": "3a3ae6e0-3a6c-335f-8268-5ccc67a41cce",
+                    "attributes": [],
+                    "relations": [
+                        {
+                            "direction": "backward",
+                            "source-credit": "",
+                            "artist": {
+                                "disambiguation": "",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "type": "Person",
+                                "country": "US",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "sort-name": "Gore, Martin L.",
+                                "name": "Martin L. Gore"
+                            },
+                            "end": null,
+                            "attribute-ids": [],
+                            "attribute-values": [],
+                            "attributes": [],
+                            "ended": false,
+                            "begin": null,
+                            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                            "target-credit": "",
+                            "type": "composer",
+                            "target-type": "artist"
+                        },
+                        {
+                            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                            "target-type": "artist",
+                            "type": "lyricist",
+                            "target-credit": "",
+                            "artist": {
+                                "type": "Person",
+                                "name": "Martin L. Gore",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "country": "US",
+                                "sort-name": "Gore, Martin L.",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "disambiguation": ""
+                            },
+                            "source-credit": "",
+                            "direction": "backward",
+                            "begin": null,
+                            "attributes": [],
+                            "ended": false,
+                            "attribute-values": [],
+                            "attribute-ids": [],
+                            "end": null
+                        },
+                        {
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "target-type": "label",
+                            "target-credit": "",
+                            "source-credit": "",
+                            "attributes": [],
+                            "begin": null,
+                            "end": null,
+                            "attribute-values": [],
+                            "label": {
+                                "sort-name": "EMI Music Publishing",
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "name": "EMI Music Publishing",
+                                "type": "Publisher",
+                                "disambiguation": "do not use as a release label!",
+                                "id": "45a4e6b3-2567-4e7d-b872-a412cdf2d0ae",
+                                "label-code": null
+                            },
+                            "type": "publishing",
+                            "direction": "backward",
+                            "ended": false,
+                            "attribute-ids": []
+                        },
+                        {
+                            "url": {
+                                "id": "e0cf16c1-0f25-4568-a41e-100d270d1106",
+                                "resource": "https://secondhandsongs.com/work/60985"
+                            },
+                            "type": "secondhandsongs",
+                            "direction": "backward",
+                            "ended": false,
+                            "attribute-ids": [],
+                            "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                            "target-type": "url",
+                            "target-credit": "",
+                            "source-credit": "",
+                            "attributes": [],
+                            "begin": null,
+                            "end": null,
+                            "attribute-values": []
+                        }
+                    ],
+                    "language": "eng"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "target-type": "work",
+                "source-credit": "",
+                "direction": "forward",
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "ended": false,
+                "begin": null
+            }
+        ],
+        "first-release-date": "1990-02-05",
+        "video": false,
+        "disambiguation": "",
+        "id": "e10f942b-6dfe-4e29-bd3a-b98bbe591af0",
+        "length": 270000,
+        "title": "Halo"
+    },
+    "fetched_at": 1792074425.683111,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "recording"
+}

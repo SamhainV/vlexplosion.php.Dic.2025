@@ -1,0 +1,39 @@
+{
+    "data": {
+        "id": "bc6e37bf-2564-4217-9588-513caec2aa9f",
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "life-span": {
+            "end": null,
+            "begin": null,
+            "ended": false
+        },
+        "area": null,
+        "ipis": [
+            "00348659025"
+        ],
+        "disambiguation": "",
+        "label-code": null,
+        "sort-name": "Nisan's Music",
+        "country": null,
+        "isnis": [],
+        "type": "Publisher",
+        "name": "Nisan's Music",
+        "aliases": [
+            {
+                "sort-name": "Nisans Music",
+                "type-id": null,
+                "locale": null,
+                "end": null,
+                "begin": null,
+                "primary": null,
+                "ended": false,
+                "type": null,
+                "name": "Nisans Music"
+            }
+        ]
+    },
+    "fetched_at": 1792076126.001476,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

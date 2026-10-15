@@ -1,0 +1,44 @@
+{
+    "data": {
+        "area": {
+            "sort-name": "London",
+            "type-id": null,
+            "name": "London",
+            "disambiguation": "Greater London",
+            "type": null,
+            "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f"
+        },
+        "sort-name": "Grabbing Hands Ltd.",
+        "country": null,
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "ipis": [],
+        "disambiguation": "",
+        "life-span": {
+            "begin": null,
+            "ended": false,
+            "end": null
+        },
+        "isnis": [],
+        "aliases": [
+            {
+                "type": "Label name",
+                "sort-name": "Grabbing Hands",
+                "primary": null,
+                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                "name": "Grabbing Hands",
+                "locale": null,
+                "ended": false,
+                "begin": null,
+                "end": null
+            }
+        ],
+        "type": "Publisher",
+        "name": "Grabbing Hands Ltd.",
+        "id": "ec2eb4b6-5815-4df0-8967-8b642952ebe2",
+        "label-code": null
+    },
+    "fetched_at": 1792075097.449989,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

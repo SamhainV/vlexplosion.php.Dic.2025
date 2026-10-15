@@ -1,0 +1,297 @@
+{
+    "data": {
+        "disambiguation": "",
+        "id": "d70e4bab-ddda-3e5e-a733-8e7821da20f2",
+        "attributes": [
+            {
+                "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+                "value": "003293 614 60",
+                "type": "SUISA ID"
+            },
+            {
+                "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+                "type": "SPA ID",
+                "value": "919025"
+            },
+            {
+                "type": "SOCAN ID",
+                "value": "29581429",
+                "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+            },
+            {
+                "value": "2866780400",
+                "type": "SIAE ID",
+                "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977"
+            },
+            {
+                "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+                "value": "2937261",
+                "type": "SAYCO ID"
+            },
+            {
+                "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+                "value": "9407982",
+                "type": "SAYCO ID"
+            },
+            {
+                "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+                "value": "2937261",
+                "type": "SAYCE ID"
+            },
+            {
+                "type": "SAYCE ID",
+                "value": "9407982",
+                "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+            },
+            {
+                "type": "SADAIC ID",
+                "value": "830398",
+                "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+            },
+            {
+                "type": "SACEM ID",
+                "value": "20 636 733 11",
+                "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+            },
+            {
+                "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+                "value": "756141100",
+                "type": "SABAM ID"
+            },
+            {
+                "type": "PRS tune code",
+                "value": "48346CQ",
+                "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+            },
+            {
+                "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+                "value": "7098424",
+                "type": "ECAD ID"
+            },
+            {
+                "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+                "type": "COMPASS ID",
+                "value": "6282756"
+            },
+            {
+                "type": "CASH ID",
+                "value": "C-1200130932",
+                "type-id": "9e0765a1-1505-3ca9-9147-8dcbb0aa9cec"
+            },
+            {
+                "value": "W-003571367",
+                "type": "BUMA/STEMRA ID",
+                "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+            },
+            {
+                "type": "ARTISJUS ID",
+                "value": "4000075950",
+                "type-id": "5e3b8fc2-3a4e-4a92-a572-6339863c1cf4"
+            },
+            {
+                "value": "GW31088968",
+                "type": "APRA ID",
+                "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+            },
+            {
+                "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+                "value": "5533307",
+                "type": "APA ID"
+            },
+            {
+                "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+                "value": "395359301",
+                "type": "AKM ID"
+            },
+            {
+                "value": "0O3-5893-4",
+                "type": "JASRAC ID",
+                "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c"
+            },
+            {
+                "value": "310852610",
+                "type": "ASCAP ID",
+                "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+            },
+            {
+                "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+                "value": "7630902-001",
+                "type": "GEMA ID"
+            }
+        ],
+        "relations": [
+            {
+                "direction": "backward",
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "target-type": "artist",
+                "end": null,
+                "begin": null,
+                "ended": false,
+                "artist": {
+                    "name": "Missy Elliott",
+                    "type": "Person",
+                    "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+                    "disambiguation": "American rapper, singer, dancer & record producer",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "Elliott, Missy"
+                },
+                "attribute-values": [],
+                "type": "writer",
+                "target-credit": "Melissa Elliott",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": ""
+            },
+            {
+                "ended": false,
+                "artist": {
+                    "name": "Timbaland",
+                    "type": "Person",
+                    "disambiguation": "",
+                    "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "Timbaland"
+                },
+                "attribute-values": [],
+                "type": "writer",
+                "target-credit": "Timothy Mosley",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "direction": "backward",
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "end": null,
+                "begin": null,
+                "target-type": "artist"
+            },
+            {
+                "attribute-values": [],
+                "type": "publishing",
+                "ended": false,
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "",
+                "label": {
+                    "sort-name": "Mass Confusion Music",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "label-code": null,
+                    "id": "a8ffb6ad-3e00-474d-b44a-f465026a2e61",
+                    "disambiguation": "",
+                    "name": "Mass Confusion Music",
+                    "type": "Publisher"
+                },
+                "direction": "backward",
+                "end": null,
+                "begin": null,
+                "target-type": "label",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
+            },
+            {
+                "label": {
+                    "sort-name": "Virginia Beach Music",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "label-code": null,
+                    "id": "18313d01-9ea1-4511-875f-7e2fa3ace43f",
+                    "disambiguation": "",
+                    "name": "Virginia Beach Music",
+                    "type": "Publisher"
+                },
+                "direction": "backward",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "begin": null,
+                "end": null,
+                "target-type": "label",
+                "ended": false,
+                "type": "publishing",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": []
+            },
+            {
+                "target-type": "label",
+                "begin": null,
+                "end": null,
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "direction": "backward",
+                "label": {
+                    "sort-name": "WB Music Corp.",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "disambiguation": "1929–2019",
+                    "id": "883fe539-a89f-4572-8072-4d1e69d4670d",
+                    "label-code": null,
+                    "type": "Publisher",
+                    "name": "WB Music Corp."
+                },
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": "",
+                "type": "publishing",
+                "attribute-values": [],
+                "ended": false
+            },
+            {
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 168306,
+                    "video": false,
+                    "title": "Ain't That Funny",
+                    "disambiguation": "clean",
+                    "id": "0cfe8e6b-a998-482e-a820-c790ced91046"
+                },
+                "target-type": "recording",
+                "begin": null,
+                "end": null
+            },
+            {
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "Ain’t That Funny",
+                    "length": 168026,
+                    "id": "b35d62aa-037a-4c13-b47e-0b31d5f9e36d",
+                    "disambiguation": "explicit"
+                },
+                "direction": "backward"
+            }
+        ],
+        "title": "Ain’t That Funny",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+            "eng"
+        ],
+        "iswcs": [
+            "T-071.851.795-3",
+            "T-072.520.732-8"
+        ],
+        "type": "Song"
+    },
+    "fetched_at": 1792076024.952069,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

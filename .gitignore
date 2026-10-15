@@ -36,3 +36,13 @@ __pycache__/
 !/migrations/*.sql
 !/tests/schema.sql
 !package-lock.json
+# Explicitly synthetic vocabulary, no collection dump
+!/tests/credits/seed.sql
+
+# Local-only development preview location
+/docs/credits/runtime.json
+
+# Generated credit test reports (fixtures and test sources remain versioned)
+/docs/credits/checks.json
+/docs/credits/test-results.json
+/docs/credits/upgrade-checks.json

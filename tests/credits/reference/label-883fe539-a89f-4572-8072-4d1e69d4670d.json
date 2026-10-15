@@ -1,0 +1,147 @@
+{
+    "data": {
+        "label-code": null,
+        "id": "883fe539-a89f-4572-8072-4d1e69d4670d",
+        "name": "WB Music Corp.",
+        "aliases": [
+            {
+                "type": "Search hint",
+                "sort-name": "W B MUSIC CO",
+                "primary": null,
+                "type-id": "829662f2-a781-3ec8-8b46-fbcea6196f81",
+                "name": "W B MUSIC CO",
+                "locale": null,
+                "ended": false,
+                "begin": null,
+                "end": null
+            },
+            {
+                "end": null,
+                "begin": null,
+                "ended": false,
+                "name": "W B MUSIC CORP",
+                "locale": null,
+                "primary": null,
+                "sort-name": "W B MUSIC CORP",
+                "type-id": "829662f2-a781-3ec8-8b46-fbcea6196f81",
+                "type": "Search hint"
+            },
+            {
+                "end": "1969-12-14",
+                "begin": "1967",
+                "ended": true,
+                "type": null,
+                "name": "W-7 Music Corp.",
+                "locale": null,
+                "primary": null,
+                "sort-name": "W-7 Music Corp.",
+                "type-id": null
+            },
+            {
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "type-id": "829662f2-a781-3ec8-8b46-fbcea6196f81",
+                "sort-name": "W.B. Music Corp.",
+                "primary": null,
+                "locale": null,
+                "name": "W.B. Music Corp.",
+                "type": "Search hint"
+            },
+            {
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "sort-name": "WARNER CHAPPELL MUSIC INC",
+                "primary": null,
+                "type-id": "829662f2-a781-3ec8-8b46-fbcea6196f81",
+                "name": "WARNER CHAPPELL MUSIC INC",
+                "locale": null,
+                "type": "Search hint"
+            },
+            {
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "type": null,
+                "locale": null,
+                "name": "WB Music",
+                "type-id": null,
+                "sort-name": "WB Music",
+                "primary": null
+            },
+            {
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "type": null,
+                "locale": null,
+                "name": "WB Music Corporation",
+                "type-id": null,
+                "sort-name": "WB Music Corporation",
+                "primary": null
+            },
+            {
+                "type": null,
+                "locale": null,
+                "name": "WC Music Corp.",
+                "type-id": null,
+                "sort-name": "WC Music Corp.",
+                "primary": null,
+                "end": null,
+                "begin": null,
+                "ended": false
+            },
+            {
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "type": null,
+                "locale": null,
+                "name": "Warner Bros. Music Corp.",
+                "type-id": null,
+                "sort-name": "Warner Bros. Music Corp.",
+                "primary": null
+            },
+            {
+                "type": null,
+                "name": "Warner Bros. Music Corporation",
+                "locale": null,
+                "primary": null,
+                "sort-name": "Warner Bros. Music Corporation",
+                "type-id": null,
+                "end": null,
+                "ended": false,
+                "begin": null
+            }
+        ],
+        "type": "Publisher",
+        "isnis": [],
+        "ipis": [
+            "00057355663",
+            "00076448253",
+            "00392888203"
+        ],
+        "disambiguation": "1929–2019",
+        "life-span": {
+            "end": "2019-05-28",
+            "begin": "1929",
+            "ended": true
+        },
+        "sort-name": "WB Music Corp.",
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "country": null,
+        "area": {
+            "sort-name": "Los Angeles",
+            "type-id": null,
+            "name": "Los Angeles",
+            "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+            "type": null,
+            "disambiguation": ""
+        }
+    },
+    "fetched_at": 1792076110.500791,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

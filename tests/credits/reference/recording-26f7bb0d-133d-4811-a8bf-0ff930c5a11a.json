@@ -1,0 +1,403 @@
+{
+    "data": {
+        "length": 266000,
+        "first-release-date": "1990-02-05",
+        "title": "World in My Eyes",
+        "relations": [
+            {
+                "artist": {
+                    "name": "François K",
+                    "id": "093b79fc-d913-4580-8403-c2430f7a18ee",
+                    "disambiguation": "",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "François K",
+                    "type": "Person"
+                },
+                "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                "begin": null,
+                "target-credit": "François Kevorkian",
+                "end": null,
+                "attribute-values": [],
+                "target-type": "artist",
+                "attribute-ids": [],
+                "ended": false,
+                "direction": "backward",
+                "type": "mix",
+                "attributes": [],
+                "source-credit": ""
+            },
+            {
+                "target-type": "artist",
+                "ended": false,
+                "attribute-ids": {
+                    "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                },
+                "attribute-values": [],
+                "attribute-credits": [],
+                "begin": null,
+                "artist": {
+                    "country": "GB",
+                    "disambiguation": "",
+                    "name": "Dave Gahan",
+                    "id": "d547b148-cf1f-421b-9464-ce7411ba44b8",
+                    "sort-name": "Gahan, Dave",
+                    "type": "Person",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                },
+                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                "end": null,
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "lead vocals"
+                ],
+                "type": "vocal",
+                "direction": "backward"
+            },
+            {
+                "attributes": [],
+                "source-credit": "",
+                "direction": "backward",
+                "type": "phonographic copyright",
+                "attribute-values": [],
+                "ended": true,
+                "attribute-ids": [],
+                "target-type": "label",
+                "target-credit": "",
+                "end": "1990",
+                "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+                "begin": "1990",
+                "label": {
+                    "disambiguation": "not for release label use! original company behind the Mute label",
+                    "name": "Mute Records Ltd.",
+                    "id": "0405f15d-a248-4477-8afd-1854fe07498d",
+                    "sort-name": "Mute Records Ltd.",
+                    "type": "Production",
+                    "type-id": "a2426aab-2dd4-339c-b47d-b4923a241678",
+                    "label-code": null
+                }
+            },
+            {
+                "direction": "backward",
+                "type": "recorded at",
+                "attributes": [],
+                "place": {
+                    "area": {
+                        "id": "d793f202-faf0-4de8-83e2-9ddfca54a35f",
+                        "name": "Milano",
+                        "disambiguation": "",
+                        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                        "type": "City",
+                        "sort-name": "Milano"
+                    },
+                    "disambiguation": "",
+                    "id": "33d173aa-2fbc-4ced-9ad0-c4fcfb3c90a5",
+                    "name": "Logic Studios",
+                    "address": "Via Piacenza, 14, 20135 Milano, Italy",
+                    "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+                    "coordinates": {
+                        "longitude": 9.20441,
+                        "latitude": 45.44912
+                    },
+                    "type": "Studio"
+                },
+                "source-credit": "",
+                "begin": null,
+                "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                "end": null,
+                "target-credit": "",
+                "attribute-values": [],
+                "target-type": "place",
+                "ended": true,
+                "attribute-ids": []
+            },
+            {
+                "attributes": [],
+                "recording": {
+                    "title": "Halo (Jimmi Jammes “Violated Halo” mashup)",
+                    "id": "4d4b5397-a095-4db4-8827-7d63df0a966c",
+                    "length": 290000,
+                    "video": false,
+                    "disambiguation": ""
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "type": "mashes up",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                "begin": null,
+                "target-credit": "",
+                "end": null
+            },
+            {
+                "type": "music video",
+                "direction": "forward",
+                "recording": {
+                    "length": 354000,
+                    "id": "c9360d7f-a6b9-48ab-919c-a6e153a23de4",
+                    "video": true,
+                    "disambiguation": "video, alternate version",
+                    "title": "World in My Eyes"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "ce3de655-7451-44d1-9224-87eb948c205d",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": []
+            },
+            {
+                "recording": {
+                    "length": 450293,
+                    "id": "16b5528f-0ccb-46e8-b40e-898ba04e522a",
+                    "video": false,
+                    "disambiguation": "short intro version / edit",
+                    "title": "World in My Eyes (Oil Tank mix)"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type": "remix",
+                "direction": "backward",
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "begin": null,
+                "type-id": "bfbdb55a-b857-473a-8f2e-a9c09e45c3f5",
+                "end": null,
+                "target-credit": ""
+            },
+            {
+                "direction": "backward",
+                "type": "samples material",
+                "attributes": [],
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "8a2ceab9-759f-4e4a-adb1-b5eea113f862",
+                    "length": 700200,
+                    "title": "Predator / Bill in a Box"
+                },
+                "source-credit": "",
+                "begin": null,
+                "type-id": "9efd9ce9-e702-448b-8e76-641515e8fe62",
+                "end": null,
+                "target-credit": "",
+                "attribute-values": [],
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": []
+            },
+            {
+                "type": "free streaming",
+                "direction": "forward",
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                    "resource": "https://open.spotify.com/track/0TBn49AjkNufCRJ2O5VJ6s",
+                    "id": "6c29522c-c703-4ced-8500-c499e8d81fa3"
+                },
+                "target-credit": "",
+                "end": null,
+                "type-id": "7e41ef12-a124-4324-afdb-fdbae687a89c",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "url",
+                "attribute-values": []
+            },
+            {
+                "source-credit": "",
+                "attributes": [],
+                "type": "performance",
+                "direction": "forward",
+                "target-type": "work",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "work": {
+                    "iswcs": [
+                        "T-011.391.703-5"
+                    ],
+                    "language": "eng",
+                    "id": "311aea2a-5085-313d-973c-2fe938f16779",
+                    "relations": [
+                        {
+                            "begin": null,
+                            "artist": {
+                                "name": "Martin L. Gore",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "disambiguation": "",
+                                "country": "US",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "sort-name": "Gore, Martin L.",
+                                "type": "Person"
+                            },
+                            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                            "end": null,
+                            "target-credit": "",
+                            "attribute-values": [],
+                            "target-type": "artist",
+                            "ended": false,
+                            "attribute-ids": [],
+                            "direction": "backward",
+                            "type": "composer",
+                            "attributes": [],
+                            "source-credit": ""
+                        },
+                        {
+                            "type": "lyricist",
+                            "direction": "backward",
+                            "source-credit": "",
+                            "attributes": [],
+                            "artist": {
+                                "name": "Martin L. Gore",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "disambiguation": "",
+                                "country": "US",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "sort-name": "Gore, Martin L.",
+                                "type": "Person"
+                            },
+                            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                            "begin": null,
+                            "target-credit": "",
+                            "end": null,
+                            "target-type": "artist",
+                            "ended": false,
+                            "attribute-ids": [],
+                            "attribute-values": []
+                        },
+                        {
+                            "attribute-values": [],
+                            "target-type": "label",
+                            "attribute-ids": [],
+                            "ended": false,
+                            "begin": null,
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "end": null,
+                            "target-credit": "",
+                            "label": {
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "label-code": null,
+                                "sort-name": "Grabbing Hands Ltd.",
+                                "type": "Publisher",
+                                "disambiguation": "",
+                                "name": "Grabbing Hands Ltd.",
+                                "id": "ec2eb4b6-5815-4df0-8967-8b642952ebe2"
+                            },
+                            "attributes": [],
+                            "source-credit": "",
+                            "direction": "backward",
+                            "type": "publishing"
+                        },
+                        {
+                            "attribute-values": [],
+                            "attribute-ids": [],
+                            "ended": false,
+                            "target-type": "label",
+                            "end": null,
+                            "target-credit": "",
+                            "begin": null,
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "label": {
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "label-code": null,
+                                "type": "Publisher",
+                                "sort-name": "Sonet Publishing",
+                                "disambiguation": "",
+                                "id": "83d3a034-313d-4b66-add1-35d9e913b6b5",
+                                "name": "Sonet Publishing"
+                            },
+                            "attributes": [],
+                            "source-credit": "",
+                            "direction": "backward",
+                            "type": "publishing"
+                        },
+                        {
+                            "url": {
+                                "resource": "https://dmlive.wiki/wiki/World_In_My_Eyes",
+                                "id": "cdfe45a9-2aff-4523-b55d-d633621b0467"
+                            },
+                            "target-credit": "",
+                            "end": null,
+                            "type-id": "174a04f8-a28e-41d0-a42a-7088887cd493",
+                            "begin": null,
+                            "attribute-ids": [],
+                            "ended": false,
+                            "target-type": "url",
+                            "attribute-values": [],
+                            "type": "fanpage",
+                            "direction": "backward",
+                            "source-credit": "",
+                            "attributes": []
+                        },
+                        {
+                            "attributes": [],
+                            "source-credit": "",
+                            "direction": "backward",
+                            "type": "secondhandsongs",
+                            "attribute-values": [],
+                            "ended": false,
+                            "attribute-ids": [],
+                            "target-type": "url",
+                            "target-credit": "",
+                            "end": null,
+                            "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                            "begin": null,
+                            "url": {
+                                "id": "35862484-a61e-4cb9-b19b-d9d6b8d27a1d",
+                                "resource": "https://secondhandsongs.com/work/3873"
+                            }
+                        },
+                        {
+                            "attribute-values": [],
+                            "ended": false,
+                            "attribute-ids": [],
+                            "target-type": "url",
+                            "end": null,
+                            "target-credit": "",
+                            "begin": null,
+                            "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
+                            "url": {
+                                "resource": "https://www.wikidata.org/wiki/Q2428773",
+                                "id": "8c3cb779-aa4a-49a9-85c7-f45d3ded3506"
+                            },
+                            "attributes": [],
+                            "source-credit": "",
+                            "direction": "backward",
+                            "type": "wikidata"
+                        }
+                    ],
+                    "disambiguation": "",
+                    "languages": [
+                        "eng"
+                    ],
+                    "attributes": [],
+                    "type": "Song",
+                    "title": "World in My Eyes",
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+                },
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "target-credit": ""
+            }
+        ],
+        "id": "26f7bb0d-133d-4811-a8bf-0ff930c5a11a",
+        "video": false,
+        "disambiguation": "album version"
+    },
+    "fetched_at": 1792074422.553603,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "recording"
+}

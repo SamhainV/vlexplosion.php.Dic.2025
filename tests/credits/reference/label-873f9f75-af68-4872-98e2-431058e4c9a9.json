@@ -1,0 +1,80 @@
+{
+    "data": {
+        "type": "Imprint",
+        "aliases": [
+            {
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type": "Search hint",
+                "primary": null,
+                "sort-name": "Elektra (NEK)",
+                "type-id": "829662f2-a781-3ec8-8b46-fbcea6196f81",
+                "name": "Elektra (NEK)",
+                "locale": null
+            },
+            {
+                "end": null,
+                "ended": false,
+                "begin": "1989",
+                "locale": null,
+                "name": "Elektra Entertainment",
+                "type-id": null,
+                "primary": null,
+                "sort-name": "Elektra Entertainment",
+                "type": null
+            },
+            {
+                "type": null,
+                "type-id": null,
+                "sort-name": "Elektra Entertainment Company",
+                "primary": null,
+                "locale": null,
+                "name": "Elektra Entertainment Company",
+                "ended": false,
+                "begin": null,
+                "end": null
+            },
+            {
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "type": null,
+                "locale": null,
+                "name": "Elektra Records",
+                "type-id": null,
+                "primary": null,
+                "sort-name": "Elektra Records"
+            }
+        ],
+        "name": "Elektra",
+        "label-code": 192,
+        "id": "873f9f75-af68-4872-98e2-431058e4c9a9",
+        "area": {
+            "iso-3166-1-codes": [
+                "US"
+            ],
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "type-id": null,
+            "sort-name": "United States",
+            "name": "United States"
+        },
+        "country": "US",
+        "type-id": "b6285b2a-3514-3d43-80df-fcf528824ded",
+        "sort-name": "Elektra",
+        "life-span": {
+            "end": null,
+            "begin": "1950",
+            "ended": false
+        },
+        "disambiguation": "all releases with “Elektra” or “Elektra Entertainment” logo, 1950 to present",
+        "ipis": [],
+        "isnis": []
+    },
+    "fetched_at": 1792075766.523485,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

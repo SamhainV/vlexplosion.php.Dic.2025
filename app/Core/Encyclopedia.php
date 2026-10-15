@@ -24,6 +24,10 @@ final class Encyclopedia
         if (defined('VLEXPLOSION_TESTING') && VLEXPLOSION_TESTING === true && getenv('VLEX_ENC_FIXTURE') === '1') {
             require_once dirname(__DIR__, 2) . '/tests/encyclopedia/fixtures.php';
             $transport = 'encyclopedia_fixture_response';
+            if(getenv('VLEX_CREDIT_FIXTURE')==='1') {
+                require_once dirname(__DIR__, 2).'/tests/credits/transport.php';
+                $transport='credit_fixture_response';
+            }
         }
         return new MusicBrainzClient(
             app_storage_path('musicbrainz'),

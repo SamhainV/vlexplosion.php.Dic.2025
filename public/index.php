@@ -42,6 +42,8 @@ $router->get('/albums/show', [\App\Controllers\AiVinylController::class, 'album'
 $router->get('/vinyls/edition', [\App\Controllers\AiVinylController::class, 'edition']);
 
 // Dispatch
+$router->get('/encyclopedia/credits', [\App\Controllers\EncyclopediaCreditController::class, 'show']);
+$router->post('/encyclopedia/credits/action', [\App\Controllers\EncyclopediaCreditController::class, 'action']);
 $router->get('/encyclopedia/search', [\App\Controllers\EncyclopediaController::class, 'start']);
 $router->post('/encyclopedia/action', [\App\Controllers\EncyclopediaController::class, 'action']);
 $router->post('/encyclopedia/store', [\App\Controllers\EncyclopediaController::class, 'store']);

@@ -1,0 +1,44 @@
+{
+    "data": {
+        "type": "Production",
+        "life-span": {
+            "ended": false,
+            "begin": "1983-11-01",
+            "end": null
+        },
+        "country": null,
+        "isnis": [],
+        "sort-name": "Mute Records Ltd.",
+        "id": "0405f15d-a248-4477-8afd-1854fe07498d",
+        "ipis": [],
+        "label-code": null,
+        "aliases": [
+            {
+                "type": null,
+                "end": null,
+                "primary": null,
+                "locale": null,
+                "ended": false,
+                "begin": null,
+                "sort-name": "Mute Records Limited",
+                "type-id": null,
+                "name": "Mute Records Limited"
+            }
+        ],
+        "disambiguation": "not for release label use! original company behind the Mute label",
+        "type-id": "a2426aab-2dd4-339c-b47d-b4923a241678",
+        "name": "Mute Records Ltd.",
+        "area": {
+            "sort-name": "London",
+            "name": "London",
+            "type": null,
+            "type-id": null,
+            "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+            "disambiguation": "Greater London"
+        }
+    },
+    "fetched_at": 1792074767.074075,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

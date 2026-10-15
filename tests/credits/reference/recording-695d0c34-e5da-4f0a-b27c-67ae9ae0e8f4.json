@@ -1,0 +1,558 @@
+{
+    "data": {
+        "video": false,
+        "first-release-date": "1990-02-05",
+        "id": "695d0c34-e5da-4f0a-b27c-67ae9ae0e8f4",
+        "disambiguation": "album version",
+        "relations": [
+            {
+                "target-type": "artist",
+                "type": "mix",
+                "target-credit": "François Kevorkian",
+                "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "artist": {
+                    "id": "093b79fc-d913-4580-8403-c2430f7a18ee",
+                    "disambiguation": "",
+                    "type": "Person",
+                    "sort-name": "François K",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "name": "François K"
+                },
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                "target-type": "artist",
+                "type": "producer",
+                "target-credit": "",
+                "artist": {
+                    "name": "Depeche Mode",
+                    "sort-name": "Depeche Mode",
+                    "country": "GB",
+                    "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                    "type": "Group",
+                    "disambiguation": "",
+                    "id": "8538e728-ca0b-4321-b7e5-cff6565dd4c0"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null
+            },
+            {
+                "artist": {
+                    "disambiguation": "British producer Mark Ellis",
+                    "id": "f1461e6c-c008-414b-bad0-bce88f71724e",
+                    "sort-name": "Flood",
+                    "country": "GB",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "name": "Flood",
+                    "type": "Person"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                "target-type": "artist",
+                "type": "producer",
+                "target-credit": ""
+            },
+            {
+                "artist": {
+                    "id": "d547b148-cf1f-421b-9464-ce7411ba44b8",
+                    "disambiguation": "",
+                    "type": "Person",
+                    "name": "Dave Gahan",
+                    "sort-name": "Gahan, Dave",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "GB"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [
+                    "lead vocals"
+                ],
+                "begin": null,
+                "ended": false,
+                "attribute-ids": {
+                    "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                },
+                "attribute-values": [],
+                "end": null,
+                "attribute-credits": [],
+                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                "target-type": "artist",
+                "type": "vocal",
+                "target-credit": ""
+            },
+            {
+                "target-credit": "",
+                "type": "mashes up",
+                "target-type": "recording",
+                "recording": {
+                    "id": "2f74109d-d6a8-4270-baf9-68eba993a175",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "1, 2, Jesus (Ciara featuring Missy Elliot vs. Depeche Mode)",
+                    "length": 181000
+                },
+                "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "direction": "backward",
+                "source-credit": ""
+            },
+            {
+                "target-credit": "",
+                "type": "mashes up",
+                "target-type": "recording",
+                "recording": {
+                    "length": 235000,
+                    "id": "004f5276-44a0-4c40-8854-a86b83775ddf",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Personal Hélène (Depeche Mode vs. Roch Voisine)"
+                },
+                "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "direction": "backward",
+                "source-credit": ""
+            },
+            {
+                "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                "recording": {
+                    "id": "ed869f7d-42e6-47b6-9e52-988f87104cab",
+                    "disambiguation": "",
+                    "title": "Personally Paranoid (The Faint vs. Depeche Mode)",
+                    "video": false,
+                    "length": 334000
+                },
+                "target-type": "recording",
+                "type": "mashes up",
+                "target-credit": "",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [],
+                "ended": false,
+                "begin": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "type-id": "9efd9ce9-e702-448b-8e76-641515e8fe62",
+                "type": "samples material",
+                "target-credit": "",
+                "recording": {
+                    "video": false,
+                    "title": "Beware of the Dog",
+                    "disambiguation": "",
+                    "id": "b931703c-0013-4106-9a36-7304b9d95954",
+                    "length": 190935
+                },
+                "target-type": "recording"
+            },
+            {
+                "type-id": "9efd9ce9-e702-448b-8e76-641515e8fe62",
+                "target-type": "recording",
+                "recording": {
+                    "id": "088466e4-2474-40cb-8c88-5d8593829e5a",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Beware of the Dog (radio edit)",
+                    "length": 194000
+                },
+                "target-credit": "",
+                "type": "samples material",
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": []
+            },
+            {
+                "type": "part of",
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "ended": false,
+                "direction": "forward",
+                "target-credit": "",
+                "target-type": "series",
+                "ordering-key": 13,
+                "type-id": "ea6f0698-6782-30d6-b16d-293081b66774",
+                "series": {
+                    "type": "Recording series",
+                    "id": "33061f6b-6553-4d61-851b-71b790bf1460",
+                    "disambiguation": "",
+                    "type-id": "dd968243-7128-30a2-81f0-79843430a8e2",
+                    "name": "Indie 88: Top 500 Indie Rock Songs"
+                },
+                "attribute-values": {
+                    "number": "13"
+                },
+                "end": null,
+                "begin": null,
+                "attributes": [
+                    "number"
+                ],
+                "source-credit": ""
+            },
+            {
+                "source-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "attributes": [],
+                "begin": null,
+                "series": {
+                    "name": "Pitchfork: The Story of Goth in 33 Songs",
+                    "type-id": "dd968243-7128-30a2-81f0-79843430a8e2",
+                    "id": "dd9b5f9a-bd39-4603-a1ce-3fdb76144ec0",
+                    "type": "Recording series",
+                    "disambiguation": ""
+                },
+                "type-id": "ea6f0698-6782-30d6-b16d-293081b66774",
+                "target-credit": "",
+                "target-type": "series",
+                "ordering-key": 23,
+                "direction": "forward",
+                "attribute-ids": [],
+                "ended": false,
+                "type": "part of"
+            },
+            {
+                "ended": false,
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "direction": "forward",
+                "type": "part of",
+                "attributes": [
+                    "number"
+                ],
+                "begin": null,
+                "attribute-values": {
+                    "number": "369"
+                },
+                "end": null,
+                "source-credit": "",
+                "ordering-key": 372,
+                "target-type": "series",
+                "target-credit": "",
+                "type-id": "ea6f0698-6782-30d6-b16d-293081b66774",
+                "series": {
+                    "type-id": "e667457d-77e7-4848-8472-5b65ff191896",
+                    "name": "Rolling Stone: 500 Greatest Songs of All Time",
+                    "id": "b3484a66-a4de-444d-93d3-c99a73656905",
+                    "type": "Recording award",
+                    "disambiguation": "as at 2016-06-10"
+                }
+            },
+            {
+                "source-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "begin": null,
+                "attributes": [],
+                "type-id": "7e41ef12-a124-4324-afdb-fdbae687a89c",
+                "target-credit": "",
+                "target-type": "url",
+                "direction": "forward",
+                "attribute-ids": [],
+                "ended": false,
+                "url": {
+                    "resource": "https://open.spotify.com/track/2wUlYDGGXlSvm2NkGj0Qio",
+                    "id": "48d08218-743b-4ad2-956c-6cb345745172"
+                },
+                "type": "free streaming"
+            },
+            {
+                "source-credit": "",
+                "direction": "forward",
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "work": {
+                    "relations": [
+                        {
+                            "ended": false,
+                            "attributes": [],
+                            "begin": null,
+                            "attribute-ids": [],
+                            "attribute-values": [],
+                            "end": null,
+                            "artist": {
+                                "type": "Person",
+                                "name": "Martin L. Gore",
+                                "sort-name": "Gore, Martin L.",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "country": "US",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "disambiguation": ""
+                            },
+                            "source-credit": "",
+                            "direction": "backward",
+                            "target-type": "artist",
+                            "type": "composer",
+                            "target-credit": "",
+                            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+                        },
+                        {
+                            "direction": "backward",
+                            "source-credit": "",
+                            "artist": {
+                                "disambiguation": "",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "type": "Person",
+                                "name": "Martin L. Gore",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "country": "US",
+                                "sort-name": "Gore, Martin L."
+                            },
+                            "end": null,
+                            "attribute-ids": [],
+                            "attribute-values": [],
+                            "attributes": [],
+                            "begin": null,
+                            "ended": false,
+                            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                            "target-credit": "",
+                            "type": "lyricist",
+                            "target-type": "artist"
+                        },
+                        {
+                            "direction": "backward",
+                            "attribute-ids": [],
+                            "ended": false,
+                            "type": "publishing",
+                            "source-credit": "",
+                            "end": null,
+                            "attribute-values": [],
+                            "label": {
+                                "name": "EMI Music Publishing",
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "sort-name": "EMI Music Publishing",
+                                "type": "Publisher",
+                                "disambiguation": "do not use as a release label!",
+                                "id": "45a4e6b3-2567-4e7d-b872-a412cdf2d0ae",
+                                "label-code": null
+                            },
+                            "attributes": [],
+                            "begin": null,
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "target-credit": "",
+                            "target-type": "label"
+                        },
+                        {
+                            "url": {
+                                "resource": "https://secondhandsongs.com/work/16560",
+                                "id": "13e031d4-dcfc-4376-9b92-f15d011d55e5"
+                            },
+                            "type": "secondhandsongs",
+                            "attribute-ids": [],
+                            "ended": false,
+                            "direction": "backward",
+                            "target-credit": "",
+                            "target-type": "url",
+                            "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                            "attribute-values": [],
+                            "end": null,
+                            "attributes": [],
+                            "begin": null,
+                            "source-credit": ""
+                        },
+                        {
+                            "type": "wikidata",
+                            "url": {
+                                "id": "f090fbc2-d6da-474f-afa6-79c957b4606e",
+                                "resource": "https://www.wikidata.org/wiki/Q1141059"
+                            },
+                            "direction": "backward",
+                            "attribute-ids": [],
+                            "ended": false,
+                            "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
+                            "target-credit": "",
+                            "target-type": "url",
+                            "source-credit": "",
+                            "end": null,
+                            "attribute-values": [],
+                            "begin": null,
+                            "attributes": []
+                        },
+                        {
+                            "target-type": "work",
+                            "target-credit": "",
+                            "type": "based on",
+                            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+                            "work": {
+                                "id": "3e6e2c84-2104-4791-8359-a1f9f5d84892",
+                                "disambiguation": "",
+                                "attributes": [],
+                                "language": null,
+                                "type": "Song",
+                                "languages": [],
+                                "title": "Tautas balss",
+                                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                                "iswcs": []
+                            },
+                            "begin": null,
+                            "attributes": [],
+                            "ended": false,
+                            "end": null,
+                            "attribute-values": [],
+                            "attribute-ids": [],
+                            "direction": "forward",
+                            "source-credit": ""
+                        },
+                        {
+                            "target-credit": "",
+                            "type": "based on",
+                            "target-type": "work",
+                            "work": {
+                                "type": null,
+                                "languages": [],
+                                "title": "DEATHWISH",
+                                "iswcs": [],
+                                "type-id": null,
+                                "disambiguation": "",
+                                "id": "4ff63006-231f-4cd2-9bee-206e31a66526",
+                                "attributes": [],
+                                "language": null
+                            },
+                            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+                            "end": null,
+                            "attribute-ids": [],
+                            "attribute-values": [],
+                            "ended": false,
+                            "attributes": [],
+                            "begin": null,
+                            "direction": "forward",
+                            "source-credit": ""
+                        },
+                        {
+                            "type": "other version",
+                            "target-credit": "",
+                            "target-type": "work",
+                            "work": {
+                                "type": null,
+                                "languages": [],
+                                "title": "Luikurihumppa",
+                                "iswcs": [],
+                                "type-id": null,
+                                "id": "0907ba43-c46b-387c-b8ff-7c6c36abb789",
+                                "disambiguation": "",
+                                "attributes": [],
+                                "language": null
+                            },
+                            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                            "attribute-ids": {
+                                "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+                            },
+                            "attribute-values": [],
+                            "end": null,
+                            "attributes": [
+                                "parody"
+                            ],
+                            "begin": null,
+                            "ended": false,
+                            "source-credit": "",
+                            "direction": "forward"
+                        },
+                        {
+                            "target-type": "work",
+                            "type": "other version",
+                            "target-credit": "",
+                            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                            "work": {
+                                "type": "Song",
+                                "title": "Je eigen persoonlijke Jezus",
+                                "languages": [],
+                                "iswcs": [],
+                                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                                "disambiguation": "",
+                                "id": "cc48f3d4-aa83-4e38-b1ac-3b843ebb1e71",
+                                "attributes": [],
+                                "language": null
+                            },
+                            "attributes": [
+                                "translated"
+                            ],
+                            "begin": null,
+                            "ended": false,
+                            "attribute-values": [],
+                            "attribute-ids": {
+                                "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+                            },
+                            "end": null,
+                            "source-credit": "",
+                            "direction": "forward"
+                        }
+                    ],
+                    "language": "eng",
+                    "id": "39197673-056f-3812-bf50-056a99265485",
+                    "disambiguation": "",
+                    "attributes": [],
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                    "iswcs": [
+                        "T-011.391.699-6"
+                    ],
+                    "type": "Song",
+                    "title": "Personal Jesus",
+                    "languages": [
+                        "eng"
+                    ]
+                },
+                "target-type": "work",
+                "type": "performance",
+                "target-credit": ""
+            }
+        ],
+        "title": "Personal Jesus",
+        "length": 295240
+    },
+    "fetched_at": 1792074424.714036,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "recording"
+}

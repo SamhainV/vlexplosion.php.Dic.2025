@@ -44,3 +44,7 @@ El runner crea una instancia MariaDB propia con `--no-defaults`, socket privado,
 Consulta [la guía de esquema](docs/technical/SCHEMA.md), [la arquitectura](docs/technical/ENCICLOPEDIA.md) y [la revisión de publicación](docs/technical/PUBLICATION.md).
 
 El reconocimiento fotográfico y Discogs permanecen desactivados. La ruta antigua de IA ofrece un estado informativo; sus ramas de prototipo no se publican como una funcionalidad operativa ni deben habilitarse. Git contiene código y pruebas, nunca colecciones, usuarios, carátulas personales, sesiones, cachés, respaldos ni credenciales.
+
+## Créditos musicales de MusicBrainz
+
+La actualización explícita de créditos, recuperación de consultas y presentación agrupada se documentan en [MUSICBRAINZ-CREDITS.md](docs/technical/MUSICBRAINZ-CREDITS.md). Incluye migración 006 y [pruebas aisladas](tests/credits/README.md).

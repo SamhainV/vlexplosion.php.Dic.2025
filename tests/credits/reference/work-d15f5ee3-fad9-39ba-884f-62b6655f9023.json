@@ -1,0 +1,1293 @@
+{
+    "data": {
+        "type": "Song",
+        "title": "Work It",
+        "languages": [
+            "eng"
+        ],
+        "iswcs": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "d15f5ee3-fad9-39ba-884f-62b6655f9023",
+        "disambiguation": "",
+        "attributes": [],
+        "relations": [
+            {
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "source-credit": "",
+                "direction": "backward",
+                "artist": {
+                    "type": "Person",
+                    "name": "Missy Elliott",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "sort-name": "Elliott, Missy",
+                    "disambiguation": "American rapper, singer, dancer & record producer",
+                    "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39"
+                },
+                "type": "writer",
+                "target-credit": "Melissa Elliott",
+                "target-type": "artist",
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+            },
+            {
+                "direction": "backward",
+                "source-credit": "",
+                "artist": {
+                    "disambiguation": "",
+                    "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+                    "type": "Person",
+                    "name": "Timbaland",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "sort-name": "Timbaland"
+                },
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "attributes": [],
+                "ended": false,
+                "begin": null,
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "target-credit": "Timothy Mosley",
+                "type": "writer",
+                "target-type": "artist"
+            },
+            {
+                "type": "publishing",
+                "direction": "backward",
+                "ended": false,
+                "attribute-ids": [],
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "target-type": "label",
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "begin": null,
+                "end": null,
+                "label": {
+                    "id": "a8ffb6ad-3e00-474d-b44a-f465026a2e61",
+                    "label-code": null,
+                    "disambiguation": "",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "sort-name": "Mass Confusion Music",
+                    "name": "Mass Confusion Music",
+                    "type": "Publisher"
+                },
+                "attribute-values": []
+            },
+            {
+                "attributes": [],
+                "begin": null,
+                "end": null,
+                "label": {
+                    "label-code": null,
+                    "id": "18313d01-9ea1-4511-875f-7e2fa3ace43f",
+                    "disambiguation": "",
+                    "type": "Publisher",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "sort-name": "Virginia Beach Music",
+                    "name": "Virginia Beach Music"
+                },
+                "attribute-values": [],
+                "source-credit": "",
+                "target-type": "label",
+                "target-credit": "",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "ended": false,
+                "attribute-ids": [],
+                "direction": "backward",
+                "type": "publishing"
+            },
+            {
+                "source-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "label": {
+                    "id": "883fe539-a89f-4572-8072-4d1e69d4670d",
+                    "label-code": null,
+                    "disambiguation": "1929–2019",
+                    "sort-name": "WB Music Corp.",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "name": "WB Music Corp.",
+                    "type": "Publisher"
+                },
+                "begin": null,
+                "attributes": [],
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "target-credit": "",
+                "target-type": "label",
+                "direction": "backward",
+                "attribute-ids": [],
+                "ended": false,
+                "type": "publishing"
+            },
+            {
+                "recording": {
+                    "length": 269400,
+                    "disambiguation": "Sessions@AOL",
+                    "id": "06c91065-5a16-4468-9235-b3f9114302fb",
+                    "title": "Work It",
+                    "video": false
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attributes": [
+                    "live"
+                ],
+                "begin": "2002-11-13",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": "2002-11-13",
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 203000,
+                    "disambiguation": "",
+                    "id": "4b410758-5b8d-4628-b1c4-d5c44f66f0e2",
+                    "title": "Fun (Work It, Get Your Freak On)",
+                    "video": false
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "source-credit": "",
+                "direction": "backward",
+                "ended": true,
+                "attributes": [
+                    "medley"
+                ],
+                "begin": "2015",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "end": "2015"
+            },
+            {
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "direction": "backward",
+                "source-credit": "",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "id": "90bcfe28-2266-4f1e-a07d-36f85361879d",
+                    "disambiguation": "",
+                    "title": "Boy Oh Boy",
+                    "video": false,
+                    "length": 261770
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "end": null,
+                "attributes": [
+                    "medley"
+                ],
+                "begin": null,
+                "ended": false,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "title": "History of Rap",
+                    "video": false,
+                    "id": "1efe12ef-02b9-4486-a37c-cb474e8fca94",
+                    "disambiguation": "",
+                    "length": 148000
+                },
+                "target-type": "recording"
+            },
+            {
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "attributes": [],
+                "ended": false,
+                "begin": null,
+                "direction": "backward",
+                "source-credit": "",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "length": 298800,
+                    "video": false,
+                    "title": "Work It",
+                    "id": "34ead625-ccba-4a8a-88b3-a68db6d3275e",
+                    "disambiguation": "explicit, spoken outro"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "recording": {
+                    "length": 263226,
+                    "title": "Work It",
+                    "video": false,
+                    "id": "c6b2d318-298d-492b-a547-d564fd2fa9fb",
+                    "disambiguation": "explicit"
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attributes": [],
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 300000,
+                    "video": false,
+                    "title": "Work It",
+                    "id": "67974756-3d16-4cc2-97e8-4861131c8d53",
+                    "disambiguation": ""
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "source-credit": "",
+                "direction": "backward",
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "length": 240960,
+                    "disambiguation": "",
+                    "id": "84b38f15-9b58-43d4-b659-2bbc0b1a69d2",
+                    "video": false,
+                    "title": "Work It"
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "attributes": [],
+                "ended": false,
+                "begin": null
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "title": "Work It",
+                    "video": false,
+                    "id": "bfb40db2-fffd-4979-85a7-7d27f1f466e4",
+                    "disambiguation": "clean",
+                    "length": 262160
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "attributes": [],
+                "ended": false,
+                "begin": null
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "disambiguation": "part of “Ministry of Sound: The Sound of Smoove” DJ-mix",
+                    "id": "fdb499da-9da7-45c7-8e3e-b936af64daab",
+                    "title": "Work It",
+                    "video": false,
+                    "length": 160800
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "partial": "d2b63be6-91ec-426a-987a-30b47f8aae2d"
+                },
+                "begin": null,
+                "attributes": [
+                    "partial"
+                ],
+                "ended": false
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "length": 263560,
+                    "disambiguation": "",
+                    "id": "5622b7ab-454e-4783-9c6b-04650c7650ef",
+                    "video": false,
+                    "title": "Work It"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": []
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 434333,
+                    "id": "99f1ddd5-d782-4e52-9d8e-0bf4246e2c22",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Work It"
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null
+            },
+            {
+                "target-type": "recording",
+                "recording": {
+                    "length": 262520,
+                    "title": "Work It",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "6d56f002-5d09-425c-bebc-0ebc15990466"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "direction": "backward",
+                "source-credit": ""
+            },
+            {
+                "direction": "backward",
+                "source-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "Work It",
+                    "disambiguation": "",
+                    "id": "e205c750-cc93-453d-80d0-530282449192",
+                    "length": 227000
+                }
+            },
+            {
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "source-credit": "",
+                "direction": "backward",
+                "recording": {
+                    "video": false,
+                    "title": "Work It",
+                    "id": "28268aa9-9f04-4049-a94a-268896bbe36d",
+                    "disambiguation": "",
+                    "length": 261946
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "length": 261413,
+                    "disambiguation": "",
+                    "id": "b932ee93-bf21-4215-b91d-afedc9568eaf",
+                    "video": false,
+                    "title": "Work It"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": []
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "length": 167333,
+                    "video": false,
+                    "title": "Work It",
+                    "id": "0693ac27-3d7f-4533-987a-2e618de0cb19",
+                    "disambiguation": ""
+                },
+                "target-credit": "",
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "ended": false,
+                "attributes": [
+                    "partial"
+                ],
+                "begin": null,
+                "end": null,
+                "attribute-ids": {
+                    "partial": "d2b63be6-91ec-426a-987a-30b47f8aae2d"
+                },
+                "attribute-values": []
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 252000,
+                    "disambiguation": "",
+                    "id": "f14995d6-8884-4e6f-8071-af6ed72e0a5d",
+                    "title": "Work It",
+                    "video": false
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [],
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "begin": null,
+                "attributes": [
+                    "partial"
+                ],
+                "ended": false,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "partial": "d2b63be6-91ec-426a-987a-30b47f8aae2d"
+                },
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "title": "Work It",
+                    "video": false,
+                    "id": "7a8dfa00-bb34-41ae-90cd-420c7202e315",
+                    "disambiguation": "part of “Twice as Nice Presents: Urban Flavas 2003” DJ‐mix",
+                    "length": 244293
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": ""
+            },
+            {
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "source-credit": "",
+                "direction": "backward",
+                "recording": {
+                    "length": 263000,
+                    "video": false,
+                    "title": "Work It",
+                    "disambiguation": "",
+                    "id": "85167ae4-724f-4dd4-a997-c7f834ca1e3a"
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "direction": "backward",
+                "source-credit": "",
+                "target-type": "recording",
+                "recording": {
+                    "length": 213000,
+                    "disambiguation": "",
+                    "id": "c5f56d48-7b15-4703-aa5d-45726327d9ef",
+                    "title": "Work It",
+                    "video": false
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "434a5e18-1f30-428b-b557-667e8134e25b",
+                    "video": false,
+                    "title": "Work It",
+                    "length": 249706
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "source-credit": "",
+                "direction": "backward",
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null
+            },
+            {
+                "attributes": [],
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "source-credit": "",
+                "direction": "backward",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "254c4498-5c67-405d-a60b-305fb077a652",
+                    "video": false,
+                    "title": "Work It",
+                    "length": 263440
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "attributes": [],
+                "ended": false,
+                "begin": null,
+                "direction": "backward",
+                "source-credit": "",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "Work It",
+                    "disambiguation": "",
+                    "id": "1c5d328b-7476-4366-ab1e-b2d80c0169ca",
+                    "length": 261306
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "recording": {
+                    "length": 263000,
+                    "title": "Work It",
+                    "video": false,
+                    "id": "1983d92a-e381-4d88-991d-651f162bbbee",
+                    "disambiguation": ""
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "691f7086-4538-46c1-bebc-8995fbb2bb9e",
+                    "title": "Work It",
+                    "video": false,
+                    "length": 264000
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "attributes": [],
+                "ended": false,
+                "begin": null
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "length": 261920,
+                    "disambiguation": "",
+                    "id": "11a47829-37c2-42fa-9e36-1776b2266b55",
+                    "video": false,
+                    "title": "Work It"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [],
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": []
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "Work It",
+                    "disambiguation": "part of “New School Classics: Further Education in Hip Hop” DJ‐mix",
+                    "id": "72fe59ad-6d82-48fe-aa97-266e1aae54ee",
+                    "length": 55000
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "title": "Work It",
+                    "video": false,
+                    "disambiguation": "part of “Hip Hop Soul Party 6” DJ‐mix",
+                    "id": "be570396-8032-424f-a3de-621d228c4b6c",
+                    "length": 226000
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "end": null,
+                "attribute-ids": {
+                    "partial": "d2b63be6-91ec-426a-987a-30b47f8aae2d"
+                },
+                "attribute-values": [],
+                "ended": false,
+                "attributes": [
+                    "partial"
+                ],
+                "begin": null
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": [],
+                "end": null,
+                "ended": false,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 173000,
+                    "disambiguation": "",
+                    "id": "d3b87bc2-a39d-4bc8-9179-3f90beef289d",
+                    "title": "Work It",
+                    "video": false
+                },
+                "target-type": "recording"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "c59f9865-11bb-4360-859a-978af282d7b4",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Work It",
+                    "length": 263000
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [],
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 249666,
+                    "title": "Work It",
+                    "video": false,
+                    "id": "d4934a5f-6cbf-46de-82ba-6b95917b5c68",
+                    "disambiguation": "part of “Throwback: Party Jamz” DJ‐mix"
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "source-credit": "",
+                "direction": "backward",
+                "ended": false,
+                "attributes": [
+                    "partial"
+                ],
+                "begin": null,
+                "attribute-ids": {
+                    "partial": "d2b63be6-91ec-426a-987a-30b47f8aae2d"
+                },
+                "attribute-values": [],
+                "end": null
+            },
+            {
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "id": "85df3967-2b3a-45f0-98d8-16f869a299d8",
+                    "disambiguation": "",
+                    "title": "Work It",
+                    "video": true,
+                    "length": null
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "end": null,
+                "attributes": [
+                    "cover"
+                ],
+                "ended": false,
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "video": false,
+                    "title": "Work It",
+                    "disambiguation": "",
+                    "id": "fde5fe75-4c71-4916-8c1a-29902681e520",
+                    "length": 291000
+                },
+                "target-type": "recording"
+            },
+            {
+                "attribute-ids": {
+                    "partial": "d2b63be6-91ec-426a-987a-30b47f8aae2d",
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+                },
+                "attribute-values": [],
+                "end": null,
+                "attributes": [
+                    "instrumental",
+                    "partial"
+                ],
+                "ended": false,
+                "begin": null,
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "video": false,
+                    "title": "Work It",
+                    "disambiguation": "part of \"Timbaland Instrumentals\" DJ-mix",
+                    "id": "abeeb2de-02f8-489a-b60f-a9863b9b70dd",
+                    "length": 104000
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "direction": "backward",
+                "source-credit": "",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "length": 232000,
+                    "title": "Work It",
+                    "video": false,
+                    "disambiguation": "part of “Erol Alkan at TRASH: 21.10.02, Pt. I” DJ‐mix",
+                    "id": "0d7837e0-1604-4f76-be04-c22b675cf215"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "ended": false,
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "title": "Work It",
+                    "video": false,
+                    "disambiguation": "clean, no spoken outro",
+                    "id": "ecc699dc-dd53-49c8-852e-4e019737095a",
+                    "length": 262466
+                },
+                "target-type": "recording"
+            },
+            {
+                "recording": {
+                    "id": "1dd14a11-5880-4472-ab2f-ba275b0d3e1c",
+                    "disambiguation": "clean, with spoken outro",
+                    "title": "Work It",
+                    "video": false,
+                    "length": 292933
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attributes": [],
+                "ended": false,
+                "begin": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "direction": "backward",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "7adb5e38-83e3-4e17-b05e-aef13074b0fa",
+                    "video": false,
+                    "title": "Work It",
+                    "length": null
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "Work It",
+                    "id": "7703fe40-4948-42c1-b650-053146c2ab66",
+                    "disambiguation": "",
+                    "length": 265466
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "attributes": [],
+                "begin": null,
+                "ended": false
+            },
+            {
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "length": 254640,
+                    "title": "Work It (album a cappella)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "60db5084-9a77-42a7-bf45-56230fb23e9c"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "attribute-ids": {
+                    "partial": "d2b63be6-91ec-426a-987a-30b47f8aae2d"
+                },
+                "attribute-values": [],
+                "attributes": [
+                    "partial"
+                ],
+                "ended": false,
+                "begin": null,
+                "direction": "backward",
+                "source-credit": ""
+            },
+            {
+                "recording": {
+                    "id": "4bf5fa9b-0853-404a-8a9e-3f82efec214e",
+                    "disambiguation": "",
+                    "title": "Work It (album instrumental)",
+                    "video": false,
+                    "length": 263293
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attributes": [
+                    "instrumental"
+                ],
+                "ended": false,
+                "attribute-ids": {
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+                },
+                "attribute-values": [],
+                "end": null,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "title": "Work It (album remix)",
+                    "video": false,
+                    "id": "f47a6352-e2e4-4e40-af76-57b99370c103",
+                    "disambiguation": "",
+                    "length": 305533
+                },
+                "target-type": "recording",
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "begin": null,
+                "attributes": [],
+                "ended": false
+            },
+            {
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "direction": "backward",
+                "source-credit": "",
+                "target-type": "recording",
+                "recording": {
+                    "length": 305533,
+                    "title": "Work It (Amended remix)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "aa8cd19a-cca9-4d03-8050-7dd150629f22"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 309840,
+                    "id": "09024dc1-1e79-458f-82b3-dfe354e59bec",
+                    "disambiguation": "",
+                    "title": "Work It (Illicit mix)",
+                    "video": false
+                },
+                "target-type": "recording"
+            },
+            {
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "direction": "backward",
+                "source-credit": "",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "id": "2537c5aa-dc5d-49f2-88f0-7982efb23501",
+                    "disambiguation": "part of a dj-mix on disc 1 of Leo Zero’s “Super Edits, Volume 2”",
+                    "video": false,
+                    "title": "Work It (Leo Zero re-work)",
+                    "length": null
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "attributes": [],
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "direction": "backward",
+                "source-credit": "",
+                "target-type": "recording",
+                "recording": {
+                    "disambiguation": "unmixed, on disc 2 of Leo Zero’s “Super Edits, Volume 2”",
+                    "id": "0136b9fb-c53d-4413-aba6-f01c24b794e6",
+                    "title": "Work It (Leo Zero re-work)",
+                    "video": false,
+                    "length": null
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-ids": {
+                    "partial": "d2b63be6-91ec-426a-987a-30b47f8aae2d"
+                },
+                "attribute-values": [],
+                "end": null,
+                "attributes": [
+                    "partial"
+                ],
+                "begin": null,
+                "ended": false,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "video": false,
+                    "title": "Work It (Squeeky clean)",
+                    "disambiguation": "",
+                    "id": "e55a920e-ea82-4f8d-9311-2c8af73a6923",
+                    "length": 263600
+                },
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 262000,
+                    "video": false,
+                    "title": "Work It (tv track)",
+                    "disambiguation": "",
+                    "id": "daae5d21-84e7-46e7-8ad8-7887b024de93"
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": ""
+            },
+            {
+                "end": null,
+                "attribute-values": [],
+                "attributes": [],
+                "begin": null,
+                "source-credit": "",
+                "target-credit": "",
+                "target-type": "url",
+                "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
+                "attribute-ids": [],
+                "ended": false,
+                "direction": "backward",
+                "url": {
+                    "resource": "https://www.wikidata.org/wiki/Q1569320",
+                    "id": "91d9865e-58d4-407a-8b02-13317d17314b"
+                },
+                "type": "wikidata"
+            },
+            {
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "source-credit": "",
+                "direction": "forward",
+                "target-type": "work",
+                "type": "based on",
+                "target-credit": "",
+                "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+                "work": {
+                    "language": "eng",
+                    "attributes": [],
+                    "disambiguation": "",
+                    "id": "46fb0a2f-17f9-4b55-abab-93499350b394",
+                    "iswcs": [],
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                    "languages": [
+                        "eng"
+                    ],
+                    "title": "Work It (remix)",
+                    "type": "Song"
+                }
+            },
+            {
+                "work": {
+                    "id": "ab81aee0-eafe-49f0-9879-6df12f29edac",
+                    "disambiguation": "",
+                    "attributes": [],
+                    "language": null,
+                    "type": null,
+                    "title": "RATATA",
+                    "languages": [],
+                    "type-id": null,
+                    "iswcs": []
+                },
+                "type-id": "c8283596-6f1f-42db-be9c-def66d387e78",
+                "type": "lyrical quotation",
+                "target-credit": "",
+                "target-type": "work",
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "begin": null,
+                "attributes": [],
+                "ended": false
+            }
+        ],
+        "language": "eng"
+    },
+    "fetched_at": 1792075936.08077,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

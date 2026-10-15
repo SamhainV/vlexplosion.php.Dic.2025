@@ -1,0 +1,130 @@
+{
+    "data": {
+        "languages": [
+            "zxx"
+        ],
+        "language": "zxx",
+        "iswcs": [],
+        "relations": [
+            {
+                "begin": null,
+                "source-credit": "",
+                "target-type": "artist",
+                "type": "composer",
+                "artist": {
+                    "sort-name": "Gore, Martin L.",
+                    "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "name": "Martin L. Gore",
+                    "type": "Person",
+                    "country": "US",
+                    "disambiguation": ""
+                },
+                "end": null,
+                "attributes": [],
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                "target-credit": "",
+                "direction": "backward"
+            },
+            {
+                "begin": null,
+                "source-credit": "",
+                "target-type": "recording",
+                "type": "performance",
+                "end": null,
+                "attributes": [],
+                "attribute-ids": [],
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Blue Dress / Interlude #3",
+                    "id": "e2ea97c5-816e-4379-adb3-60564aeda22c",
+                    "length": 342000
+                },
+                "target-credit": "",
+                "direction": "backward",
+                "ordering-key": 2,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "ended": false
+            },
+            {
+                "type": "performance",
+                "target-type": "recording",
+                "begin": null,
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "ordering-key": 2,
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "5.1 mix",
+                    "video": false,
+                    "length": 342000,
+                    "id": "e8230def-ab9a-44d7-a83a-a4b2030a3936",
+                    "title": "Blue Dress / Interlude #3"
+                },
+                "attribute-ids": [],
+                "attributes": [],
+                "end": null
+            },
+            {
+                "attribute-values": [],
+                "ended": false,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "direction": "backward",
+                "attribute-ids": [],
+                "recording": {
+                    "title": "Interlude #3",
+                    "id": "74450480-93eb-46c4-ab6d-97cd626d9cb2",
+                    "length": 70000,
+                    "video": false,
+                    "disambiguation": "demo"
+                },
+                "attributes": [],
+                "end": null,
+                "type": "performance",
+                "target-type": "recording",
+                "source-credit": "",
+                "begin": null
+            },
+            {
+                "recording": {
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Interlude #3",
+                    "id": "37ef5048-cb6e-4d30-afd0-a7f1692c7493",
+                    "length": 68000
+                },
+                "attribute-ids": [],
+                "direction": "backward",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "ended": false,
+                "end": null,
+                "attributes": [],
+                "type": "performance",
+                "source-credit": "",
+                "begin": null,
+                "target-type": "recording"
+            }
+        ],
+        "id": "6186c0ea-254e-49f8-83b0-0e325cf52d57",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Interlude #3",
+        "disambiguation": "",
+        "attributes": []
+    },
+    "fetched_at": 1792075095.285326,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

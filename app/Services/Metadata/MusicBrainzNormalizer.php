@@ -49,19 +49,29 @@ final class MusicBrainzNormalizer
         return $artists;
     }
 
-    private static function credits(array $relations): array
+    /** Bounded legacy display column; the full value remains in relation.raw. */
+    private static function creditText(mixed $value, int $max=255): ?string
     {
-        $result = [];
-        foreach ($relations as $relation) {
-            if (!is_array($relation)) { continue; }
-            $role = self::text($relation['type'] ?? null, 120);
-            if (!$role) { continue; }
-            if (isset($relation['artist'])) {
-                $result[] = ['artist' => self::artist($relation['artist']), 'organisation' => null, 'role' => $role,
-                    'credited_as' => self::text($relation['target-credit'] ?? null)];
-            } elseif (isset($relation['place']['name'])) {
-                $result[] = ['artist' => null, 'organisation' => self::text($relation['place']['name']), 'role' => $role, 'credited_as' => null];
-            }
+        if($value===null||$value==='')return null;
+        if(!is_string($value)||!preg_match('//u',$value)||str_contains($value,"\0"))throw new MetadataException('invalid_response');
+        preg_match_all('/./us',$value,$chars);
+        return trim(implode('',array_slice($chars[0],0,$max)))?:null;
+    }
+    private static function credits(array $relations, string $kind, string $mbid): array
+    {
+        $result=[];
+        foreach($relations as $rel) {
+            if(!is_array($rel) || !($role=self::creditText($rel['type']??null,120)))continue;
+            $target=$rel['target-type']??null;
+            if(!$target)foreach(['artist','place','label','work','recording','release','release-group','area','event','instrument','series','url'] as $type)if(isset($rel[$type])){$target=$type;break;}
+            if(!$target || !is_array($rel[$target]??null))continue;
+            $entity=$rel[$target];$name=$entity['name']??$entity['title']??$entity['resource']??$entity['id']??null;
+            if(!$name)continue;
+            $display=$entity;$display['name']=self::creditText($name);
+            $result[]=['artist'=>$target==='artist'?self::artist($display):null,'organisation'=>$target==='artist'?null:self::creditText($name),
+              'role'=>$role,'credited_as'=>self::creditText($rel['target-credit']??null),
+              'instrument'=>self::creditText(implode(', ',MusicBrainzCreditGraph::instrumentAttributes($role,$rel['attributes']??[])),120),
+              'relation'=>['raw'=>$rel,'source_kind'=>$kind,'source_mbid'=>$mbid,'target_kind'=>$target,'target_mbid'=>$entity['id']??null,'category'=>MusicBrainzCreditGraph::category($role,$target)]];
         }
         return $result;
     }
@@ -73,7 +83,7 @@ final class MusicBrainzNormalizer
         if (($r['release-group']['id'] ?? null) !== $groupId) { throw new MetadataException('invalid_response'); }
         $album = ['id' => $groupId, 'title' => self::text($g['title'] ?? null) ?? throw new MetadataException('invalid_response'),
             'original_date' => self::date($g['first-release-date'] ?? null), 'type' => self::text($g['primary-type'] ?? null, 80),
-            'artists' => self::artists($g['artist-credit'] ?? []), 'genres' => [], 'credits' => self::credits($g['relations'] ?? [])];
+            'artists' => self::artists($g['artist-credit'] ?? []), 'genres' => [], 'credits' => self::credits($g['relations'] ?? [], 'release-group', $g['id'])];
         foreach ($g['genres'] ?? [] as $genre) {
             if (($name = self::text($genre['name'] ?? null, 120)) !== null) { $album['genres'][] = $name; }
         }
@@ -81,7 +91,7 @@ final class MusicBrainzNormalizer
         $edition = ['id' => self::id($r['id'] ?? null), 'title' => self::text($r['title'] ?? null),
             'country' => self::text($r['country'] ?? null, 80), 'date' => self::date($r['date'] ?? null),
             'barcode' => self::text($r['barcode'] ?? null, 64), 'packaging' => self::text($r['packaging'] ?? null),
-            'labels' => [], 'media' => [], 'credits' => self::credits($r['relations'] ?? [])];
+            'labels' => [], 'media' => [], 'credits' => self::credits($r['relations'] ?? [], 'release', $r['id'])];
         foreach ($r['label-info'] ?? [] as $entry) {
             if (!isset($entry['label']['id'], $entry['label']['name'])) { continue; }
             $edition['labels'][] = ['id' => self::id($entry['label']['id']), 'name' => self::text($entry['label']['name']),
@@ -96,11 +106,11 @@ final class MusicBrainzNormalizer
                 $rec = $t['recording'] ?? null; $recording = null;
                 if (is_array($rec) && isset($rec['id'])) {
                     $recording = ['id' => self::id($rec['id']), 'title' => self::text($rec['title'] ?? null),
-                        'duration_ms' => self::duration($rec['length'] ?? null), 'credits' => self::credits($rec['relations'] ?? []), 'works' => []];
+                        'duration_ms' => self::duration($rec['length'] ?? null), 'credits' => self::credits($rec['relations'] ?? [], 'recording', $rec['id']), 'works' => []];
                     foreach ($rec['relations'] ?? [] as $rel) {
                         if (($rel['type'] ?? '') === 'performance' && isset($rel['work']['id'])) {
                             $w = $rel['work'];
-                            $recording['works'][] = ['id' => self::id($w['id']), 'title' => self::text($w['title'] ?? null), 'credits' => self::credits($w['relations'] ?? [])];
+                            $recording['works'][] = ['id' => self::id($w['id']), 'title' => self::text($w['title'] ?? null), 'credits' => self::credits($w['relations'] ?? [], 'work', $w['id'])];
                         }
                     }
                 }

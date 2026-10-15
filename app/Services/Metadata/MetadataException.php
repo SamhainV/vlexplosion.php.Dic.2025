@@ -4,7 +4,7 @@ namespace App\Services\Metadata;
 
 final class MetadataException extends \RuntimeException
 {
-    public function __construct(public readonly string $reason, public readonly int $retryAfter = 0)
+    public function __construct(public readonly string $reason, public readonly int $retryAfter = 0, public readonly ?int $httpStatus = null, public readonly bool $requestSent = true)
     {
         parent::__construct(match ($reason) {
             'rate_limit' => 'MusicBrainz ha solicitado una pausa temporal. Tu búsqueda y selección se conservan.',

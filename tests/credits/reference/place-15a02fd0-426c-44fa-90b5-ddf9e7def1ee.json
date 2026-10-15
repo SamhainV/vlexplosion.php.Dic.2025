@@ -1,0 +1,74 @@
+{
+    "data": {
+        "type": "Studio",
+        "area": {
+            "type": null,
+            "id": "26e0e534-19ea-4645-bfb3-1aa4e83a4046",
+            "disambiguation": "",
+            "name": "Atlanta",
+            "type-id": null,
+            "sort-name": "Atlanta"
+        },
+        "aliases": [
+            {
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "type": "Search hint",
+                "locale": null,
+                "name": "Patchwerk Recording",
+                "type-id": "0a438b9c-1850-32de-b4bb-7f58f5048ea3",
+                "primary": null,
+                "sort-name": "Patchwerk Recording"
+            },
+            {
+                "type": "Place name",
+                "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+                "sort-name": "Patchwerk Recording Studios",
+                "primary": null,
+                "locale": null,
+                "name": "Patchwerk Recording Studios",
+                "begin": null,
+                "ended": false,
+                "end": null
+            },
+            {
+                "locale": null,
+                "name": "Patchwerk Recordings",
+                "type-id": "0a438b9c-1850-32de-b4bb-7f58f5048ea3",
+                "sort-name": "Patchwerk Recordings",
+                "primary": null,
+                "type": "Search hint",
+                "end": null,
+                "begin": null,
+                "ended": false
+            },
+            {
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "type": "Search hint",
+                "type-id": "0a438b9c-1850-32de-b4bb-7f58f5048ea3",
+                "sort-name": "Patchwerk Studios",
+                "primary": null,
+                "locale": null,
+                "name": "Patchwerk Studios"
+            }
+        ],
+        "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+        "address": "1094 Hemphill Ave.",
+        "name": "Patchwerk Recording Studios",
+        "id": "15a02fd0-426c-44fa-90b5-ddf9e7def1ee",
+        "life-span": {
+            "end": null,
+            "begin": null,
+            "ended": false
+        },
+        "disambiguation": "",
+        "coordinates": null
+    },
+    "fetched_at": 1792075931.392913,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "place"
+}

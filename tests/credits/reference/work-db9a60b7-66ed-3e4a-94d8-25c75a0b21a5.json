@@ -1,0 +1,368 @@
+{
+    "data": {
+        "relations": [
+            {
+                "direction": "backward",
+                "attributes": [],
+                "target-type": "artist",
+                "begin": null,
+                "attribute-values": [],
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "ended": false,
+                "end": null,
+                "type": "writer",
+                "attribute-ids": [],
+                "source-credit": "",
+                "artist": {
+                    "sort-name": "Brockman, Craig",
+                    "disambiguation": "",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "id": "023c2a6c-38ca-43d9-a4aa-6662b0fb55db",
+                    "type": "Person",
+                    "name": "Craig Brockman"
+                },
+                "target-credit": ""
+            },
+            {
+                "target-credit": "Melissa Elliott",
+                "artist": {
+                    "sort-name": "Elliott, Missy",
+                    "country": "US",
+                    "disambiguation": "American rapper, singer, dancer & record producer",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+                    "type": "Person",
+                    "name": "Missy Elliott"
+                },
+                "source-credit": "",
+                "attribute-ids": [],
+                "type": "writer",
+                "end": null,
+                "ended": false,
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "attribute-values": [],
+                "begin": null,
+                "attributes": [],
+                "target-type": "artist",
+                "direction": "backward"
+            },
+            {
+                "type": "writer",
+                "attribute-ids": [],
+                "source-credit": "",
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "ended": false,
+                "end": null,
+                "target-credit": "",
+                "artist": {
+                    "type": "Person",
+                    "name": "Nisan Stewart",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "id": "1cdba8b4-6e2f-41bc-8ada-40d383981bf1",
+                    "disambiguation": "",
+                    "country": "US",
+                    "sort-name": "Stewart, Nisan"
+                },
+                "target-type": "artist",
+                "attributes": [],
+                "direction": "backward",
+                "attribute-values": [],
+                "begin": null
+            },
+            {
+                "target-credit": "Craig Man Musik",
+                "ended": false,
+                "end": null,
+                "attribute-ids": [],
+                "source-credit": "",
+                "attributes": [],
+                "label": {
+                    "disambiguation": "publisher",
+                    "sort-name": "Craig Man Music",
+                    "type": "Publisher",
+                    "name": "Craig Man Music",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "id": "ecb4412f-bfb0-47c6-9dc1-a0f4812ae756",
+                    "label-code": null
+                },
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "type": "publishing",
+                "begin": null,
+                "attribute-values": [],
+                "direction": "backward",
+                "target-type": "label"
+            },
+            {
+                "attributes": [],
+                "source-credit": "",
+                "attribute-ids": [],
+                "end": null,
+                "ended": false,
+                "target-credit": "",
+                "target-type": "label",
+                "direction": "backward",
+                "attribute-values": [],
+                "begin": null,
+                "type": "publishing",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "label": {
+                    "name": "Mass Confusion Music",
+                    "type": "Publisher",
+                    "id": "a8ffb6ad-3e00-474d-b44a-f465026a2e61",
+                    "label-code": null,
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "disambiguation": "",
+                    "sort-name": "Mass Confusion Music"
+                }
+            },
+            {
+                "direction": "backward",
+                "target-type": "label",
+                "begin": null,
+                "attribute-values": [],
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "type": "publishing",
+                "label": {
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "label-code": null,
+                    "id": "bc6e37bf-2564-4217-9588-513caec2aa9f",
+                    "type": "Publisher",
+                    "name": "Nisan's Music",
+                    "sort-name": "Nisan's Music",
+                    "disambiguation": ""
+                },
+                "attributes": [],
+                "end": null,
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": [],
+                "target-credit": "Nisan’s Musik"
+            },
+            {
+                "direction": "backward",
+                "target-type": "label",
+                "begin": null,
+                "attribute-values": [],
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "type": "publishing",
+                "label": {
+                    "disambiguation": "1929–2019",
+                    "sort-name": "WB Music Corp.",
+                    "name": "WB Music Corp.",
+                    "type": "Publisher",
+                    "id": "883fe539-a89f-4572-8072-4d1e69d4670d",
+                    "label-code": null,
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
+                },
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "direction": "backward",
+                "attributes": [],
+                "target-type": "recording",
+                "begin": null,
+                "attribute-values": [],
+                "end": null,
+                "ended": false,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "source-credit": "",
+                "type": "performance",
+                "attribute-ids": [],
+                "recording": {
+                    "title": "Can You Hear Me",
+                    "disambiguation": "explicit",
+                    "length": 269133,
+                    "id": "a5a8a3d4-e6c1-4750-be1e-1d74d544268d",
+                    "video": false
+                },
+                "target-credit": ""
+            },
+            {
+                "source-credit": "",
+                "attribute-ids": [],
+                "type": "performance",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": false,
+                "target-credit": "",
+                "recording": {
+                    "length": 166000,
+                    "video": false,
+                    "id": "4bb3ae33-9bed-4c2b-88f4-735493a4fb8b",
+                    "disambiguation": "",
+                    "title": "Can You Hear Me"
+                },
+                "target-type": "recording",
+                "attributes": [],
+                "direction": "backward",
+                "attribute-values": [],
+                "begin": null
+            },
+            {
+                "end": null,
+                "ended": false,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "source-credit": "",
+                "attribute-ids": [],
+                "type": "performance",
+                "recording": {
+                    "title": "Can You Hear Me",
+                    "disambiguation": "clean",
+                    "length": 263840,
+                    "video": false,
+                    "id": "7d2f9895-7359-4697-b641-02c5cdeff622"
+                },
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "attributes": [],
+                "begin": null,
+                "attribute-values": []
+            }
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+            "eng"
+        ],
+        "type": "Song",
+        "title": "Can You Hear Me",
+        "disambiguation": "",
+        "id": "db9a60b7-66ed-3e4a-94d8-25c75a0b21a5",
+        "iswcs": [
+            "T-072.608.538-6"
+        ],
+        "attributes": [
+            {
+                "value": "003279 979 02",
+                "type": "SUISA ID",
+                "type-id": "034f35ae-d250-3749-95e7-854e606d5960"
+            },
+            {
+                "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+                "type": "SPA ID",
+                "value": "919031"
+            },
+            {
+                "type": "SOCAN ID",
+                "value": "29581431",
+                "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+            },
+            {
+                "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+                "value": "216290418",
+                "type": "SOCAN ID"
+            },
+            {
+                "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+                "value": "2866780500",
+                "type": "SIAE ID"
+            },
+            {
+                "value": "5.410.171",
+                "type": "SGAE ID",
+                "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75"
+            },
+            {
+                "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+                "type": "SAYCO ID",
+                "value": "2937279"
+            },
+            {
+                "value": "2937279",
+                "type": "SAYCE ID",
+                "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+            },
+            {
+                "type": "SADAIC ID",
+                "value": "827454",
+                "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+            },
+            {
+                "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+                "value": "20 597 765 11",
+                "type": "SACEM ID"
+            },
+            {
+                "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+                "value": "743217000",
+                "type": "SABAM ID"
+            },
+            {
+                "value": "42171HP",
+                "type": "PRS tune code",
+                "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+            },
+            {
+                "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+                "type": "COMPASS ID",
+                "value": "3224199"
+            },
+            {
+                "value": "6438895",
+                "type": "COMPASS ID",
+                "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+            },
+            {
+                "type": "CASH ID",
+                "value": "C-1200077603",
+                "type-id": "9e0765a1-1505-3ca9-9147-8dcbb0aa9cec"
+            },
+            {
+                "value": "W-003500571",
+                "type": "BUMA/STEMRA ID",
+                "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+            },
+            {
+                "type-id": "5e3b8fc2-3a4e-4a92-a572-6339863c1cf4",
+                "value": "4000076154",
+                "type": "ARTISJUS ID"
+            },
+            {
+                "type": "APRA ID",
+                "value": "GW31088984",
+                "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+            },
+            {
+                "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+                "value": "2798304",
+                "type": "APDAYC ID"
+            },
+            {
+                "value": "5531876",
+                "type": "APA ID",
+                "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65"
+            },
+            {
+                "type": "AKM ID",
+                "value": "395456801",
+                "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
+            },
+            {
+                "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+                "value": "0O3-3881-0",
+                "type": "JASRAC ID"
+            },
+            {
+                "type": "ASCAP ID",
+                "value": "331037177",
+                "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+            },
+            {
+                "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+                "type": "GEMA ID",
+                "value": "7630901-001"
+            }
+        ],
+        "language": "eng"
+    },
+    "fetched_at": 1792076101.349851,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

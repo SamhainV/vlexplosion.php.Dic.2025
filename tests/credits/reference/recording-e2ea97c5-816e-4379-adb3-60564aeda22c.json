@@ -1,0 +1,299 @@
+{
+    "data": {
+        "first-release-date": "1990-02-05",
+        "video": false,
+        "disambiguation": "",
+        "id": "e2ea97c5-816e-4379-adb3-60564aeda22c",
+        "length": 342000,
+        "title": "Blue Dress / Interlude #3",
+        "relations": [
+            {
+                "attribute-values": [],
+                "type": "mix",
+                "ended": false,
+                "artist": {
+                    "sort-name": "François K",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "disambiguation": "",
+                    "id": "093b79fc-d913-4580-8403-c2430f7a18ee",
+                    "name": "François K",
+                    "type": "Person"
+                },
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "François Kevorkian",
+                "direction": "backward",
+                "end": null,
+                "begin": null,
+                "target-type": "artist",
+                "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe"
+            },
+            {
+                "ended": false,
+                "artist": {
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "sort-name": "Gore, Martin L.",
+                    "disambiguation": "",
+                    "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                    "name": "Martin L. Gore",
+                    "type": "Person"
+                },
+                "attribute-values": [],
+                "type": "vocal",
+                "target-credit": "",
+                "attribute-credits": [],
+                "attribute-ids": {
+                    "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                },
+                "attributes": [
+                    "lead vocals"
+                ],
+                "source-credit": "",
+                "direction": "backward",
+                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                "target-type": "artist",
+                "begin": null,
+                "end": null
+            },
+            {
+                "direction": "forward",
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "recording": {
+                    "id": "9b944e0b-88b7-4fce-b342-eef8d78caed1",
+                    "disambiguation": "album mix",
+                    "length": null,
+                    "title": "Blue Dress",
+                    "video": false
+                },
+                "type-id": "1b6311e8-5f81-43b7-8c55-4bbae71ec00c",
+                "attribute-values": [],
+                "type": "compilation",
+                "ordering-key": 1,
+                "ended": false,
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "ended": false,
+                "ordering-key": 2,
+                "type": "compilation",
+                "attribute-values": [],
+                "recording": {
+                    "id": "37ef5048-cb6e-4d30-afd0-a7f1692c7493",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Interlude #3",
+                    "length": 68000
+                },
+                "type-id": "1b6311e8-5f81-43b7-8c55-4bbae71ec00c",
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "direction": "forward"
+            },
+            {
+                "direction": "backward",
+                "type-id": "bfbdb55a-b857-473a-8f2e-a9c09e45c3f5",
+                "recording": {
+                    "title": "Blue Dress (ATOM’s “Short Skirt” mix)",
+                    "video": false,
+                    "length": 280000,
+                    "id": "fb4d03ef-dec7-4e5f-893d-e242d528a53c",
+                    "disambiguation": ""
+                },
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "ended": false,
+                "type": "remix",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": []
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "ended": false,
+                "type": "free streaming",
+                "attribute-values": [],
+                "url": {
+                    "id": "a9b1df96-f593-4a13-9ba9-860b410079dc",
+                    "resource": "https://open.spotify.com/track/5wmrY6ZtM1q7Q2FAoOG48r"
+                },
+                "type-id": "7e41ef12-a124-4324-afdb-fdbae687a89c",
+                "end": null,
+                "begin": null,
+                "target-type": "url",
+                "direction": "forward"
+            },
+            {
+                "attribute-values": [],
+                "type": "performance",
+                "work": {
+                    "relations": [
+                        {
+                            "direction": "backward",
+                            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                            "target-type": "artist",
+                            "end": null,
+                            "begin": null,
+                            "artist": {
+                                "disambiguation": "",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "sort-name": "Gore, Martin L.",
+                                "country": "US",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "name": "Martin L. Gore",
+                                "type": "Person"
+                            },
+                            "ended": false,
+                            "type": "composer",
+                            "attribute-values": [],
+                            "target-credit": "",
+                            "source-credit": "",
+                            "attribute-ids": [],
+                            "attributes": []
+                        },
+                        {
+                            "source-credit": "",
+                            "attributes": [],
+                            "attribute-ids": [],
+                            "target-credit": "",
+                            "type": "lyricist",
+                            "attribute-values": [],
+                            "artist": {
+                                "name": "Martin L. Gore",
+                                "type": "Person",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "disambiguation": "",
+                                "country": "US",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "sort-name": "Gore, Martin L."
+                            },
+                            "ended": false,
+                            "end": null,
+                            "begin": null,
+                            "target-type": "artist",
+                            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                            "direction": "backward"
+                        },
+                        {
+                            "ended": false,
+                            "attribute-values": [],
+                            "type": "secondhandsongs",
+                            "target-credit": "",
+                            "attribute-ids": [],
+                            "attributes": [],
+                            "source-credit": "",
+                            "direction": "backward",
+                            "url": {
+                                "id": "8ad8d5a6-100a-4277-a62c-b79668eaacf2",
+                                "resource": "https://secondhandsongs.com/work/35493"
+                            },
+                            "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                            "end": null,
+                            "begin": null,
+                            "target-type": "url"
+                        }
+                    ],
+                    "title": "Blue Dress",
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                    "language": "eng",
+                    "languages": [
+                        "eng"
+                    ],
+                    "id": "ce7cb2e7-5ebb-3ae7-a60e-12a80d142775",
+                    "disambiguation": "",
+                    "attributes": [],
+                    "iswcs": [
+                        "T-011.391.710-4"
+                    ],
+                    "type": "Song"
+                },
+                "ordering-key": 1,
+                "ended": false,
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "forward",
+                "target-type": "work",
+                "begin": null,
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "ended": false,
+                "work": {
+                    "disambiguation": "",
+                    "id": "6186c0ea-254e-49f8-83b0-0e325cf52d57",
+                    "attributes": [],
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                    "languages": [
+                        "zxx"
+                    ],
+                    "language": "zxx",
+                    "relations": [
+                        {
+                            "attributes": [],
+                            "attribute-ids": [],
+                            "source-credit": "",
+                            "target-credit": "",
+                            "attribute-values": [],
+                            "type": "composer",
+                            "ended": false,
+                            "artist": {
+                                "name": "Martin L. Gore",
+                                "type": "Person",
+                                "sort-name": "Gore, Martin L.",
+                                "country": "US",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "disambiguation": "",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981"
+                            },
+                            "begin": null,
+                            "end": null,
+                            "target-type": "artist",
+                            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                            "direction": "backward"
+                        }
+                    ],
+                    "title": "Interlude #3",
+                    "type": "Song",
+                    "iswcs": []
+                },
+                "type": "performance",
+                "attribute-values": [],
+                "ordering-key": 2,
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "direction": "forward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "work",
+                "begin": null,
+                "end": null
+            }
+        ]
+    },
+    "fetched_at": 1792074430.149094,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "recording"
+}

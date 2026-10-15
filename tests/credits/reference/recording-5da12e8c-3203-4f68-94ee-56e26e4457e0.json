@@ -1,0 +1,201 @@
+{
+    "data": {
+        "relations": [
+            {
+                "type": "mix",
+                "target-type": "artist",
+                "source-credit": "",
+                "begin": null,
+                "attribute-values": [],
+                "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                "ended": false,
+                "target-credit": "François Kevorkian",
+                "direction": "backward",
+                "attribute-ids": [],
+                "attributes": [],
+                "artist": {
+                    "sort-name": "François K",
+                    "id": "093b79fc-d913-4580-8403-c2430f7a18ee",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "type": "Person",
+                    "name": "François K",
+                    "country": "US",
+                    "disambiguation": ""
+                },
+                "end": null
+            },
+            {
+                "attribute-ids": {
+                    "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                },
+                "target-credit": "",
+                "direction": "backward",
+                "attribute-values": [],
+                "ended": false,
+                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                "end": null,
+                "artist": {
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "type": "Person",
+                    "name": "Dave Gahan",
+                    "id": "d547b148-cf1f-421b-9464-ce7411ba44b8",
+                    "sort-name": "Gahan, Dave",
+                    "disambiguation": "",
+                    "country": "GB"
+                },
+                "attribute-credits": [],
+                "attributes": [
+                    "lead vocals"
+                ],
+                "type": "vocal",
+                "begin": null,
+                "source-credit": "",
+                "target-type": "artist"
+            },
+            {
+                "target-credit": "",
+                "direction": "backward",
+                "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                "attribute-values": [],
+                "ended": false,
+                "recording": {
+                    "disambiguation": "",
+                    "video": false,
+                    "length": 317000,
+                    "title": "Clean (Solcofn mashup)",
+                    "id": "90fc958a-b757-4428-88c9-b66fed7863c0"
+                },
+                "attribute-ids": [],
+                "attributes": [],
+                "end": null,
+                "type": "mashes up",
+                "target-type": "recording",
+                "source-credit": "",
+                "begin": null
+            },
+            {
+                "url": {
+                    "id": "fcd525f4-bdc9-434b-a83f-8d7e78fa355f",
+                    "resource": "https://open.spotify.com/track/7Eb5WxoHyG3V9pd4XGaqQb"
+                },
+                "attribute-ids": [],
+                "type-id": "7e41ef12-a124-4324-afdb-fdbae687a89c",
+                "attribute-values": [],
+                "ended": false,
+                "direction": "forward",
+                "target-credit": "",
+                "end": null,
+                "attributes": [],
+                "type": "free streaming",
+                "begin": null,
+                "source-credit": "",
+                "target-type": "url"
+            },
+            {
+                "end": null,
+                "work": {
+                    "type": "Song",
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                    "languages": [
+                        "eng"
+                    ],
+                    "language": "eng",
+                    "relations": [
+                        {
+                            "source-credit": "",
+                            "begin": null,
+                            "target-type": "artist",
+                            "type": "composer",
+                            "artist": {
+                                "country": "US",
+                                "disambiguation": "",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "sort-name": "Gore, Martin L.",
+                                "name": "Martin L. Gore",
+                                "type": "Person",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                            },
+                            "end": null,
+                            "attributes": [],
+                            "attribute-ids": [],
+                            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                            "attribute-values": [],
+                            "ended": false,
+                            "direction": "backward",
+                            "target-credit": ""
+                        },
+                        {
+                            "attributes": [],
+                            "end": null,
+                            "artist": {
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "type": "Person",
+                                "name": "Martin L. Gore",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "sort-name": "Gore, Martin L.",
+                                "disambiguation": "",
+                                "country": "US"
+                            },
+                            "target-credit": "",
+                            "direction": "backward",
+                            "attribute-values": [],
+                            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                            "ended": false,
+                            "attribute-ids": [],
+                            "target-type": "artist",
+                            "begin": null,
+                            "source-credit": "",
+                            "type": "lyricist"
+                        },
+                        {
+                            "type": "secondhandsongs",
+                            "target-type": "url",
+                            "source-credit": "",
+                            "begin": null,
+                            "target-credit": "",
+                            "direction": "backward",
+                            "attribute-values": [],
+                            "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                            "ended": false,
+                            "attribute-ids": [],
+                            "url": {
+                                "id": "22c309df-7d9d-4fb8-a4fa-99b4f115cf01",
+                                "resource": "https://secondhandsongs.com/work/83426"
+                            },
+                            "attributes": [],
+                            "end": null
+                        }
+                    ],
+                    "iswcs": [
+                        "T-011.391.712-6"
+                    ],
+                    "id": "12ee93c5-e0bb-38ea-a7b2-1f2505caa74c",
+                    "disambiguation": "",
+                    "attributes": [],
+                    "title": "Clean"
+                },
+                "attributes": [],
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "forward",
+                "target-credit": "",
+                "source-credit": "",
+                "begin": null,
+                "target-type": "work",
+                "type": "performance"
+            }
+        ],
+        "id": "5da12e8c-3203-4f68-94ee-56e26e4457e0",
+        "title": "Clean",
+        "first-release-date": "1990-02-05",
+        "length": 327000,
+        "video": false,
+        "disambiguation": ""
+    },
+    "fetched_at": 1792074764.794375,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "recording"
+}

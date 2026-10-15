@@ -1,0 +1,52 @@
+{
+    "data": {
+        "disambiguation": "",
+        "address": "",
+        "type": "Studio",
+        "aliases": [
+            {
+                "locale": null,
+                "begin": null,
+                "type": null,
+                "name": "Baseline Recording Studios",
+                "ended": false,
+                "type-id": null,
+                "primary": null,
+                "end": null,
+                "sort-name": "Baseline Recording Studios"
+            },
+            {
+                "locale": null,
+                "begin": null,
+                "sort-name": "Baseline Recordings",
+                "name": "Baseline Recordings",
+                "type": "Search hint",
+                "end": null,
+                "primary": null,
+                "ended": false,
+                "type-id": "0a438b9c-1850-32de-b4bb-7f58f5048ea3"
+            }
+        ],
+        "name": "Baseline Studios",
+        "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+        "area": {
+            "type": null,
+            "name": "New York",
+            "type-id": null,
+            "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+            "disambiguation": "",
+            "sort-name": "New York"
+        },
+        "life-span": {
+            "end": null,
+            "ended": false,
+            "begin": null
+        },
+        "coordinates": null,
+        "id": "9cc1b7cb-560a-427f-a045-a31a4ccdd272"
+    },
+    "fetched_at": 1792075937.750102,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "place"
+}

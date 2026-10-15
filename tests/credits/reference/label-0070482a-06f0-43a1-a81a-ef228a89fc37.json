@@ -1,0 +1,58 @@
+{
+    "data": {
+        "sort-name": "WEA International Inc.",
+        "type-id": "53ab8dcc-9946-3b62-966e-7634d78e5034",
+        "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "iso-3166-1-codes": [
+                "US"
+            ],
+            "type": null,
+            "sort-name": "United States",
+            "type-id": null
+        },
+        "id": "0070482a-06f0-43a1-a81a-ef228a89fc37",
+        "isnis": [],
+        "type": "Distributor",
+        "aliases": [
+            {
+                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                "begin": null,
+                "end": null,
+                "type": "Label name",
+                "primary": true,
+                "sort-name": "偉安國際公司",
+                "name": "偉安國際公司",
+                "locale": "zh_Hant",
+                "ended": false
+            },
+            {
+                "locale": "zh_Hant_TW",
+                "name": "美商偉安國際公司",
+                "ended": false,
+                "end": null,
+                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                "begin": null,
+                "primary": true,
+                "type": "Label name",
+                "sort-name": "美商偉安國際公司"
+            }
+        ],
+        "label-code": null,
+        "country": "US",
+        "ipis": [],
+        "disambiguation": "not for release label use! copyrights holder, distributor for the world outside of the US",
+        "life-span": {
+            "end": "1991",
+            "begin": "1970-08-25",
+            "ended": true
+        },
+        "name": "WEA International Inc."
+    },
+    "fetched_at": 1792075913.726921,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

@@ -1,0 +1,274 @@
+{
+    "data": {
+        "attributes": [
+            {
+                "type": "BMI ID",
+                "value": "6483103",
+                "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+            }
+        ],
+        "id": "add35e41-1ab2-39de-a2aa-cfc8dee5b95e",
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "languages": [
+            "eng"
+        ],
+        "relations": [
+            {
+                "attribute-values": [],
+                "type": "writer",
+                "ended": false,
+                "artist": {
+                    "disambiguation": "American rapper, singer, dancer & record producer",
+                    "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "Elliott, Missy",
+                    "type": "Person",
+                    "name": "Missy Elliott"
+                },
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "Melissa Elliott",
+                "direction": "backward",
+                "begin": null,
+                "end": null,
+                "target-type": "artist",
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+            },
+            {
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": "Clifford Smith",
+                "type": "writer",
+                "attribute-values": [],
+                "artist": {
+                    "disambiguation": "of the Wu‐Tang Clan",
+                    "id": "94dbfe2e-ca48-4e08-a5a8-e1e74136c63d",
+                    "sort-name": "Method Man",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "name": "Method Man",
+                    "type": "Person"
+                },
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "target-type": "artist",
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "direction": "backward"
+            },
+            {
+                "type": "writer",
+                "attribute-values": [],
+                "artist": {
+                    "type": "Person",
+                    "name": "Timbaland",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "sort-name": "Timbaland",
+                    "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+                    "disambiguation": ""
+                },
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": "Timothy Mosley",
+                "direction": "backward",
+                "target-type": "artist",
+                "end": null,
+                "begin": null,
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+            },
+            {
+                "label": {
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "sort-name": "Careers–BMG Music Publishing, Inc.",
+                    "label-code": null,
+                    "disambiguation": "",
+                    "id": "10bc0b73-192b-4971-80a7-6fadefeed758",
+                    "type": "Publisher",
+                    "name": "Careers–BMG Music Publishing, Inc."
+                },
+                "direction": "backward",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "begin": null,
+                "end": null,
+                "target-type": "label",
+                "ended": false,
+                "attribute-values": [],
+                "type": "publishing",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": ""
+            },
+            {
+                "end": null,
+                "begin": null,
+                "target-type": "label",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "label": {
+                    "type": "Publisher",
+                    "name": "Mass Confusion Music",
+                    "sort-name": "Mass Confusion Music",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "label-code": null,
+                    "id": "a8ffb6ad-3e00-474d-b44a-f465026a2e61",
+                    "disambiguation": ""
+                },
+                "direction": "backward",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "publishing",
+                "ended": false
+            },
+            {
+                "label": {
+                    "name": "Virginia Beach Music",
+                    "type": "Publisher",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "sort-name": "Virginia Beach Music",
+                    "disambiguation": "",
+                    "id": "18313d01-9ea1-4511-875f-7e2fa3ace43f",
+                    "label-code": null
+                },
+                "direction": "backward",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "begin": null,
+                "end": null,
+                "target-type": "label",
+                "ended": false,
+                "attribute-values": [],
+                "type": "publishing",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": ""
+            },
+            {
+                "attribute-values": [],
+                "type": "publishing",
+                "ended": false,
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "label": {
+                    "id": "883fe539-a89f-4572-8072-4d1e69d4670d",
+                    "disambiguation": "1929–2019",
+                    "label-code": null,
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "sort-name": "WB Music Corp.",
+                    "type": "Publisher",
+                    "name": "WB Music Corp."
+                },
+                "direction": "backward",
+                "end": null,
+                "begin": null,
+                "target-type": "label",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
+            },
+            {
+                "target-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "publishing",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "target-type": "label",
+                "begin": null,
+                "end": null,
+                "direction": "backward",
+                "label": {
+                    "name": "Wu‐Tang Publishing, Inc.",
+                    "type": "Publisher",
+                    "label-code": null,
+                    "id": "a053a99d-1662-4f90-9ded-8f95e2ec7877",
+                    "disambiguation": "",
+                    "sort-name": "Wu‐Tang Publishing, Inc.",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
+                }
+            },
+            {
+                "target-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "33520e98-ba77-4f77-985e-b61d505aefc4",
+                    "disambiguation": "explicit",
+                    "length": 179466,
+                    "video": false,
+                    "title": "Bring the Pain"
+                },
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "9ff25053-beb8-4629-b148-05aa2945d2c2",
+                    "disambiguation": "clean",
+                    "length": 179426,
+                    "video": false,
+                    "title": "Bring the Pain"
+                },
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": []
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "part of “Brian Beck - Anti '80s Spectacular\" DJ‐mix",
+                    "id": "52921172-0870-4809-95d9-3395bba29822",
+                    "video": false,
+                    "title": "Bring the Pain (Chris Lum remix)",
+                    "length": 285906
+                },
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "direction": "backward"
+            }
+        ],
+        "title": "Bring the Pain",
+        "type": "Song",
+        "iswcs": []
+    },
+    "fetched_at": 1792075928.050988,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

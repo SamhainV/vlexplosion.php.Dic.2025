@@ -1,0 +1,88 @@
+{
+    "data": {
+        "id": "10f818e1-08f1-4620-9b1a-3a2be3408b1e",
+        "disambiguation": "",
+        "address": "",
+        "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+        "type": "Studio",
+        "name": "The Hit Factory Criteria",
+        "life-span": {
+            "end": null,
+            "begin": "1999",
+            "ended": false
+        },
+        "coordinates": {
+            "latitude": 25.9133,
+            "longitude": -80.1638
+        },
+        "area": {
+            "type": null,
+            "name": "Miami",
+            "id": "4a9aeb42-3763-4234-8fb8-1167ac1dfdfe",
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "Miami"
+        },
+        "aliases": [
+            {
+                "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+                "sort-name": "Criteria-The Hit Factory",
+                "locale": "en",
+                "end": null,
+                "begin": null,
+                "primary": false,
+                "ended": false,
+                "type": "Place name",
+                "name": "Criteria-The Hit Factory"
+            },
+            {
+                "name": "The Hit Factory",
+                "type": "Search hint",
+                "primary": null,
+                "ended": false,
+                "locale": null,
+                "begin": null,
+                "end": null,
+                "type-id": "0a438b9c-1850-32de-b4bb-7f58f5048ea3",
+                "sort-name": "The Hit Factory"
+            },
+            {
+                "begin": null,
+                "end": null,
+                "locale": null,
+                "type-id": "0a438b9c-1850-32de-b4bb-7f58f5048ea3",
+                "sort-name": "The Hit Factory / Criteria Studios",
+                "type": "Search hint",
+                "name": "The Hit Factory / Criteria Studios",
+                "ended": false,
+                "primary": null
+            },
+            {
+                "end": null,
+                "begin": null,
+                "locale": null,
+                "type-id": "0a438b9c-1850-32de-b4bb-7f58f5048ea3",
+                "sort-name": "The Hit Factory Criterion",
+                "name": "The Hit Factory Criterion",
+                "type": "Search hint",
+                "ended": false,
+                "primary": null
+            },
+            {
+                "sort-name": "The Hit Factory Miami",
+                "type-id": null,
+                "locale": null,
+                "end": null,
+                "begin": null,
+                "primary": null,
+                "ended": false,
+                "type": null,
+                "name": "The Hit Factory Miami"
+            }
+        ]
+    },
+    "fetched_at": 1792075924.542756,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "place"
+}

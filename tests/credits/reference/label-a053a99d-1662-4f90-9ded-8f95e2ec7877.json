@@ -1,0 +1,27 @@
+{
+    "data": {
+        "ipis": [
+            "00185943430"
+        ],
+        "life-span": {
+            "end": null,
+            "begin": null,
+            "ended": false
+        },
+        "aliases": [],
+        "area": null,
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "isnis": [],
+        "label-code": null,
+        "disambiguation": "",
+        "country": null,
+        "name": "Wu‐Tang Publishing, Inc.",
+        "type": "Publisher",
+        "sort-name": "Wu‐Tang Publishing, Inc.",
+        "id": "a053a99d-1662-4f90-9ded-8f95e2ec7877"
+    },
+    "fetched_at": 1792076113.961944,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

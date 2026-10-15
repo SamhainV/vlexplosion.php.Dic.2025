@@ -1,0 +1,311 @@
+{
+    "data": {
+        "title": "Slide",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+            "T-071.713.764-8"
+        ],
+        "language": "eng",
+        "languages": [
+            "eng"
+        ],
+        "attributes": [
+            {
+                "value": "003298 226 44",
+                "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+                "type": "SUISA ID"
+            },
+            {
+                "type": "SPA ID",
+                "value": "919022",
+                "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde"
+            },
+            {
+                "type": "SOCAN ID",
+                "value": "30392436",
+                "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+            },
+            {
+                "type": "SIAE ID",
+                "value": "2866781300",
+                "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977"
+            },
+            {
+                "type": "SGAE ID",
+                "value": "5.448.001",
+                "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75"
+            },
+            {
+                "type": "SAYCO ID",
+                "value": "3155659",
+                "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+            },
+            {
+                "value": "3155659",
+                "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+                "type": "SAYCE ID"
+            },
+            {
+                "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+                "value": "830396",
+                "type": "SADAIC ID"
+            },
+            {
+                "type": "SACVEN ID",
+                "value": "1544477",
+                "type-id": "91064561-0c00-4574-ad18-247c7216675f"
+            },
+            {
+                "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+                "value": "20 512 809 11",
+                "type": "SACEM ID"
+            },
+            {
+                "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+                "value": "773786900",
+                "type": "SABAM ID"
+            },
+            {
+                "value": "3811316C",
+                "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+                "type": "PRS tune code"
+            },
+            {
+                "type": "PRS tune code",
+                "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+                "value": "48912FT"
+            },
+            {
+                "type-id": "8da393f8-33c5-4ddf-afda-a035f0d46026",
+                "value": "1003645624",
+                "type": "MACP ID"
+            },
+            {
+                "type": "ECAD ID",
+                "value": "7098160",
+                "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+            },
+            {
+                "type": "COMPASS ID",
+                "value": "2696281",
+                "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+            },
+            {
+                "type": "BUMA/STEMRA ID",
+                "value": "W-003571365",
+                "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+            },
+            {
+                "type-id": "5e3b8fc2-3a4e-4a92-a572-6339863c1cf4",
+                "value": "4000270944",
+                "type": "ARTISJUS ID"
+            },
+            {
+                "type": "APRA ID",
+                "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+                "value": "GW31088942"
+            },
+            {
+                "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+                "value": "3641348",
+                "type": "APDAYC ID"
+            },
+            {
+                "type": "APA ID",
+                "value": "5533300",
+                "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65"
+            },
+            {
+                "value": "390144701",
+                "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+                "type": "AKM ID"
+            },
+            {
+                "value": "4621041",
+                "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+                "type": "AGADU ID"
+            },
+            {
+                "value": "0O3-5887-0",
+                "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+                "type": "JASRAC ID"
+            },
+            {
+                "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+                "value": "491636450",
+                "type": "ASCAP ID"
+            },
+            {
+                "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+                "value": "7630904-001",
+                "type": "GEMA ID"
+            }
+        ],
+        "disambiguation": "",
+        "relations": [
+            {
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "artist",
+                "target-credit": "Melissa Elliott",
+                "end": null,
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "artist": {
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "Elliott, Missy",
+                    "type": "Person",
+                    "disambiguation": "American rapper, singer, dancer & record producer",
+                    "name": "Missy Elliott",
+                    "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+                    "country": "US"
+                },
+                "begin": null,
+                "attributes": [],
+                "source-credit": "",
+                "direction": "backward",
+                "type": "writer"
+            },
+            {
+                "artist": {
+                    "country": "US",
+                    "disambiguation": "",
+                    "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+                    "name": "Timbaland",
+                    "type": "Person",
+                    "sort-name": "Timbaland",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                },
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "begin": null,
+                "target-credit": "Timothy Mosley",
+                "end": null,
+                "target-type": "artist",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "type": "writer",
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": []
+            },
+            {
+                "target-type": "label",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "label": {
+                    "disambiguation": "",
+                    "name": "Mass Confusion Music",
+                    "id": "a8ffb6ad-3e00-474d-b44a-f465026a2e61",
+                    "sort-name": "Mass Confusion Music",
+                    "type": "Publisher",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "label-code": null
+                },
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "source-credit": "",
+                "attributes": [],
+                "type": "publishing",
+                "direction": "backward"
+            },
+            {
+                "source-credit": "",
+                "attributes": [],
+                "type": "publishing",
+                "direction": "backward",
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "label",
+                "attribute-values": [],
+                "label": {
+                    "sort-name": "Virginia Beach Music",
+                    "type": "Publisher",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "label-code": null,
+                    "disambiguation": "",
+                    "name": "Virginia Beach Music",
+                    "id": "18313d01-9ea1-4511-875f-7e2fa3ace43f"
+                },
+                "target-credit": "",
+                "end": null,
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "begin": null
+            },
+            {
+                "label": {
+                    "disambiguation": "1929–2019",
+                    "id": "883fe539-a89f-4572-8072-4d1e69d4670d",
+                    "name": "WB Music Corp.",
+                    "type": "Publisher",
+                    "sort-name": "WB Music Corp.",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "label-code": null
+                },
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "label",
+                "attribute-values": [],
+                "type": "publishing",
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": []
+            },
+            {
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "title": "Slide",
+                    "video": false,
+                    "disambiguation": "explicit",
+                    "length": 223733,
+                    "id": "b33b2f35-81a3-4957-bab0-2a4bea381f0d"
+                }
+            },
+            {
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "performance",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "title": "Slide",
+                    "length": 223906,
+                    "id": "9fc07dee-4729-4872-9abe-f2cb99ce6713",
+                    "disambiguation": "",
+                    "video": false
+                }
+            }
+        ],
+        "id": "09ac57a4-3d8e-3528-b39a-e05387fda180"
+    },
+    "fetched_at": 1792076021.477188,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

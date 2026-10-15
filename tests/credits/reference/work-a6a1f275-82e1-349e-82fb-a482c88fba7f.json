@@ -1,0 +1,242 @@
+{
+    "data": {
+        "title": "Nothing Out There for Me",
+        "relations": [
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "artist": {
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "Brockman, Craig",
+                    "disambiguation": "",
+                    "id": "023c2a6c-38ca-43d9-a4aa-6662b0fb55db",
+                    "name": "Craig Brockman",
+                    "type": "Person"
+                },
+                "ended": false,
+                "type": "writer",
+                "attribute-values": [],
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "target-type": "artist",
+                "begin": null,
+                "end": null,
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "begin": null,
+                "end": null,
+                "target-type": "artist",
+                "ended": false,
+                "artist": {
+                    "disambiguation": "American rapper, singer, dancer & record producer",
+                    "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "Elliott, Missy",
+                    "name": "Missy Elliott",
+                    "type": "Person"
+                },
+                "attribute-values": [],
+                "type": "writer",
+                "target-credit": "Melissa Elliott",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": ""
+            },
+            {
+                "direction": "backward",
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "target-type": "artist",
+                "end": null,
+                "begin": null,
+                "artist": {
+                    "type": "Person",
+                    "name": "Nisan Stewart",
+                    "disambiguation": "",
+                    "id": "1cdba8b4-6e2f-41bc-8ada-40d383981bf1",
+                    "sort-name": "Stewart, Nisan",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US"
+                },
+                "ended": false,
+                "type": "writer",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": []
+            },
+            {
+                "direction": "backward",
+                "label": {
+                    "id": "ecb4412f-bfb0-47c6-9dc1-a0f4812ae756",
+                    "disambiguation": "publisher",
+                    "label-code": null,
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "sort-name": "Craig Man Music",
+                    "type": "Publisher",
+                    "name": "Craig Man Music"
+                },
+                "target-type": "label",
+                "begin": null,
+                "end": null,
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "attribute-values": [],
+                "type": "publishing",
+                "ended": false,
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "Craig Man Musik"
+            },
+            {
+                "attribute-values": [],
+                "type": "publishing",
+                "ended": false,
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "label": {
+                    "sort-name": "Mass Confusion Music",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "disambiguation": "",
+                    "id": "a8ffb6ad-3e00-474d-b44a-f465026a2e61",
+                    "label-code": null,
+                    "type": "Publisher",
+                    "name": "Mass Confusion Music"
+                },
+                "target-type": "label",
+                "end": null,
+                "begin": null,
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
+            },
+            {
+                "ended": false,
+                "attribute-values": [],
+                "type": "publishing",
+                "target-credit": "Nisan’s Musik",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "direction": "backward",
+                "label": {
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "sort-name": "Nisan's Music",
+                    "disambiguation": "",
+                    "id": "bc6e37bf-2564-4217-9588-513caec2aa9f",
+                    "label-code": null,
+                    "type": "Publisher",
+                    "name": "Nisan's Music"
+                },
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "target-type": "label",
+                "begin": null,
+                "end": null
+            },
+            {
+                "label": {
+                    "name": "WB Music Corp.",
+                    "type": "Publisher",
+                    "id": "883fe539-a89f-4572-8072-4d1e69d4670d",
+                    "disambiguation": "1929–2019",
+                    "label-code": null,
+                    "sort-name": "WB Music Corp.",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
+                },
+                "direction": "backward",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "end": null,
+                "begin": null,
+                "target-type": "label",
+                "ended": false,
+                "attribute-values": [],
+                "type": "publishing",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": ""
+            },
+            {
+                "recording": {
+                    "disambiguation": "explicit",
+                    "id": "ba21658c-e1ef-4478-ae1a-3099753ccb2c",
+                    "length": 185560,
+                    "video": false,
+                    "title": "Nothing Out There for Me"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "direction": "backward",
+                "target-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance"
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "recording": {
+                    "disambiguation": "clean",
+                    "id": "7b41b0ab-fa2c-4708-8230-ec05b5013054",
+                    "length": 185466,
+                    "video": false,
+                    "title": "Nothing Out There for Me"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "direction": "backward"
+            }
+        ],
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+            "eng"
+        ],
+        "attributes": [
+            {
+                "type": "GEMA ID",
+                "value": "7630906-001",
+                "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+            },
+            {
+                "type": "ASCAP ID",
+                "value": "440492399",
+                "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+            },
+            {
+                "value": "0O3-5871-3",
+                "type": "JASRAC ID",
+                "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c"
+            }
+        ],
+        "id": "a6a1f275-82e1-349e-82fb-a482c88fba7f",
+        "disambiguation": "",
+        "iswcs": [
+            "T-072.666.946-0"
+        ],
+        "type": "Song"
+    },
+    "fetched_at": 1792075944.64724,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

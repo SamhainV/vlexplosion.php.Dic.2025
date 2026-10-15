@@ -1,0 +1,476 @@
+{
+    "data": {
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+            "eng"
+        ],
+        "relations": [
+            {
+                "target-type": "artist",
+                "attributes": [],
+                "direction": "backward",
+                "attribute-values": [],
+                "begin": null,
+                "attribute-ids": [],
+                "type": "writer",
+                "source-credit": "",
+                "ended": false,
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "end": null,
+                "target-credit": "Melissa Elliott",
+                "artist": {
+                    "sort-name": "Elliott, Missy",
+                    "country": "US",
+                    "disambiguation": "American rapper, singer, dancer & record producer",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+                    "type": "Person",
+                    "name": "Missy Elliott"
+                }
+            },
+            {
+                "begin": null,
+                "attribute-values": [],
+                "direction": "backward",
+                "target-type": "artist",
+                "attributes": [],
+                "artist": {
+                    "id": "f82bcf78-5b69-4622-a5ef-73800768d9ac",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "name": "JAŸ-Z",
+                    "type": "Person",
+                    "sort-name": "JAŸ-Z",
+                    "disambiguation": "US rapper",
+                    "country": "US"
+                },
+                "target-credit": "Shawn Carter",
+                "end": null,
+                "ended": false,
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "source-credit": "",
+                "type": "writer",
+                "attribute-ids": []
+            },
+            {
+                "direction": "backward",
+                "target-type": "artist",
+                "attributes": [],
+                "begin": null,
+                "attribute-values": [],
+                "end": null,
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "ended": false,
+                "source-credit": "",
+                "type": "writer",
+                "attribute-ids": [],
+                "artist": {
+                    "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "name": "Timbaland",
+                    "type": "Person",
+                    "sort-name": "Timbaland",
+                    "disambiguation": "",
+                    "country": "US"
+                },
+                "target-credit": "Timothy Mosley"
+            },
+            {
+                "attribute-ids": [],
+                "source-credit": "",
+                "ended": false,
+                "end": null,
+                "target-credit": "",
+                "attributes": [],
+                "type": "publishing",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "label": {
+                    "id": "e79e7782-841c-40d8-8abb-1e1ec028f2e8",
+                    "label-code": null,
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "name": "EMI Blackwood Music Inc.",
+                    "type": "Publisher",
+                    "sort-name": "EMI Blackwood Music Inc.",
+                    "disambiguation": ""
+                },
+                "target-type": "label",
+                "direction": "backward",
+                "attribute-values": [],
+                "begin": null
+            },
+            {
+                "type": "publishing",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "label": {
+                    "sort-name": "Lil Lu Lu Publishing",
+                    "disambiguation": "",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "label-code": null,
+                    "id": "e7ddf63d-be55-4339-b7db-e8cae0f952f2",
+                    "type": "Publisher",
+                    "name": "Lil Lu Lu Publishing"
+                },
+                "target-type": "label",
+                "direction": "backward",
+                "attribute-values": [],
+                "begin": null,
+                "source-credit": "",
+                "attribute-ids": [],
+                "end": null,
+                "ended": false,
+                "target-credit": "",
+                "attributes": []
+            },
+            {
+                "source-credit": "",
+                "attribute-ids": [],
+                "end": null,
+                "ended": false,
+                "target-credit": "",
+                "attributes": [],
+                "type": "publishing",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "label": {
+                    "name": "Mass Confusion Music",
+                    "type": "Publisher",
+                    "label-code": null,
+                    "id": "a8ffb6ad-3e00-474d-b44a-f465026a2e61",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "disambiguation": "",
+                    "sort-name": "Mass Confusion Music"
+                },
+                "target-type": "label",
+                "direction": "backward",
+                "attribute-values": [],
+                "begin": null
+            },
+            {
+                "attributes": [],
+                "target-credit": "",
+                "ended": false,
+                "end": null,
+                "attribute-ids": [],
+                "source-credit": "",
+                "begin": null,
+                "attribute-values": [],
+                "direction": "backward",
+                "target-type": "label",
+                "label": {
+                    "disambiguation": "",
+                    "sort-name": "Virginia Beach Music",
+                    "type": "Publisher",
+                    "name": "Virginia Beach Music",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "label-code": null,
+                    "id": "18313d01-9ea1-4511-875f-7e2fa3ace43f"
+                },
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "type": "publishing"
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "label": {
+                    "label-code": null,
+                    "id": "883fe539-a89f-4572-8072-4d1e69d4670d",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "name": "WB Music Corp.",
+                    "type": "Publisher",
+                    "sort-name": "WB Music Corp.",
+                    "disambiguation": "1929–2019"
+                },
+                "type": "publishing",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "attribute-values": [],
+                "begin": null,
+                "target-type": "label",
+                "direction": "backward"
+            },
+            {
+                "target-credit": "",
+                "recording": {
+                    "disambiguation": "explicit",
+                    "title": "Back in the Day",
+                    "length": 295973,
+                    "video": false,
+                    "id": "b0865851-2c30-42ff-97dd-9a86a70c04e8"
+                },
+                "attribute-ids": [],
+                "type": "performance",
+                "source-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": false,
+                "end": null,
+                "attribute-values": [],
+                "begin": null,
+                "target-type": "recording",
+                "attributes": [],
+                "direction": "backward"
+            },
+            {
+                "recording": {
+                    "length": null,
+                    "id": "b6410f00-50c4-42fe-8c59-896babc1bb91",
+                    "video": false,
+                    "title": "Back in the Day",
+                    "disambiguation": ""
+                },
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": false,
+                "source-credit": "",
+                "type": "performance",
+                "attribute-ids": [],
+                "begin": null,
+                "attribute-values": [],
+                "direction": "backward",
+                "target-type": "recording",
+                "attributes": []
+            },
+            {
+                "target-credit": "",
+                "recording": {
+                    "disambiguation": "clean",
+                    "title": "Back in the Day",
+                    "length": 296226,
+                    "id": "85274f9a-bacf-408b-8cc9-da321b27add3",
+                    "video": false
+                },
+                "source-credit": "",
+                "type": "performance",
+                "attribute-ids": [],
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": false,
+                "attribute-values": [],
+                "begin": null,
+                "attributes": [],
+                "target-type": "recording",
+                "direction": "backward"
+            },
+            {
+                "recording": {
+                    "disambiguation": "",
+                    "title": "Back In The Day (A Capella)",
+                    "video": false,
+                    "id": "64f7a505-082b-40bd-bce7-7d72dd6ce99a",
+                    "length": null
+                },
+                "target-credit": "",
+                "ended": false,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "attribute-ids": [],
+                "type": "performance",
+                "source-credit": "",
+                "begin": null,
+                "attribute-values": [],
+                "direction": "backward",
+                "attributes": [],
+                "target-type": "recording"
+            },
+            {
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": false,
+                "source-credit": "",
+                "type": "performance",
+                "attribute-ids": [],
+                "recording": {
+                    "id": "7254baa2-1fcb-471a-a591-1c40bda3b8c1",
+                    "video": false,
+                    "length": null,
+                    "disambiguation": "",
+                    "title": "Back In The Day (Amended Album Version)"
+                },
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "attributes": [],
+                "begin": null,
+                "attribute-values": []
+            },
+            {
+                "end": null,
+                "ended": false,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "source-credit": "",
+                "type": "performance",
+                "attribute-ids": [],
+                "recording": {
+                    "length": 283000,
+                    "id": "c06fa419-0ae7-4c91-82bc-39e32bcbb86d",
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Back in the Day (DJ Veli mix)"
+                },
+                "target-credit": "",
+                "direction": "backward",
+                "attributes": [],
+                "target-type": "recording",
+                "begin": null,
+                "attribute-values": []
+            },
+            {
+                "end": null,
+                "ended": false,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "source-credit": "",
+                "type": "performance",
+                "attribute-ids": [],
+                "recording": {
+                    "length": null,
+                    "id": "260b3eda-371d-4319-95c2-b5875809ebde",
+                    "video": false,
+                    "disambiguation": "",
+                    "title": "Back In The Day (Explicit Album Version)"
+                },
+                "target-credit": "",
+                "direction": "backward",
+                "attributes": [],
+                "target-type": "recording",
+                "begin": null,
+                "attribute-values": []
+            },
+            {
+                "target-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "title": "Back In The Day (Instrumental)",
+                    "length": null,
+                    "video": false,
+                    "id": "15c20de0-4b25-452a-8d0e-ceee5e2e2186"
+                },
+                "attribute-ids": {
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+                },
+                "type": "performance",
+                "source-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": false,
+                "end": null,
+                "attribute-values": [],
+                "begin": null,
+                "attributes": [
+                    "instrumental"
+                ],
+                "target-type": "recording",
+                "direction": "backward"
+            },
+            {
+                "target-credit": "",
+                "recording": {
+                    "length": 293440,
+                    "video": false,
+                    "id": "a395a6b1-117e-475f-a519-5d064843d678",
+                    "disambiguation": "",
+                    "title": "Back in the Days"
+                },
+                "attribute-ids": [],
+                "type": "performance",
+                "source-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": false,
+                "end": null,
+                "attribute-values": [],
+                "begin": null,
+                "target-type": "recording",
+                "attributes": [],
+                "direction": "backward"
+            }
+        ],
+        "disambiguation": "",
+        "title": "Back in the Day",
+        "iswcs": [
+            "T-072.095.547-4"
+        ],
+        "attributes": [
+            {
+                "value": "1583260",
+                "type": "SPA ID",
+                "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde"
+            },
+            {
+                "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+                "type": "SIAE ID",
+                "value": "3890931600"
+            },
+            {
+                "type": "SGAE ID",
+                "value": "5.652.242",
+                "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75"
+            },
+            {
+                "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+                "value": "10361485",
+                "type": "SAYCO ID"
+            },
+            {
+                "type": "SAYCE ID",
+                "value": "10361485",
+                "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+            },
+            {
+                "value": "830395",
+                "type": "SADAIC ID",
+                "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+            },
+            {
+                "value": "3219331",
+                "type": "COMPASS ID",
+                "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+            },
+            {
+                "type": "COMPASS ID",
+                "value": "3744870",
+                "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+            },
+            {
+                "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+                "value": "6447746",
+                "type": "BMI ID"
+            },
+            {
+                "value": "GW31088895",
+                "type": "APRA ID",
+                "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+            },
+            {
+                "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+                "value": "5533298",
+                "type": "APA ID"
+            },
+            {
+                "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+                "value": "395411601",
+                "type": "AKM ID"
+            },
+            {
+                "type": "JASRAC ID",
+                "value": "0O3-5825-0",
+                "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c"
+            },
+            {
+                "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+                "type": "ASCAP ID",
+                "value": "321030719"
+            },
+            {
+                "type": "GEMA ID",
+                "value": "7630897-001",
+                "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+            }
+        ],
+        "id": "7ccb8db6-8917-394e-9de5-c19adfb42fac",
+        "language": "eng"
+    },
+    "fetched_at": 1792075939.510807,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

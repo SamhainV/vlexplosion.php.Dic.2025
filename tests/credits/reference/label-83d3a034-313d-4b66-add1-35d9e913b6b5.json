@@ -1,0 +1,34 @@
+{
+    "data": {
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "id": "83d3a034-313d-4b66-add1-35d9e913b6b5",
+        "ipis": [
+            "00122502918"
+        ],
+        "area": {
+            "disambiguation": "Greater London",
+            "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+            "name": "London",
+            "type": null,
+            "sort-name": "London",
+            "type-id": null
+        },
+        "life-span": {
+            "ended": true,
+            "end": "1996-06-18",
+            "begin": "1968-04-19"
+        },
+        "country": null,
+        "sort-name": "Sonet Publishing",
+        "disambiguation": "",
+        "label-code": null,
+        "aliases": [],
+        "isnis": [],
+        "type": "Publisher",
+        "name": "Sonet Publishing"
+    },
+    "fetched_at": 1792075098.629378,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

@@ -1,0 +1,16 @@
+{
+    "releases": {
+        "e42cf164-56d6-470d-95f1-b7ca8e7d888d": {
+            "entities": 33,
+            "complete": true,
+            "captured_at": "2026-10-15T14:43:24+00:00",
+            "source": "https://musicbrainz.org/release/e42cf164-56d6-470d-95f1-b7ca8e7d888d"
+        },
+        "6a9eed90-52b8-3b50-a04b-a7f0370ca32c": {
+            "entities": 56,
+            "complete": true,
+            "captured_at": "2026-10-15T14:55:27+00:00",
+            "source": "https://musicbrainz.org/release/6a9eed90-52b8-3b50-a04b-a7f0370ca32c"
+        }
+    }
+}

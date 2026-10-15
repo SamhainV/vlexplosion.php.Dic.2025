@@ -96,6 +96,9 @@ final class EncyclopediaManual
             }
         }
         foreach($r['credits'] as $c)foreach($maps as $column=>$map)if (!empty($c[$column])&&isset($map[$c[$column]]))self::exec($pdo,"INSERT INTO ENC_CREDITS($column,artist_id,organisation,role,credited_as,source_id,instrument) VALUES(?,?,?,?,?,?,?)",[$map[$c[$column]],$c['artist_id'],$c['organisation'],$c['role'],$c['credited_as'],$c['source_id'],$c['instrument']??null]);
+        if (EncyclopediaCreditSync::available($pdo)) {
+            foreach($r['credits'] as $c)foreach($maps as $column=>$map)if(!empty($c[$column])&&isset($map[$c[$column]])&&!empty($c['relation_json']))self::exec($pdo,'UPDATE ENC_CREDITS SET relation_json=? WHERE '.$column.'=? AND artist_id <=> ? AND organisation <=> ? AND role=? AND credited_as <=> ? AND instrument <=> ?',[$c['relation_json'],$map[$c[$column]],$c['artist_id'],$c['organisation'],$c['role'],$c['credited_as'],$c['instrument']??null]);
+        }
         return [$aid,$eid];
     }
     private static function text(array $input,string $key,int $limit,bool $required=false): ?string
@@ -115,6 +118,20 @@ final class EncyclopediaManual
         $name=self::text($in,$prefix.'_name',255,true);
         if(self::row($pdo,'SELECT id FROM '.$table.' WHERE name=? LIMIT 1 FOR UPDATE',[$name]))throw new HttpException(422,'Hay una coincidencia de nombre. Selecciona su identidad verificada en vez de duplicarla.');
         if($table==='ENC_ARTISTS'){ $kind=self::text($in,'artist_kind',16)??'unknown';if(!in_array($kind,['unknown','person','group'],true))throw new HttpException(422,'Tipo de artista inválido.');self::exec($pdo,'INSERT INTO ENC_ARTISTS(name,kind) VALUES(?,?)',[$name,$kind]); }else self::exec($pdo,'INSERT INTO '.$table.'(name) VALUES(?)',[$name]);return (int)$pdo->lastInsertId();
+    }
+    private static function assertNoDuplicateCredit(PDO $pdo,int $aid,int $eid,string $column,int $target,?int $artist,?string $organisation,string $role,?string $instrument,?string $alias,int $id): void
+    {
+        $matches=self::rows($pdo,'SELECT c.*,s.provider AS credit_provider FROM ENC_CREDITS c LEFT JOIN ENC_SOURCES s ON s.id=c.source_id WHERE c.'.$column.'=? AND c.artist_id <=> ? AND c.organisation <=> ? AND c.role=? AND c.instrument <=> ? AND c.credited_as <=> ? AND c.id<>? FOR UPDATE',[$target,$artist,$organisation,$role,$instrument,$alias,$id]);
+        $visible=null;
+        foreach($matches as $credit){
+            // Superseded legacy imports remain as provenance, but are not a second active credit.
+            // Reuse the reader's visibility rule; never exempt manual or rich relationship rows.
+            if(($credit['credit_provider']??null)==='musicbrainz' && empty($credit['relation_key'])){
+                $visible??=array_fill_keys(array_column(EncyclopediaRecord::creditsFor($aid,$eid),'id'),true);
+                if(!isset($visible[$credit['id']]))continue;
+            }
+            throw new HttpException(409,'Este crédito ya existe; corrige su registro actual.');
+        }
     }
     private static function change(PDO $pdo,int $aid,int $eid,string $op,array $in,int $user): array
     {
@@ -136,16 +153,15 @@ final class EncyclopediaManual
         } elseif($op==='credit') {
             $kind=self::text($in,'target_kind',16,true);$target=self::number($in,'target_id',2147483647,true);self::scoped($pdo,$kind,$target,$aid,$eid);if(!in_array($kind,['album','edition','track','recording','work'],true))throw new HttpException(422,'Destino inválido.');$column=$kind.'_id';
             if($id){$before=self::row($pdo,'SELECT * FROM ENC_CREDITS WHERE id=?',[$id]);if(!$before)throw new HttpException(404);foreach(['album','edition','track','recording','work'] as $k)if($before[$k.'_id'])self::scoped($pdo,$k,(int)$before[$k.'_id'],$aid,$eid);}
-            $artist=self::identity($pdo,'ENC_ARTISTS',$in,'artist',$user);$role=self::text($in,'role',120,true);$instrument=self::text($in,'instrument',120);
-            $alias=self::text($in,'credited_as',255);if(self::row($pdo,'SELECT id FROM ENC_CREDITS WHERE '.$column.'=? AND artist_id=? AND role=? AND instrument <=> ? AND credited_as <=> ? AND id<>? LIMIT 1 FOR UPDATE',[$target,$artist,$role,$instrument,$alias,$id]))throw new HttpException(409,'Este crédito ya existe; corrige su registro actual.');
-            if($id) self::exec($pdo,'UPDATE ENC_CREDITS SET album_id=NULL,edition_id=NULL,track_id=NULL,recording_id=NULL,work_id=NULL,'.$column.'=?,artist_id=?,organisation=NULL,role=?,instrument=?,credited_as=?,source_id=NULL,credit_key=NULL WHERE id=?',[$target,$artist,$role,$instrument,self::text($in,'credited_as',255),$id]);
+            $organisation=self::text($in,'organisation',255);if($organisation && (!empty($in['artist_id'])||!empty($in['artist_name'])))throw new HttpException(422,'Elige una identidad artística o una organización, no ambas.');$artist=$organisation?null:self::identity($pdo,'ENC_ARTISTS',$in,'artist',$user);$role=self::text($in,'role',120,true);$instrument=self::text($in,'instrument',120);
+            $alias=self::text($in,'credited_as',255);
+            self::assertNoDuplicateCredit($pdo,$aid,$eid,$column,$target,$artist,$organisation,$role,$instrument,$alias,$id);
+            if($id) self::exec($pdo,'UPDATE ENC_CREDITS SET album_id=NULL,edition_id=NULL,track_id=NULL,recording_id=NULL,work_id=NULL,'.$column.'=?,artist_id=?,organisation=?,role=?,instrument=?,credited_as=?,source_id=NULL,credit_key=NULL WHERE id=?',[$target,$artist,$organisation,$role,$instrument,self::text($in,'credited_as',255),$id]);
             else {
-                $alias=self::text($in,'credited_as',255);
-                if(self::row($pdo,'SELECT id FROM ENC_CREDITS WHERE '.$column.'=? AND artist_id=? AND role=? AND instrument <=> ? AND credited_as <=> ? LIMIT 1 FOR UPDATE',[$target,$artist,$role,$instrument,$alias]))throw new HttpException(409,'Este crédito ya existe; utiliza su formulario de corrección.');
-                $creditKey=hash('sha256',json_encode(['manual',$column,$target,$artist,$role,$instrument,$alias],JSON_THROW_ON_ERROR));
-                self::exec($pdo,'INSERT INTO ENC_CREDITS('.$column.',artist_id,role,instrument,credited_as,credit_key) VALUES(?,?,?,?,?,?)',[$target,$artist,$role,$instrument,$alias,$creditKey]);$id=(int)$pdo->lastInsertId();
+                $creditKey=hash('sha256',json_encode(['manual',$column,$target,$artist,$organisation,$role,$instrument,$alias],JSON_THROW_ON_ERROR));
+                self::exec($pdo,'INSERT INTO ENC_CREDITS('.$column.',artist_id,organisation,role,instrument,credited_as,credit_key) VALUES(?,?,?,?,?,?,?)',[$target,$artist,$organisation,$role,$instrument,$alias,$creditKey]);$id=(int)$pdo->lastInsertId();
             }
-            $fields=['id'=>$id,'target_kind'=>$kind,'target_id'=>$target,'artist_id'=>$artist,'role'=>$role,'instrument'=>$instrument];
+            $fields=['id'=>$id,'target_kind'=>$kind,'target_id'=>$target,'artist_id'=>$artist,'organisation'=>$organisation,'role'=>$role,'instrument'=>$instrument];
         } elseif($op==='label') {
             $oldLabel=self::number($in,'old_label_id',2147483647);$oldCat=self::text($in,'old_catalogue_number',120)??'';
             if($oldLabel){$before=self::row($pdo,'SELECT * FROM ENC_EDITION_LABELS WHERE edition_id=? AND label_id=? AND catalogue_number=?',[$eid,$oldLabel,$oldCat]);if(!$before)throw new HttpException(409,'El sello o catálogo ha cambiado.');}

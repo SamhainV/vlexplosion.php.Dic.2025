@@ -1,0 +1,25 @@
+{
+    "data": {
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "id": "a8ffb6ad-3e00-474d-b44a-f465026a2e61",
+        "area": null,
+        "ipis": [],
+        "life-span": {
+            "end": null,
+            "begin": null,
+            "ended": false
+        },
+        "sort-name": "Mass Confusion Music",
+        "country": null,
+        "label-code": null,
+        "disambiguation": "",
+        "aliases": [],
+        "type": "Publisher",
+        "isnis": [],
+        "name": "Mass Confusion Music"
+    },
+    "fetched_at": 1792076107.02077,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

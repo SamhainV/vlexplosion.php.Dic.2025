@@ -1,0 +1,35 @@
+{
+    "data": {
+        "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+                "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type-id": null,
+            "type": null
+        },
+        "sort-name": "Careers–BMG Music Publishing, Inc.",
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "country": "US",
+        "ipis": [],
+        "life-span": {
+            "ended": false,
+            "begin": null,
+            "end": null
+        },
+        "disambiguation": "",
+        "isnis": [],
+        "aliases": [],
+        "type": "Publisher",
+        "name": "Careers–BMG Music Publishing, Inc.",
+        "label-code": null,
+        "id": "10bc0b73-192b-4971-80a7-6fadefeed758"
+    },
+    "fetched_at": 1792076112.284669,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

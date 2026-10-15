@@ -1,0 +1,35 @@
+{
+    "data": {
+        "ipis": [],
+        "country": null,
+        "name": "EWM Publishing",
+        "life-span": {
+            "ended": false,
+            "begin": null,
+            "end": null
+        },
+        "disambiguation": "Publishing arm of Eastern Woods Music (Records & Publishing)",
+        "aliases": [],
+        "type": null,
+        "label-code": null,
+        "isnis": [],
+        "id": "c4d96404-f3ec-4d7e-afe5-fe2faa52d19b",
+        "area": {
+            "disambiguation": "",
+            "name": "Massachusetts",
+            "id": "05f68b4c-10f3-49b5-b28c-260a1b707043",
+            "type-id": null,
+            "sort-name": "Massachusetts",
+            "type": null,
+            "iso-3166-2-codes": [
+                "US-MA"
+            ]
+        },
+        "sort-name": "EWM Publishing",
+        "type-id": null
+    },
+    "fetched_at": 1792076120.848893,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

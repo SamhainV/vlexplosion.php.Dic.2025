@@ -1,0 +1,602 @@
+{
+    "data": {
+        "type": "Song",
+        "title": "Blue Dress",
+        "languages": [
+            "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+            "T-011.391.710-4"
+        ],
+        "disambiguation": "",
+        "id": "ce7cb2e7-5ebb-3ae7-a60e-12a80d142775",
+        "attributes": [],
+        "relations": [
+            {
+                "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                "target-type": "artist",
+                "type": "composer",
+                "target-credit": "",
+                "artist": {
+                    "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                    "disambiguation": "",
+                    "type": "Person",
+                    "name": "Martin L. Gore",
+                    "sort-name": "Gore, Martin L.",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null
+            },
+            {
+                "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                "target-type": "artist",
+                "type": "lyricist",
+                "target-credit": "",
+                "artist": {
+                    "disambiguation": "",
+                    "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                    "type": "Person",
+                    "sort-name": "Gore, Martin L.",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "name": "Martin L. Gore"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "end": null
+            },
+            {
+                "source-credit": "",
+                "direction": "backward",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "end": "1990-07-31",
+                "ended": true,
+                "attributes": [
+                    "live"
+                ],
+                "begin": "1990-07-31",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "length": 210573,
+                    "id": "fa467825-b496-4c2e-af54-3db2785b4dcf",
+                    "disambiguation": "live, 1990-07-31: San Diego Sports Arena, San Diego, CA, USA",
+                    "video": false,
+                    "title": "Blue Dress"
+                },
+                "target-type": "recording"
+            },
+            {
+                "end": "1990-10-23",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "begin": "1990-10-23",
+                "direction": "backward",
+                "source-credit": "",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "id": "ca042c4f-fa72-48ed-b404-9b3ca5f67ead",
+                    "disambiguation": "live, 1990-10-23: Palais Omnisports de Paris-Bercy, Paris, France",
+                    "video": false,
+                    "title": "Blue Dress",
+                    "length": 203866
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "direction": "backward",
+                "source-credit": "",
+                "end": "2006-04-30",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "begin": "2006-04-30",
+                "ended": true,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "length": 251000,
+                    "title": "Blue Dress",
+                    "video": false,
+                    "id": "9425378f-f3e6-4b87-a70b-f6e0d13b803b",
+                    "disambiguation": "live, 2006-04-30: Touring the Angel: Las Vegas, NV, USA"
+                }
+            },
+            {
+                "direction": "backward",
+                "source-credit": "",
+                "end": "2006-05-04",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attribute-values": [],
+                "begin": "2006-05-04",
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "title": "Blue Dress",
+                    "video": false,
+                    "id": "a4bf921e-1dc8-4926-8f58-2134ff1b3043",
+                    "disambiguation": "live, 2006-05-04: Foro Sol Stadium, Mexico City, Mexico",
+                    "length": 252000
+                }
+            },
+            {
+                "ended": false,
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": [],
+                "end": null,
+                "source-credit": "",
+                "direction": "backward",
+                "recording": {
+                    "length": 248373,
+                    "title": "Blue Dress",
+                    "video": false,
+                    "id": "4ffa226d-132c-4959-ad9a-635110f1a6c4",
+                    "disambiguation": ""
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "attributes": [
+                    "cover"
+                ],
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "target-type": "recording",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "5382a97d-a94a-4d39-ba1a-b83c04baaeeb",
+                    "video": false,
+                    "title": "Blue Dress",
+                    "length": 244933
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type": "performance",
+                "target-credit": "",
+                "recording": {
+                    "video": false,
+                    "title": "Blue Dress",
+                    "id": "6b287262-2aed-4d5b-af0f-19c7855dbb4a",
+                    "disambiguation": "",
+                    "length": 264000
+                },
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "end": null,
+                "begin": null,
+                "attributes": [
+                    "cover"
+                ],
+                "ended": false,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "recording": {
+                    "video": false,
+                    "title": "Blue Dress",
+                    "disambiguation": "Violator 2000 Reload version",
+                    "id": "8c393b58-bc54-4d31-83ae-24790a3eb3a2",
+                    "length": 249000
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "length": 270000,
+                    "disambiguation": "",
+                    "id": "702731d1-0a50-4dcd-968d-5ed2fc3f3822",
+                    "video": false,
+                    "title": "Blue Dress"
+                },
+                "target-credit": "",
+                "type": "performance"
+            },
+            {
+                "attributes": [
+                    "cover"
+                ],
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "end": null,
+                "source-credit": "",
+                "direction": "backward",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "9c32b047-77ca-4d8a-92d6-97a4f3b58366",
+                    "title": "Blue Dress",
+                    "video": false,
+                    "length": 265372
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": null,
+                    "title": "Blue Dress",
+                    "video": false,
+                    "disambiguation": "album mix",
+                    "id": "9b944e0b-88b7-4fce-b342-eef8d78caed1"
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "source-credit": "",
+                "direction": "backward",
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null
+            },
+            {
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a",
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover",
+                    "live"
+                ],
+                "ended": false,
+                "begin": null,
+                "direction": "backward",
+                "source-credit": "",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "length": 284000,
+                    "video": false,
+                    "title": "Blue Dress",
+                    "id": "f6731163-157c-4e48-a984-a735776abfa6",
+                    "disambiguation": "live"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "recording": {
+                    "length": 284000,
+                    "disambiguation": "instrumental",
+                    "id": "0122cbd2-8ae3-45e6-b54c-ec0131c86de9",
+                    "title": "Blue Dress",
+                    "video": false
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attributes": [
+                    "instrumental"
+                ],
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "attribute-ids": {
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+                },
+                "end": null,
+                "source-credit": "",
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "Blue Dress (ATOM’s “Short Skirt” mix)",
+                    "disambiguation": "",
+                    "id": "fb4d03ef-dec7-4e5f-893d-e242d528a53c",
+                    "length": 280000
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "attributes": [],
+                "begin": null,
+                "ended": false
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "Blue Dress (Black version)",
+                    "disambiguation": "",
+                    "id": "3737fbfe-2fc6-4528-82a9-5b2167080633",
+                    "length": 253000
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "begin": null,
+                "attributes": [],
+                "ended": false
+            },
+            {
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "b8ab82d9-d3f2-49dd-b273-0dbe63866d28",
+                    "video": false,
+                    "title": "Blue Dress (Depeche Mode mix)",
+                    "length": 283000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "attributes": [],
+                "ended": false,
+                "begin": null,
+                "direction": "backward",
+                "source-credit": ""
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 364826,
+                    "id": "74811e72-e9aa-4b1a-b497-06b75aeb4654",
+                    "disambiguation": "",
+                    "title": "Blue Dress (extended version)",
+                    "video": false
+                },
+                "target-type": "recording",
+                "type": "performance",
+                "target-credit": "",
+                "source-credit": "",
+                "direction": "backward",
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null
+            },
+            {
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "direction": "backward",
+                "source-credit": "",
+                "target-credit": "",
+                "type": "performance",
+                "target-type": "recording",
+                "recording": {
+                    "length": 295986,
+                    "disambiguation": "",
+                    "id": "83b8d2dc-792e-4adc-b121-066c614423cb",
+                    "title": "Blue Dress (Secret mix)",
+                    "video": false
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "target-type": "recording",
+                "recording": {
+                    "length": 370000,
+                    "title": "Blue Dress (soft version)",
+                    "video": false,
+                    "id": "0c70575c-9201-43f5-86f8-30cca29c750c",
+                    "disambiguation": ""
+                },
+                "target-credit": "",
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attributes": [],
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "attribute-values": [],
+                "attribute-ids": [],
+                "direction": "backward",
+                "source-credit": ""
+            },
+            {
+                "direction": "backward",
+                "ended": false,
+                "attribute-ids": [],
+                "recording": {
+                    "id": "e2ea97c5-816e-4379-adb3-60564aeda22c",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Blue Dress / Interlude #3",
+                    "length": 342000
+                },
+                "type": "performance",
+                "source-credit": "",
+                "attributes": [],
+                "begin": null,
+                "end": null,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "ordering-key": 1,
+                "target-credit": ""
+            },
+            {
+                "ordering-key": 1,
+                "target-type": "recording",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attributes": [],
+                "attribute-values": [],
+                "end": null,
+                "source-credit": "",
+                "recording": {
+                    "id": "e8230def-ab9a-44d7-a83a-a4b2030a3936",
+                    "disambiguation": "5.1 mix",
+                    "title": "Blue Dress / Interlude #3",
+                    "video": false,
+                    "length": 342000
+                },
+                "type": "performance",
+                "ended": false,
+                "attribute-ids": [],
+                "direction": "backward"
+            },
+            {
+                "ordering-key": 4,
+                "target-type": "recording",
+                "target-credit": "",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "attributes": [
+                    "medley"
+                ],
+                "attribute-values": [],
+                "end": null,
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "afd89771-6ded-40e4-953c-de59810bad59",
+                    "title": "New Mode Mecca '90",
+                    "video": false,
+                    "length": 965800
+                },
+                "type": "performance",
+                "ended": false,
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "direction": "backward"
+            },
+            {
+                "attribute-ids": [],
+                "ended": false,
+                "direction": "backward",
+                "type": "secondhandsongs",
+                "url": {
+                    "resource": "https://secondhandsongs.com/work/35493",
+                    "id": "8ad8d5a6-100a-4277-a62c-b79668eaacf2"
+                },
+                "attribute-values": [],
+                "end": null,
+                "begin": null,
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "target-type": "url",
+                "type-id": "b80dff64-9560-445a-b824-c8b432d77a52"
+            }
+        ],
+        "language": "eng"
+    },
+    "fetched_at": 1792075094.183735,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

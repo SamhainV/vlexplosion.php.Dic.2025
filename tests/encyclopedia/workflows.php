@@ -17,7 +17,7 @@ $before=legacy($pdo);$k=$key();
 ok(EncyclopediaLink::apply(320,7,$m,'0:0',$k)===320,'legacy association returns same ID');
 $r=EncyclopediaRecord::forCopy(320,7);$state=EncyclopediaLink::state($r['copy']);
 ok(legacy($pdo)===$before,'all traditional records users authors covers and flags exactly unchanged');
-ok(count($r['tracks'])===2&&count($r['credits'])===20&&count($r['labels'])===3&&$r['media'][0]['format']==='CD','reference import keeps full CD graph');
+ok(count($r['tracks'])===2&&count(array_filter($r['credits'],fn($c)=>!empty($c['artist_id'])))===20&&count($r['credits'])>=20&&count($r['labels'])===3&&$r['media'][0]['format']==='CD','reference import keeps full CD graph');
 ok(EncyclopediaLink::apply(320,7,$m,'0:0',$k)===320&&legacy($pdo)===$before,'double click retry idempotent no extra VINYLS');
 reject(fn()=>EncyclopediaLink::apply(320,8,$m,'0:0',$key()),404,'foreign owner rejected');
 reject(fn()=>EncyclopediaLink::apply(320,7,$m,'0:0',$key()),409,'stale association rejected');
@@ -39,7 +39,7 @@ reject(fn()=>EncyclopediaManual::save(320,7,'private','album',['title'=>'Bad'],$
 reject(fn()=>EncyclopediaManual::save(320,7,'private','artist_identity',['entity_id'=>'1','name'=>'Forbidden','kind'=>'person'],$rev,$key()),403,'canonical identity edit requires explicit editorial permission');
 $forkKey=$key();EncyclopediaManual::save(320,7,'private','prepare',[],$rev,$forkKey);$draft=EncyclopediaRecord::forCopy(320,7);
 ok($draft['album']['draft_owner_id']===7&&$draft['edition']['musicbrainz_release_id']===null,'explicit fork creates private musical identity');
-ok(count($draft['tracks'])===2&&count($draft['credits'])===20&&count($draft['works'])===2,'private fork retains songs works and all credits');
+ok(count($draft['tracks'])===2&&count(array_filter($draft['credits'],fn($c)=>!empty($c['artist_id'])))===20&&count($draft['credits'])>=20&&count($draft['works'])===2,'private fork retains songs works and all credits');
 ok(in_array('musicbrainz',array_column($draft['sources'],'provider'),true)&&in_array('manual',array_column($draft['sources'],'provider'),true),'private fork preserves original source alongside manual provenance');
 ok($draft['media'][0]['format']==='CD','manual preparation never converts CD to vinyl');
 ok(legacy($pdo)===$before&&$draft['copy']['notes']==='PRIVATE_PRESERVED','private preparation preserves collection and notes');
@@ -62,7 +62,7 @@ ok((int)$wid>0&&count($r['tracks'])===3,'new track recording and composition rel
 $save('credit',['target_kind'=>'track','target_id'=>(string)$newTrack,'artist_name'=>'Manual fictional musician','artist_kind'=>'person','role'=>'performer','instrument'=>'synthesizer']);
 $artist=(int)$pdo->query("SELECT id FROM ENC_ARTISTS WHERE name='Manual fictional musician'")->fetchColumn();
 $save('credit',['target_kind'=>'work','target_id'=>(string)$wid,'artist_id'=>(string)$artist,'role'=>'composer']);
-$r=EncyclopediaRecord::forCopy(320,7);ok(count($r['credits'])===22&&in_array('synthesizer',array_column($r['credits'],'instrument'),true),'structured instrument and composer credits');
+$r=EncyclopediaRecord::forCopy(320,7);ok(count(array_filter($r['credits'],fn($c)=>!empty($c['artist_id'])))===22&&count($r['credits'])>=22&&in_array('synthesizer',array_column($r['credits'],'instrument'),true),'structured instrument and composer credits');
 $save('artist',['artist_id'=>(string)$artist,'position'=>'2','credited_as'=>'Manual group member']);
 $save('label',['label_name'=>'Manual fictional label','catalogue_number'=>'PRIVATE 001']);
 $save('genre',['kind'=>'genre','name'=>'Manual electronic']);

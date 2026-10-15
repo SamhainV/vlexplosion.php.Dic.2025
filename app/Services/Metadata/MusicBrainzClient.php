@@ -88,6 +88,22 @@ final class MusicBrainzClient
         return $response + ['source' => 'musicbrainz', 'entity_type' => $entity, 'requires_confirmation' => true];
     }
 
+    /** Complete direct relationships; never fetch artist biographies or a discography. */
+    public function creditLookup(string $entity, string $id): array
+    {
+        $types = ['area','artist','event','instrument','label','place','recording','release','release-group','series','url','work'];
+        // Inverse work performances describe other recordings, not this edition's personnel.
+        if($entity==='work')$types=array_values(array_diff($types,['recording']));
+        if (!in_array($entity, ['release','release-group','recording','work','place','label'], true) || !self::validId($id)) {
+            throw new InvalidArgumentException('Invalid credit entity');
+        }
+        $inc = in_array($entity, ['place','label'], true) ? ['aliases'] : array_map(static fn($t) => $t.'-rels', $types);
+        if ($entity === 'release') $inc = array_merge($inc, ['labels','recordings','release-groups','artist-credits','recording-level-rels','work-level-rels','release-group-level-rels']);
+        if ($entity === 'recording') $inc[] = 'work-level-rels';
+        $response = $this->request($entity.'/'.strtolower($id), ['inc'=>implode('+',$inc)]);
+        return $response + ['source'=>'musicbrainz','entity_type'=>$entity];
+    }
+
     public function editions(string $groupId, int $offset = 0): array
     {
         if (!self::validId($groupId) || $offset < 0 || $offset > 10000) { throw new InvalidArgumentException('Invalid browse'); }
@@ -122,7 +138,7 @@ final class MusicBrainzClient
             // Bounded contention: never build an unbounded queue of web workers.
             for ($attempt = 0; !flock($lock, LOCK_EX | LOCK_NB); $attempt++) {
                 if ($saved = $this->cached($cache, $path)) { return $saved; }
-                if ($attempt >= 20) { throw new MetadataException('busy', 2); }
+                if ($attempt >= 20) { throw new MetadataException('busy', 2, null, false); }
                 ($this->sleep)(0.1);
             }
             if ($saved = $this->cached($cache, $path)) { return $saved; }
@@ -133,11 +149,11 @@ final class MusicBrainzClient
             $next = is_array($gate) ? (float)($gate['next'] ?? 0) : (float)$raw;
             if ($next > $now) {
                 if ((is_array($gate) && ($gate['upstream'] ?? false)) || $next - $now > 1.2) {
-                    throw new MetadataException('rate_limit', (int)ceil($next - $now));
+                    throw new MetadataException('rate_limit', (int)ceil($next - $now), is_array($gate) ? ($gate['http_status'] ?? null) : null, false);
                 }
                 ($this->sleep)($next - $now);
                 $now = ($this->clock)();
-                if ($now < $next) { throw new MetadataException('busy', 1); }
+                if ($now < $next) { throw new MetadataException('busy', 1, null, false); }
             }
             self::writeGate($lock, $now + 1.1);
             try { $response = ($this->transport)($url, $this->userAgent); }
@@ -148,11 +164,11 @@ final class MusicBrainzClient
                 $retry = $response['headers']['retry-after'] ?? '60';
                 $delay = is_string($retry) && ctype_digit($retry) ? (int)$retry : (strtotime((string)$retry) === false ? 60 : max(1, (int)strtotime((string)$retry) - (int)$now));
                 $delay = max(1, $delay);
-                self::writeGate($lock, $now + $delay, true);
-                throw new MetadataException('rate_limit', $delay);
+                self::writeGate($lock, $now + $delay, true, $status);
+                throw new MetadataException('rate_limit', $delay, $status);
             }
-            if ($status === 404) { throw new MetadataException('not_found'); }
-            if ($status !== 200) { throw new MetadataException('unavailable'); }
+            if ($status === 404) { throw new MetadataException('not_found', 0, 404); }
+            if ($status !== 200) { throw new MetadataException('unavailable', 0, is_int($status) && $status > 0 ? $status : null); }
             $body = $response['body'] ?? null;
             if (!is_string($body) || strlen($body) > 2 * 1024 * 1024) { throw new MetadataException('invalid_response'); }
             try { $data = json_decode($body, true, 128, JSON_THROW_ON_ERROR); }
@@ -179,17 +195,17 @@ final class MusicBrainzClient
         return $saved + ['cached' => true];
     }
 
-    private static function writeGate($lock, float $next, bool $upstream = false): void
+    private static function writeGate($lock, float $next, bool $upstream = false, ?int $httpStatus = null): void
     {
         rewind($lock);
-        if (!ftruncate($lock, 0) || fwrite($lock, json_encode(['next' => $next, 'upstream' => $upstream], JSON_THROW_ON_ERROR)) === false || !fflush($lock)) { throw new MetadataException('unavailable'); }
+        if (!ftruncate($lock, 0) || fwrite($lock, json_encode(['next' => $next, 'upstream' => $upstream, 'http_status' => $httpStatus], JSON_THROW_ON_ERROR)) === false || !fflush($lock)) { throw new MetadataException('unavailable'); }
     }
 
     private static function validateResponse(string $path, array $data): void
     {
         if (str_contains($path, '/')) {
             [$entity, $id] = explode('/', $path, 2);
-            $name = $entity === 'artist' ? 'name' : 'title';
+            $name = in_array($entity, ['artist','label','place'], true) ? 'name' : 'title';
             if (($data['id'] ?? null) !== $id || !is_string($data[$name] ?? null) || trim($data[$name]) === '') {
                 throw new MetadataException('invalid_response');
             }

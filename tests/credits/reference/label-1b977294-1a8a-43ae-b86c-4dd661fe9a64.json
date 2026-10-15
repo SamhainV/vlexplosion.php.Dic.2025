@@ -1,0 +1,25 @@
+{
+    "data": {
+        "name": "Mass Confusion Productions, Inc.",
+        "type": null,
+        "isnis": [],
+        "aliases": [],
+        "disambiguation": "",
+        "label-code": null,
+        "country": null,
+        "sort-name": "Mass Confusion Productions, Inc.",
+        "life-span": {
+            "ended": false,
+            "end": null,
+            "begin": null
+        },
+        "ipis": [],
+        "area": null,
+        "id": "1b977294-1a8a-43ae-b86c-4dd661fe9a64",
+        "type-id": null
+    },
+    "fetched_at": 1792075919.639345,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

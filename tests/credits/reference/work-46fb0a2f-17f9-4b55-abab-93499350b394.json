@@ -1,0 +1,437 @@
+{
+    "data": {
+        "type": "Song",
+        "iswcs": [],
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+            "eng"
+        ],
+        "relations": [
+            {
+                "direction": "backward",
+                "target-type": "artist",
+                "begin": null,
+                "end": null,
+                "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                "type": "lyricist",
+                "attribute-values": [],
+                "artist": {
+                    "id": "8e68819d-71be-4e7d-b41d-f1df81b01d3f",
+                    "disambiguation": "",
+                    "sort-name": "50 Cent",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "name": "50 Cent",
+                    "type": "Person"
+                },
+                "ended": false,
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "Curtis Jackson"
+            },
+            {
+                "direction": "backward",
+                "target-type": "artist",
+                "begin": null,
+                "end": null,
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "attribute-values": [],
+                "type": "writer",
+                "ended": false,
+                "artist": {
+                    "sort-name": "Elliott, Missy",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "disambiguation": "American rapper, singer, dancer & record producer",
+                    "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+                    "type": "Person",
+                    "name": "Missy Elliott"
+                },
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "Melissa Elliott"
+            },
+            {
+                "direction": "backward",
+                "target-type": "artist",
+                "end": null,
+                "begin": null,
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "type": "writer",
+                "attribute-values": [],
+                "artist": {
+                    "name": "Timbaland",
+                    "type": "Person",
+                    "sort-name": "Timbaland",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+                    "disambiguation": ""
+                },
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": "Timothy Mosley"
+            },
+            {
+                "end": null,
+                "begin": null,
+                "target-type": "label",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "label": {
+                    "name": "50 Cent Music",
+                    "type": "Publisher",
+                    "id": "23e98095-3055-4e9a-919f-8fbdaeda68b6",
+                    "disambiguation": "",
+                    "label-code": null,
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "sort-name": "50 Cent Music"
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "",
+                "type": "publishing",
+                "attribute-values": [],
+                "ended": false
+            },
+            {
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": "",
+                "type": "publishing",
+                "attribute-values": [],
+                "ended": false,
+                "target-type": "label",
+                "end": null,
+                "begin": null,
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "direction": "backward",
+                "label": {
+                    "id": "a8ffb6ad-3e00-474d-b44a-f465026a2e61",
+                    "disambiguation": "",
+                    "label-code": null,
+                    "sort-name": "Mass Confusion Music",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "name": "Mass Confusion Music",
+                    "type": "Publisher"
+                }
+            },
+            {
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "end": null,
+                "begin": null,
+                "target-type": "label",
+                "label": {
+                    "type": "Publisher",
+                    "name": "Virginia Beach Music",
+                    "id": "18313d01-9ea1-4511-875f-7e2fa3ace43f",
+                    "disambiguation": "",
+                    "label-code": null,
+                    "sort-name": "Virginia Beach Music",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
+                },
+                "direction": "backward",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "publishing"
+            },
+            {
+                "target-type": "label",
+                "begin": null,
+                "end": null,
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "direction": "backward",
+                "label": {
+                    "name": "WB Music Corp.",
+                    "type": "Publisher",
+                    "disambiguation": "1929–2019",
+                    "id": "883fe539-a89f-4572-8072-4d1e69d4670d",
+                    "label-code": null,
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "sort-name": "WB Music Corp."
+                },
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "publishing",
+                "ended": false
+            },
+            {
+                "recording": {
+                    "id": "462f3de8-093a-441d-8ee7-9f3a2d661204",
+                    "disambiguation": "",
+                    "length": 304346,
+                    "video": false,
+                    "title": "Work It"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "ended": false,
+                "type": "performance",
+                "attribute-values": []
+            },
+            {
+                "direction": "backward",
+                "recording": {
+                    "disambiguation": "explicit",
+                    "id": "b57f6dec-7f9b-48d0-9b37-7f624fcaaa85",
+                    "title": "Work It (remix)",
+                    "video": false,
+                    "length": 305466
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": ""
+            },
+            {
+                "target-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "Work It (remix)",
+                    "length": 294505,
+                    "id": "31ebf4a1-6488-42a6-89f7-ec488e4cbcb7",
+                    "disambiguation": "part of \"God's Plan\" DJ mix"
+                },
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "04b97b62-5c65-4728-8a11-b2b5a9eade07",
+                    "video": false,
+                    "title": "Work It (remix)",
+                    "length": 274680
+                },
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "ended": false,
+                "type": "performance",
+                "attribute-values": []
+            },
+            {
+                "direction": "backward",
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 292093,
+                    "video": false,
+                    "title": "Work It (remix)",
+                    "disambiguation": "",
+                    "id": "7e0e5b3d-7018-4195-a6ce-9ca15bf8d372"
+                },
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": ""
+            },
+            {
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 307053,
+                    "title": "Work It (remix)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "31f623bd-58ff-448d-9321-5d57977e3380"
+                },
+                "direction": "backward",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false
+            },
+            {
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "title": "Work It (remix)",
+                    "video": false,
+                    "length": 314533,
+                    "id": "51284786-c003-4c44-a340-ec37d21f7b73",
+                    "disambiguation": "part of “Pure Hip Hop 2003” DJ mix"
+                }
+            },
+            {
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 280000,
+                    "title": "Work It (remix)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "04709347-1cef-45bb-b55b-9842327903bf"
+                },
+                "direction": "backward"
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "recording": {
+                    "disambiguation": "clean",
+                    "id": "c47c5638-2993-49de-9692-2159dac8a272",
+                    "length": 304200,
+                    "video": false,
+                    "title": "Work It (remix)"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "direction": "backward"
+            },
+            {
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "c398b25d-ef5c-4c68-91cb-3d1ccda9724f",
+                    "disambiguation": "",
+                    "title": "Work It (Remix)",
+                    "video": false,
+                    "length": 303453
+                },
+                "direction": "backward"
+            },
+            {
+                "attribute-values": [],
+                "type": "lyrics",
+                "ended": false,
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "url",
+                "begin": null,
+                "end": null,
+                "type-id": "e38e65aa-75e0-42ba-ace0-072aeb91a538",
+                "url": {
+                    "id": "b5265869-0b5a-40e0-a24b-fb8c730eb217",
+                    "resource": "https://genius.com/Missy-elliott-work-it-remix-lyrics"
+                }
+            },
+            {
+                "end": null,
+                "begin": null,
+                "target-type": "work",
+                "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+                "direction": "backward",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "work": {
+                    "disambiguation": "",
+                    "id": "d15f5ee3-fad9-39ba-884f-62b6655f9023",
+                    "attributes": [],
+                    "title": "Work It",
+                    "language": "eng",
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                    "languages": [
+                        "eng"
+                    ],
+                    "iswcs": [],
+                    "type": "Song"
+                },
+                "type": "based on",
+                "ended": false
+            }
+        ],
+        "title": "Work It (remix)",
+        "id": "46fb0a2f-17f9-4b55-abab-93499350b394",
+        "attributes": [],
+        "disambiguation": ""
+    },
+    "fetched_at": 1792076104.219896,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

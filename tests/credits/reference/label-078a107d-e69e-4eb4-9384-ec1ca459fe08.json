@@ -1,0 +1,37 @@
+{
+    "data": {
+        "label-code": null,
+        "isnis": [],
+        "life-span": {
+            "ended": false,
+            "end": null,
+            "begin": null
+        },
+        "country": null,
+        "type-id": "a2426aab-2dd4-339c-b47d-b4923a241678",
+        "type": "Production",
+        "ipis": [],
+        "aliases": [
+            {
+                "locale": null,
+                "begin": null,
+                "name": "Timbaland Productions, Inc.",
+                "type": "Label name",
+                "end": null,
+                "primary": null,
+                "ended": false,
+                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                "sort-name": "Timbaland Productions, Inc."
+            }
+        ],
+        "id": "078a107d-e69e-4eb4-9384-ec1ca459fe08",
+        "area": null,
+        "name": "Timbaland Productions",
+        "sort-name": "Timbaland Productions",
+        "disambiguation": ""
+    },
+    "fetched_at": 1792075921.269596,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

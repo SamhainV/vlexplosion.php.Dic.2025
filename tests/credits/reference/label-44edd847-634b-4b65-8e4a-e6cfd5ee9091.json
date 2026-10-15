@@ -1,0 +1,35 @@
+{
+    "data": {
+        "aliases": [],
+        "type": "Original Production",
+        "isnis": [],
+        "name": "Elektra Entertainment",
+        "country": "US",
+        "sort-name": "Elektra Entertainment",
+        "label-code": null,
+        "disambiguation": "company, DO NOT USE as release label, for releases use “Elektra”",
+        "ipis": [],
+        "area": {
+            "type": null,
+            "name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+                "US"
+            ],
+            "type-id": null,
+            "sort-name": "United States"
+        },
+        "life-span": {
+            "end": "1994",
+            "begin": "1989",
+            "ended": true
+        },
+        "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+        "id": "44edd847-634b-4b65-8e4a-e6cfd5ee9091"
+    },
+    "fetched_at": 1792075916.381455,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

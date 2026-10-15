@@ -1,0 +1,301 @@
+{
+    "data": {
+        "iswcs": [
+            "T-071.711.220-3"
+        ],
+        "id": "b67f3a69-476f-3ba3-8299-235ab9f7c7ca",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "relations": [
+            {
+                "target-type": "artist",
+                "artist": {
+                    "sort-name": "Elliott, Missy",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "name": "Missy Elliott",
+                    "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+                    "type": "Person",
+                    "disambiguation": "American rapper, singer, dancer & record producer",
+                    "country": "US"
+                },
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "attribute-values": [],
+                "begin": null,
+                "target-credit": "Melissa Elliott",
+                "ended": false,
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "source-credit": "",
+                "type": "writer"
+            },
+            {
+                "source-credit": "",
+                "type": "writer",
+                "target-type": "artist",
+                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                "artist": {
+                    "country": "US",
+                    "disambiguation": "",
+                    "type": "Person",
+                    "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "name": "Timbaland",
+                    "sort-name": "Timbaland"
+                },
+                "attribute-values": [],
+                "target-credit": "Timothy Mosley",
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "attributes": [],
+                "end": null,
+                "direction": "backward"
+            },
+            {
+                "attribute-ids": [],
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "direction": "backward",
+                "attributes": [],
+                "end": null,
+                "target-type": "label",
+                "attribute-values": [],
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "type": "publishing",
+                "source-credit": "",
+                "label": {
+                    "disambiguation": "",
+                    "label-code": null,
+                    "type": "Publisher",
+                    "id": "a8ffb6ad-3e00-474d-b44a-f465026a2e61",
+                    "sort-name": "Mass Confusion Music",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "name": "Mass Confusion Music"
+                }
+            },
+            {
+                "target-credit": "",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "target-type": "label",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "attribute-values": [],
+                "type": "publishing",
+                "label": {
+                    "disambiguation": "",
+                    "type": "Publisher",
+                    "label-code": null,
+                    "id": "18313d01-9ea1-4511-875f-7e2fa3ace43f",
+                    "sort-name": "Virginia Beach Music",
+                    "name": "Virginia Beach Music",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
+                },
+                "source-credit": ""
+            },
+            {
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "attribute-values": [],
+                "target-type": "label",
+                "attributes": [],
+                "end": null,
+                "direction": "backward",
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": [],
+                "source-credit": "",
+                "label": {
+                    "sort-name": "WB Music Corp.",
+                    "name": "WB Music Corp.",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "id": "883fe539-a89f-4572-8072-4d1e69d4670d",
+                    "type": "Publisher",
+                    "label-code": null,
+                    "disambiguation": "1929–2019"
+                },
+                "type": "publishing"
+            },
+            {
+                "direction": "backward",
+                "end": null,
+                "attributes": [],
+                "attribute-ids": [],
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "recording": {
+                    "title": "Play That Beat",
+                    "video": false,
+                    "id": "cd8013b8-37d0-4fb9-85e6-3830aeca951c",
+                    "disambiguation": "explicit",
+                    "length": 182840
+                },
+                "type": "performance",
+                "source-credit": ""
+            },
+            {
+                "type": "performance",
+                "recording": {
+                    "length": 182760,
+                    "disambiguation": "clean",
+                    "id": "25dfeeb0-8c43-4f33-9220-1d99b4004472",
+                    "title": "Play That Beat",
+                    "video": false
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "direction": "backward",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": []
+            }
+        ],
+        "title": "Play That Beat",
+        "languages": [
+            "eng"
+        ],
+        "disambiguation": "",
+        "attributes": [
+            {
+                "value": "003310 371 15",
+                "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+                "type": "SUISA ID"
+            },
+            {
+                "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+                "type": "SPA ID",
+                "value": "919024"
+            },
+            {
+                "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+                "type": "SOCAN ID",
+                "value": "29581428"
+            },
+            {
+                "type": "SIAE ID",
+                "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+                "value": "2866781200"
+            },
+            {
+                "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+                "type": "SGAE ID",
+                "value": "5.448.028"
+            },
+            {
+                "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+                "type": "SAYCO ID",
+                "value": "3156668"
+            },
+            {
+                "type": "SAYCE ID",
+                "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+                "value": "3156668"
+            },
+            {
+                "value": "830397",
+                "type": "SADAIC ID",
+                "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+            },
+            {
+                "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+                "type": "SACVEN ID",
+                "value": "1827403"
+            },
+            {
+                "value": "20 602 225 11",
+                "type": "SACEM ID",
+                "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+            },
+            {
+                "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+                "type": "SABAM ID",
+                "value": "751200900"
+            },
+            {
+                "type": "PRS tune code",
+                "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+                "value": "3811325R"
+            },
+            {
+                "value": "1003645616",
+                "type": "MACP ID",
+                "type-id": "8da393f8-33c5-4ddf-afda-a035f0d46026"
+            },
+            {
+                "value": "7098092",
+                "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+                "type": "ECAD ID"
+            },
+            {
+                "value": "2696259",
+                "type": "COMPASS ID",
+                "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+            },
+            {
+                "type": "BUMA/STEMRA ID",
+                "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+                "value": "W-003571366"
+            },
+            {
+                "value": "GW31088918",
+                "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+                "type": "APRA ID"
+            },
+            {
+                "value": "3642091",
+                "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+                "type": "APDAYC ID"
+            },
+            {
+                "type": "APA ID",
+                "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+                "value": "5533303"
+            },
+            {
+                "value": "395876101",
+                "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+                "type": "AKM ID"
+            },
+            {
+                "value": "4571069",
+                "type": "AGADU ID",
+                "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819"
+            },
+            {
+                "value": "0O3-5889-6",
+                "type": "JASRAC ID",
+                "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c"
+            },
+            {
+                "type": "ASCAP ID",
+                "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+                "value": "460703837"
+            },
+            {
+                "type": "GEMA ID",
+                "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+                "value": "7630903-001"
+            }
+        ],
+        "type": "Song",
+        "language": "eng"
+    },
+    "fetched_at": 1792076023.254807,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

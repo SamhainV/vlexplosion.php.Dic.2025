@@ -1,0 +1,377 @@
+{
+    "data": {
+        "title": "Policy of Truth",
+        "first-release-date": "1990-02-05",
+        "length": 295000,
+        "video": false,
+        "disambiguation": "album version",
+        "relations": [
+            {
+                "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                "artist": {
+                    "sort-name": "François K",
+                    "type": "Person",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "name": "François K",
+                    "id": "093b79fc-d913-4580-8403-c2430f7a18ee",
+                    "disambiguation": ""
+                },
+                "begin": null,
+                "target-credit": "François Kevorkian",
+                "end": null,
+                "target-type": "artist",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "type": "mix",
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": []
+            },
+            {
+                "attributes": [
+                    "lead vocals"
+                ],
+                "source-credit": "",
+                "direction": "backward",
+                "type": "vocal",
+                "attribute-values": [],
+                "attribute-credits": [],
+                "target-type": "artist",
+                "ended": false,
+                "attribute-ids": {
+                    "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                },
+                "artist": {
+                    "country": "GB",
+                    "name": "Dave Gahan",
+                    "id": "d547b148-cf1f-421b-9464-ce7411ba44b8",
+                    "disambiguation": "",
+                    "sort-name": "Gahan, Dave",
+                    "type": "Person",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                },
+                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                "begin": null,
+                "target-credit": "",
+                "end": null
+            },
+            {
+                "recording": {
+                    "disambiguation": "extended version",
+                    "video": false,
+                    "id": "f1d9ef70-f2ce-4682-a9cf-10787eb99bd8",
+                    "length": 297000,
+                    "title": "Policy of Prutataaa (Afrojack & R3hab vs. Depeche Mode)"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "type": "mashes up",
+                "direction": "backward",
+                "target-type": "recording",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                "begin": null,
+                "target-credit": "",
+                "end": null
+            },
+            {
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "attribute-values": [],
+                "type": "mashes up",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "id": "f12f0748-1598-4b4b-9341-df819d40b1fa",
+                    "length": 223000,
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Policy of Prutataaa (Afrojack, R3HAB & Dada Life vs. Depeche Mode)"
+                },
+                "attributes": []
+            },
+            {
+                "target-credit": "",
+                "end": null,
+                "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                "begin": null,
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "direction": "backward",
+                "type": "mashes up",
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "title": "Policy of Truth (Bumtschak “Policy of Alcatraz” mashup)",
+                    "length": 281000,
+                    "id": "e5cbfb99-b49e-48f9-90c8-0184bb44a1c4",
+                    "disambiguation": "",
+                    "video": false
+                }
+            },
+            {
+                "begin": null,
+                "type-id": "bfbdb55a-b857-473a-8f2e-a9c09e45c3f5",
+                "end": null,
+                "target-credit": "",
+                "attribute-values": [],
+                "target-type": "recording",
+                "attribute-ids": [],
+                "ended": false,
+                "direction": "backward",
+                "type": "remix",
+                "attributes": [],
+                "recording": {
+                    "disambiguation": "",
+                    "video": false,
+                    "length": 433000,
+                    "id": "10d96e06-bf77-4053-b2bb-fe43d414c1fe",
+                    "title": "Policy of Truth (Beat Box)"
+                },
+                "source-credit": ""
+            },
+            {
+                "target-credit": "",
+                "end": null,
+                "type-id": "bfbdb55a-b857-473a-8f2e-a9c09e45c3f5",
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "attribute-values": [],
+                "type": "remix",
+                "direction": "backward",
+                "source-credit": "",
+                "recording": {
+                    "title": "Policy of Truth (Capitol mix)",
+                    "disambiguation": "",
+                    "video": false,
+                    "length": 480360,
+                    "id": "be9e24c4-80ca-4713-853f-3769edd23452"
+                },
+                "attributes": []
+            },
+            {
+                "attributes": [
+                    "number"
+                ],
+                "source-credit": "",
+                "direction": "forward",
+                "series": {
+                    "type": "Recording series",
+                    "disambiguation": "",
+                    "type-id": "dd968243-7128-30a2-81f0-79843430a8e2",
+                    "id": "33061f6b-6553-4d61-851b-71b790bf1460",
+                    "name": "Indie 88: Top 500 Indie Rock Songs"
+                },
+                "type": "part of",
+                "attribute-values": {
+                    "number": "306"
+                },
+                "target-type": "series",
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "ended": false,
+                "begin": null,
+                "type-id": "ea6f0698-6782-30d6-b16d-293081b66774",
+                "end": null,
+                "target-credit": "",
+                "ordering-key": 306
+            },
+            {
+                "target-type": "url",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "url": {
+                    "resource": "https://open.spotify.com/track/0Mb20VmqR2lvtgbEermW2v",
+                    "id": "80cc0e61-6377-4f1b-9ba2-458d63f96fff"
+                },
+                "begin": null,
+                "type-id": "7e41ef12-a124-4324-afdb-fdbae687a89c",
+                "end": null,
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "type": "free streaming",
+                "direction": "forward"
+            },
+            {
+                "target-type": "work",
+                "attribute-ids": [],
+                "ended": false,
+                "work": {
+                    "languages": [
+                        "eng"
+                    ],
+                    "attributes": [],
+                    "disambiguation": "",
+                    "relations": [
+                        {
+                            "begin": null,
+                            "artist": {
+                                "disambiguation": "",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "name": "Martin L. Gore",
+                                "country": "US",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "type": "Person",
+                                "sort-name": "Gore, Martin L."
+                            },
+                            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                            "end": null,
+                            "target-credit": "",
+                            "attribute-values": [],
+                            "target-type": "artist",
+                            "ended": false,
+                            "attribute-ids": [],
+                            "direction": "backward",
+                            "type": "composer",
+                            "attributes": [],
+                            "source-credit": ""
+                        },
+                        {
+                            "direction": "backward",
+                            "type": "lyricist",
+                            "attributes": [],
+                            "source-credit": "",
+                            "target-credit": "",
+                            "end": null,
+                            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                            "artist": {
+                                "type": "Person",
+                                "sort-name": "Gore, Martin L.",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "country": "US",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "name": "Martin L. Gore",
+                                "disambiguation": ""
+                            },
+                            "begin": null,
+                            "attribute-values": [],
+                            "attribute-ids": [],
+                            "ended": false,
+                            "target-type": "artist"
+                        },
+                        {
+                            "ended": false,
+                            "attribute-ids": [],
+                            "target-type": "label",
+                            "attribute-values": [],
+                            "label": {
+                                "sort-name": "Grabbing Hands Ltd.",
+                                "type": "Publisher",
+                                "label-code": null,
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "name": "Grabbing Hands Ltd.",
+                                "id": "ec2eb4b6-5815-4df0-8967-8b642952ebe2",
+                                "disambiguation": ""
+                            },
+                            "target-credit": "",
+                            "end": null,
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "begin": null,
+                            "source-credit": "",
+                            "attributes": [],
+                            "type": "publishing",
+                            "direction": "backward"
+                        },
+                        {
+                            "direction": "backward",
+                            "type": "publishing",
+                            "attributes": [],
+                            "source-credit": "",
+                            "target-credit": "",
+                            "end": null,
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "begin": null,
+                            "label": {
+                                "sort-name": "Sonet Publishing",
+                                "type": "Publisher",
+                                "label-code": null,
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "name": "Sonet Publishing",
+                                "id": "83d3a034-313d-4b66-add1-35d9e913b6b5",
+                                "disambiguation": ""
+                            },
+                            "attribute-values": [],
+                            "attribute-ids": [],
+                            "ended": false,
+                            "target-type": "label"
+                        },
+                        {
+                            "target-credit": "",
+                            "end": null,
+                            "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                            "begin": null,
+                            "url": {
+                                "id": "b8a8d86a-b4eb-4bc2-9a15-8bccdf218365",
+                                "resource": "https://secondhandsongs.com/work/3880"
+                            },
+                            "attribute-values": [],
+                            "attribute-ids": [],
+                            "ended": false,
+                            "target-type": "url",
+                            "direction": "backward",
+                            "type": "secondhandsongs",
+                            "attributes": [],
+                            "source-credit": ""
+                        },
+                        {
+                            "type": "wikidata",
+                            "direction": "backward",
+                            "source-credit": "",
+                            "attributes": [],
+                            "url": {
+                                "resource": "https://www.wikidata.org/wiki/Q2305046",
+                                "id": "4dd37e1a-f891-4792-aaa6-10cfb37037a4"
+                            },
+                            "end": null,
+                            "target-credit": "",
+                            "begin": null,
+                            "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
+                            "ended": false,
+                            "attribute-ids": [],
+                            "target-type": "url",
+                            "attribute-values": []
+                        }
+                    ],
+                    "id": "4d1fd5e0-dea6-316c-afd8-843668826145",
+                    "language": "eng",
+                    "iswcs": [
+                        "T-011.391.709-1"
+                    ],
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                    "title": "Policy of Truth",
+                    "type": "Song"
+                },
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "source-credit": "",
+                "attributes": [],
+                "type": "performance",
+                "direction": "forward"
+            }
+        ],
+        "id": "8897f48f-7e5e-44ad-b814-325dc32edd4a"
+    },
+    "fetched_at": 1792074429.117126,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "recording"
+}

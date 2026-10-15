@@ -1,0 +1,37 @@
+{
+    "data": {
+        "isnis": [],
+        "life-span": {
+            "ended": false,
+            "end": null,
+            "begin": null
+        },
+        "label-code": null,
+        "country": "US",
+        "type": "Publisher",
+        "ipis": [
+            "00431576660"
+        ],
+        "aliases": [],
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "id": "23e98095-3055-4e9a-919f-8fbdaeda68b6",
+        "name": "50 Cent Music",
+        "area": {
+            "type": null,
+            "name": "United States",
+            "type-id": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+                "US"
+            ],
+            "sort-name": "United States"
+        },
+        "disambiguation": "",
+        "sort-name": "50 Cent Music"
+    },
+    "fetched_at": 1792076127.6709,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

@@ -5,3 +5,31 @@
 .enc select{display:block;max-width:100%;width:100%;background:#18181b;color:#fafafa;border:1px solid #52525b;border-radius:.6rem;padding:.6rem}.manual-section summary,#editor-personal>summary,#editor-shared>summary{cursor:pointer;overflow-wrap:anywhere}.manual-section summary:focus-visible,#editor-personal>summary:focus-visible,#editor-shared>summary:focus-visible{outline:2px solid #6ee7b7;outline-offset:3px}
 
 .enc{overflow-wrap:anywhere;min-width:0}
+
+/* Credits use the existing Premium panels and disclosure controls. */
+.enc .credit-section>summary,.enc .credit-sections>details>summary{cursor:pointer;font-size:16px;color:#cce4d2;line-height:1.6;padding:6px 0}
+.enc .credit-provenance{margin-top:12px;font-size:12px;color:#acbcb0}.enc .credit-provenance pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:340px;overflow:auto;font-size:11px;padding:12px;border:1px solid #405647;border-radius:8px;background:#101813}
+.enc .credit-card>p{margin:5px 0}.enc [id^=credits-track-]{scroll-margin-top:110px}
+
+/* Credit update: explicit stages within the existing Premium system. */
+.credit-update .credit-status{border-top:2px solid #75ad8a;background:linear-gradient(135deg,rgba(48,78,61,.25),rgba(14,22,18,.82))}
+.credit-update .credit-status-label{color:#acd6b9;text-transform:uppercase;letter-spacing:.1em;font-size:.75rem;margin-bottom:.5rem}
+.credit-update .credit-status h2{margin-top:0}.credit-update[data-phase=paused] .credit-status{border-top-color:#d4b477}
+.enc .credit-progress-counts,.enc .credit-result-counts{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:1rem;margin:1.25rem 0}
+.credit-progress-counts>div,.credit-result-counts>div{padding:1rem;border:1px solid #3a4c40;border-radius:.75rem;background:rgba(9,16,12,.35)}
+.credit-update dt{color:#c1cfc5;font-size:.85rem}.credit-update dd{margin:.4rem 0 0;font-size:1.5rem;color:#e6f3ea}
+.credit-actions{display:flex;align-items:center;flex-wrap:wrap;gap:1rem;margin:1.5rem 0}.credit-actions form{margin:0}
+.enc .credit-back{display:inline-flex;padding:.65rem 1rem;border:1px solid #577161;border-radius:.6rem;color:#d5e9db;text-decoration:none}
+.credit-update button:disabled{opacity:.5;cursor:wait}.credit-update .credit-secondary summary{cursor:pointer;color:#b8cdbf}
+.credit-update :is(summary,button,a):focus-visible{outline:2px solid #a5ebbd;outline-offset:3px}
+@media(max-width:480px){.credit-actions{align-items:stretch;flex-direction:column}.credit-actions button,.credit-back{width:100%}.enc .credit-progress-counts,.enc .credit-result-counts{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.vl-app .credit-update .credit-progress-counts{grid-template-columns:1fr}.credit-update .credit-actions :is(button,.credit-back){box-sizing:border-box;max-width:100%;margin-left:0;margin-right:0}}
+
+/* Compact participant groups retain the Premium panels and original evidence. */
+.enc .credit-count-guide{padding:1rem 1.15rem;margin:1.25rem 0;border-left:2px solid #75ad8a;background:rgba(39,68,49,.18);border-radius:.6rem}
+.enc .credit-count-guide p{margin:.3rem 0}.enc .credit-section>ul{padding-left:0;list-style:none}
+.enc .credit-group{padding:1rem 1.2rem;margin:.7rem 0;border-color:rgba(115,157,127,.25);background:linear-gradient(135deg,rgba(35,58,43,.25),rgba(13,22,17,.5))}
+.enc .credit-person{display:flex;align-items:baseline;justify-content:space-between;gap:.7rem 1.25rem;flex-wrap:wrap}.enc .credit-person strong{font-size:1.05rem}.enc .credit-function{color:#b8ddc4;font-size:.94rem}
+.enc .credit-group>p{margin:.4rem 0}.enc .credit-songs,.enc .credit-originals{margin-top:.65rem}.enc .credit-originals>summary{font-size:.82rem;color:#acbcb0}.enc .credit-scope-note{font-size:.85rem;color:#ddc79c;border-left:2px solid #9c885c;padding-left:.7rem}
+.enc .credit-originals .credit-card{background:rgba(6,13,9,.28);box-shadow:none;margin:.65rem 0}.enc .credit-originals>ul{list-style:none;padding-left:0}
+@media(max-width:480px){.enc .credit-group{padding:.9rem}.enc .credit-person{display:block}.enc .credit-function{display:block;margin-top:.35rem}.enc .credit-section>summary{font-size:.95rem}.enc .credit-count-guide{padding:.8rem}}

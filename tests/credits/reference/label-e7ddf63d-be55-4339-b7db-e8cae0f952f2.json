@@ -1,0 +1,39 @@
+{
+    "data": {
+        "life-span": {
+            "end": null,
+            "begin": null,
+            "ended": false
+        },
+        "disambiguation": "",
+        "ipis": [
+            "00196565227"
+        ],
+        "isnis": [],
+        "area": null,
+        "country": null,
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "sort-name": "Lil Lu Lu Publishing",
+        "id": "e7ddf63d-be55-4339-b7db-e8cae0f952f2",
+        "label-code": null,
+        "type": "Publisher",
+        "aliases": [
+            {
+                "end": null,
+                "begin": null,
+                "ended": false,
+                "locale": null,
+                "name": "Lil Lulu Publishing",
+                "type-id": null,
+                "sort-name": "Lil Lulu Publishing",
+                "primary": null,
+                "type": null
+            }
+        ],
+        "name": "Lil Lu Lu Publishing"
+    },
+    "fetched_at": 1792076119.190054,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

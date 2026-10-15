@@ -10,11 +10,43 @@ final class EncyclopediaRecord
         $s = Database::pdo()->prepare($sql); $s->execute($args); return $s->fetchAll();
     }
 
+    private static function legacyCreditRows(int $albumId, ?int $editionId): array
+    {
+        if (!$editionId) return self::rows('SELECT c.*,a.name,s.provider AS credit_provider,NULL AS track_title,NULL AS recording_title,NULL AS work_title FROM ENC_CREDITS c LEFT JOIN ENC_ARTISTS a ON a.id=c.artist_id LEFT JOIN ENC_SOURCES s ON s.id=c.source_id WHERE c.album_id=?',[$albumId]);
+        return self::rows('SELECT DISTINCT c.*,a.name,s.provider AS credit_provider,t.title AS track_title,r.title AS recording_title,w.title AS work_title FROM ENC_CREDITS c LEFT JOIN ENC_ARTISTS a ON a.id=c.artist_id LEFT JOIN ENC_SOURCES s ON s.id=c.source_id LEFT JOIN ENC_TRACKS t ON t.id=c.track_id LEFT JOIN ENC_RECORDINGS r ON r.id=c.recording_id LEFT JOIN ENC_WORKS w ON w.id=c.work_id WHERE c.album_id=? OR c.edition_id=? OR c.track_id IN (SELECT t.id FROM ENC_TRACKS t JOIN ENC_MEDIA m ON m.id=t.medium_id WHERE m.edition_id=?) OR c.recording_id IN (SELECT t.recording_id FROM ENC_TRACKS t JOIN ENC_MEDIA m ON m.id=t.medium_id WHERE m.edition_id=?) OR c.work_id IN (SELECT rw.work_id FROM ENC_RECORDING_WORKS rw JOIN ENC_TRACKS t ON t.recording_id=rw.recording_id JOIN ENC_MEDIA m ON m.id=t.medium_id WHERE m.edition_id=?) ORDER BY c.role,a.name,c.id', [$albumId, $editionId, $editionId, $editionId, $editionId]);
+    }
+
     public static function creditsFor(int $albumId, ?int $editionId): array
     {
-        if (!$editionId) return self::rows('SELECT c.*,a.name,NULL AS track_title,NULL AS recording_title,NULL AS work_title FROM ENC_CREDITS c LEFT JOIN ENC_ARTISTS a ON a.id=c.artist_id WHERE c.album_id=?',[$albumId]);
-        return self::rows('SELECT DISTINCT c.*,a.name,t.title AS track_title,r.title AS recording_title,w.title AS work_title FROM ENC_CREDITS c LEFT JOIN ENC_ARTISTS a ON a.id=c.artist_id LEFT JOIN ENC_TRACKS t ON t.id=c.track_id LEFT JOIN ENC_RECORDINGS r ON r.id=c.recording_id LEFT JOIN ENC_WORKS w ON w.id=c.work_id WHERE c.album_id=? OR c.edition_id=? OR c.track_id IN (SELECT t.id FROM ENC_TRACKS t JOIN ENC_MEDIA m ON m.id=t.medium_id WHERE m.edition_id=?) OR c.recording_id IN (SELECT t.recording_id FROM ENC_TRACKS t JOIN ENC_MEDIA m ON m.id=t.medium_id WHERE m.edition_id=?) OR c.work_id IN (SELECT rw.work_id FROM ENC_RECORDING_WORKS rw JOIN ENC_TRACKS t ON t.recording_id=rw.recording_id JOIN ENC_MEDIA m ON m.id=t.medium_id WHERE m.edition_id=?) ORDER BY c.role,a.name,c.id', [$albumId, $editionId, $editionId, $editionId, $editionId]);
+        $rows=self::legacyCreditRows($albumId,$editionId);
+        $richAvailable=\App\Services\EncyclopediaCreditSync::available();
+        $synced=['album'=>false,'edition'=>false];
+        if($richAvailable){
+            $state=self::rows("SELECT MAX(e.album_id=?) AS album,MAX(j.edition_id=?) AS edition FROM ENC_CREDIT_JOBS j JOIN ENC_EDITIONS e ON e.id=j.edition_id WHERE j.status='complete' AND e.album_id=?",[$albumId,$editionId,$albumId])[0];
+            $synced=['album'=>(bool)$state['album'],'edition'=>(bool)$state['edition']];
+        }
+        if($editionId && $richAvailable){
+            $extra=self::rows('SELECT c.*,a.name,s.provider AS credit_provider,NULL AS track_title,r.title AS recording_title,w.title AS work_title FROM ENC_CREDITS c LEFT JOIN ENC_ARTISTS a ON a.id=c.artist_id LEFT JOIN ENC_SOURCES s ON s.id=c.source_id LEFT JOIN ENC_RECORDINGS r ON r.id=c.recording_id LEFT JOIN ENC_WORKS w ON w.id=c.work_id WHERE c.context_edition_id=?',[$editionId]);
+            $indexed=[];foreach([...$rows,...$extra] as $c)$indexed[$c['id']]=$c;$rows=array_values($indexed);
+        }
+        // Pre-006 installations remain readable. Rich recording/work rows are edition-scoped.
+        $rows=array_values(array_filter($rows, static fn($c)=>(!isset($c['sync_active']) || (int)$c['sync_active']===1) && (empty($c['context_edition_id']) || (int)$c['context_edition_id']===$editionId)));
+        $rich=[];
+        foreach($rows as &$c) {
+            $c['relation']=!empty($c['relation_json'])?json_decode($c['relation_json'],true):null;
+            if(!empty($c['relation_key']))$rich[self::creditSignature($c)]=true;
+        } unset($c);
+        // A complete accepted graph supersedes old, unqualified imported projections.
+        // Keep their DB rows, manual corrections and the track's artist-credit identity.
+        return array_values(array_filter($rows,static function($c)use($rich,$synced){
+            if(!empty($c['relation_key'])||($c['credit_provider']??'manual')!=='musicbrainz')return true;
+            if(!empty($c['track_id'])&&in_array($c['role'],['artist credit','performer'],true))return true;
+            if($synced[!empty($c['album_id'])?'album':'edition'])return false;
+            return empty($rich[self::creditSignature($c)]);
+        }));
     }
+    private static function creditSignature(array $c): string
+    { return json_encode(array_map(fn($k)=>$c[$k]??null,['album_id','edition_id','recording_id','work_id','track_id','artist_id','organisation','role','credited_as']),JSON_THROW_ON_ERROR); }
 
     public static function sourcesFor(int $albumId,?int $editionId): array
     {

@@ -21,19 +21,24 @@ final class EncyclopediaEntity
         if ($kind==='artist') {
             $entity=self::rows('SELECT * FROM ENC_ARTISTS WHERE id=?',[$id])[0]??null;
             if (!$entity) return null;
+            $context=\App\Services\EncyclopediaCreditSync::available()? ' UNION SELECT e.album_id FROM ENC_CREDITS c JOIN ENC_EDITIONS e ON e.id=c.context_edition_id WHERE c.artist_id='.(int)$id:'';
             $albums=self::rows('SELECT DISTINCT a.id,a.title FROM ENC_ALBUMS a JOIN (
                 SELECT album_id FROM ENC_ALBUM_ARTISTS WHERE artist_id=?
                 UNION SELECT album_id FROM ENC_CREDITS WHERE artist_id=? AND album_id IS NOT NULL
                 UNION SELECT e.album_id FROM ENC_CREDITS c JOIN ENC_EDITIONS e ON e.id=c.edition_id WHERE c.artist_id=?
                 UNION SELECT e.album_id FROM ENC_CREDITS c JOIN ENC_TRACKS t ON t.id=c.track_id OR t.recording_id=c.recording_id JOIN ENC_MEDIA m ON m.id=t.medium_id JOIN ENC_EDITIONS e ON e.id=m.edition_id WHERE c.artist_id=?
                 UNION SELECT e.album_id FROM ENC_CREDITS c JOIN ENC_RECORDING_WORKS rw ON rw.work_id=c.work_id JOIN ENC_TRACKS t ON t.recording_id=rw.recording_id JOIN ENC_MEDIA m ON m.id=t.medium_id JOIN ENC_EDITIONS e ON e.id=m.edition_id WHERE c.artist_id=?
-                ) related ON related.album_id=a.id WHERE (a.draft_owner_id IS NULL OR a.draft_owner_id=?) ORDER BY a.title',[$id,$id,$id,$id,$id,$user]);
+                '.$context.') related ON related.album_id=a.id WHERE (a.draft_owner_id IS NULL OR a.draft_owner_id=?) ORDER BY a.title',[$id,$id,$id,$id,$id,$user]);
             if (!$albums && !$entity['musicbrainz_id']) return null;
-            $credits=[];
+            $credits=[];$visibleAlbums=[];
             foreach($albums as $a) {
+                $hasCredit=false;
                 $editions=self::rows('SELECT id FROM ENC_EDITIONS WHERE album_id=?',[$a['id']]);
-                foreach($editions?:[['id'=>null]] as $ed)foreach(EncyclopediaRecord::creditsFor((int)$a['id'],$ed['id']?(int)$ed['id']:null) as $c)if((int)$c['artist_id']===$id){$c['album_title']=$a['title'];$c['related_album_id']=$a['id'];$credits[$c['id'].'-'.$a['id']]=$c;}
+                foreach($editions?:[['id'=>null]] as $ed)foreach(EncyclopediaRecord::creditsFor((int)$a['id'],$ed['id']?(int)$ed['id']:null) as $c)if((int)$c['artist_id']===$id){$hasCredit=true;$c['album_title']=$a['title'];$c['related_album_id']=$a['id'];$credits[$c['id'].'-'.$a['id']]=$c;}
+                if($hasCredit||self::rows('SELECT album_id FROM ENC_ALBUM_ARTISTS WHERE album_id=? AND artist_id=?',[$a['id'],$id]))$visibleAlbums[]=$a;
             }
+            $albums=$visibleAlbums;
+            if(!$albums&&!$entity['musicbrainz_id'])return null;
             return ['entity'=>$entity,'albums'=>$albums,'participantCredits'=>array_values($credits)];
         }
         if (in_array($kind,['label','work','recording'],true)) {

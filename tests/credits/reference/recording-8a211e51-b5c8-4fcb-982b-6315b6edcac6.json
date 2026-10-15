@@ -1,0 +1,250 @@
+{
+    "data": {
+        "relations": [
+            {
+                "direction": "backward",
+                "end": null,
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "François Kevorkian",
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "artist": {
+                    "disambiguation": "",
+                    "country": "US",
+                    "type": "Person",
+                    "id": "093b79fc-d913-4580-8403-c2430f7a18ee",
+                    "sort-name": "François K",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "name": "François K"
+                },
+                "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                "target-type": "artist",
+                "type": "mix",
+                "source-credit": ""
+            },
+            {
+                "direction": "backward",
+                "end": null,
+                "attributes": [
+                    "additional"
+                ],
+                "attribute-ids": {
+                    "additional": "0a5341f8-3b1d-4f99-a0c6-26b7f4e42c7f"
+                },
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "artist": {
+                    "disambiguation": "",
+                    "country": "GB",
+                    "type": "Person",
+                    "id": "d547b148-cf1f-421b-9464-ce7411ba44b8",
+                    "sort-name": "Gahan, Dave",
+                    "name": "Dave Gahan",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                },
+                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                "target-type": "artist",
+                "type": "vocal",
+                "source-credit": ""
+            },
+            {
+                "target-type": "artist",
+                "attribute-values": [],
+                "attribute-credits": [],
+                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                "artist": {
+                    "type": "Person",
+                    "disambiguation": "",
+                    "country": "US",
+                    "sort-name": "Gore, Martin L.",
+                    "name": "Martin L. Gore",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "id": "e08ac443-f1d2-4666-abd1-fa5859592981"
+                },
+                "attribute-ids": {
+                    "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                },
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "direction": "backward",
+                "attributes": [
+                    "lead vocals"
+                ],
+                "end": null,
+                "source-credit": "",
+                "type": "vocal"
+            },
+            {
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "451076df-61cf-46ab-9921-555cab2f050d",
+                "attribute-ids": [],
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "direction": "backward",
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "ordering-key": 5,
+                "recording": {
+                    "disambiguation": "",
+                    "id": "98988171-fd07-4f0b-a1c6-401091e2fdb0",
+                    "video": false,
+                    "title": "Sweetest Pleasure Tonight",
+                    "length": 2126000
+                },
+                "type": "DJ-mix"
+            },
+            {
+                "target-type": "recording",
+                "attribute-values": [],
+                "type-id": "bfbdb55a-b857-473a-8f2e-a9c09e45c3f5",
+                "attribute-ids": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "direction": "backward",
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "recording": {
+                    "length": 269000,
+                    "id": "2abd1f42-968e-448f-bc96-02f70a6d2b8b",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "Sweetest Perfection (Fettdog “Sweetest Imperfection” mashup)"
+                },
+                "type": "remix"
+            },
+            {
+                "source-credit": "",
+                "type": "free streaming",
+                "target-type": "url",
+                "type-id": "7e41ef12-a124-4324-afdb-fdbae687a89c",
+                "attribute-values": [],
+                "target-credit": "",
+                "ended": false,
+                "begin": null,
+                "attribute-ids": [],
+                "end": null,
+                "attributes": [],
+                "url": {
+                    "resource": "https://open.spotify.com/track/1XSjN64QCdFauII9t0IaGk",
+                    "id": "3bc2642f-3361-4f8c-8de6-6133c322e456"
+                },
+                "direction": "forward"
+            },
+            {
+                "source-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "work",
+                "direction": "forward",
+                "end": null,
+                "attributes": [],
+                "attribute-ids": [],
+                "work": {
+                    "attributes": [],
+                    "type": "Song",
+                    "language": "eng",
+                    "title": "Sweetest Perfection",
+                    "disambiguation": "",
+                    "languages": [
+                        "eng"
+                    ],
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                    "relations": [
+                        {
+                            "attribute-values": [],
+                            "artist": {
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "name": "Martin L. Gore",
+                                "sort-name": "Gore, Martin L.",
+                                "country": "US",
+                                "disambiguation": "",
+                                "type": "Person"
+                            },
+                            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                            "target-type": "artist",
+                            "direction": "backward",
+                            "end": null,
+                            "attributes": [],
+                            "attribute-ids": [],
+                            "ended": false,
+                            "target-credit": "",
+                            "begin": null,
+                            "source-credit": "",
+                            "type": "composer"
+                        },
+                        {
+                            "attributes": [],
+                            "end": null,
+                            "direction": "backward",
+                            "target-credit": "",
+                            "begin": null,
+                            "ended": false,
+                            "attribute-ids": [],
+                            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                            "artist": {
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "sort-name": "Gore, Martin L.",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "name": "Martin L. Gore",
+                                "disambiguation": "",
+                                "country": "US",
+                                "type": "Person"
+                            },
+                            "attribute-values": [],
+                            "target-type": "artist",
+                            "type": "lyricist",
+                            "source-credit": ""
+                        },
+                        {
+                            "type": "secondhandsongs",
+                            "source-credit": "",
+                            "attribute-ids": [],
+                            "begin": null,
+                            "target-credit": "",
+                            "ended": false,
+                            "url": {
+                                "id": "a1aa0dcf-fd4b-493f-b6d9-5d142686998f",
+                                "resource": "https://secondhandsongs.com/work/74060"
+                            },
+                            "direction": "backward",
+                            "end": null,
+                            "attributes": [],
+                            "target-type": "url",
+                            "attribute-values": [],
+                            "type-id": "b80dff64-9560-445a-b824-c8b432d77a52"
+                        }
+                    ],
+                    "iswcs": [
+                        "T-011.391.704-6"
+                    ],
+                    "id": "79b72fb2-ed89-3294-9d48-2ccb30685e71"
+                },
+                "target-credit": "",
+                "ended": false,
+                "begin": null
+            }
+        ],
+        "id": "8a211e51-b5c8-4fcb-982b-6315b6edcac6",
+        "video": false,
+        "length": 283000,
+        "first-release-date": "1990-02-05",
+        "disambiguation": "",
+        "title": "Sweetest Perfection"
+    },
+    "fetched_at": 1792074423.585743,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "recording"
+}

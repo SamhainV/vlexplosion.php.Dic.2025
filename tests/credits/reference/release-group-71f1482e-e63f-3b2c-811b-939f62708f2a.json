@@ -1,0 +1,663 @@
+{
+    "data": {
+        "title": "Violator",
+        "secondary-types": [],
+        "secondary-type-ids": [],
+        "first-release-date": "1990-02-05",
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "disambiguation": "",
+        "id": "71f1482e-e63f-3b2c-811b-939f62708f2a",
+        "primary-type": "Album",
+        "relations": [
+            {
+                "target-type": "release_group",
+                "target-credit": "",
+                "type-id": "589447ea-be2c-46cc-b9e9-469e1d06e18a",
+                "attributes": [],
+                "begin": null,
+                "attribute-values": [],
+                "end": null,
+                "release_group": {
+                    "title": "The Complete Depeche Mode",
+                    "secondary-types": [],
+                    "secondary-type-ids": [],
+                    "primary-type-id": null,
+                    "first-release-date": "2006-12-19",
+                    "id": "27773d37-fef8-4e19-97af-a1c40003b28d",
+                    "disambiguation": "",
+                    "primary-type": null
+                },
+                "source-credit": "",
+                "type": "included in",
+                "ended": false,
+                "attribute-ids": [],
+                "direction": "forward"
+            },
+            {
+                "direction": "forward",
+                "attribute-ids": [],
+                "ended": false,
+                "type": "included in",
+                "source-credit": "",
+                "release_group": {
+                    "secondary-type-ids": [],
+                    "secondary-types": [],
+                    "title": "MODE: The Definitive Depeche Mode Studio Collection",
+                    "primary-type": null,
+                    "id": "c1dbaafb-0c24-42a2-bea1-5f5cd12583fa",
+                    "disambiguation": "",
+                    "primary-type-id": null,
+                    "first-release-date": "2020-01-24"
+                },
+                "end": null,
+                "attribute-values": [],
+                "begin": null,
+                "attributes": [],
+                "type-id": "589447ea-be2c-46cc-b9e9-469e1d06e18a",
+                "target-credit": "",
+                "target-type": "release_group"
+            },
+            {
+                "ended": false,
+                "attribute-ids": [],
+                "direction": "backward",
+                "type": "remix",
+                "begin": null,
+                "attributes": [],
+                "attribute-values": [],
+                "release_group": {
+                    "primary-type": null,
+                    "primary-type-id": null,
+                    "first-release-date": "2005-10",
+                    "disambiguation": "",
+                    "id": "55032ff3-6e8d-3158-a30e-03a84ece6782",
+                    "secondary-type-ids": [],
+                    "title": "Violated",
+                    "secondary-types": []
+                },
+                "end": null,
+                "source-credit": "",
+                "target-type": "release_group",
+                "target-credit": "",
+                "type-id": "04e0449b-6fb0-48f6-8b9d-0bd41d9b8d76"
+            },
+            {
+                "type": "remix",
+                "attribute-ids": [],
+                "ended": false,
+                "direction": "backward",
+                "target-credit": "",
+                "target-type": "release_group",
+                "type-id": "04e0449b-6fb0-48f6-8b9d-0bd41d9b8d76",
+                "release_group": {
+                    "primary-type-id": null,
+                    "first-release-date": "1994",
+                    "disambiguation": "",
+                    "id": "6b6d9a08-243c-3238-b1ec-2d11ef8a2539",
+                    "primary-type": null,
+                    "title": "Violator: Limited Remix Edition",
+                    "secondary-types": [],
+                    "secondary-type-ids": []
+                },
+                "end": null,
+                "attribute-values": [],
+                "attributes": [],
+                "begin": null,
+                "source-credit": ""
+            },
+            {
+                "direction": "backward",
+                "attribute-ids": [],
+                "ended": false,
+                "type": "single from",
+                "source-credit": "",
+                "end": null,
+                "release_group": {
+                    "primary-type": null,
+                    "id": "af2f353d-90a9-3e03-bbcd-5395d3ff5bbd",
+                    "disambiguation": "",
+                    "first-release-date": "1990-02-05",
+                    "primary-type-id": null,
+                    "secondary-type-ids": [],
+                    "secondary-types": [],
+                    "title": "Enjoy the Silence"
+                },
+                "attribute-values": [],
+                "begin": null,
+                "attributes": [],
+                "type-id": "fcf680a9-6871-4519-8c4b-8c6549575b35",
+                "target-credit": "",
+                "target-type": "release_group"
+            },
+            {
+                "attribute-ids": [],
+                "ended": false,
+                "direction": "backward",
+                "type": "single from",
+                "end": null,
+                "release_group": {
+                    "secondary-type-ids": [],
+                    "title": "Personal Jesus",
+                    "secondary-types": [],
+                    "primary-type": null,
+                    "primary-type-id": null,
+                    "first-release-date": "1989-08-29",
+                    "disambiguation": "",
+                    "id": "ce1747b1-61cf-3441-afa8-d41a04cd446e"
+                },
+                "attribute-values": [],
+                "attributes": [],
+                "begin": null,
+                "source-credit": "",
+                "target-credit": "",
+                "target-type": "release_group",
+                "type-id": "fcf680a9-6871-4519-8c4b-8c6549575b35"
+            },
+            {
+                "type": "single from",
+                "direction": "backward",
+                "ended": false,
+                "attribute-ids": [],
+                "type-id": "fcf680a9-6871-4519-8c4b-8c6549575b35",
+                "target-type": "release_group",
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "begin": null,
+                "end": null,
+                "release_group": {
+                    "primary-type": null,
+                    "first-release-date": "1990-05-07",
+                    "primary-type-id": null,
+                    "disambiguation": "",
+                    "id": "9f894065-5012-3ea0-b3bc-6320531c9200",
+                    "secondary-type-ids": [],
+                    "title": "Policy of Truth",
+                    "secondary-types": []
+                },
+                "attribute-values": []
+            },
+            {
+                "target-credit": "",
+                "target-type": "release_group",
+                "type-id": "fcf680a9-6871-4519-8c4b-8c6549575b35",
+                "attribute-values": [],
+                "end": null,
+                "release_group": {
+                    "secondary-type-ids": [],
+                    "secondary-types": [],
+                    "title": "World in My Eyes",
+                    "primary-type": null,
+                    "disambiguation": "",
+                    "id": "12ee5910-0d55-3fa8-ba24-637670934bdd",
+                    "first-release-date": "1990-09-17",
+                    "primary-type-id": null
+                },
+                "begin": null,
+                "attributes": [],
+                "source-credit": "",
+                "type": "single from",
+                "attribute-ids": [],
+                "ended": false,
+                "direction": "backward"
+            },
+            {
+                "type": "part of",
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "series": {
+                    "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                    "name": "1001 Albums You Must Hear Before You Die",
+                    "id": "4bc2a338-e1d8-4546-8a61-640da8aaf888",
+                    "type": "Release group series",
+                    "disambiguation": "2005 edition"
+                },
+                "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                "target-type": "series",
+                "ordering-key": 669,
+                "target-credit": "",
+                "source-credit": "",
+                "begin": null,
+                "attributes": [
+                    "number"
+                ],
+                "end": null,
+                "attribute-values": {
+                    "number": "668"
+                }
+            },
+            {
+                "direction": "forward",
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "ended": false,
+                "type": "part of",
+                "source-credit": "",
+                "end": null,
+                "attribute-values": {
+                    "number": "4"
+                },
+                "attributes": [
+                    "number"
+                ],
+                "begin": null,
+                "series": {
+                    "type": "Release group series",
+                    "id": "72650da7-2122-41c8-b13d-8cd4b0ace35b",
+                    "disambiguation": "",
+                    "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                    "name": "Paste: The 50 Greatest Synth-Pop Albums of All Time"
+                },
+                "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                "target-credit": "",
+                "ordering-key": 4,
+                "target-type": "series"
+            },
+            {
+                "type": "part of",
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "ended": false,
+                "direction": "forward",
+                "target-credit": "",
+                "target-type": "series",
+                "ordering-key": 136,
+                "series": {
+                    "name": "Pitchfork: The 150 Best Albums of the 1990s",
+                    "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                    "disambiguation": "2022-09-28",
+                    "type": "Release group series",
+                    "id": "4d544556-8519-4a20-b854-af57256d9717"
+                },
+                "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                "end": null,
+                "attribute-values": {
+                    "number": "136"
+                },
+                "begin": null,
+                "attributes": [
+                    "number"
+                ],
+                "source-credit": ""
+            },
+            {
+                "type": "part of",
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "series": {
+                    "name": "Rolling Stone: 500 Greatest Albums of All Time: 2003 edition",
+                    "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                    "disambiguation": "",
+                    "type": "Release group series",
+                    "id": "ec97d21b-c3d0-48d4-9476-f5efbdb5c397"
+                },
+                "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                "target-type": "series",
+                "ordering-key": 342,
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "number"
+                ],
+                "begin": null,
+                "end": null,
+                "attribute-values": {
+                    "number": "342"
+                }
+            },
+            {
+                "ordering-key": 342,
+                "target-type": "series",
+                "target-credit": "",
+                "series": {
+                    "disambiguation": "",
+                    "type": "Release group series",
+                    "id": "8668518f-4a1e-4802-8b0d-81703ced6418",
+                    "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                    "name": "Rolling Stone: 500 Greatest Albums of All Time: 2012 edition"
+                },
+                "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                "begin": null,
+                "attributes": [
+                    "number"
+                ],
+                "end": null,
+                "attribute-values": {
+                    "number": "342"
+                },
+                "source-credit": "",
+                "type": "part of",
+                "ended": false,
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "direction": "forward"
+            },
+            {
+                "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                "series": {
+                    "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                    "name": "Rolling Stone: 500 Greatest Albums of All Time: 2020 edition",
+                    "disambiguation": "",
+                    "type": "Release group series",
+                    "id": "6a4b53b9-2756-4afe-93f2-306039d41910"
+                },
+                "target-type": "series",
+                "ordering-key": 167,
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "number"
+                ],
+                "begin": null,
+                "attribute-values": {
+                    "number": "167"
+                },
+                "end": null,
+                "type": "part of",
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                }
+            },
+            {
+                "series": {
+                    "name": "Rolling Stone: 500 Greatest Albums of All Time: 2023 edition",
+                    "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                    "disambiguation": "",
+                    "type": "Release group series",
+                    "id": "bb3d9d84-75b8-4e67-8ad7-dcc38f764bf3"
+                },
+                "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                "target-credit": "",
+                "ordering-key": 167,
+                "target-type": "series",
+                "source-credit": "",
+                "end": null,
+                "attribute-values": {
+                    "number": "167"
+                },
+                "attributes": [
+                    "number"
+                ],
+                "begin": null,
+                "type": "part of",
+                "direction": "forward",
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "ended": false
+            },
+            {
+                "source-credit": "",
+                "attribute-values": {
+                    "number": "17"
+                },
+                "end": null,
+                "attributes": [
+                    "number"
+                ],
+                "begin": null,
+                "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                "series": {
+                    "name": "Treble: The 150 Best Albums of the 1990s",
+                    "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                    "type": "Release group series",
+                    "disambiguation": "",
+                    "id": "89d67b7e-f8eb-4d0d-a4a1-515b9d0b0f63"
+                },
+                "target-credit": "",
+                "target-type": "series",
+                "ordering-key": 17,
+                "direction": "forward",
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "ended": false,
+                "type": "part of"
+            },
+            {
+                "source-credit": "",
+                "attribute-values": {
+                    "number": "36"
+                },
+                "end": null,
+                "attributes": [
+                    "number"
+                ],
+                "begin": null,
+                "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                "series": {
+                    "id": "c5412478-1173-490c-a989-bd51f5b7c3aa",
+                    "type": "Release group series",
+                    "disambiguation": "",
+                    "name": "Uncut: The 500 Greatest Albums of the 1990s",
+                    "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77"
+                },
+                "target-credit": "",
+                "target-type": "series",
+                "ordering-key": 36,
+                "direction": "forward",
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "ended": false,
+                "type": "part of"
+            },
+            {
+                "series": {
+                    "type": "Tour",
+                    "id": "42917850-bde9-4be1-b2f5-947c86c60692",
+                    "disambiguation": "",
+                    "name": "World Violation Tour",
+                    "type-id": "8ff6df0e-3dce-3bdf-bd57-d386c51b0060"
+                },
+                "type-id": "72e1f4d8-011b-49ab-bba4-6990981c972e",
+                "target-type": "series",
+                "target-credit": "",
+                "type": "tour in support of",
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": []
+            },
+            {
+                "attributes": [],
+                "begin": null,
+                "end": null,
+                "attribute-values": [],
+                "source-credit": "",
+                "target-type": "url",
+                "target-credit": "",
+                "type-id": "a50a1d20-2b20-4d2c-9a29-eb771dd78386",
+                "ended": false,
+                "attribute-ids": [],
+                "direction": "forward",
+                "type": "allmusic",
+                "url": {
+                    "id": "28b5fe31-6b1c-47e5-9b44-9035c9066dee",
+                    "resource": "https://www.allmusic.com/album/mw0000206302"
+                }
+            },
+            {
+                "source-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "begin": null,
+                "attributes": [],
+                "type-id": "99e550f3-5ab4-3110-b5b9-fe01d970b126",
+                "target-credit": "",
+                "target-type": "url",
+                "direction": "forward",
+                "attribute-ids": [],
+                "ended": false,
+                "type": "discogs",
+                "url": {
+                    "id": "ce7b880b-fbca-4bad-a727-407adf784bf8",
+                    "resource": "https://www.discogs.com/master/18080"
+                }
+            },
+            {
+                "source-credit": "",
+                "begin": null,
+                "attributes": [],
+                "end": null,
+                "attribute-values": [],
+                "type-id": "156344d3-da8b-40c6-8b10-7b1c22727124",
+                "target-type": "url",
+                "target-credit": "",
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": [],
+                "url": {
+                    "resource": "https://genius.com/albums/Depeche-mode/Violator",
+                    "id": "fad561b5-663e-43e7-ac72-1e8cee30d34b"
+                },
+                "type": "lyrics"
+            },
+            {
+                "ended": false,
+                "attribute-ids": [],
+                "direction": "forward",
+                "url": {
+                    "resource": "https://rateyourmusic.com/release/album/depeche-mode/violator/",
+                    "id": "9384159d-e0c5-46e8-aaee-ba97ce9d608c"
+                },
+                "type": "other databases",
+                "begin": null,
+                "attributes": [],
+                "end": null,
+                "attribute-values": [],
+                "source-credit": "",
+                "target-type": "url",
+                "target-credit": "",
+                "type-id": "38320e40-9f4a-3ae7-8cb2-3f3c9c5d856d"
+            },
+            {
+                "target-credit": "",
+                "target-type": "url",
+                "type-id": "38320e40-9f4a-3ae7-8cb2-3f3c9c5d856d",
+                "end": null,
+                "attribute-values": [],
+                "attributes": [],
+                "begin": null,
+                "source-credit": "",
+                "url": {
+                    "id": "84134b73-619e-466b-bda6-ef18375ac5f9",
+                    "resource": "https://www.musik-sammler.de/album/33158/"
+                },
+                "type": "other databases",
+                "attribute-ids": [],
+                "ended": false,
+                "direction": "forward"
+            },
+            {
+                "source-credit": "",
+                "begin": null,
+                "attributes": [],
+                "end": null,
+                "attribute-values": [],
+                "type-id": "38320e40-9f4a-3ae7-8cb2-3f3c9c5d856d",
+                "target-type": "url",
+                "target-credit": "",
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": [],
+                "type": "other databases",
+                "url": {
+                    "id": "e5ff6206-06d2-4bd8-aff1-45666bbe2db8",
+                    "resource": "https://www.offiziellecharts.de/charts/album-details-1013"
+                }
+            },
+            {
+                "type-id": "38320e40-9f4a-3ae7-8cb2-3f3c9c5d856d",
+                "target-type": "url",
+                "target-credit": "",
+                "source-credit": "",
+                "begin": null,
+                "attributes": [],
+                "end": null,
+                "attribute-values": [],
+                "url": {
+                    "resource": "https://www.spirit-of-rock.com/en/album/Violator/2377",
+                    "id": "73743678-8c19-4c2d-83e0-89ea1f6f2a37"
+                },
+                "type": "other databases",
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": []
+            },
+            {
+                "url": {
+                    "id": "be838667-5b65-47c6-98c5-c2d2f2ce95cf",
+                    "resource": "https://tvtropes.org/pmwiki/pmwiki.php/Music/Violator"
+                },
+                "type": "review",
+                "direction": "forward",
+                "attribute-ids": [],
+                "ended": false,
+                "type-id": "c3ac9c3b-f546-4d15-873f-b294d2c1b708",
+                "target-credit": "",
+                "target-type": "url",
+                "source-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "attributes": [],
+                "begin": null
+            },
+            {
+                "source-credit": "",
+                "attributes": [],
+                "begin": null,
+                "end": null,
+                "attribute-values": [],
+                "type-id": "c3ac9c3b-f546-4d15-873f-b294d2c1b708",
+                "target-type": "url",
+                "target-credit": "",
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": [],
+                "url": {
+                    "id": "f78f51da-821e-4c57-ab65-2908dbb287da",
+                    "resource": "https://www.rollingstone.de/reviews/depeche-mode-violator-review/"
+                },
+                "type": "review"
+            },
+            {
+                "direction": "forward",
+                "attribute-ids": [],
+                "ended": false,
+                "type": "wikidata",
+                "url": {
+                    "id": "1401e692-8d6e-4846-9ce2-d8fc218554c6",
+                    "resource": "https://www.wikidata.org/wiki/Q683079"
+                },
+                "source-credit": "",
+                "end": null,
+                "attribute-values": [],
+                "begin": null,
+                "attributes": [],
+                "type-id": "b988d08c-5d86-4a57-9557-c83b399e3580",
+                "target-credit": "",
+                "target-type": "url"
+            }
+        ]
+    },
+    "fetched_at": 1792074421.278683,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "release-group"
+}

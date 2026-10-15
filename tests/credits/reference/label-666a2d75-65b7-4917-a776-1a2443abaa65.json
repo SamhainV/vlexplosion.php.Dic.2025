@@ -1,0 +1,27 @@
+{
+    "data": {
+        "isnis": [],
+        "id": "666a2d75-65b7-4917-a776-1a2443abaa65",
+        "area": null,
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "sort-name": "Foray Music",
+        "name": "Foray Music",
+        "life-span": {
+            "end": null,
+            "begin": null,
+            "ended": false
+        },
+        "disambiguation": "",
+        "ipis": [
+            "00010507048"
+        ],
+        "country": null,
+        "label-code": null,
+        "aliases": [],
+        "type": "Publisher"
+    },
+    "fetched_at": 1792076122.517339,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

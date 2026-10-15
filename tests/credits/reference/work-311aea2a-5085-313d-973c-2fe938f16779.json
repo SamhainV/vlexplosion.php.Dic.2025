@@ -1,0 +1,4997 @@
+{
+    "data": {
+        "iswcs": [
+            "T-011.391.703-5"
+        ],
+        "type": "Song",
+        "id": "311aea2a-5085-313d-973c-2fe938f16779",
+        "disambiguation": "",
+        "attributes": [
+            {
+                "value": "002198 071 62",
+                "type": "SUISA ID",
+                "type-id": "034f35ae-d250-3749-95e7-854e606d5960"
+            },
+            {
+                "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+                "type": "SPA ID",
+                "value": "261708"
+            },
+            {
+                "value": "12571379",
+                "type": "SOCAN ID",
+                "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+            },
+            {
+                "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+                "type": "SIAE ID",
+                "value": "90130056400"
+            },
+            {
+                "type": "SGAE ID",
+                "value": "2.097.323",
+                "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75"
+            },
+            {
+                "value": "623781",
+                "type": "SAYCO ID",
+                "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+            },
+            {
+                "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+                "value": "623781",
+                "type": "SAYCE ID"
+            },
+            {
+                "type": "SADAIC ID",
+                "value": "713867",
+                "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+            },
+            {
+                "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+                "type": "SACVEN ID",
+                "value": "3364888"
+            },
+            {
+                "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+                "type": "SACEM ID",
+                "value": "90 162 386 11"
+            },
+            {
+                "value": "248156000",
+                "type": "SABAM ID",
+                "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d"
+            },
+            {
+                "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+                "type": "PRS tune code",
+                "value": "6814147H"
+            },
+            {
+                "type": "OSA ID",
+                "value": "I000.17.13.34",
+                "type-id": "2f9f66e4-c32c-4215-b7f4-4a146d0b2a0e"
+            },
+            {
+                "value": "0W2-7224-0",
+                "type": "JASRAC ID",
+                "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c"
+            },
+            {
+                "type": "GEMA ID",
+                "value": "2484356-001",
+                "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+            },
+            {
+                "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+                "value": "114979",
+                "type": "ECAD ID"
+            },
+            {
+                "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+                "type": "COMPASS ID",
+                "value": "4821115"
+            },
+            {
+                "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+                "type": "COMPASS ID",
+                "value": "5362231"
+            },
+            {
+                "value": "W-000828772",
+                "type": "BUMA/STEMRA ID",
+                "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+            },
+            {
+                "value": "1842258",
+                "type": "BMI ID",
+                "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+            },
+            {
+                "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+                "type": "ASCAP ID",
+                "value": "530348197"
+            },
+            {
+                "value": "GW02686747",
+                "type": "APRA ID",
+                "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+            },
+            {
+                "value": "8932191",
+                "type": "APDAYC ID",
+                "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
+            },
+            {
+                "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+                "type": "APA ID",
+                "value": "5253444"
+            },
+            {
+                "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+                "value": "166364501",
+                "type": "AKM ID"
+            },
+            {
+                "value": "6131927",
+                "type": "AGADU ID",
+                "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819"
+            },
+            {
+                "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+                "type": "ACAM ID",
+                "value": "3383608"
+            }
+        ],
+        "title": "World in My Eyes",
+        "relations": [
+            {
+                "direction": "backward",
+                "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                "target-type": "artist",
+                "begin": null,
+                "end": null,
+                "artist": {
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "Gore, Martin L.",
+                    "disambiguation": "",
+                    "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                    "type": "Person",
+                    "name": "Martin L. Gore"
+                },
+                "ended": false,
+                "type": "composer",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": []
+            },
+            {
+                "target-type": "artist",
+                "end": null,
+                "begin": null,
+                "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                "direction": "backward",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": "",
+                "type": "lyricist",
+                "attribute-values": [],
+                "artist": {
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "sort-name": "Gore, Martin L.",
+                    "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                    "disambiguation": "",
+                    "type": "Person",
+                    "name": "Martin L. Gore"
+                },
+                "ended": false
+            },
+            {
+                "label": {
+                    "type": "Publisher",
+                    "name": "Grabbing Hands Ltd.",
+                    "label-code": null,
+                    "disambiguation": "",
+                    "id": "ec2eb4b6-5815-4df0-8967-8b642952ebe2",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "sort-name": "Grabbing Hands Ltd."
+                },
+                "direction": "backward",
+                "begin": null,
+                "end": null,
+                "target-type": "label",
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "type": "publishing",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": ""
+            },
+            {
+                "ended": false,
+                "type": "publishing",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "direction": "backward",
+                "label": {
+                    "name": "Sonet Publishing",
+                    "type": "Publisher",
+                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                    "sort-name": "Sonet Publishing",
+                    "label-code": null,
+                    "id": "83d3a034-313d-4b66-add1-35d9e913b6b5",
+                    "disambiguation": ""
+                },
+                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                "target-type": "label",
+                "begin": null,
+                "end": null
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "type": "performance",
+                "attribute-values": [],
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": null,
+                    "id": "0c3384eb-8a49-4332-a789-13d1a0c846b4",
+                    "disambiguation": "live, 1990-06-21: Montreal Forum, Montreal, QC, Canada"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "begin": "1990-06-21",
+                "end": "1990-06-21",
+                "direction": "backward"
+            },
+            {
+                "target-type": "recording",
+                "end": "1990-06-24",
+                "begin": "1990-06-24",
+                "recording": {
+                    "disambiguation": "live, 1990-06-24: Star Lake Amphitheater, Pittsburgh, PA, USA",
+                    "id": "c796c55d-a347-423f-a22c-3f4b28d11760",
+                    "length": null,
+                    "video": false,
+                    "title": "World in My Eyes"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true
+            },
+            {
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "begin": "1990-06-30",
+                "end": "1990-06-30",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": null,
+                    "id": "65baa4c5-5d42-4efb-8ea7-57bd7bb46c93",
+                    "disambiguation": "live, 1990-06-30: Marcus Amphitheatre, Milwaukee, WI, USA"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "e4c55de0-a344-4b63-b83b-9845754839ab",
+                    "disambiguation": "live, 1990-07-02: World Music Theatre, Chicago, IL, USA",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": null
+                },
+                "target-type": "recording",
+                "end": "1990-07-02",
+                "begin": "1990-07-02",
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "type": "performance",
+                "attribute-values": []
+            },
+            {
+                "target-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "ended": true,
+                "attribute-values": [],
+                "type": "performance",
+                "recording": {
+                    "disambiguation": "live, 1990-07-03: World Music Theatre, Chicago, IL, USA",
+                    "id": "9391ec41-932b-4210-9f25-bc7f3d0ff4b8",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": null
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1990-07-03",
+                "end": "1990-07-03",
+                "target-type": "recording",
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "end": "1990-07-06",
+                "begin": "1990-07-06",
+                "target-type": "recording",
+                "recording": {
+                    "disambiguation": "live, 1990-07-06: Cynthia Woods Mitchell Pavilion, Houston, TX, USA",
+                    "id": "524800c9-0388-4424-b7d6-ff2f66624f51",
+                    "length": 373786,
+                    "video": false,
+                    "title": "World in My Eyes"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "begin": "1990-07-21",
+                "end": "1990-07-21",
+                "target-type": "recording",
+                "recording": {
+                    "length": 315000,
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "id": "f3eb25f4-f6e5-4a8c-9872-5b610cc3adc1",
+                    "disambiguation": "live, 1990-07-21: Shoreline Amphitheatre, Mountain View, CA, USA"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true
+            },
+            {
+                "begin": "1990-07-31",
+                "end": "1990-07-31",
+                "target-type": "recording",
+                "recording": {
+                    "disambiguation": "live, 1990-07-31: San Diego Sports Arena, San Diego, CA, USA",
+                    "id": "9faffc0a-e05b-45e5-b726-87a3d39b4cea",
+                    "length": 320000,
+                    "video": false,
+                    "title": "World in My Eyes"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true
+            },
+            {
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "end": "1990-08-04",
+                "begin": "1990-08-04",
+                "recording": {
+                    "id": "71987fe2-ddbd-4ac6-a31e-e96646f23faa",
+                    "disambiguation": "live, 1990-08-04: Dodger Stadium, Los Angeles, CA, USA",
+                    "length": 303480,
+                    "video": false,
+                    "title": "World in My Eyes"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "direction": "backward",
+                "recording": {
+                    "disambiguation": "live, 1990-08-05: Dodger Stadium, Los Angeles, CA, USA",
+                    "id": "e9f7f7ad-841b-4b23-a622-bf107ddfa7aa",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": null
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "end": "1990-08-05",
+                "begin": "1990-08-05",
+                "ended": true,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": ""
+            },
+            {
+                "end": "1990-09-28",
+                "begin": "1990-09-28",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "live, 1990-09-28: Vorst Nationaal, Brussels, Belgium",
+                    "id": "125c2006-2ba5-48ad-96ed-531165a7eb3a",
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": null
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true
+            },
+            {
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true,
+                "end": "1990-10-06",
+                "begin": "1990-10-06",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 301000,
+                    "disambiguation": "live, 1990-10-06: Globe Arena, Stockholm, Sweden",
+                    "id": "f112e3eb-e8d2-40d4-9c1e-50686fe1aa31"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "recording": {
+                    "length": 317000,
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "disambiguation": "live, 1990-10-17: Olympiahalle, München, Germany",
+                    "id": "9a1db4fc-4ade-4240-bc9c-32104d66e452"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "begin": "1990-10-17",
+                "end": "1990-10-17",
+                "ended": true,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ]
+            },
+            {
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true,
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "end": "1990-10-23",
+                "begin": "1990-10-23",
+                "target-type": "recording",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 311000,
+                    "id": "7268f75a-2576-4228-9536-937f209e833b",
+                    "disambiguation": "live, 1990-10-23: Palais Omnisports de Paris-Bercy, Paris, France"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 315666,
+                    "id": "dcd372ce-b75f-4e3b-be79-83930b86be8d",
+                    "disambiguation": "live, 1990‐11‐11: PalaTrussardi, Milan, Italy"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1990-11-11",
+                "end": "1990-11-11",
+                "target-type": "recording",
+                "direction": "backward",
+                "target-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "ended": true,
+                "attribute-values": [],
+                "type": "performance"
+            },
+            {
+                "direction": "backward",
+                "end": "1990-11-19",
+                "begin": "1990-11-19",
+                "target-type": "recording",
+                "recording": {
+                    "id": "6306f17a-4384-4458-b477-6951d6855b90",
+                    "disambiguation": "live, 1990‐11‐19: Wembley Arena, London, UK",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": null
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true,
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "begin": "1993-05-19",
+                "end": "1993-05-19",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 376000,
+                    "disambiguation": "live, 1993-05-19: Espace Foire, Lille, France",
+                    "id": "9a46d116-6bba-4190-92eb-8dab0fe939e4"
+                },
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 372000,
+                    "id": "26f9d8ae-9cae-48a2-8c43-e0ee5ec5b91c",
+                    "disambiguation": "live, 1993‐05‐21: Hallenstadion, Zurich, Switzerland"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "end": "1993-05-21",
+                "begin": "1993-05-21",
+                "ended": true,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ]
+            },
+            {
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "begin": "1993-05-29",
+                "end": "1993-05-29",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 371000,
+                    "id": "779b7463-8d4b-41ea-b80f-7f46af65b4bd",
+                    "disambiguation": "live, 1993-05-29: Stockholm Globe Arena, Stockholm, Sweden"
+                }
+            },
+            {
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "end": "1993-06-01",
+                "begin": "1993-06-01",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 380333,
+                    "id": "29c69b8c-bd90-45b2-b050-34bff165c88e",
+                    "disambiguation": "live, 1993-06-01: The Ahoy, Rotterdam, Netherlands"
+                },
+                "direction": "backward"
+            },
+            {
+                "ended": true,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "direction": "backward",
+                "recording": {
+                    "length": 374626,
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "disambiguation": "live, 1993-06-03: Patinoire de Malley, Lausanne, Switzerland",
+                    "id": "1658914c-54d2-4335-a9a9-8418c5eeb715"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "end": "1993-06-03",
+                "begin": "1993-06-03"
+            },
+            {
+                "end": "1993-06-21",
+                "begin": "1993-06-21",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 386000,
+                    "disambiguation": "live, 1993-06-21: Olympiahalle, München, Germany",
+                    "id": "f8662c33-470c-4ada-bf4b-d90032d466bd"
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true
+            },
+            {
+                "begin": "1993-07-29",
+                "end": "1993-07-29",
+                "target-type": "recording",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 375000,
+                    "disambiguation": "live, 1993-07-29: Stade Couvert Régional, Liévin, France",
+                    "id": "9509a9bb-1f5d-4649-bee4-093b1edd5435"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true
+            },
+            {
+                "direction": "backward",
+                "begin": "1993-07-29",
+                "end": "1993-07-29",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "ff121177-6272-4dea-90a7-1fbda74503c3",
+                    "disambiguation": "live video, 1993-07-29: Stade Couvert Régional, Liévin, France",
+                    "length": 361000,
+                    "title": "World in My Eyes",
+                    "video": true
+                },
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "target-credit": ""
+            },
+            {
+                "target-type": "recording",
+                "end": "1993-07-29",
+                "begin": "1993-07-29",
+                "recording": {
+                    "disambiguation": "live, 1993-07-29: Stade Couvert Régional, Liévin, France",
+                    "id": "0c531129-a50c-4cc8-9fe5-db7052cfd8d6",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 363000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true
+            },
+            {
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": null,
+                    "disambiguation": "live, 1993‐07‐31: Crystal Palace National Sports Centre, London, UK",
+                    "id": "6f21244a-ad94-4269-8fc9-415fc1d14ad0"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "1993-07-31",
+                "end": "1993-07-31",
+                "target-type": "recording",
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "type": "performance",
+                "attribute-values": []
+            },
+            {
+                "ended": true,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "recording": {
+                    "id": "fd67cbf5-46fc-4e13-afea-7f7e456a6ddc",
+                    "disambiguation": "live, 1993-09-23: Madison Square Garden, New York City, NY, USA",
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": null
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": "1993-09-23",
+                "begin": "1993-09-23",
+                "target-type": "recording"
+            },
+            {
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "target-type": "recording",
+                "end": "1993-12-20",
+                "begin": "1993-12-20",
+                "recording": {
+                    "disambiguation": "live, 1993-12-20: Wembley Arena, London, UK",
+                    "id": "6a81b183-b6d6-4fe9-b25e-34366459750b",
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": null
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward"
+            },
+            {
+                "target-type": "recording",
+                "begin": "1994-03-26",
+                "end": "1994-03-26",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 376000,
+                    "id": "3efe496e-d5d2-42ca-b163-36921992aaa6",
+                    "disambiguation": "live, 1994-03-26: Blaisdell Arena, Honolulu, HI, USA"
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true
+            },
+            {
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true,
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "end": "1994-05-14",
+                "begin": "1994-05-14",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "79e0fc79-8b7d-4bcd-9692-cd2f46edd5bc",
+                    "disambiguation": "live, 1994-05-14: Shoreline Amphitheater, Mountain View, CA, USA",
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 374000
+                }
+            },
+            {
+                "target-type": "recording",
+                "end": "1994-05-14",
+                "begin": "1994-05-14",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 357000,
+                    "id": "ad874eef-3220-4be2-a800-b959661d0f74",
+                    "disambiguation": "live, 1994-05-14: Shoreline Amphitheatre, Mountain View, CA, USA"
+                },
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true
+            },
+            {
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "92b5bb6d-3e85-49bf-9e5d-30a00858334a",
+                    "disambiguation": "live, 1998-09-13: Ericsson Globe, Stockholm, Sweden",
+                    "length": 337973,
+                    "title": "World in My Eyes",
+                    "video": false
+                },
+                "begin": "1998-09-13",
+                "end": "1998-09-13",
+                "target-type": "recording",
+                "ended": true,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                }
+            },
+            {
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "begin": "1998-09-18",
+                "end": "1998-09-18",
+                "target-type": "recording",
+                "recording": {
+                    "id": "6afa886a-1dab-4ba1-9e20-8efe3bc8d53e",
+                    "disambiguation": "live, 1998-09-18: Waldbühne, Berlin, Germany",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 333133
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward"
+            },
+            {
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "direction": "backward",
+                "end": "1998-09-25",
+                "begin": "1998-09-25",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "live, 1998‐09‐25: Hallenstadion, Zürich, Switzerland",
+                    "id": "41e8ceb5-fc70-4c52-9730-a66e84e023c5",
+                    "length": null,
+                    "title": "World in My Eyes",
+                    "video": false
+                }
+            },
+            {
+                "begin": "1998-10-05",
+                "end": "1998-10-05",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "dbe5e253-091d-4b5d-97cd-274b1cf5bf8f",
+                    "disambiguation": "live, 1998-10-05: Kölnarena, Cologne, Germany",
+                    "length": 334133,
+                    "video": false,
+                    "title": "World in My Eyes"
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true
+            },
+            {
+                "direction": "backward",
+                "target-type": "recording",
+                "end": "1998-10-13",
+                "begin": "1998-10-13",
+                "recording": {
+                    "length": 337000,
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "disambiguation": "live, 1998-10-13: Olympiahalle, München, Germany",
+                    "id": "3d2b52b9-7e4c-4624-afa3-72f333e1149f"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "target-credit": ""
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "type": "performance",
+                "attribute-values": [],
+                "recording": {
+                    "disambiguation": "live, 1998-11-05: SkyTent, SkyDome, Toronto, Canada",
+                    "id": "cbe4cac9-ef9e-4dd2-9fb0-6d7b22c6bcdf",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": null
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "begin": "1998-11-05",
+                "end": "1998-11-05",
+                "direction": "backward"
+            },
+            {
+                "begin": "1998-12-18",
+                "end": "1998-12-18",
+                "target-type": "recording",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 330306,
+                    "id": "2e257a19-b6c4-43a8-b778-ed6ef23c16e8",
+                    "disambiguation": "live, 1998-12-18: The Forum, Inglewood, CA, USA"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true
+            },
+            {
+                "end": "1998-12-19",
+                "begin": "1998-12-19",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "live, 1998-12-19: The Forum, Inglewood, CA, USA",
+                    "id": "f3bdbb42-6415-4798-8d18-6af2ca59f025",
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": null
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true
+            },
+            {
+                "recording": {
+                    "id": "29524bc6-9e62-4c61-a827-1c26a6d9ee98",
+                    "disambiguation": "live, 1998-12-20: Anaheim, Los Angeles, CA, USA",
+                    "length": null,
+                    "video": false,
+                    "title": "World in My Eyes"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "end": "1998-12-20",
+                "begin": "1998-12-20",
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "type": "performance",
+                "attribute-values": []
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "type": "performance",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "live, 2005-11-25: Glendale Arena, Glendale, AZ, USA",
+                    "id": "4892d110-a720-4e6c-a01e-f2cd1d408751",
+                    "length": null,
+                    "title": "World in My Eyes",
+                    "video": false
+                },
+                "begin": "2005-11-25",
+                "end": "2005-11-25",
+                "target-type": "recording",
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "target-type": "recording",
+                "end": "2006-01-18",
+                "begin": "2006-01-18",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": null,
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "disambiguation": "live, 2006-01-18: Velodrom, Berlin, Germany",
+                    "id": "fb01b88a-be86-4f9a-8e40-ae43cfb959f2"
+                },
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "ended": true,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "direction": "backward",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": null,
+                    "id": "da98185d-a466-43df-a414-daea03d77e0d",
+                    "disambiguation": "live, 2006-01-20: LTU Arena, Düsseldorf, Germany"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": "2006-01-20",
+                "begin": "2006-01-20",
+                "target-type": "recording"
+            },
+            {
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true,
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "begin": "2006-01-21",
+                "end": "2006-01-21",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": null,
+                    "id": "e994cba3-68c8-4dc1-b106-f4efbeba94f0",
+                    "disambiguation": "live, 2006-01-21: LTU Arena, Düsseldorf, Germany"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "direction": "backward",
+                "recording": {
+                    "id": "a489d2dd-34fd-4534-874a-0a342c6c3a87",
+                    "disambiguation": "live, 2006-02-14: Olympiahalle, München, Germany",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": null
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "begin": "2006-02-14",
+                "end": "2006-02-14",
+                "ended": true,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                }
+            },
+            {
+                "direction": "backward",
+                "begin": "2006-02-15",
+                "end": "2006-02-15",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": null,
+                    "id": "3d2ff562-f980-4a54-aa65-f86dbd41460f",
+                    "disambiguation": "live, 2006-02-15: Olympiahalle, München, Germany"
+                },
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "end": "2006-02-18",
+                "begin": "2006-02-18",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "screen, 2006-02-18: Mediolanum Forum, Milan, Italy",
+                    "id": "19acf0c3-0842-404f-ab76-846c84ec60e9",
+                    "length": 315000,
+                    "title": "World in My Eyes",
+                    "video": true
+                }
+            },
+            {
+                "direction": "backward",
+                "recording": {
+                    "disambiguation": "live video, 2006-02-18/19: Mediolanum Forum, Milan, Italy",
+                    "id": "1c12184d-a5be-4b9e-a926-9e2d0ddaf0e7",
+                    "length": 320000,
+                    "video": true,
+                    "title": "World in My Eyes"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "2006-02",
+                "end": "2006-02",
+                "target-type": "recording",
+                "ended": true,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": ""
+            },
+            {
+                "end": "2006-03-28",
+                "begin": "2006-03-28",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": null,
+                    "disambiguation": "live, 2006-03-28: Hallenstadion, Zürich, Switzerland",
+                    "id": "cd61903b-fb2a-45a6-8c03-5d3dfa2175ca"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true
+            },
+            {
+                "direction": "backward",
+                "recording": {
+                    "length": 325000,
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "id": "8ebb3db5-61e4-4095-a477-32973a27ccfe",
+                    "disambiguation": "live, 2006‐04‐27: Shoreline Amphitheatre, Mountain View, CA, USA"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "2006-04-27",
+                "end": "2006-04-27",
+                "target-type": "recording",
+                "ended": true,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": ""
+            },
+            {
+                "direction": "backward",
+                "target-type": "recording",
+                "end": "2006-04-29",
+                "begin": "2006-04-29",
+                "recording": {
+                    "disambiguation": "live, 2006-04-29: Empire Polo Field, Indio, CA, USA",
+                    "id": "0b6a2197-e30a-4225-90ed-1f55a275f4bb",
+                    "length": 326000,
+                    "video": false,
+                    "title": "World in My Eyes"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "target-credit": ""
+            },
+            {
+                "direction": "backward",
+                "begin": "2006-04-30",
+                "end": "2006-04-30",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 335000,
+                    "id": "7b277c80-de92-45fd-a604-8223526caf8a",
+                    "disambiguation": "live, 2006-04-30: Touring the Angel: Las Vegas, NV, USA"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 323000,
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "disambiguation": "live, 2006-05-04: Foro Sol Stadium, Mexico City, Mexico",
+                    "id": "c6386262-4237-4956-8ded-0fe548eb5892"
+                },
+                "target-type": "recording",
+                "begin": "2006-05-04",
+                "end": "2006-05-04",
+                "ended": true,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": ""
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "type": "performance",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 324000,
+                    "disambiguation": "live, 2006-05-05: Foro Sol Stadium, Mexico City, Mexico",
+                    "id": "16c25343-a2c5-4575-93d2-e3267dd7b10a"
+                },
+                "target-type": "recording",
+                "begin": "2006-05-05",
+                "end": "2006-05-05",
+                "direction": "backward"
+            },
+            {
+                "ended": true,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 330000,
+                    "id": "f56e733a-dac3-452e-bc85-95f00be997b9",
+                    "disambiguation": "live, 2006-05-07: Arena, Monterrey, Mexico"
+                },
+                "target-type": "recording",
+                "begin": "2006-05-07",
+                "end": "2006-05-07"
+            },
+            {
+                "target-type": "recording",
+                "begin": "2006-05-17",
+                "end": "2006-05-17",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 329000,
+                    "id": "013bf513-03f1-4ef8-b747-afd4928a93f3",
+                    "disambiguation": "live, 2006‐05‐17: Centre Bell, Montréal, QC, Canada"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true
+            },
+            {
+                "begin": "2006-05-21",
+                "end": "2006-05-21",
+                "target-type": "recording",
+                "recording": {
+                    "id": "1e1e0027-4930-499f-8dc2-3062a3f8a808",
+                    "disambiguation": "live, 2006-05-21: Nissan Pavillion, Washington, DC, USA",
+                    "length": 327813,
+                    "title": "World in My Eyes",
+                    "video": false
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true
+            },
+            {
+                "direction": "backward",
+                "begin": "2006-06-02",
+                "end": "2006-06-02",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "a680807e-1dff-4dae-bb3f-776933a85517",
+                    "disambiguation": "live, 2006‐06‐02: Rock im Park, Luitpoldhain, Nürnberg, Germany",
+                    "length": 331480,
+                    "title": "World in My Eyes",
+                    "video": false
+                },
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": ""
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 331000,
+                    "id": "b71e138d-451c-4381-8162-cbe30123524c",
+                    "disambiguation": "live, 2006-06-07: Atletion Stadium, Aarhus, Denmark"
+                },
+                "target-type": "recording",
+                "begin": "2006-06-07",
+                "end": "2006-06-07",
+                "direction": "backward",
+                "target-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "ended": true,
+                "attribute-values": [],
+                "type": "performance"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 330000,
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "disambiguation": "live, 2006-06-21: Lokomotiv Stadium, Sofia, Bulgaria",
+                    "id": "dc21a672-9443-447b-9599-55a36341d201"
+                },
+                "target-type": "recording",
+                "end": "2006-06-21",
+                "begin": "2006-06-21",
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "type": "performance",
+                "attribute-values": []
+            },
+            {
+                "ended": true,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 330000,
+                    "id": "174ac39f-e9a0-4d45-ade3-6524a25b0f92",
+                    "disambiguation": "live, 2006-06-26: The Point, Dublin, Ireland"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "begin": "2006-06-26",
+                "end": "2006-06-26"
+            },
+            {
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true,
+                "end": "2006-06-28",
+                "begin": "2006-06-28",
+                "target-type": "recording",
+                "recording": {
+                    "id": "7ce28672-52f1-4e52-8976-9d48addbe2a7",
+                    "disambiguation": "live, 2006‐06‐28: Waldbühne, Berlin, Germany",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 335760
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward"
+            },
+            {
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "begin": "2006-06-29",
+                "end": "2006-06-29",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "live, 2006‐06‐29: Grand’Place, Arras, France",
+                    "id": "021e6314-53fb-4c48-8d2b-1c35f3064a7b",
+                    "length": 336000,
+                    "video": false,
+                    "title": "World in My Eyes"
+                }
+            },
+            {
+                "direction": "backward",
+                "recording": {
+                    "id": "910adf35-6808-407e-a1aa-68955bb47b58",
+                    "disambiguation": "live, 2006-07-01: Eurockeennes, Belfort, France",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 330000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": "2006-07-01",
+                "end": "2006-07-01",
+                "target-type": "recording",
+                "ended": true,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                }
+            },
+            {
+                "target-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "ended": true,
+                "attribute-values": [],
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "9c8db5e5-94b1-4660-825d-6c96677019ef",
+                    "disambiguation": "live, 2006-07-02: Werchter Festival, Werchter, Belgium",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 332000
+                },
+                "end": "2006-07-02",
+                "begin": "2006-07-02",
+                "target-type": "recording",
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "end": "2006-07-07",
+                "begin": "2006-07-07",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 329413,
+                    "disambiguation": "live, 2006-07-07: Stadion, Stockholm, Sweden",
+                    "id": "fe6f1768-285b-4ae7-8b0e-b279196a0501"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "target-credit": ""
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "ended": true,
+                "type": "performance",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 334000,
+                    "id": "60624478-c619-4adb-bae1-f273d4575021",
+                    "disambiguation": "live, 2006‐07‐10: Moon & Stars, Piazza Grande, Locarno, Switzerland"
+                },
+                "target-type": "recording",
+                "end": "2006-07-10",
+                "begin": "2006-07-10",
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "live, 2006-07-13: Waldbühne, Berlin, Germany",
+                    "id": "9edce4fd-0819-47f0-9e59-296a3576e971",
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 333000
+                },
+                "begin": "2006-07-13",
+                "end": "2006-07-13",
+                "target-type": "recording",
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "type": "performance",
+                "attribute-values": []
+            },
+            {
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "begin": "2006-07-15",
+                "end": "2006-07-15",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "b2bb8f99-e772-48fc-8d6e-678174fb9a55",
+                    "disambiguation": "live, 2006-07-15: Festwiese, Leipzig, Germany",
+                    "length": 329000,
+                    "video": false,
+                    "title": "World in My Eyes"
+                },
+                "direction": "backward"
+            },
+            {
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "begin": "2006-07-19",
+                "end": "2006-07-19",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 328000,
+                    "disambiguation": "live, 2006‐07‐19: Paléo Festival, L’Asse, Nyon, Switzerland",
+                    "id": "0d7053e0-7cce-4f74-b5b3-2559f85f7f50"
+                }
+            },
+            {
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 331000,
+                    "id": "dff89d2a-1834-4129-9501-98a9bcad334c",
+                    "disambiguation": "live, 2006-07-20: Antic Arena, Nimes, France"
+                },
+                "target-type": "recording",
+                "begin": "2006-07-20",
+                "end": "2006-07-20",
+                "ended": true,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ]
+            },
+            {
+                "direction": "backward",
+                "recording": {
+                    "disambiguation": "live, 2006-07-22: Anoeta Stadium, San Sebastian, Spain",
+                    "id": "3e247a02-73e8-4678-9b11-d9b74ed046e3",
+                    "length": 330000,
+                    "title": "World in My Eyes",
+                    "video": false
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "begin": "2006-07-22",
+                "end": "2006-07-22",
+                "ended": true,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ]
+            },
+            {
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "end": "2006-07-26",
+                "begin": "2006-07-26",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "live, 2006-07-26: Plaza de Toros, Granada, Spain",
+                    "id": "1c4af1f8-b2dd-4b7b-b29a-a267d4b264c9",
+                    "length": 348000,
+                    "title": "World in My Eyes",
+                    "video": false
+                }
+            },
+            {
+                "target-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "ended": true,
+                "attribute-values": [],
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 334000,
+                    "id": "f66fdc62-6a20-4b4e-8cf0-352495e0dacf",
+                    "disambiguation": "live, 2006-08-01: Terra Vibe, Athens, Greece"
+                },
+                "end": "2006-08-01",
+                "begin": "2006-08-01",
+                "target-type": "recording",
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "live, 2009-11-20/21: Palau Sant Jordi, Barcelona, Spain",
+                    "id": "19359114-a606-44dd-b1ad-8bc987be7194",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 317000
+                },
+                "target-type": "recording",
+                "end": "2009-11-20",
+                "begin": "2009-11-20",
+                "ended": true,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": ""
+            },
+            {
+                "direction": "backward",
+                "end": "2009-11-20",
+                "begin": "2009-11-20",
+                "target-type": "recording",
+                "recording": {
+                    "length": 318000,
+                    "video": true,
+                    "title": "World in My Eyes",
+                    "disambiguation": "live, 2009-11-20: Palau Sant Jordi, Barcelona, Spain",
+                    "id": "b26deed1-486e-4cd5-adbe-9806ddd61818"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true,
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "end": "2009-12-13",
+                "begin": "2009-12-13",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "live, 2009-12-13: LG Arena, Birmingham, UK",
+                    "id": "97f6f36c-c003-4170-9437-1a8349eb5785",
+                    "length": 334933,
+                    "video": false,
+                    "title": "World in My Eyes"
+                }
+            },
+            {
+                "target-type": "recording",
+                "begin": "2010-02-17",
+                "end": "2010-02-17",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 469000,
+                    "id": "065231e8-b1ac-48fc-b404-6f954e53846d",
+                    "disambiguation": "live, 2010-02-17: The Royal Albert Hall, London, UK"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "live, 2018-07-23/25: Waldbühne, Berlin, Germany",
+                    "id": "ab193af2-b379-46a6-91ce-46f3a10f8565",
+                    "length": 331440,
+                    "title": "World in My Eyes",
+                    "video": false
+                },
+                "target-type": "recording",
+                "end": "2018-07",
+                "begin": "2018-07",
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "type": "performance",
+                "attribute-values": []
+            },
+            {
+                "direction": "backward",
+                "begin": "2018-07",
+                "end": "2018-07",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 344000,
+                    "video": true,
+                    "title": "World in My Eyes",
+                    "disambiguation": "live video, 2018-07-23/25: Waldbühne, Berlin, Germany",
+                    "id": "dc3fb18c-4ba7-4cbd-9853-b0ddc0f68189"
+                },
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true,
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "direction": "backward",
+                "recording": {
+                    "length": null,
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "cdf94398-e17c-4957-a474-6bcda4e6ec09"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": "2018-08-25",
+                "begin": "2018-08-25",
+                "target-type": "recording",
+                "ended": true,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a",
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover",
+                    "live"
+                ],
+                "source-credit": ""
+            },
+            {
+                "direction": "backward",
+                "begin": "2019-03-16",
+                "end": "2019-03-16",
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 346000,
+                    "id": "d9df53cf-3955-4ba1-aec8-b076498e428a",
+                    "disambiguation": "live, 2019-03-16: Bunker Strasse E, Dresden, Germany"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": true,
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a",
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover",
+                    "live"
+                ],
+                "target-credit": ""
+            },
+            {
+                "ended": true,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "recording": {
+                    "length": 315000,
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "id": "8f2d16d5-6ef6-4a7f-80a8-ea953efc2fd3",
+                    "disambiguation": "live, 2023‐06‐02: Primavera Sound Festival, Parc del Fòrum, Barcelona, Spain"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "end": "2023-06-02",
+                "begin": "2023-06-02"
+            },
+            {
+                "direction": "backward",
+                "recording": {
+                    "id": "67ac2677-447d-4a6f-9808-91b6dde1bb32",
+                    "disambiguation": "live, 2023‐07‐07: Olympiastadion, Berlin, Germany",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 327000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "end": "2023-07-07",
+                "begin": "2023-07-07",
+                "ended": true,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                }
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "3d21baa7-e2f5-42a7-bde6-22953c73333e",
+                    "disambiguation": "live, 2023‐07‐09: Olympiastadion, Berlin, Germany",
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": null
+                },
+                "begin": "2023-07-09",
+                "end": "2023-07-09",
+                "target-type": "recording",
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "attributes": [
+                    "live"
+                ],
+                "ended": true,
+                "type": "performance",
+                "attribute-values": []
+            },
+            {
+                "direction": "backward",
+                "end": "2023-09",
+                "begin": "2023-09",
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 315760,
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "id": "bcf1d0f6-a565-416e-a142-5558b5df4c60",
+                    "disambiguation": "live, 2023‐09‐21 / 23 / 25: Foro Sol, Ciudad de México, Mexico"
+                },
+                "attribute-values": [],
+                "type": "performance",
+                "ended": true,
+                "attributes": [
+                    "live"
+                ],
+                "attribute-ids": {
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "direction": "backward",
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "recording": {
+                    "id": "971a0bd9-c485-4b16-881b-d4742a94b7f6",
+                    "disambiguation": "",
+                    "length": 618000,
+                    "video": false,
+                    "title": "A Continuous Mix"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "ordering-key": 3,
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "attributes": [
+                    "medley"
+                ],
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "recording": {
+                    "title": "Australian Megamix Medley",
+                    "video": false,
+                    "length": 1504093,
+                    "disambiguation": "",
+                    "id": "b7145212-b728-431b-826c-8b1bdba1fd8b"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "attributes": [
+                    "medley"
+                ],
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ordering-key": 14,
+                "ended": false
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 201000,
+                    "video": false,
+                    "title": "Depeche Mode",
+                    "disambiguation": "",
+                    "id": "4022b2c2-a4ce-4935-81dc-8731a5844d42"
+                },
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "direction": "backward",
+                "target-credit": "",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance"
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "attributes": [
+                    "medley"
+                ],
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "title": "Hey Track (megamix)",
+                    "video": false,
+                    "length": 668000,
+                    "disambiguation": "",
+                    "id": "9afd2c11-a554-4abd-96de-68ebe97a2238"
+                },
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "direction": "backward"
+            },
+            {
+                "target-credit": "",
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "attributes": [
+                    "medley"
+                ],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "ordering-key": 3,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "24aebc84-edf3-485b-8189-0b574d40d351",
+                    "title": "In De Mode Megamix",
+                    "video": false,
+                    "length": 2866000
+                },
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "00ba1cb3-77c5-4a49-8fa6-9dbdcdb23701",
+                    "title": "Mix of Faith and Devotion",
+                    "video": false,
+                    "length": 1489000
+                },
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "ended": false,
+                "ordering-key": 14,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "attributes": [
+                    "medley"
+                ],
+                "source-credit": ""
+            },
+            {
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "attributes": [
+                    "medley"
+                ],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ordering-key": 5,
+                "ended": false,
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "recording": {
+                    "disambiguation": "",
+                    "id": "afd89771-6ded-40e4-953c-de59810bad59",
+                    "length": 965800,
+                    "video": false,
+                    "title": "New Mode Mecca '90"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward"
+            },
+            {
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "recording": {
+                    "title": "Old School Megamix",
+                    "video": false,
+                    "length": 455000,
+                    "disambiguation": "",
+                    "id": "f726f439-ffa3-4657-9154-0fccd9c02a9d"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "attributes": [
+                    "medley"
+                ],
+                "source-credit": "",
+                "target-credit": "",
+                "ordering-key": 8,
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false
+            },
+            {
+                "target-credit": "",
+                "attribute-ids": {
+                    "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+                },
+                "attributes": [
+                    "medley"
+                ],
+                "source-credit": "",
+                "ended": false,
+                "ordering-key": 5,
+                "attribute-values": [],
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "53453661-af5a-4148-9eac-a9b74b96f0fb",
+                    "video": false,
+                    "title": "Technology Megamix",
+                    "length": 1364000
+                },
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "direction": "backward"
+            },
+            {
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "",
+                "direction": "backward",
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 237840,
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "disambiguation": "single version",
+                    "id": "1fdff0d9-1ec6-434c-9301-0cc8de6562d3"
+                }
+            },
+            {
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 291773,
+                    "id": "a1ad354c-766c-4d97-83a2-81de04114d98",
+                    "disambiguation": ""
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false
+            },
+            {
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "recording": {
+                    "id": "17292ee5-c78d-419b-9aec-040582fa0695",
+                    "disambiguation": "",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 271973
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 292560,
+                    "disambiguation": "",
+                    "id": "f7fef24f-4a24-40a8-bc14-4b2f8ed72f9c"
+                },
+                "direction": "backward"
+            },
+            {
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "recording": {
+                    "length": 241360,
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "id": "10011f86-81a2-4b06-aeb6-c18ab48ddfc8",
+                    "disambiguation": ""
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "direction": "backward",
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "recording": {
+                    "id": "0353d4e9-5445-46be-87b2-a1b619e1869a",
+                    "disambiguation": "",
+                    "length": 232320,
+                    "video": false,
+                    "title": "World in My Eyes"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "source-credit": "",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "recording": {
+                    "length": 242146,
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "disambiguation": "",
+                    "id": "edd1b2fc-ac0b-42b0-a3ba-3814547d8f18"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward"
+            },
+            {
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "2dc9d5ad-95d3-4533-93fc-314c00294554",
+                    "disambiguation": "",
+                    "length": 223826,
+                    "title": "World in My Eyes",
+                    "video": false
+                },
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 312000,
+                    "id": "39bb728a-8711-4d0c-a568-3e045e8d0f51",
+                    "disambiguation": ""
+                },
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "recording": {
+                    "id": "a0e1c1d0-6267-4fe0-906f-2cc40909f8fe",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 244000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "a5b1fba0-089e-48f9-a3cb-7e05daaa9e28",
+                    "disambiguation": "",
+                    "length": 221373,
+                    "title": "World in My Eyes",
+                    "video": false
+                },
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "ended": false,
+                "type": "performance",
+                "attribute-values": []
+            },
+            {
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 247000,
+                    "disambiguation": "",
+                    "id": "9a4ae9f0-508a-41f5-9d0e-8b17be90a08e"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "recording": {
+                    "id": "26f7bb0d-133d-4811-a8bf-0ff930c5a11a",
+                    "disambiguation": "album version",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 266000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false
+            },
+            {
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "recording": {
+                    "length": 256000,
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "8852f1b1-8530-4114-a710-aead1a80b560"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "source-credit": "",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false
+            },
+            {
+                "recording": {
+                    "id": "fb51da85-a522-4ac3-922c-a81e67bbe29e",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 226680
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "direction": "backward",
+                "target-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance"
+            },
+            {
+                "direction": "backward",
+                "recording": {
+                    "id": "e0388679-2ae8-40a1-b4a5-1fab871bc9dd",
+                    "disambiguation": "",
+                    "length": null,
+                    "video": false,
+                    "title": "World in My Eyes"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                }
+            },
+            {
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 251000,
+                    "disambiguation": "",
+                    "id": "111d08ef-0d9e-418a-a8c9-2bb82adc1b8a"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward"
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 271000,
+                    "id": "fd127e93-e59f-482f-892b-3221741e25ed",
+                    "disambiguation": ""
+                },
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "direction": "backward"
+            },
+            {
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "recording": {
+                    "disambiguation": "",
+                    "id": "62b13b9d-6c7a-4b4e-9a7c-ce2e4a7ca1cf",
+                    "length": 223360,
+                    "title": "World in My Eyes",
+                    "video": false
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "source-credit": "",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "recording": {
+                    "id": "3e7c6c01-7c42-429b-8535-f7d1e3255eee",
+                    "disambiguation": "",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 239000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 222000,
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "id": "8ebb5df8-651d-48a1-80af-4429b04c1756",
+                    "disambiguation": ""
+                },
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "ended": false,
+                "type": "performance",
+                "attribute-values": []
+            },
+            {
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "c824a631-97c4-4c51-b93a-67a4269e4ed5",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 238000
+                },
+                "begin": null,
+                "end": null,
+                "target-type": "recording"
+            },
+            {
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "target-credit": "",
+                "direction": "backward",
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 241000,
+                    "disambiguation": "",
+                    "id": "5169ce3b-3c55-40e2-a1ae-9a582f4362fd"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "recording": {
+                    "length": 250000,
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "id": "b9d594b3-5278-4093-9faa-0f5ffffb0cb9",
+                    "disambiguation": ""
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "ended": false,
+                "type": "performance",
+                "attribute-values": []
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 266000,
+                    "id": "b6f3bb7c-a561-49bb-b9fe-7a4defb3e0b8",
+                    "disambiguation": "5.1 mix"
+                },
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "direction": "backward"
+            },
+            {
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "6981559e-c44b-48e1-8b74-b290bf0c5370",
+                    "disambiguation": "Ultimix remix by Roonie G.",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 337000
+                },
+                "target-type": "recording",
+                "begin": null,
+                "end": null
+            },
+            {
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "recording": {
+                    "length": 258000,
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "id": "dcfafa85-cfac-4b52-a79e-72ec322e1547",
+                    "disambiguation": "Violator 2000 Reload version"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": true,
+                    "length": 354000,
+                    "id": "c9360d7f-a6b9-48ab-919c-a6e153a23de4",
+                    "disambiguation": "video, alternate version"
+                },
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": []
+            },
+            {
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "recording": {
+                    "disambiguation": "Megamix, by D58",
+                    "id": "3d2f8d0e-4958-4894-b0e6-e85dd30685af",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 297247
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "recording": {
+                    "disambiguation": "video, original version from The Videos 86-98",
+                    "id": "398ca9ba-d74e-4347-924e-64785bdad7f8",
+                    "length": 357360,
+                    "title": "World in My Eyes",
+                    "video": true
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": ""
+            },
+            {
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "0c75bbfd-27a1-4d91-9733-5c425dd30f48",
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 238000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false
+            },
+            {
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": "",
+                "direction": "backward",
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "d3d8c142-5f56-4480-b7be-84a84b5f5f55",
+                    "length": 243200,
+                    "video": false,
+                    "title": "World in My Eyes"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "recording": {
+                    "disambiguation": "",
+                    "id": "bb0508e4-962a-42c6-87a5-7c0991e7234a",
+                    "length": 267154,
+                    "title": "World in My Eyes",
+                    "video": false
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false
+            },
+            {
+                "recording": {
+                    "disambiguation": "part of a “Deep Presents: Depeche Mode in the Mix” DJ‐mix",
+                    "id": "1f817642-1633-41dc-b453-0d2270523bb8",
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 121000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "ended": false,
+                "type": "performance",
+                "attribute-values": []
+            },
+            {
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "cover",
+                    "live"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+                    "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+                },
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "0f2d4612-5aa1-4062-9b63-3558dfb7786f",
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": null
+                },
+                "target-type": "recording",
+                "begin": null,
+                "end": null
+            },
+            {
+                "target-credit": "",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 239000,
+                    "disambiguation": "",
+                    "id": "478f71df-bff0-4b4a-9fa0-f2a2623bb959"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "4b06b9e8-eac0-4de1-b928-848916d7811d",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 248000
+                },
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "direction": "backward",
+                "target-credit": "",
+                "attributes": [
+                    "cover",
+                    "instrumental"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+                },
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance"
+            },
+            {
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "recording": {
+                    "id": "ff3b796d-4608-4760-b850-55d84b0313f7",
+                    "disambiguation": "",
+                    "length": 273521,
+                    "title": "World in My Eyes",
+                    "video": false
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward"
+            },
+            {
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "source-credit": "",
+                "direction": "backward",
+                "recording": {
+                    "length": 199308,
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "0299c809-7dd3-4031-b8be-5ac429fa926f"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "end": null,
+                "begin": null
+            },
+            {
+                "target-credit": "",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "title": "World in My Eyes",
+                    "video": false,
+                    "length": 222295,
+                    "disambiguation": "",
+                    "id": "3fb45cd9-40b3-4b6f-9d19-dabb0286d60e"
+                },
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "direction": "backward"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "ec5d34b5-850d-4463-996b-17f8afd1eca5",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 456000
+                },
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "direction": "backward",
+                "target-credit": "",
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance"
+            },
+            {
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 290533,
+                    "disambiguation": "",
+                    "id": "ed9d3ca6-a3ab-46be-a312-15d9855f5132"
+                },
+                "direction": "backward"
+            },
+            {
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 275906,
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "id": "182f9088-6c55-48f6-a586-028b7976c821",
+                    "disambiguation": ""
+                },
+                "target-type": "recording",
+                "end": null,
+                "begin": null
+            },
+            {
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "153d1268-c513-49fa-8390-ed5868a3ba4e",
+                    "disambiguation": "",
+                    "length": 290000,
+                    "title": "World in My Eyes",
+                    "video": false
+                },
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes",
+                    "length": 279000,
+                    "id": "a97e5e5b-6f23-400d-9c3e-953075bc589e",
+                    "disambiguation": ""
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": ""
+            },
+            {
+                "direction": "backward",
+                "recording": {
+                    "id": "64469f6c-cddc-4861-88f4-c5ded1e60f99",
+                    "disambiguation": "",
+                    "video": true,
+                    "title": "World in My Eyes",
+                    "length": 376000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": []
+            },
+            {
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "21af8e86-ff6e-45ee-8a66-537adb59934a",
+                    "video": false,
+                    "title": "World in My Eyes (8-Bit remix)",
+                    "length": 192000
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false
+            },
+            {
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "recording": {
+                    "id": "7df217ea-eb05-4fe4-adfe-afa30a2e3dc9",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "World in My Eyes (Acid Trip mix)",
+                    "length": null
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false
+            },
+            {
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "direction": "backward",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "c50b562f-7c61-451d-a028-70ecb63814a0",
+                    "video": false,
+                    "title": "World in My Eyes (Alpha Conspiracy mix)",
+                    "length": 332000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "end": null,
+                "target-type": "recording"
+            },
+            {
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 235000,
+                    "title": "World in My Eyes (Anjuna Technoclub mix)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "fed34fa4-cbf6-479c-be01-46a718fc8018"
+                },
+                "direction": "backward",
+                "attributes": [
+                    "cover"
+                ],
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false
+            },
+            {
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "recording": {
+                    "length": 485000,
+                    "video": false,
+                    "title": "World in My Eyes (Area 51 remix)",
+                    "id": "545e5b45-5b92-4298-895b-4811f301e0cc",
+                    "disambiguation": ""
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "direction": "backward",
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "recording": {
+                    "title": "World in My Eyes (Around the World)",
+                    "video": false,
+                    "length": 546000,
+                    "disambiguation": "",
+                    "id": "9a10ed5e-81be-4f05-81cb-53179fc83f21"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": ""
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "5f13c770-52ff-44bc-a7c6-c7879eef152d",
+                    "length": 360000,
+                    "title": "World in My Eyes (Bass mix)",
+                    "video": false
+                },
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "ended": false,
+                "type": "performance",
+                "attribute-values": []
+            },
+            {
+                "direction": "backward",
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "274c21bc-2843-40b1-99a8-b6925de84ecd",
+                    "length": 467000,
+                    "video": false,
+                    "title": "World in My Eyes (Baunder remix)"
+                },
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": ""
+            },
+            {
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "direction": "backward",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes (Biohazard mix)",
+                    "length": 242000,
+                    "disambiguation": "",
+                    "id": "39d249a6-6528-4b4a-8fd1-0fe0123b69e8"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "begin": null,
+                "end": null
+            },
+            {
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "recording": {
+                    "title": "World in My Eyes (Bogus Brothers’ dub)",
+                    "video": false,
+                    "length": 360000,
+                    "disambiguation": "",
+                    "id": "223de149-043d-49ea-9527-484c613ae5a4"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false
+            },
+            {
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes (Cicada remix)",
+                    "length": 379000,
+                    "id": "60a9609d-7420-47c4-a41f-974446dd638d",
+                    "disambiguation": ""
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false
+            },
+            {
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "title": "World in My Eyes (Cicada remix)",
+                    "video": false,
+                    "length": 275000,
+                    "disambiguation": "DJ mixed",
+                    "id": "ac124db6-042f-4a9f-ab85-17d01700aa59"
+                },
+                "direction": "backward"
+            },
+            {
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "part of “Voices of Summer 2007” DJ mix",
+                    "id": "16883b10-d4a1-463a-9b1a-81e2f7de67d7",
+                    "video": false,
+                    "title": "World in My Eyes (Cicada remix) (GT vs. Project C outro edit)",
+                    "length": 273000
+                }
+            },
+            {
+                "direction": "backward",
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "2bc43d99-fd69-4e17-9d82-e5e80e56f216",
+                    "disambiguation": "",
+                    "length": 277720,
+                    "title": "World in My Eyes (Daniel Miller mix)",
+                    "video": false
+                },
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "direction": "backward",
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "recording": {
+                    "id": "c2ca9071-d127-4134-a9bb-262bf4c02a62",
+                    "disambiguation": "",
+                    "length": 188852,
+                    "title": "World in My Eyes (Depeche Mode)",
+                    "video": false
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "attribute-ids": {
+                    "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+                },
+                "attributes": [
+                    "cover"
+                ],
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "recording": {
+                    "id": "5630d358-5f5b-43a0-9de3-479f8f935505",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "World in My Eyes (DFEG’s Next Level mix)",
+                    "length": 515000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward"
+            },
+            {
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "recording": {
+                    "title": "World in My Eyes (Distortion remix)",
+                    "video": false,
+                    "length": 299080,
+                    "id": "3bc82a97-32ee-4920-8f89-8f2ac80f39e3",
+                    "disambiguation": ""
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false
+            },
+            {
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "c1881989-ed51-4efa-b83e-eebc469b9908",
+                    "length": 437000,
+                    "title": "World in My Eyes (djcruMbs Water remix)",
+                    "video": false
+                },
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": ""
+            },
+            {
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "95efdbb6-71f8-4027-ab4d-d98f7d4daaf1",
+                    "length": 416000,
+                    "title": "World in My Eyes (Dub in My Eyes)",
+                    "video": false
+                },
+                "target-type": "recording",
+                "begin": null,
+                "end": null
+            },
+            {
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes (dub mix)",
+                    "length": 359800,
+                    "id": "0a363d65-3f7b-42fb-8a47-796a63df8339",
+                    "disambiguation": ""
+                },
+                "end": null,
+                "begin": null,
+                "target-type": "recording"
+            },
+            {
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes (dub’remix)",
+                    "length": 492800,
+                    "id": "2db074ef-0b11-441d-9645-525418b59811",
+                    "disambiguation": ""
+                },
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": ""
+            },
+            {
+                "direction": "backward",
+                "recording": {
+                    "length": 309120,
+                    "title": "World in My Eyes (Framewerk 4X4 rewerk)",
+                    "video": false,
+                    "id": "44e996a1-6e15-43f2-b888-57b717ff4593",
+                    "disambiguation": ""
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": ""
+            },
+            {
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "recording": {
+                    "id": "b07840ca-0739-475e-a97b-a1f998034e06",
+                    "disambiguation": "",
+                    "video": false,
+                    "title": "World in My Eyes (Hammer mix)",
+                    "length": 356826
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false
+            },
+            {
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "",
+                "direction": "backward",
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "recording": {
+                    "title": "World in My Eyes (Holy World mix)",
+                    "video": false,
+                    "length": 495000,
+                    "id": "002ea03a-801e-45d0-a83c-a96d0e159425",
+                    "disambiguation": ""
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "e1f43c77-8424-49b1-b3bb-f2edaa371f67",
+                    "title": "World in My Eyes (It’s a Lot Dubbing mix)",
+                    "video": false,
+                    "length": 397000
+                },
+                "direction": "backward"
+            },
+            {
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 514000,
+                    "video": false,
+                    "title": "World in My Eyes (Jodo’s Tanked 901 mix)",
+                    "id": "4051ae6f-ddce-4e92-b7df-18dee01e7afd",
+                    "disambiguation": ""
+                },
+                "direction": "backward"
+            },
+            {
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "a0c4a743-4263-4dc7-b6d1-02e8f42c615f",
+                    "disambiguation": "earlier fade-out of Mode to Joy",
+                    "length": 372000,
+                    "title": "World in My Eyes (Jon Marsh to Joy)",
+                    "video": false
+                }
+            },
+            {
+                "target-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 235000,
+                    "title": "World in My Eyes (JP)",
+                    "video": false,
+                    "id": "2b277e7b-40b6-4a8a-9f9c-216db555824d",
+                    "disambiguation": ""
+                },
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "direction": "backward"
+            },
+            {
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "direction": "backward",
+                "recording": {
+                    "length": 214000,
+                    "title": "World in My Eyes (Madtracker remix)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "817782d5-0329-4cb9-9793-44db8f2c10ec"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "end": null,
+                "target-type": "recording"
+            },
+            {
+                "target-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes (Maxiblues remix)",
+                    "length": 448366,
+                    "disambiguation": "",
+                    "id": "faca7b48-7e86-4309-add1-3a52537835e9"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "direction": "backward"
+            },
+            {
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "recording": {
+                    "length": 296000,
+                    "title": "World in My Eyes (Mayhem Mode)",
+                    "video": false,
+                    "id": "d80f0105-2833-42b8-90e4-7cd3ce0f7413",
+                    "disambiguation": ""
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward"
+            },
+            {
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "recording": {
+                    "disambiguation": "",
+                    "id": "5b43007b-ac3d-4c3c-af51-948b56903e48",
+                    "title": "World in My Eyes (Memory mix)",
+                    "video": false,
+                    "length": 257000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "03b0ff9d-d62a-45d6-a062-61ba31c54a12",
+                    "disambiguation": "",
+                    "length": 333866,
+                    "title": "World in My Eyes (Mixx Rite remix)",
+                    "video": false
+                },
+                "direction": "backward"
+            },
+            {
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "length": 497413,
+                    "title": "World in My Eyes (Moby’s dub)",
+                    "video": false,
+                    "disambiguation": "",
+                    "id": "e1e9acbe-0736-487c-b2b9-dd4ff7afc29d"
+                }
+            },
+            {
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "b3256492-8bc5-420e-a957-bb81950f055e",
+                    "disambiguation": "",
+                    "length": 277733,
+                    "title": "World in My Eyes (Mode 2 Cure)",
+                    "video": false
+                }
+            },
+            {
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "title": "World in My Eyes (Mode to Joy mix)",
+                    "video": false,
+                    "length": 347000,
+                    "id": "4c70bcd0-93b9-433c-a5a8-0d29c432aae8",
+                    "disambiguation": "part of “EXPLOITED Radio: Phunkadelica” DJ‐mix"
+                },
+                "direction": "backward"
+            },
+            {
+                "recording": {
+                    "length": 390000,
+                    "video": false,
+                    "title": "World in My Eyes (Mode to Joy)",
+                    "id": "a6532e0b-9de2-448a-9230-894e573f3538",
+                    "disambiguation": ""
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "direction": "backward",
+                "target-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance"
+            },
+            {
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "part of “Seth Troxler at Time Warp DE, 2019” DJ‐mix",
+                    "id": "2afffd61-f1e9-4491-b3ba-a9b5083a2070",
+                    "video": false,
+                    "title": "World in My Eyes (Mode to Joy)",
+                    "length": 299000
+                },
+                "end": null,
+                "begin": null,
+                "target-type": "recording"
+            },
+            {
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "instrumental",
+                    "id": "31f5f9a1-1ece-4446-9dfc-48d20dde6b99",
+                    "video": false,
+                    "title": "World in My Eyes (new riff)",
+                    "length": 284000
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "attribute-ids": {
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+                },
+                "attributes": [
+                    "instrumental"
+                ],
+                "target-credit": "",
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false
+            },
+            {
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": "",
+                "direction": "backward",
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "recording": {
+                    "id": "31151db6-2a67-4836-a65c-0f6cd5a38f8c",
+                    "disambiguation": "",
+                    "length": 360160,
+                    "video": false,
+                    "title": "World in My Eyes (NIP Believe mix)"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "recording": {
+                    "id": "64c0024c-f4f2-4fa6-8f16-7baed06fe1b3",
+                    "disambiguation": "long intro version",
+                    "length": 467000,
+                    "video": false,
+                    "title": "World in My Eyes (Oil Tank mix)"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "title": "World in My Eyes (Oil Tank mix)",
+                    "video": false,
+                    "length": 413000,
+                    "id": "fa536597-399a-4a31-8cb4-2a881581a8cd",
+                    "disambiguation": "3″ edit"
+                },
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "ended": false,
+                "type": "performance",
+                "attribute-values": []
+            },
+            {
+                "recording": {
+                    "length": 450293,
+                    "title": "World in My Eyes (Oil Tank mix)",
+                    "video": false,
+                    "id": "16b5528f-0ccb-46e8-b40e-898ba04e522a",
+                    "disambiguation": "short intro version / edit"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "direction": "backward",
+                "target-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance"
+            },
+            {
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "attributes": [
+                    "instrumental"
+                ],
+                "attribute-ids": {
+                    "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "d6d7def1-46bd-4c42-80ac-0d565e750601",
+                    "disambiguation": "instrumental",
+                    "video": false,
+                    "title": "World in My Eyes (old riff)",
+                    "length": 281000
+                }
+            },
+            {
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "recording": {
+                    "disambiguation": "",
+                    "id": "640e4ab9-6cf3-42ba-adb3-b50f47bd28e4",
+                    "length": 563053,
+                    "title": "World in My Eyes (Old School club mix)",
+                    "video": false
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "direction": "backward"
+            },
+            {
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "0b23132f-1d2c-4dd6-95c4-bdac3fea2b9f",
+                    "video": false,
+                    "title": "World in My Eyes (Razormaid mix edit)",
+                    "length": 423000
+                }
+            },
+            {
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "faabf30a-5363-440b-afe7-0c0e755adbb6",
+                    "disambiguation": "",
+                    "length": 457000,
+                    "video": false,
+                    "title": "World in My Eyes (Razormaid mix)"
+                },
+                "direction": "backward"
+            },
+            {
+                "type": "performance",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "",
+                "direction": "backward",
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "id": "5861c426-1908-430f-afa6-1633bda79f7b",
+                    "disambiguation": "",
+                    "title": "World in My Eyes (REM DM mix)",
+                    "video": false,
+                    "length": 302106
+                }
+            },
+            {
+                "recording": {
+                    "video": false,
+                    "title": "World in My Eyes (Safar mix)",
+                    "length": 510000,
+                    "disambiguation": "",
+                    "id": "1b9e0c91-30af-4697-aaea-b557dbe041f2"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "direction": "backward",
+                "target-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance"
+            },
+            {
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "target-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "direction": "backward",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "c7437905-4efd-44af-af64-a6af0a8338ad",
+                    "length": 230000,
+                    "video": false,
+                    "title": "World in My Eyes (Safin mix)"
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "end": null,
+                "begin": null,
+                "target-type": "recording"
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "title": "World in My Eyes (straight version)",
+                    "video": false,
+                    "length": 284000,
+                    "id": "315b4b5b-3ca4-49ae-936f-21ac90928552",
+                    "disambiguation": ""
+                },
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "ended": false,
+                "type": "performance",
+                "attribute-values": []
+            },
+            {
+                "target-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "performance",
+                "recording": {
+                    "id": "689f7e9b-8337-4335-8d8a-20baf4153c21",
+                    "disambiguation": "",
+                    "title": "World in My Eyes (Strange remix)",
+                    "video": false,
+                    "length": 313000
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "direction": "backward"
+            },
+            {
+                "attribute-values": [],
+                "type": "performance",
+                "ended": false,
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "direction": "backward",
+                "end": null,
+                "begin": null,
+                "target-type": "recording",
+                "recording": {
+                    "length": 503840,
+                    "video": false,
+                    "title": "World in My Eyes (The Bogus Brother’s Oil Tank remix)",
+                    "id": "ff36e4e8-f284-4fda-8777-f91ee9452c18",
+                    "disambiguation": ""
+                },
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+            },
+            {
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "d1076476-4314-4b63-b658-0ef4639cf1ab",
+                    "length": 308000,
+                    "video": false,
+                    "title": "World in My Eyes (Trancentral remix)"
+                },
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": []
+            },
+            {
+                "direction": "backward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "c9953afa-6201-41e7-b6ee-8a206390f3e5",
+                    "length": 293000,
+                    "title": "World in My Eyes (Trip Mode mix)",
+                    "video": false
+                },
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "ended": false,
+                "type": "performance",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": []
+            },
+            {
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "934cf1d3-addc-43df-a147-99b9cf492f27",
+                    "length": 379000,
+                    "title": "World in My Eyes (WestBam live mix)",
+                    "video": false
+                },
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "ended": false,
+                "type": "performance",
+                "attribute-values": []
+            },
+            {
+                "url": {
+                    "resource": "https://dmlive.wiki/wiki/World_In_My_Eyes",
+                    "id": "cdfe45a9-2aff-4523-b55d-d633621b0467"
+                },
+                "type-id": "174a04f8-a28e-41d0-a42a-7088887cd493",
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "direction": "backward",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "fanpage"
+            },
+            {
+                "target-type": "url",
+                "begin": null,
+                "end": null,
+                "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                "url": {
+                    "id": "35862484-a61e-4cb9-b19b-d9d6b8d27a1d",
+                    "resource": "https://secondhandsongs.com/work/3873"
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": "",
+                "type": "secondhandsongs",
+                "attribute-values": [],
+                "ended": false
+            },
+            {
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "",
+                "type": "wikidata",
+                "attribute-values": [],
+                "ended": false,
+                "target-type": "url",
+                "begin": null,
+                "end": null,
+                "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
+                "url": {
+                    "resource": "https://www.wikidata.org/wiki/Q2428773",
+                    "id": "8c3cb779-aa4a-49a9-85c7-f45d3ded3506"
+                },
+                "direction": "backward"
+            }
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "languages": [
+            "eng"
+        ]
+    },
+    "fetched_at": 1792074769.383228,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "work"
+}

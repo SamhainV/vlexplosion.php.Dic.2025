@@ -1,0 +1,134 @@
+{
+    "data": {
+        "sort-name": "EMI Blackwood Music Inc.",
+        "country": null,
+        "label-code": null,
+        "disambiguation": "",
+        "aliases": [
+            {
+                "name": "Blackwood Music Inc.",
+                "type": null,
+                "ended": true,
+                "primary": null,
+                "begin": null,
+                "end": "1989-07-24",
+                "locale": null,
+                "sort-name": "Blackwood Music Inc.",
+                "type-id": null
+            },
+            {
+                "type-id": "829662f2-a781-3ec8-8b46-fbcea6196f81",
+                "sort-name": "EMI BLACKWOOD MUSIC INC 301",
+                "locale": null,
+                "end": null,
+                "begin": null,
+                "primary": null,
+                "ended": false,
+                "type": "Search hint",
+                "name": "EMI BLACKWOOD MUSIC INC 301"
+            },
+            {
+                "type-id": null,
+                "sort-name": "EMI Blackwood",
+                "locale": null,
+                "begin": null,
+                "end": null,
+                "primary": null,
+                "ended": false,
+                "type": null,
+                "name": "EMI Blackwood"
+            },
+            {
+                "locale": null,
+                "begin": null,
+                "end": null,
+                "sort-name": "EMI Blackwood Inc.",
+                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                "type": "Label name",
+                "name": "EMI Blackwood Inc.",
+                "primary": null,
+                "ended": false
+            },
+            {
+                "ended": false,
+                "primary": null,
+                "type": null,
+                "name": "EMI Blackwood Music",
+                "sort-name": "EMI Blackwood Music",
+                "type-id": null,
+                "end": null,
+                "begin": null,
+                "locale": null
+            },
+            {
+                "locale": null,
+                "begin": null,
+                "end": null,
+                "sort-name": "EMI Blackwood Music, Inc.",
+                "type-id": null,
+                "name": "EMI Blackwood Music, Inc.",
+                "type": null,
+                "primary": null,
+                "ended": false
+            },
+            {
+                "type-id": null,
+                "sort-name": "EMI BlackwoodMusic Inc.",
+                "locale": null,
+                "begin": null,
+                "end": null,
+                "primary": null,
+                "ended": false,
+                "name": "EMI BlackwoodMusic Inc.",
+                "type": null
+            },
+            {
+                "name": "EMI–Blackwood",
+                "type": "Label name",
+                "primary": null,
+                "ended": false,
+                "locale": null,
+                "begin": null,
+                "end": null,
+                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                "sort-name": "EMI–Blackwood"
+            },
+            {
+                "type-id": null,
+                "sort-name": "EMI–Blackwood Music Inc.",
+                "locale": null,
+                "begin": null,
+                "end": null,
+                "primary": null,
+                "ended": false,
+                "type": null,
+                "name": "EMI–Blackwood Music Inc."
+            }
+        ],
+        "isnis": [],
+        "type": "Publisher",
+        "name": "EMI Blackwood Music Inc.",
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "id": "e79e7782-841c-40d8-8abb-1e1ec028f2e8",
+        "area": {
+            "type": null,
+            "name": "Nashville",
+            "id": "e68879f9-bd95-41ff-96ba-c082ff37cc74",
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "Nashville"
+        },
+        "ipis": [
+            "00223437493"
+        ],
+        "life-span": {
+            "ended": false,
+            "end": null,
+            "begin": "1989-07-24"
+        }
+    },
+    "fetched_at": 1792075402.786081,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

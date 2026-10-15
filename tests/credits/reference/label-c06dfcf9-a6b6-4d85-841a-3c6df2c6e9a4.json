@@ -1,0 +1,60 @@
+{
+    "data": {
+        "sort-name": "イーエムアイ音楽出版 ソニー事業部",
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "area": {
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "name": "Japan",
+            "disambiguation": "",
+            "type-id": null,
+            "type": null,
+            "iso-3166-1-codes": [
+                "JP"
+            ],
+            "sort-name": "Japan"
+        },
+        "id": "c06dfcf9-a6b6-4d85-841a-3c6df2c6e9a4",
+        "isnis": [],
+        "type": "Publisher",
+        "aliases": [
+            {
+                "locale": "en",
+                "name": "EMI Music Publishing Japan Ltd., Sony Division",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                "sort-name": "EMI Music Publishing Japan Ltd., Sony Division",
+                "type": "Label name",
+                "primary": true
+            },
+            {
+                "type": "Label name",
+                "primary": false,
+                "sort-name": "いーえむあいおんがくしゅっぱん かぶしきがいしゃ そにーじぎょうぶ",
+                "end": null,
+                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                "begin": null,
+                "ended": false,
+                "name": "イーエムアイ音楽出版 株式会社 ソニー事業部",
+                "locale": "ja"
+            }
+        ],
+        "label-code": null,
+        "country": "JP",
+        "ipis": [
+            "00743730837"
+        ],
+        "disambiguation": "",
+        "name": "イーエムアイ音楽出版 ソニー事業部",
+        "life-span": {
+            "end": "2021-06-30",
+            "begin": null,
+            "ended": true
+        }
+    },
+    "fetched_at": 1792075400.971097,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

@@ -64,7 +64,7 @@ $referenceGroup=json_decode(file_get_contents(__DIR__.'/reference/enjoy-group.js
 $enjoy=MusicBrainzNormalizer::release($referenceRelease,$referenceGroup);
 $import=EncyclopediaCollection::create(7,['title'=>$enjoy['album']['title'],'authors'=>['Depeche Mode'],'producer'=>'','release_date'=>'1992'],$enjoy,null,['country'=>'US','catalogue_number'=>'9 18890-2','notes'=>'PRIVATE_REFERENCE_NOTE']);
 $record=EncyclopediaRecord::forCopy($import,7);
-check(count($record['tracks'])===2&&count($record['credits'])===20,'authentic public Enjoy response retains two tracks and twenty credits');
+check(count($record['tracks'])===2&&count(array_filter($record['credits'],fn($c)=>!empty($c['artist_id'])))===20&&count($record['credits'])>=20,'authentic public Enjoy response retains two tracks and twenty artist credits and additional relationship targets');
 check(count($record['labels'])===3&&$record['media'][0]['format']==='CD','three labels and confirmed CD support persist');
 $sharedTables=['ENC_ALBUMS','ENC_EDITIONS','ENC_MEDIA','ENC_TRACKS','ENC_RECORDINGS','ENC_WORKS','ENC_CREDITS','ENC_EDITION_LABELS','ENC_ARTISTS'];
 $shared=[];foreach($sharedTables as $t)$shared[$t]=$pdo->query('SELECT * FROM '.$t)->fetchAll();

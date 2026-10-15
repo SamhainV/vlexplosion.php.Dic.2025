@@ -1,0 +1,88 @@
+{
+    "data": {
+        "area": {
+            "sort-name": "New York",
+            "disambiguation": "",
+            "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+            "type-id": null,
+            "name": "New York",
+            "type": null
+        },
+        "name": "Elektra Entertainment Group Inc.",
+        "sort-name": "Elektra Entertainment Group Inc.",
+        "disambiguation": "not for release label use! a division of Warner Music Group",
+        "id": "261aef87-4a79-456c-b7b1-278e065c8394",
+        "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+        "ipis": [],
+        "type": "Holding",
+        "aliases": [
+            {
+                "begin": "1989",
+                "locale": null,
+                "sort-name": "Elektra Entertainment",
+                "end": "1994",
+                "primary": null,
+                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                "ended": true,
+                "name": "Elektra Entertainment",
+                "type": "Label name"
+            },
+            {
+                "name": "Elektra Entertainment Group",
+                "type": "Label name",
+                "end": "2004",
+                "primary": null,
+                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                "ended": true,
+                "sort-name": "Elektra Entertainment Group",
+                "locale": null,
+                "begin": "1994"
+            },
+            {
+                "begin": "1950",
+                "locale": null,
+                "ended": true,
+                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                "primary": null,
+                "end": "1972",
+                "type": "Label name",
+                "name": "Elektra Records",
+                "sort-name": "Elektra Records"
+            },
+            {
+                "begin": "2009-06-01",
+                "locale": null,
+                "sort-name": "Elektra Records",
+                "ended": false,
+                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                "primary": null,
+                "end": null,
+                "type": "Label name",
+                "name": "Elektra Records"
+            },
+            {
+                "begin": "1972",
+                "locale": null,
+                "sort-name": "Elektra/Asylum Records",
+                "primary": null,
+                "end": "1989",
+                "ended": true,
+                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                "name": "Elektra/Asylum Records",
+                "type": "Label name"
+            }
+        ],
+        "label-code": null,
+        "life-span": {
+            "begin": "1998-11",
+            "end": null,
+            "ended": false
+        },
+        "isnis": [],
+        "country": null
+    },
+    "fetched_at": 1792075929.714898,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

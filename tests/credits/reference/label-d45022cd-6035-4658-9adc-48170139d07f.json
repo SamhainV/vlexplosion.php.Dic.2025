@@ -1,0 +1,37 @@
+{
+    "data": {
+        "area": {
+            "type-id": null,
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": null,
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+                "GB"
+            ]
+        },
+        "name": "Grabbing Hands Music Ltd.",
+        "sort-name": "Grabbing Hands Music Ltd.",
+        "disambiguation": "",
+        "id": "d45022cd-6035-4658-9adc-48170139d07f",
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "ipis": [
+            "00133479080"
+        ],
+        "type": "Publisher",
+        "aliases": [],
+        "label-code": null,
+        "isnis": [],
+        "life-span": {
+            "ended": false,
+            "end": null,
+            "begin": "1983"
+        },
+        "country": "GB"
+    },
+    "fetched_at": 1792075404.44095,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

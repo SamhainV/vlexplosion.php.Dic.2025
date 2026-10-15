@@ -122,7 +122,7 @@ final class EncyclopediaCollection
                     self::sql($pdo, 'INSERT INTO ENC_TRACKS(medium_id,position,printed_number,side,title,duration_ms,recording_id) VALUES(?,?,?,?,?,?,?)', [$mediumId, $track['position'], $track['number'], $track['side'], $track['title'], $track['duration_ms'], $recordingId]);
                     $trackId = (int)$pdo->lastInsertId();
                     foreach ($track['artists'] as $artist) {
-                        self::credits($pdo, 'track_id', $trackId, [['artist' => $artist, 'organisation' => null, 'role' => 'performer', 'credited_as' => $artist['credited_as']]], $sourceEdition);
+                        self::credits($pdo, 'track_id', $trackId, [['artist' => $artist, 'organisation' => null, 'role' => 'artist credit', 'credited_as' => $artist['credited_as']]], $sourceEdition);
                     }
                 }
             }
@@ -140,10 +140,12 @@ final class EncyclopediaCollection
 
     private static function credits(PDO $pdo, string $target, int $id, array $credits, int $source): void
     {
+        $rich = EncyclopediaCreditSync::available($pdo);
         foreach ($credits as $c) {
             $artist = $c['artist'] ? self::artist($pdo, $c['artist']) : null;
             $key = hash('sha256', json_encode([$target, $id, $artist, $c['organisation'], $c['role'], $c['credited_as']], JSON_THROW_ON_ERROR));
             self::sql($pdo, "INSERT INTO ENC_CREDITS($target,artist_id,organisation,role,credited_as,source_id,credit_key) VALUES(?,?,?,?,?,?,?) ON DUPLICATE KEY UPDATE credit_key=VALUES(credit_key)", [$id, $artist, $c['organisation'], $c['role'], $c['credited_as'], $source, $key]);
+            if($rich) self::sql($pdo,'UPDATE ENC_CREDITS SET instrument=?,relation_json=? WHERE credit_key=? AND source_id=? AND relation_json IS NULL',[$c['instrument']??null,isset($c['relation'])?json_encode($c['relation'],JSON_THROW_ON_ERROR):null,$key,$source]);
         }
     }
 

@@ -1,0 +1,996 @@
+{
+    "data": {
+        "video": false,
+        "first-release-date": "2002-11-11",
+        "title": "Work It",
+        "relations": [
+            {
+                "artist": {
+                    "sort-name": "Bedoya, Carlos",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "id": "6a90ada7-9d0c-4f22-b6f4-b42970098c8f",
+                    "disambiguation": "",
+                    "name": "Carlos Bedoya",
+                    "type": "Person"
+                },
+                "ended": false,
+                "type": "engineer",
+                "attribute-values": [],
+                "target-credit": "Carlos ‘El Loco’ Bedoya",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "direction": "backward",
+                "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                "target-type": "artist",
+                "end": null,
+                "begin": null
+            },
+            {
+                "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                "end": null,
+                "begin": null,
+                "target-type": "artist",
+                "direction": "backward",
+                "target-credit": "Demacio “Demo” Castellon",
+                "attributes": [
+                    "assistant"
+                ],
+                "attribute-ids": {
+                    "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+                },
+                "source-credit": "",
+                "ended": false,
+                "artist": {
+                    "name": "Demacio Castellón",
+                    "type": "Person",
+                    "disambiguation": "",
+                    "id": "a414f657-bd76-436c-b58a-350845565b8f",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "sort-name": "Castellon, Demacio"
+                },
+                "attribute-values": [],
+                "type": "engineer"
+            },
+            {
+                "type": "engineer",
+                "attribute-values": [],
+                "artist": {
+                    "disambiguation": "engineer",
+                    "id": "acd808bb-48a1-4f53-b8cb-3d20377d08ed",
+                    "sort-name": "Douglass, Jimmy",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "name": "Jimmy Douglass",
+                    "type": "Person"
+                },
+                "ended": false,
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "Senator Jimmy D",
+                "direction": "backward",
+                "target-type": "artist",
+                "begin": null,
+                "end": null,
+                "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+            },
+            {
+                "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                "target-type": "artist",
+                "end": null,
+                "begin": null,
+                "direction": "backward",
+                "target-credit": "",
+                "attributes": [
+                    "assistant"
+                ],
+                "attribute-ids": {
+                    "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+                },
+                "source-credit": "",
+                "ended": false,
+                "artist": {
+                    "type": "Person",
+                    "name": "Marc Lee",
+                    "id": "25e470c5-295a-45a8-bea8-1cde42b27aab",
+                    "disambiguation": "US recording engineer",
+                    "sort-name": "Lee, Marc",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US"
+                },
+                "attribute-values": [],
+                "type": "engineer"
+            },
+            {
+                "direction": "backward",
+                "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                "target-type": "artist",
+                "begin": null,
+                "end": null,
+                "artist": {
+                    "id": "acd808bb-48a1-4f53-b8cb-3d20377d08ed",
+                    "disambiguation": "engineer",
+                    "sort-name": "Douglass, Jimmy",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "type": "Person",
+                    "name": "Jimmy Douglass"
+                },
+                "ended": false,
+                "type": "mix",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": []
+            },
+            {
+                "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                "target-type": "artist",
+                "end": null,
+                "begin": null,
+                "direction": "backward",
+                "target-credit": "",
+                "attribute-ids": {
+                    "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+                },
+                "attributes": [
+                    "assistant"
+                ],
+                "source-credit": "",
+                "ended": false,
+                "artist": {
+                    "name": "Steamy",
+                    "type": null,
+                    "disambiguation": "",
+                    "id": "2c70e180-92ca-45a9-820e-0370d89bc4c9",
+                    "sort-name": "Steamy",
+                    "type-id": null,
+                    "country": null
+                },
+                "attribute-values": [],
+                "type": "mix"
+            },
+            {
+                "direction": "backward",
+                "begin": null,
+                "end": null,
+                "target-type": "artist",
+                "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                "attribute-values": [],
+                "type": "mix",
+                "ended": false,
+                "artist": {
+                    "sort-name": "Timbaland",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+                    "disambiguation": "",
+                    "name": "Timbaland",
+                    "type": "Person"
+                },
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "type": "producer",
+                "attribute-values": [],
+                "artist": {
+                    "sort-name": "Elliott, Missy",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+                    "disambiguation": "American rapper, singer, dancer & record producer",
+                    "name": "Missy Elliott",
+                    "type": "Person"
+                },
+                "ended": false,
+                "source-credit": "",
+                "attributes": [
+                    "co"
+                ],
+                "attribute-ids": {
+                    "co": "ac6f6b4c-a4ec-4483-a04e-9f425a914573"
+                },
+                "target-credit": "Missy ‘Misdemeanor’ Elliott",
+                "direction": "backward",
+                "target-type": "artist",
+                "begin": null,
+                "end": null,
+                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+            },
+            {
+                "direction": "backward",
+                "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                "end": null,
+                "begin": null,
+                "target-type": "artist",
+                "ended": false,
+                "artist": {
+                    "name": "Timbaland",
+                    "type": "Person",
+                    "disambiguation": "",
+                    "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "sort-name": "Timbaland"
+                },
+                "attribute-values": [],
+                "type": "producer",
+                "target-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": ""
+            },
+            {
+                "type": "vocal",
+                "attribute-values": [],
+                "artist": {
+                    "name": "Missy Elliott",
+                    "type": "Person",
+                    "sort-name": "Elliott, Missy",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+                    "disambiguation": "American rapper, singer, dancer & record producer"
+                },
+                "ended": false,
+                "source-credit": "",
+                "attributes": [
+                    "lead vocals"
+                ],
+                "attribute-ids": {
+                    "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                },
+                "attribute-credits": [],
+                "target-credit": "",
+                "direction": "backward",
+                "begin": null,
+                "end": null,
+                "target-type": "artist",
+                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+            },
+            {
+                "target-credit": "Elektra Entertainment",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "ended": true,
+                "attribute-values": [],
+                "type": "phonographic copyright",
+                "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+                "target-type": "label",
+                "end": "2002",
+                "begin": "2002",
+                "direction": "backward",
+                "label": {
+                    "name": "Elektra Entertainment",
+                    "type": "Original Production",
+                    "disambiguation": "company, DO NOT USE as release label, for releases use “Elektra”",
+                    "id": "44edd847-634b-4b65-8e4a-e6cfd5ee9091",
+                    "label-code": null,
+                    "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+                    "sort-name": "Elektra Entertainment"
+                }
+            },
+            {
+                "direction": "backward",
+                "label": {
+                    "name": "WEA International Inc.",
+                    "type": "Distributor",
+                    "sort-name": "WEA International Inc.",
+                    "type-id": "53ab8dcc-9946-3b62-966e-7634d78e5034",
+                    "disambiguation": "not for release label use! copyrights holder, distributor for the world outside of the US",
+                    "id": "0070482a-06f0-43a1-a81a-ef228a89fc37",
+                    "label-code": null
+                },
+                "target-type": "label",
+                "begin": "2002",
+                "end": "2002",
+                "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+                "type": "phonographic copyright",
+                "attribute-values": [],
+                "ended": true,
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": "WEA International Inc."
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "co"
+                ],
+                "attribute-ids": {
+                    "co": "ac6f6b4c-a4ec-4483-a04e-9f425a914573"
+                },
+                "ended": false,
+                "type": "produced for",
+                "attribute-values": [],
+                "type-id": "ce1529b0-2fd9-4dcc-82d2-4036a044b5b9",
+                "end": null,
+                "begin": null,
+                "target-type": "label",
+                "label": {
+                    "type-id": null,
+                    "sort-name": "Mass Confusion Productions, Inc.",
+                    "label-code": null,
+                    "disambiguation": "",
+                    "id": "1b977294-1a8a-43ae-b86c-4dd661fe9a64",
+                    "type": null,
+                    "name": "Mass Confusion Productions, Inc."
+                },
+                "direction": "backward"
+            },
+            {
+                "target-credit": "Timbaland Productions, Inc.",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": [],
+                "type": "produced for",
+                "type-id": "ce1529b0-2fd9-4dcc-82d2-4036a044b5b9",
+                "end": null,
+                "begin": null,
+                "target-type": "label",
+                "label": {
+                    "type-id": "a2426aab-2dd4-339c-b47d-b4923a241678",
+                    "sort-name": "Timbaland Productions",
+                    "disambiguation": "",
+                    "id": "078a107d-e69e-4eb4-9384-ec1ca459fe08",
+                    "label-code": null,
+                    "name": "Timbaland Productions",
+                    "type": "Production"
+                },
+                "direction": "backward"
+            },
+            {
+                "ended": false,
+                "type": "mixed at",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "place": {
+                    "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+                    "address": "",
+                    "disambiguation": "",
+                    "id": "d4fb6481-b2cd-434d-aa71-045855c0a0d4",
+                    "coordinates": null,
+                    "area": {
+                        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                        "sort-name": "Midtown Manhattan",
+                        "name": "Midtown Manhattan",
+                        "type": "City",
+                        "disambiguation": "",
+                        "id": "edd27a39-ff8a-4af4-8bbf-f369b0fb1899"
+                    },
+                    "name": "Manhattan Center Studios",
+                    "type": "Studio"
+                },
+                "attributes": [],
+                "attribute-ids": [],
+                "direction": "backward",
+                "type-id": "11d74801-1493-4a5d-bc0f-4ddc537acddb",
+                "end": null,
+                "begin": null,
+                "target-type": "place"
+            },
+            {
+                "target-type": "place",
+                "begin": null,
+                "end": null,
+                "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                "direction": "backward",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "place": {
+                    "area": {
+                        "type": "City",
+                        "name": "Miami",
+                        "id": "4a9aeb42-3763-4234-8fb8-1167ac1dfdfe",
+                        "disambiguation": "",
+                        "sort-name": "Miami",
+                        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
+                    },
+                    "coordinates": {
+                        "latitude": 25.9133,
+                        "longitude": -80.1638
+                    },
+                    "name": "The Hit Factory Criteria",
+                    "type": "Studio",
+                    "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+                    "address": "",
+                    "id": "10f818e1-08f1-4620-9b1a-3a2be3408b1e",
+                    "disambiguation": ""
+                },
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "recorded at",
+                "ended": false
+            },
+            {
+                "ended": false,
+                "attribute-values": [],
+                "type": "mashes up",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "direction": "backward",
+                "recording": {
+                    "video": false,
+                    "title": "Kill Missy (Missy Elliott vs. Tomoyasu Hotei)",
+                    "length": 263000,
+                    "id": "e8390c36-1b3a-4d18-b125-0f808996bf51",
+                    "disambiguation": ""
+                },
+                "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                "target-type": "recording",
+                "end": null,
+                "begin": null
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "ended": false,
+                "type": "mashes up",
+                "attribute-values": [],
+                "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                "recording": {
+                    "video": false,
+                    "title": "Missy Gonna Work It Out (Missy Elliott vs. The Chemical Brothers)",
+                    "length": 319000,
+                    "disambiguation": "",
+                    "id": "e1c29bea-0b8b-4ecd-ba0d-3e1c9236c129"
+                },
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "direction": "backward"
+            },
+            {
+                "direction": "backward",
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                "recording": {
+                    "title": "Missy Tiger (Missy Elliot vs. Survivor)",
+                    "video": false,
+                    "length": null,
+                    "disambiguation": "",
+                    "id": "f0b4434c-d83c-456b-a997-92f7caa96785"
+                },
+                "attribute-values": [],
+                "type": "mashes up",
+                "ended": false,
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "direction": "backward",
+                "recording": {
+                    "id": "cc41c398-153b-4f49-a418-c930ee933965",
+                    "disambiguation": "",
+                    "length": 214000,
+                    "title": "Work It Off (Missy Elliott vs. Prince)",
+                    "video": false
+                },
+                "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "type": "mashes up",
+                "target-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": ""
+            },
+            {
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "remix",
+                "ended": false,
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "recording": {
+                    "disambiguation": "",
+                    "id": "90bcfe28-2266-4f1e-a07d-36f85361879d",
+                    "length": 261770,
+                    "video": false,
+                    "title": "Boy Oh Boy"
+                },
+                "type-id": "bfbdb55a-b857-473a-8f2e-a9c09e45c3f5",
+                "direction": "backward"
+            },
+            {
+                "ended": false,
+                "attribute-values": [],
+                "type": "remix",
+                "target-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "source-credit": "",
+                "direction": "backward",
+                "recording": {
+                    "id": "b57f6dec-7f9b-48d0-9b37-7f624fcaaa85",
+                    "disambiguation": "explicit",
+                    "video": false,
+                    "title": "Work It (remix)",
+                    "length": 305466
+                },
+                "type-id": "bfbdb55a-b857-473a-8f2e-a9c09e45c3f5",
+                "begin": null,
+                "end": null,
+                "target-type": "recording"
+            },
+            {
+                "recording": {
+                    "id": "80d153c4-512a-4953-a6d7-2a19b7605ff8",
+                    "disambiguation": "",
+                    "length": 183307,
+                    "video": false,
+                    "title": "Get Your Flip On (Breaks VIP Remix)"
+                },
+                "type-id": "9efd9ce9-e702-448b-8e76-641515e8fe62",
+                "target-type": "recording",
+                "begin": null,
+                "end": null,
+                "direction": "backward",
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "ended": false,
+                "type": "samples material",
+                "attribute-values": []
+            },
+            {
+                "ended": false,
+                "type": "samples material",
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "direction": "forward",
+                "type-id": "9efd9ce9-e702-448b-8e76-641515e8fe62",
+                "recording": {
+                    "disambiguation": "",
+                    "id": "0c7bcc6b-930f-4f66-a253-1622fd1b53c8",
+                    "video": false,
+                    "title": "Request Line",
+                    "length": 406000
+                },
+                "target-type": "recording",
+                "end": null,
+                "begin": null
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "ended": false,
+                "type": "samples material",
+                "attribute-values": [],
+                "recording": {
+                    "video": false,
+                    "title": "Peter Piper",
+                    "length": 203293,
+                    "id": "4518c2a0-81e2-41d2-9818-d5eb7079cb41",
+                    "disambiguation": ""
+                },
+                "type-id": "9efd9ce9-e702-448b-8e76-641515e8fe62",
+                "begin": null,
+                "end": null,
+                "target-type": "recording",
+                "direction": "forward"
+            },
+            {
+                "direction": "forward",
+                "recording": {
+                    "video": false,
+                    "title": "Heart of Glass",
+                    "length": 350000,
+                    "disambiguation": "",
+                    "id": "d1b01fed-cac8-456b-adfb-7ee3e71c2fa3"
+                },
+                "type-id": "9efd9ce9-e702-448b-8e76-641515e8fe62",
+                "target-type": "recording",
+                "end": null,
+                "begin": null,
+                "ended": false,
+                "attribute-values": [],
+                "type": "samples material",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": ""
+            },
+            {
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [
+                    "number"
+                ],
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "ended": false,
+                "ordering-key": 22,
+                "type": "part of",
+                "attribute-values": {
+                    "number": "22"
+                },
+                "type-id": "ea6f0698-6782-30d6-b16d-293081b66774",
+                "begin": null,
+                "end": null,
+                "series": {
+                    "type-id": "dd968243-7128-30a2-81f0-79843430a8e2",
+                    "id": "dab4c8c7-6602-4c44-ac09-0ed4b6103e4d",
+                    "disambiguation": "as of October 2023",
+                    "type": "Recording series",
+                    "name": "Billboard: The 500 Best Pop Songs"
+                },
+                "target-type": "series",
+                "direction": "forward"
+            },
+            {
+                "target-credit": "",
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "attributes": [
+                    "number"
+                ],
+                "source-credit": "",
+                "ended": false,
+                "ordering-key": 56,
+                "attribute-values": {
+                    "number": "56"
+                },
+                "type": "part of",
+                "type-id": "ea6f0698-6782-30d6-b16d-293081b66774",
+                "end": null,
+                "begin": null,
+                "target-type": "series",
+                "series": {
+                    "type-id": "dd968243-7128-30a2-81f0-79843430a8e2",
+                    "name": "Rolling Stone: 500 Greatest Songs of All Time: 2021 edition",
+                    "type": "Recording series",
+                    "id": "355b26c9-001e-4728-852e-82b4379adb82",
+                    "disambiguation": ""
+                },
+                "direction": "forward"
+            },
+            {
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "target-type": "url",
+                "url": {
+                    "id": "5ed06853-0147-440d-8d92-416dabcfd9cb",
+                    "resource": "https://open.spotify.com/track/3jagJCUbdqhDSPuxP8cAqF"
+                },
+                "type-id": "7e41ef12-a124-4324-afdb-fdbae687a89c",
+                "type": "free streaming",
+                "attribute-values": [],
+                "ended": false,
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "target-credit": ""
+            },
+            {
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "target-credit": "",
+                "type": "free streaming",
+                "attribute-values": [],
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "url": {
+                    "id": "1236885e-6936-45da-9df7-637fc6774869",
+                    "resource": "https://www.deezer.com/track/663571"
+                },
+                "type-id": "7e41ef12-a124-4324-afdb-fdbae687a89c",
+                "direction": "forward"
+            },
+            {
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "url": {
+                    "id": "87f7eaf0-40ce-44d6-96af-1f9c81570410",
+                    "resource": "https://music.apple.com/gb/song/254167909"
+                },
+                "type-id": "92777657-504c-4acb-bd33-51a201bd57e1",
+                "direction": "forward",
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": [],
+                "type": "purchase for download",
+                "ended": false
+            },
+            {
+                "type-id": "b5f3058a-666c-406f-aafb-f9249fc7b122",
+                "url": {
+                    "id": "87f7eaf0-40ce-44d6-96af-1f9c81570410",
+                    "resource": "https://music.apple.com/gb/song/254167909"
+                },
+                "target-type": "url",
+                "end": null,
+                "begin": null,
+                "direction": "forward",
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": [],
+                "attributes": [],
+                "ended": false,
+                "type": "streaming",
+                "attribute-values": []
+            },
+            {
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "begin": null,
+                "type-id": "b5f3058a-666c-406f-aafb-f9249fc7b122",
+                "url": {
+                    "resource": "https://tidal.com/track/533969",
+                    "id": "e7494ace-eeee-4867-bfaa-fe7435e3ff80"
+                },
+                "attribute-values": [],
+                "type": "streaming",
+                "ended": false,
+                "attributes": [],
+                "attribute-ids": [],
+                "source-credit": "",
+                "target-credit": ""
+            },
+            {
+                "ended": false,
+                "type": "performance",
+                "work": {
+                    "disambiguation": "",
+                    "id": "d15f5ee3-fad9-39ba-884f-62b6655f9023",
+                    "attributes": [],
+                    "relations": [
+                        {
+                            "attribute-values": [],
+                            "type": "writer",
+                            "ended": false,
+                            "artist": {
+                                "type": "Person",
+                                "name": "Missy Elliott",
+                                "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+                                "disambiguation": "American rapper, singer, dancer & record producer",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "country": "US",
+                                "sort-name": "Elliott, Missy"
+                            },
+                            "attributes": [],
+                            "attribute-ids": [],
+                            "source-credit": "",
+                            "target-credit": "Melissa Elliott",
+                            "direction": "backward",
+                            "target-type": "artist",
+                            "end": null,
+                            "begin": null,
+                            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+                        },
+                        {
+                            "attribute-values": [],
+                            "type": "writer",
+                            "ended": false,
+                            "artist": {
+                                "name": "Timbaland",
+                                "type": "Person",
+                                "country": "US",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "sort-name": "Timbaland",
+                                "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+                                "disambiguation": ""
+                            },
+                            "attribute-ids": [],
+                            "attributes": [],
+                            "source-credit": "",
+                            "target-credit": "Timothy Mosley",
+                            "direction": "backward",
+                            "target-type": "artist",
+                            "end": null,
+                            "begin": null,
+                            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+                        },
+                        {
+                            "target-credit": "",
+                            "source-credit": "",
+                            "attribute-ids": [],
+                            "attributes": [],
+                            "ended": false,
+                            "type": "publishing",
+                            "attribute-values": [],
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "begin": null,
+                            "end": null,
+                            "target-type": "label",
+                            "label": {
+                                "name": "Mass Confusion Music",
+                                "type": "Publisher",
+                                "sort-name": "Mass Confusion Music",
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "id": "a8ffb6ad-3e00-474d-b44a-f465026a2e61",
+                                "disambiguation": "",
+                                "label-code": null
+                            },
+                            "direction": "backward"
+                        },
+                        {
+                            "end": null,
+                            "begin": null,
+                            "target-type": "label",
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "label": {
+                                "label-code": null,
+                                "disambiguation": "",
+                                "id": "18313d01-9ea1-4511-875f-7e2fa3ace43f",
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "sort-name": "Virginia Beach Music",
+                                "name": "Virginia Beach Music",
+                                "type": "Publisher"
+                            },
+                            "direction": "backward",
+                            "source-credit": "",
+                            "attributes": [],
+                            "attribute-ids": [],
+                            "target-credit": "",
+                            "type": "publishing",
+                            "attribute-values": [],
+                            "ended": false
+                        },
+                        {
+                            "direction": "backward",
+                            "label": {
+                                "name": "WB Music Corp.",
+                                "type": "Publisher",
+                                "sort-name": "WB Music Corp.",
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "disambiguation": "1929–2019",
+                                "id": "883fe539-a89f-4572-8072-4d1e69d4670d",
+                                "label-code": null
+                            },
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "target-type": "label",
+                            "begin": null,
+                            "end": null,
+                            "ended": false,
+                            "attribute-values": [],
+                            "type": "publishing",
+                            "target-credit": "",
+                            "attributes": [],
+                            "attribute-ids": [],
+                            "source-credit": ""
+                        },
+                        {
+                            "attribute-values": [],
+                            "type": "wikidata",
+                            "ended": false,
+                            "attribute-ids": [],
+                            "attributes": [],
+                            "source-credit": "",
+                            "target-credit": "",
+                            "direction": "backward",
+                            "begin": null,
+                            "end": null,
+                            "target-type": "url",
+                            "url": {
+                                "resource": "https://www.wikidata.org/wiki/Q1569320",
+                                "id": "91d9865e-58d4-407a-8b02-13317d17314b"
+                            },
+                            "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2"
+                        },
+                        {
+                            "direction": "forward",
+                            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+                            "target-type": "work",
+                            "end": null,
+                            "begin": null,
+                            "ended": false,
+                            "attribute-values": [],
+                            "work": {
+                                "disambiguation": "",
+                                "id": "46fb0a2f-17f9-4b55-abab-93499350b394",
+                                "attributes": [],
+                                "title": "Work It (remix)",
+                                "languages": [],
+                                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                                "language": null,
+                                "iswcs": [],
+                                "type": "Song"
+                            },
+                            "type": "based on",
+                            "target-credit": "",
+                            "attributes": [],
+                            "attribute-ids": [],
+                            "source-credit": ""
+                        },
+                        {
+                            "type-id": "c8283596-6f1f-42db-be9c-def66d387e78",
+                            "target-type": "work",
+                            "end": null,
+                            "begin": null,
+                            "direction": "backward",
+                            "target-credit": "",
+                            "attributes": [],
+                            "attribute-ids": [],
+                            "source-credit": "",
+                            "ended": false,
+                            "attribute-values": [],
+                            "type": "lyrical quotation",
+                            "work": {
+                                "iswcs": [],
+                                "type": null,
+                                "title": "RATATA",
+                                "language": null,
+                                "type-id": null,
+                                "languages": [],
+                                "attributes": [],
+                                "id": "ab81aee0-eafe-49f0-9879-6df12f29edac",
+                                "disambiguation": ""
+                            }
+                        }
+                    ],
+                    "title": "Work It",
+                    "languages": [
+                        "eng"
+                    ],
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                    "language": "eng",
+                    "iswcs": [],
+                    "type": "Song"
+                },
+                "attribute-values": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-ids": [],
+                "direction": "forward",
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "target-type": "work",
+                "end": null,
+                "begin": null
+            }
+        ],
+        "length": 298800,
+        "id": "34ead625-ccba-4a8a-88b3-a68db6d3275e",
+        "disambiguation": "explicit, spoken outro"
+    },
+    "fetched_at": 1792075607.774656,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "recording"
+}

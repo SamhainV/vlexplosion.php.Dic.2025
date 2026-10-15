@@ -1,0 +1,49 @@
+{
+    "data": {
+        "life-span": {
+            "begin": null,
+            "end": null,
+            "ended": false
+        },
+        "ipis": [
+            "00592869293"
+        ],
+        "aliases": [
+            {
+                "type-id": null,
+                "ended": false,
+                "name": "EMI Music Publ.",
+                "type": null,
+                "primary": null,
+                "sort-name": "EMI Music Publ.",
+                "begin": null,
+                "locale": null,
+                "end": null
+            }
+        ],
+        "area": {
+            "type": null,
+            "name": "United Kingdom",
+            "type-id": null,
+            "iso-3166-1-codes": [
+                "GB"
+            ],
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "sort-name": "United Kingdom",
+            "disambiguation": ""
+        },
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "isnis": [],
+        "disambiguation": "do not use as a release label!",
+        "label-code": null,
+        "country": "GB",
+        "name": "EMI Music Publishing",
+        "type": "Publisher",
+        "sort-name": "EMI Music Publishing",
+        "id": "45a4e6b3-2567-4e7d-b872-a412cdf2d0ae"
+    },
+    "fetched_at": 1792075395.803674,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

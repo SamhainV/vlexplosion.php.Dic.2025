@@ -1,0 +1,520 @@
+{
+    "data": {
+        "title": "Under Construction",
+        "secondary-types": [],
+        "secondary-type-ids": [],
+        "first-release-date": "2002-11-11",
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "id": "596090bc-cdfa-347e-96a5-d253848d3b37",
+        "disambiguation": "",
+        "primary-type": "Album",
+        "relations": [
+            {
+                "attributes": [
+                    "task"
+                ],
+                "ended": false,
+                "begin": null,
+                "attribute-values": {
+                    "task": "A&R administration"
+                },
+                "attribute-ids": {
+                    "task": "39867b3b-0f1e-40d5-b602-4f3936b7f486"
+                },
+                "end": null,
+                "artist": {
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": null,
+                    "sort-name": "Arty, Yaneley",
+                    "name": "Yaneley Arty",
+                    "type": "Person",
+                    "disambiguation": "",
+                    "id": "bf29303a-fd9e-4911-8cf5-3780bbe695e9"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "target-type": "artist",
+                "type": "artists and repertoire",
+                "target-credit": "",
+                "type-id": "25dd0db4-189f-436c-a610-aacb979f13e2"
+            },
+            {
+                "artist": {
+                    "disambiguation": "producer and engineer",
+                    "id": "0359a191-b11e-4a95-9a4b-522691049380",
+                    "type": "Person",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": null,
+                    "sort-name": "Bobb, Merlin",
+                    "name": "Merlin Bobb"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "attributes": [],
+                "begin": null,
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "type-id": "25dd0db4-189f-436c-a610-aacb979f13e2",
+                "target-type": "artist",
+                "type": "artists and repertoire",
+                "target-credit": ""
+            },
+            {
+                "attribute-ids": [],
+                "attribute-values": [],
+                "end": null,
+                "begin": null,
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "direction": "backward",
+                "artist": {
+                    "type": "Person",
+                    "sort-name": "Brown, Jay",
+                    "country": null,
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "name": "Jay Brown",
+                    "id": "a30e75cb-1a35-4ec1-b7c2-5f159242b6ef",
+                    "disambiguation": "A&R for Jay-Z, LL Cool J, Rihanna"
+                },
+                "type": "artists and repertoire",
+                "target-credit": "",
+                "target-type": "artist",
+                "type-id": "25dd0db4-189f-436c-a610-aacb979f13e2"
+            },
+            {
+                "direction": "backward",
+                "source-credit": "",
+                "artist": {
+                    "id": "89e34414-b41c-4d83-828c-9e3dc381c8d1",
+                    "disambiguation": "",
+                    "type": "Person",
+                    "country": "US",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "Elliott, Pat",
+                    "name": "Pat Elliott"
+                },
+                "end": null,
+                "attribute-values": {
+                    "task": "A&R administration"
+                },
+                "attribute-ids": {
+                    "task": "39867b3b-0f1e-40d5-b602-4f3936b7f486"
+                },
+                "attributes": [
+                    "task"
+                ],
+                "ended": false,
+                "begin": null,
+                "type-id": "25dd0db4-189f-436c-a610-aacb979f13e2",
+                "target-credit": "",
+                "type": "artists and repertoire",
+                "target-type": "artist"
+            },
+            {
+                "artist": {
+                    "id": "10156266-3e25-4336-8117-b368f8cb647a",
+                    "disambiguation": "",
+                    "type": "Person",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": null,
+                    "sort-name": "Hansen, Gail",
+                    "name": "Gail Hansen"
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "begin": null,
+                "attributes": [
+                    "task"
+                ],
+                "ended": false,
+                "end": null,
+                "attribute-values": {
+                    "task": "A&R coordinator, for Violator"
+                },
+                "attribute-ids": {
+                    "task": "39867b3b-0f1e-40d5-b602-4f3936b7f486"
+                },
+                "type-id": "25dd0db4-189f-436c-a610-aacb979f13e2",
+                "target-type": "artist",
+                "target-credit": "",
+                "type": "artists and repertoire"
+            },
+            {
+                "attributes": [
+                    "task"
+                ],
+                "ended": false,
+                "begin": null,
+                "attribute-ids": {
+                    "task": "39867b3b-0f1e-40d5-b602-4f3936b7f486"
+                },
+                "attribute-values": {
+                    "task": "A&R coordinator"
+                },
+                "end": null,
+                "artist": {
+                    "id": "8b92e6a1-0276-4c4e-bbee-bbdf4b100696",
+                    "disambiguation": "",
+                    "type": "Person",
+                    "sort-name": "Johnson, Andre",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": null,
+                    "name": "Andre Johnson"
+                },
+                "source-credit": "",
+                "direction": "backward",
+                "target-type": "artist",
+                "type": "artists and repertoire",
+                "target-credit": "",
+                "type-id": "25dd0db4-189f-436c-a610-aacb979f13e2"
+            },
+            {
+                "type-id": "25dd0db4-189f-436c-a610-aacb979f13e2",
+                "target-credit": "",
+                "type": "artists and repertoire",
+                "target-type": "artist",
+                "direction": "backward",
+                "source-credit": "",
+                "artist": {
+                    "id": "eed50a37-1bd8-4849-a25e-e6a976a0f60f",
+                    "disambiguation": "",
+                    "type": "Person",
+                    "country": null,
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "Moses, Celeste",
+                    "name": "Celeste Moses"
+                },
+                "end": null,
+                "attribute-ids": {
+                    "task": "39867b3b-0f1e-40d5-b602-4f3936b7f486"
+                },
+                "attribute-values": {
+                    "task": "A&R coordinator"
+                },
+                "attributes": [
+                    "task"
+                ],
+                "begin": null,
+                "ended": false
+            },
+            {
+                "ended": false,
+                "attributes": [],
+                "begin": null,
+                "end": null,
+                "attribute-ids": [],
+                "attribute-values": [],
+                "artist": {
+                    "name": "Aaliyah",
+                    "sort-name": "Aaliyah",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "US",
+                    "type": "Person",
+                    "disambiguation": "American R&B singer",
+                    "id": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+                },
+                "direction": "backward",
+                "source-credit": "",
+                "target-type": "artist",
+                "target-credit": "",
+                "type": "dedicated to",
+                "type-id": "b41e7530-cde4-459c-b8c5-dfef08fc8295"
+            },
+            {
+                "direction": "backward",
+                "ended": false,
+                "attribute-ids": [],
+                "type": "single from",
+                "source-credit": "",
+                "begin": null,
+                "attributes": [],
+                "end": null,
+                "release_group": {
+                    "disambiguation": "",
+                    "id": "62652be0-8010-36ef-8e23-5199486a27fe",
+                    "first-release-date": "2002",
+                    "primary-type-id": null,
+                    "primary-type": null,
+                    "secondary-types": [],
+                    "title": "Gossip Folks",
+                    "secondary-type-ids": []
+                },
+                "attribute-values": [],
+                "type-id": "fcf680a9-6871-4519-8c4b-8c6549575b35",
+                "target-type": "release_group",
+                "target-credit": ""
+            },
+            {
+                "type": "single from",
+                "attribute-ids": [],
+                "ended": false,
+                "direction": "backward",
+                "target-credit": "",
+                "target-type": "release_group",
+                "type-id": "fcf680a9-6871-4519-8c4b-8c6549575b35",
+                "attribute-values": [],
+                "end": null,
+                "release_group": {
+                    "title": "Work It",
+                    "secondary-types": [],
+                    "secondary-type-ids": [],
+                    "primary-type-id": null,
+                    "first-release-date": "2002-12-03",
+                    "id": "77447e04-c6f5-4db4-ba40-0b44bf080456",
+                    "disambiguation": "",
+                    "primary-type": null
+                },
+                "begin": null,
+                "attributes": [],
+                "source-credit": ""
+            },
+            {
+                "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                "series": {
+                    "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                    "name": "1001 Albums You Must Hear Before You Die",
+                    "type": "Release group series",
+                    "disambiguation": "2005 edition",
+                    "id": "4bc2a338-e1d8-4546-8a61-640da8aaf888"
+                },
+                "target-credit": "",
+                "target-type": "series",
+                "ordering-key": 954,
+                "source-credit": "",
+                "attribute-values": {
+                    "number": "954"
+                },
+                "end": null,
+                "begin": null,
+                "attributes": [
+                    "number"
+                ],
+                "type": "part of",
+                "direction": "forward",
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "ended": false
+            },
+            {
+                "type": "part of",
+                "direction": "forward",
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "ended": false,
+                "series": {
+                    "name": "Albums of the Year",
+                    "type-id": "133524ac-b9e4-4c6f-becb-774ab963de2f",
+                    "disambiguation": "SPIN magazine, 2003-01",
+                    "type": "Release group award",
+                    "id": "f2f15592-2e7e-43f4-a63e-46ed496850fd"
+                },
+                "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                "target-credit": "",
+                "ordering-key": 7,
+                "target-type": "series",
+                "source-credit": "",
+                "end": null,
+                "attribute-values": {
+                    "number": "7"
+                },
+                "begin": null,
+                "attributes": [
+                    "number"
+                ]
+            },
+            {
+                "source-credit": "",
+                "end": null,
+                "attribute-values": {
+                    "number": "2004"
+                },
+                "attributes": [
+                    "number"
+                ],
+                "begin": null,
+                "series": {
+                    "type": "Release group award",
+                    "id": "64249380-b076-4a9d-aa41-e617d81fa1c9",
+                    "disambiguation": "",
+                    "name": "Grammy Award: Album of the Year nominees",
+                    "type-id": "133524ac-b9e4-4c6f-becb-774ab963de2f"
+                },
+                "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                "target-credit": "",
+                "ordering-key": 206,
+                "target-type": "series",
+                "direction": "forward",
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "ended": false,
+                "type": "part of"
+            },
+            {
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "type": "part of",
+                "source-credit": "",
+                "attributes": [
+                    "number"
+                ],
+                "begin": null,
+                "attribute-values": {
+                    "number": "2004"
+                },
+                "end": null,
+                "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                "series": {
+                    "type-id": "133524ac-b9e4-4c6f-becb-774ab963de2f",
+                    "name": "Grammy Award: Best Rap Album nominees",
+                    "id": "e0d04d24-d3c6-40ed-b193-3b54eb07ff39",
+                    "type": "Release group award",
+                    "disambiguation": ""
+                },
+                "target-type": "series",
+                "ordering-key": 41,
+                "target-credit": ""
+            },
+            {
+                "series": {
+                    "type-id": "133524ac-b9e4-4c6f-becb-774ab963de2f",
+                    "name": "Rolling Stone: 100 Best Albums of the 2000s: pub_2011-07-18",
+                    "id": "d9bc7eab-1e3c-468f-836d-5dc231299d65",
+                    "type": "Release group award",
+                    "disambiguation": ""
+                },
+                "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                "target-credit": "",
+                "target-type": "series",
+                "ordering-key": 69,
+                "source-credit": "",
+                "end": null,
+                "attribute-values": {
+                    "number": "69"
+                },
+                "attributes": [
+                    "number"
+                ],
+                "begin": null,
+                "type": "part of",
+                "direction": "forward",
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "ended": false
+            },
+            {
+                "type": "part of",
+                "ended": false,
+                "attribute-ids": {
+                    "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                },
+                "direction": "forward",
+                "ordering-key": 15,
+                "target-type": "series",
+                "target-credit": "",
+                "series": {
+                    "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                    "name": "Rolling Stone: The 250 Greatest Albums of the 21st Century So Far",
+                    "type": "Release group series",
+                    "disambiguation": "January 10, 2025",
+                    "id": "6d294136-622e-400f-aa12-5622d3f365d0"
+                },
+                "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                "begin": null,
+                "attributes": [
+                    "number"
+                ],
+                "end": null,
+                "attribute-values": {
+                    "number": "18"
+                },
+                "source-credit": ""
+            },
+            {
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": [],
+                "url": {
+                    "resource": "https://www.allmusic.com/album/mw0000231192",
+                    "id": "fb6c7349-d57c-401e-b756-4c5066bd8888"
+                },
+                "type": "allmusic",
+                "source-credit": "",
+                "attributes": [],
+                "begin": null,
+                "attribute-values": [],
+                "end": null,
+                "type-id": "a50a1d20-2b20-4d2c-9a29-eb771dd78386",
+                "target-type": "url",
+                "target-credit": ""
+            },
+            {
+                "ended": false,
+                "attribute-ids": [],
+                "direction": "forward",
+                "type": "discogs",
+                "url": {
+                    "id": "2755b985-feb5-4b8b-b0fb-bc66d882bba2",
+                    "resource": "https://www.discogs.com/master/136443"
+                },
+                "begin": null,
+                "attributes": [],
+                "end": null,
+                "attribute-values": [],
+                "source-credit": "",
+                "target-type": "url",
+                "target-credit": "",
+                "type-id": "99e550f3-5ab4-3110-b5b9-fe01d970b126"
+            },
+            {
+                "source-credit": "",
+                "attributes": [],
+                "begin": null,
+                "attribute-values": [],
+                "end": null,
+                "type-id": "38320e40-9f4a-3ae7-8cb2-3f3c9c5d856d",
+                "target-type": "url",
+                "target-credit": "",
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": [],
+                "url": {
+                    "resource": "https://rateyourmusic.com/release/album/missy_elliott/under_construction/",
+                    "id": "f4dcb3b4-5f35-4329-b94d-b1fd9b7973ce"
+                },
+                "type": "other databases"
+            },
+            {
+                "source-credit": "",
+                "begin": null,
+                "attributes": [],
+                "end": null,
+                "attribute-values": [],
+                "type-id": "b988d08c-5d86-4a57-9557-c83b399e3580",
+                "target-type": "url",
+                "target-credit": "",
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": [],
+                "url": {
+                    "resource": "https://www.wikidata.org/wiki/Q1074943",
+                    "id": "3c7d41e1-cd46-47f5-b44e-657f2cb4ac83"
+                },
+                "type": "wikidata"
+            }
+        ]
+    },
+    "fetched_at": 1792075600.451776,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "release-group"
+}

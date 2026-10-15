@@ -1,0 +1,39 @@
+{
+    "data": {
+        "type": "Publisher",
+        "country": null,
+        "isnis": [],
+        "life-span": {
+            "begin": null,
+            "ended": false,
+            "end": null
+        },
+        "sort-name": "Virginia Beach Music",
+        "ipis": [
+            "01008295574"
+        ],
+        "id": "18313d01-9ea1-4511-875f-7e2fa3ace43f",
+        "label-code": null,
+        "aliases": [
+            {
+                "sort-name": "Virginia Beach Music Publishing",
+                "name": "Virginia Beach Music Publishing",
+                "type-id": null,
+                "primary": null,
+                "end": null,
+                "type": null,
+                "locale": null,
+                "ended": false,
+                "begin": null
+            }
+        ],
+        "disambiguation": "",
+        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+        "name": "Virginia Beach Music",
+        "area": null
+    },
+    "fetched_at": 1792076108.698131,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}

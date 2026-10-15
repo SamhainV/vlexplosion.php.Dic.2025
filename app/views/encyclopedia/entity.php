@@ -13,7 +13,7 @@
 <p>Publicación original: <?= e($album['original_date'] ?? 'Desconocida') ?></p>
 <?php if ($album['draft_owner_id']!==null): ?><p>Borrador privado; identidad musical no confirmada.</p><?php endif; ?>
 <p>Clasificaciones: <?= e(implode(', ',array_column($genres,'name'))?:'Sin información confirmada') ?></p>
-<h2>Créditos del álbum</h2><?php $creditRows=array_map(fn($c)=>['name'=>$c['name']??$c['organisation'],'artist_id'=>$c['artist_id'],'role'=>$c['role'],'instrument'=>$c['instrument']??null,'credited_as'=>$c['credited_as'],'context'=>null],$credits);require __DIR__.'/credits.php'; ?>
+<h2>Créditos del álbum</h2><?php $creditTracks=[];$creditWorks=[];$creditRows=array_map(fn($c)=>array_merge($c,['name'=>$c['name']??$c['organisation'],'context'=>null]),$credits);require __DIR__.'/credits.php'; ?>
 <h2>Ediciones disponibles</h2><?php if (!$editions): ?><p>Sin ediciones confirmadas.</p><?php endif; ?>
 <?php foreach ($editions as $edition): ?><p><a href="<?= e(base_url('encyclopedia/edition?id='.$edition['id'])) ?>"><?= e(($edition['country']??'País desconocido').' · '.($edition['release_date']??'Fecha desconocida')) ?></a></p><?php endforeach; ?>
 <?php else: ?>

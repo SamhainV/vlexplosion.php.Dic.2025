@@ -1,0 +1,633 @@
+{
+    "data": {
+        "first-release-date": "1990-02-05",
+        "title": "Enjoy the Silence / Interlude #2: Crucified",
+        "length": 372973,
+        "id": "83b3d37d-8c3d-4a7b-ae9a-d635e4e3374f",
+        "relations": [
+            {
+                "begin": null,
+                "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                "artist": {
+                    "type": "Person",
+                    "sort-name": "Flood",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "GB",
+                    "id": "f1461e6c-c008-414b-bad0-bce88f71724e",
+                    "name": "Flood",
+                    "disambiguation": "British producer Mark Ellis"
+                },
+                "end": null,
+                "target-credit": "",
+                "attribute-values": [],
+                "target-type": "artist",
+                "attribute-ids": [],
+                "ended": false,
+                "direction": "backward",
+                "type": "mix",
+                "attributes": [],
+                "source-credit": ""
+            },
+            {
+                "begin": null,
+                "artist": {
+                    "disambiguation": "British music producer and founder of Mute Records",
+                    "name": "Daniel Miller",
+                    "id": "5abdec70-4e68-4eab-ad17-3448f280960d",
+                    "country": "GB",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "Miller, Daniel",
+                    "type": "Person"
+                },
+                "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                "end": null,
+                "target-credit": "",
+                "attribute-values": [],
+                "target-type": "artist",
+                "ended": false,
+                "attribute-ids": [],
+                "direction": "backward",
+                "type": "mix",
+                "attributes": [],
+                "source-credit": ""
+            },
+            {
+                "source-credit": "",
+                "attributes": [
+                    "lead vocals"
+                ],
+                "type": "vocal",
+                "direction": "backward",
+                "target-type": "artist",
+                "ended": false,
+                "attribute-ids": {
+                    "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                },
+                "attribute-values": [],
+                "attribute-credits": [],
+                "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                "artist": {
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "sort-name": "Gahan, Dave",
+                    "type": "Person",
+                    "disambiguation": "",
+                    "name": "Dave Gahan",
+                    "id": "d547b148-cf1f-421b-9464-ce7411ba44b8",
+                    "country": "GB"
+                },
+                "begin": null,
+                "target-credit": "",
+                "end": null
+            },
+            {
+                "ordering-key": 1,
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "type-id": "1b6311e8-5f81-43b7-8c55-4bbae71ec00c",
+                "attribute-ids": [],
+                "ended": false,
+                "target-type": "recording",
+                "attribute-values": [],
+                "type": "compilation",
+                "direction": "forward",
+                "source-credit": "",
+                "recording": {
+                    "title": "Enjoy the Silence",
+                    "length": 272000,
+                    "id": "c987b363-6e2c-4ed0-a433-04d9b7048847",
+                    "disambiguation": "album version",
+                    "video": false
+                },
+                "attributes": []
+            },
+            {
+                "attributes": [],
+                "source-credit": "",
+                "recording": {
+                    "disambiguation": "",
+                    "video": false,
+                    "id": "05d3c8ba-b4db-4a45-ba30-5976dfd45393",
+                    "length": 100000,
+                    "title": "Interlude #2: Crucified"
+                },
+                "direction": "forward",
+                "type": "compilation",
+                "attribute-values": [],
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "recording",
+                "target-credit": "",
+                "end": null,
+                "type-id": "1b6311e8-5f81-43b7-8c55-4bbae71ec00c",
+                "begin": null,
+                "ordering-key": 2
+            },
+            {
+                "type": "free streaming",
+                "direction": "forward",
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                    "resource": "https://open.spotify.com/track/1JekRMGQ8iN4G1AAdh0SBa",
+                    "id": "3e420b86-0e7e-4e7e-a63c-2c3180f88d3c"
+                },
+                "begin": null,
+                "type-id": "7e41ef12-a124-4324-afdb-fdbae687a89c",
+                "end": null,
+                "target-credit": "",
+                "target-type": "url",
+                "ended": false,
+                "attribute-ids": [],
+                "attribute-values": []
+            },
+            {
+                "ordering-key": 1,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "target-type": "work",
+                "attribute-ids": [],
+                "ended": false,
+                "attribute-values": [],
+                "work": {
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                    "type": "Song",
+                    "title": "Enjoy the Silence",
+                    "attributes": [],
+                    "languages": [
+                        "eng"
+                    ],
+                    "disambiguation": "",
+                    "relations": [
+                        {
+                            "type": "composer",
+                            "direction": "backward",
+                            "source-credit": "",
+                            "attributes": [],
+                            "begin": null,
+                            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                            "artist": {
+                                "disambiguation": "",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "name": "Martin L. Gore",
+                                "country": "US",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "type": "Person",
+                                "sort-name": "Gore, Martin L."
+                            },
+                            "end": null,
+                            "target-credit": "",
+                            "target-type": "artist",
+                            "ended": false,
+                            "attribute-ids": [],
+                            "attribute-values": []
+                        },
+                        {
+                            "attribute-values": [],
+                            "attribute-ids": [],
+                            "ended": false,
+                            "target-type": "artist",
+                            "end": null,
+                            "target-credit": "",
+                            "begin": null,
+                            "artist": {
+                                "country": "US",
+                                "disambiguation": "",
+                                "name": "Martin L. Gore",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "sort-name": "Gore, Martin L.",
+                                "type": "Person",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                            },
+                            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                            "attributes": [],
+                            "source-credit": "",
+                            "direction": "backward",
+                            "type": "lyricist"
+                        },
+                        {
+                            "label": {
+                                "disambiguation": "PRS‐affiliated",
+                                "name": "EMI Music Publishing Ltd.",
+                                "id": "97ef6a28-dfed-4eda-bd24-17a45c792d29",
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "label-code": null,
+                                "sort-name": "EMI Music Publishing Ltd.",
+                                "type": "Publisher"
+                            },
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "begin": "2006",
+                            "target-credit": "",
+                            "end": "2006",
+                            "target-type": "label",
+                            "ended": true,
+                            "attribute-ids": [],
+                            "attribute-values": [],
+                            "type": "publishing",
+                            "direction": "backward",
+                            "source-credit": "",
+                            "attributes": []
+                        },
+                        {
+                            "attributes": [],
+                            "source-credit": "",
+                            "direction": "backward",
+                            "type": "publishing",
+                            "attribute-values": [],
+                            "attribute-ids": [],
+                            "ended": true,
+                            "target-type": "label",
+                            "target-credit": "Grabbing Hands",
+                            "end": "2006",
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "begin": "2006",
+                            "label": {
+                                "type": "Publisher",
+                                "sort-name": "Grabbing Hands Ltd.",
+                                "label-code": null,
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "id": "ec2eb4b6-5815-4df0-8967-8b642952ebe2",
+                                "name": "Grabbing Hands Ltd.",
+                                "disambiguation": ""
+                            }
+                        },
+                        {
+                            "source-credit": "",
+                            "attributes": [],
+                            "type": "publishing",
+                            "direction": "backward",
+                            "target-type": "label",
+                            "attribute-ids": [],
+                            "ended": false,
+                            "attribute-values": [],
+                            "label": {
+                                "disambiguation": "sub‐publisher for non‐Japanese works",
+                                "id": "11b7b1e9-815a-4db3-a27f-ce0a882bcd1e",
+                                "name": "ソニー・ミュージックパブリッシング EMI外国事業部",
+                                "type": "Publisher",
+                                "sort-name": "ソニー・ミュージックパブリッシング EMI外国事業部",
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "label-code": null
+                            },
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "begin": "2021-07-01",
+                            "target-credit": "",
+                            "end": null
+                        },
+                        {
+                            "attribute-ids": [],
+                            "ended": true,
+                            "target-type": "label",
+                            "attribute-values": [],
+                            "label": {
+                                "label-code": null,
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "sort-name": "イーエムアイ音楽出版 ソニー事業部",
+                                "type": "Publisher",
+                                "name": "イーエムアイ音楽出版 ソニー事業部",
+                                "id": "c06dfcf9-a6b6-4d85-841a-3c6df2c6e9a4",
+                                "disambiguation": ""
+                            },
+                            "target-credit": "",
+                            "end": "2021-06-30",
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "begin": null,
+                            "source-credit": "",
+                            "attributes": [],
+                            "type": "publishing",
+                            "direction": "backward"
+                        },
+                        {
+                            "attribute-values": [],
+                            "target-type": "label",
+                            "attribute-ids": [],
+                            "ended": false,
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "begin": null,
+                            "target-credit": "",
+                            "end": null,
+                            "label": {
+                                "disambiguation": "",
+                                "name": "EMI Blackwood Music Inc.",
+                                "id": "e79e7782-841c-40d8-8abb-1e1ec028f2e8",
+                                "sort-name": "EMI Blackwood Music Inc.",
+                                "type": "Publisher",
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "label-code": null
+                            },
+                            "attributes": [],
+                            "source-credit": "",
+                            "direction": "backward",
+                            "type": "publishing"
+                        },
+                        {
+                            "type": "publishing",
+                            "direction": "backward",
+                            "source-credit": "",
+                            "attributes": [],
+                            "label": {
+                                "disambiguation": "do not use as a release label!",
+                                "name": "EMI Music Publishing",
+                                "id": "45a4e6b3-2567-4e7d-b872-a412cdf2d0ae",
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "label-code": null,
+                                "sort-name": "EMI Music Publishing",
+                                "type": "Publisher"
+                            },
+                            "end": null,
+                            "target-credit": "",
+                            "begin": null,
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "ended": false,
+                            "attribute-ids": [],
+                            "target-type": "label",
+                            "attribute-values": []
+                        },
+                        {
+                            "attribute-values": [],
+                            "target-type": "label",
+                            "ended": false,
+                            "attribute-ids": [],
+                            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                            "begin": null,
+                            "target-credit": "",
+                            "end": null,
+                            "label": {
+                                "disambiguation": "",
+                                "name": "Grabbing Hands Music Ltd.",
+                                "id": "d45022cd-6035-4658-9adc-48170139d07f",
+                                "sort-name": "Grabbing Hands Music Ltd.",
+                                "type": "Publisher",
+                                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                "label-code": null
+                            },
+                            "attributes": [],
+                            "source-credit": "",
+                            "direction": "backward",
+                            "type": "publishing"
+                        },
+                        {
+                            "attributes": [],
+                            "source-credit": "",
+                            "direction": "backward",
+                            "type": "secondhandsongs",
+                            "attribute-values": [],
+                            "ended": false,
+                            "attribute-ids": [],
+                            "target-type": "url",
+                            "end": null,
+                            "target-credit": "",
+                            "begin": null,
+                            "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                            "url": {
+                                "id": "73a839dc-bae1-46a3-b465-a5a5432fe33c",
+                                "resource": "https://secondhandsongs.com/work/1153"
+                            }
+                        },
+                        {
+                            "attributes": [],
+                            "source-credit": "",
+                            "direction": "backward",
+                            "type": "wikidata",
+                            "attribute-values": [],
+                            "target-type": "url",
+                            "ended": false,
+                            "attribute-ids": [],
+                            "begin": null,
+                            "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
+                            "end": null,
+                            "target-credit": "",
+                            "url": {
+                                "id": "9a7050bb-0852-4a63-9f3e-db92528ccb51",
+                                "resource": "https://www.wikidata.org/wiki/Q279097"
+                            }
+                        },
+                        {
+                            "type": "arrangement",
+                            "direction": "forward",
+                            "source-credit": "",
+                            "attributes": [],
+                            "target-credit": "",
+                            "end": null,
+                            "type-id": "51975ed8-bbfa-486b-9f28-5947f4370299",
+                            "begin": null,
+                            "attribute-ids": [],
+                            "ended": false,
+                            "target-type": "work",
+                            "work": {
+                                "iswcs": [],
+                                "language": null,
+                                "id": "f79a51cc-913d-4ccd-bcb8-728d0e0170f8",
+                                "attributes": [],
+                                "languages": [],
+                                "disambiguation": "rearranged by Eric Whitacre",
+                                "title": "Enjoy the Silence",
+                                "type": "Song",
+                                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+                            },
+                            "attribute-values": []
+                        },
+                        {
+                            "type-id": "c5decae0-535c-4730-aa5f-ab78eadd98ba",
+                            "begin": null,
+                            "target-credit": "",
+                            "end": null,
+                            "target-type": "work",
+                            "attribute-ids": [],
+                            "ended": false,
+                            "attribute-values": [],
+                            "work": {
+                                "languages": [],
+                                "attributes": [],
+                                "disambiguation": "",
+                                "id": "67a7d3f8-7051-43e8-9355-a9ac1a5094ed",
+                                "iswcs": [],
+                                "language": null,
+                                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                                "title": "All by Myself",
+                                "type": "Song"
+                            },
+                            "type": "musical quotation",
+                            "direction": "backward",
+                            "source-credit": "",
+                            "attributes": []
+                        },
+                        {
+                            "target-credit": "",
+                            "end": null,
+                            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                            "begin": null,
+                            "ended": false,
+                            "attribute-ids": {
+                                "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+                            },
+                            "target-type": "work",
+                            "attribute-values": [],
+                            "work": {
+                                "id": "8fcb3227-9e88-3aaa-96e7-fd59e8955cb2",
+                                "disambiguation": "",
+                                "languages": [],
+                                "attributes": [],
+                                "language": null,
+                                "iswcs": [],
+                                "type-id": null,
+                                "title": "Gaudeix el silenci",
+                                "type": null
+                            },
+                            "type": "other version",
+                            "direction": "forward",
+                            "source-credit": "",
+                            "attributes": [
+                                "translated"
+                            ]
+                        },
+                        {
+                            "attribute-ids": [],
+                            "ended": false,
+                            "target-type": "work",
+                            "attribute-values": [],
+                            "work": {
+                                "language": null,
+                                "iswcs": [],
+                                "attributes": [],
+                                "languages": [],
+                                "disambiguation": "",
+                                "id": "7a400126-e17c-3e43-a975-a9da6f99187a",
+                                "type": "Song",
+                                "title": "The Silence",
+                                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+                            },
+                            "target-credit": "",
+                            "end": null,
+                            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                            "begin": null,
+                            "source-credit": "",
+                            "attributes": [],
+                            "type": "other version",
+                            "direction": "forward"
+                        },
+                        {
+                            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                            "begin": null,
+                            "target-credit": "",
+                            "end": null,
+                            "attribute-values": [],
+                            "work": {
+                                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                                "title": "El silencio",
+                                "type": "Song",
+                                "id": "09e0f20b-adf2-4916-af62-c6c5fa1ed8eb",
+                                "disambiguation": "",
+                                "languages": [],
+                                "attributes": [],
+                                "iswcs": [],
+                                "language": null
+                            },
+                            "target-type": "work",
+                            "attribute-ids": {
+                                "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+                            },
+                            "ended": false,
+                            "direction": "forward",
+                            "type": "other version",
+                            "attributes": [
+                                "translated"
+                            ],
+                            "source-credit": ""
+                        }
+                    ],
+                    "id": "2ba22996-f8fa-3c9c-8913-7707225ea704",
+                    "iswcs": [
+                        "T-011.391.707-9"
+                    ],
+                    "language": "eng"
+                },
+                "type": "performance",
+                "direction": "forward",
+                "source-credit": "",
+                "attributes": []
+            },
+            {
+                "attribute-values": [],
+                "work": {
+                    "iswcs": [
+                        "T-011.391.708-0"
+                    ],
+                    "language": "eng",
+                    "relations": [
+                        {
+                            "type": "composer",
+                            "direction": "backward",
+                            "source-credit": "",
+                            "attributes": [],
+                            "end": null,
+                            "target-credit": "",
+                            "begin": null,
+                            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                            "artist": {
+                                "type": "Person",
+                                "sort-name": "Gore, Martin L.",
+                                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                "country": "US",
+                                "id": "e08ac443-f1d2-4666-abd1-fa5859592981",
+                                "name": "Martin L. Gore",
+                                "disambiguation": ""
+                            },
+                            "attribute-ids": [],
+                            "ended": false,
+                            "target-type": "artist",
+                            "attribute-values": []
+                        },
+                        {
+                            "direction": "backward",
+                            "type": "secondhandsongs",
+                            "attributes": [],
+                            "source-credit": "",
+                            "begin": null,
+                            "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                            "end": null,
+                            "target-credit": "",
+                            "url": {
+                                "resource": "https://secondhandsongs.com/work/117463",
+                                "id": "5e743333-00fe-47b6-a7b5-889cdb9ba6e7"
+                            },
+                            "attribute-values": [],
+                            "target-type": "url",
+                            "attribute-ids": [],
+                            "ended": false
+                        }
+                    ],
+                    "id": "6696416a-acdc-4eeb-a29a-853eeee2daec",
+                    "languages": [
+                        "eng"
+                    ],
+                    "attributes": [],
+                    "disambiguation": "",
+                    "type": "Song",
+                    "title": "Interlude #2: Crucified",
+                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+                },
+                "ended": false,
+                "attribute-ids": [],
+                "target-type": "work",
+                "target-credit": "",
+                "end": null,
+                "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                "begin": null,
+                "ordering-key": 2,
+                "attributes": [],
+                "source-credit": "",
+                "direction": "forward",
+                "type": "performance"
+            }
+        ],
+        "video": false,
+        "disambiguation": "album version"
+    },
+    "fetched_at": 1792074427.97805,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "recording"
+}

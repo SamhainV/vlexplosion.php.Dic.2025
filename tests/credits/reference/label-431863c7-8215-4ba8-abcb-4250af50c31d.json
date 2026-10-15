@@ -1,0 +1,25 @@
+{
+    "data": {
+        "id": "431863c7-8215-4ba8-abcb-4250af50c31d",
+        "type-id": null,
+        "life-span": {
+            "end": null,
+            "begin": null,
+            "ended": false
+        },
+        "area": null,
+        "ipis": [],
+        "disambiguation": "",
+        "label-code": null,
+        "sort-name": "EMI April Publishing",
+        "country": null,
+        "type": null,
+        "isnis": [],
+        "name": "EMI April Publishing",
+        "aliases": []
+    },
+    "fetched_at": 1792076115.688528,
+    "cached": false,
+    "source": "musicbrainz",
+    "entity_type": "label"
+}
