@@ -154,7 +154,6 @@ final class Vinyl
             $vinylId = (int)$pdo->lastInsertId();
 
             self::replaceAuthors($vinylId, $data, $pdo);
-            if ($ownsTransaction && \App\Core\AiFeature::enabled() && AlbumCollection::ready()) { AlbumCollection::associateManual($vinylId, $userId, $data); }
 
             if ($ownsTransaction) { $pdo->commit(); }
             return $vinylId;
