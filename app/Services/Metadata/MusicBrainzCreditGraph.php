@@ -39,6 +39,13 @@ final class MusicBrainzCreditGraph
         foreach ($data as &$value) $value=self::canonical($value);
         return $data;
     }
+    /** Shared import/synchronization identity. Display names are deliberately excluded. */
+    public static function identityKey(string $kind,string $source,string $targetKind,string $id,array $relation): string
+    {
+        $identity=$relation;unset($identity[$targetKind]);
+        if(isset($identity['attributes'])&&is_array($identity['attributes']))sort($identity['attributes']);
+        return hash('sha256',json_encode(self::canonical([$kind,$source,$targetKind,$id,$identity]),JSON_THROW_ON_ERROR));
+    }
     /** Display projection only. All attributes, including unknown qualifiers, stay in raw. */
     public static function instrumentAttributes(string $role,array $attributes): array
     {
@@ -62,10 +69,7 @@ final class MusicBrainzCreditGraph
             $id=MusicBrainzNormalizer::id($target['id']);
             $name=$target['name']??$target['title']??$target['resource']??$id;
             if (!is_string($name) || !preg_match('//u',$name) || strlen($rel['type'])>480 || str_contains($name,"\0")) throw new MetadataException('invalid_response');
-            $identity=$rel;unset($identity[$targetKind]);
-            // Identity includes all qualifiers/dates/direction/credits, not mutable participant display data.
-            foreach (['attributes'] as $key) if(isset($identity[$key])&&is_array($identity[$key])) sort($identity[$key]);
-            $key=hash('sha256',json_encode(self::canonical([$kind,$source,$targetKind,$id,$identity]),JSON_THROW_ON_ERROR));
+            $key=self::identityKey($kind,$source,$targetKind,$id,$rel);
             $rows[$key]=['key'=>$key,'source_kind'=>$kind,'source_mbid'=>$source,'target_kind'=>$targetKind,'target_mbid'=>$id,
               'name'=>$name,'role'=>$rel['type'],'category'=>self::category($rel['type'],$targetKind),
               'credited_as'=>$rel['target-credit']??null,'source_credit'=>$rel['source-credit']??null,

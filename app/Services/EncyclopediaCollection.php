@@ -4,6 +4,7 @@ namespace App\Services;
 
 use App\Core\{Database, HttpException, VinylInput};
 use App\Models\Vinyl;
+use App\Services\Metadata\MusicBrainzCreditGraph;
 use PDO;
 
 /** Manual and assisted creation use the same legacy writer and transaction. */
@@ -141,12 +142,48 @@ final class EncyclopediaCollection
     private static function credits(PDO $pdo, string $target, int $id, array $credits, int $source): void
     {
         $rich = EncyclopediaCreditSync::available($pdo);
+        $protected=[];
+        if($rich){
+            $manual=$pdo->prepare('SELECT c.* FROM ENC_CREDITS c LEFT JOIN ENC_SOURCES s ON s.id=c.source_id WHERE c.'.$target.'=? AND c.context_edition_id IS NULL AND c.relation_json IS NOT NULL AND (s.provider IS NULL OR s.provider<>?)');
+            $manual->execute([$id,'musicbrainz']);
+            foreach($manual->fetchAll(PDO::FETCH_ASSOC) as $row){
+                $row['relation']=json_decode($row['relation_json'],true,512,JSON_THROW_ON_ERROR);
+                $protected[self::importCreditKey($target,$id,$row,$row['artist_id']===null?null:(int)$row['artist_id'])]=true;
+            }
+        }
         foreach ($credits as $c) {
             $artist = $c['artist'] ? self::artist($pdo, $c['artist']) : null;
-            $key = hash('sha256', json_encode([$target, $id, $artist, $c['organisation'], $c['role'], $c['credited_as']], JSON_THROW_ON_ERROR));
-            self::sql($pdo, "INSERT INTO ENC_CREDITS($target,artist_id,organisation,role,credited_as,source_id,credit_key) VALUES(?,?,?,?,?,?,?) ON DUPLICATE KEY UPDATE credit_key=VALUES(credit_key)", [$id, $artist, $c['organisation'], $c['role'], $c['credited_as'], $source, $key]);
-            if($rich) self::sql($pdo,'UPDATE ENC_CREDITS SET instrument=?,relation_json=? WHERE credit_key=? AND source_id=? AND relation_json IS NULL',[$c['instrument']??null,isset($c['relation'])?json_encode($c['relation'],JSON_THROW_ON_ERROR):null,$key,$source]);
+            $relation=$c['relation']??null;
+            $key=self::importCreditKey($target,$id,$c,$artist);
+            if(isset($protected[$key]))continue;
+            if($rich){
+                // Recognize an exactly identified old projection without rewriting it.
+                // An old row without relationship evidence is left untouched, never guessed or consolidated.
+                $legacyKey=hash('sha256',json_encode([$target,$id,$artist,$c['organisation'],$c['role'],$c['credited_as']],JSON_THROW_ON_ERROR));
+                $legacy=self::row($pdo,'SELECT c.*,s.provider FROM ENC_CREDITS c LEFT JOIN ENC_SOURCES s ON s.id=c.source_id WHERE c.credit_key=? FOR UPDATE',[$legacyKey]);
+                if($legacy&&$legacy['provider']==='musicbrainz'&&!empty($legacy['relation_json'])){
+                    $legacy['relation']=json_decode($legacy['relation_json'],true,512,JSON_THROW_ON_ERROR);
+                    if(self::importCreditKey($target,$id,$legacy,$legacy['artist_id']===null?null:(int)$legacy['artist_id'])===$key)continue;
+                }
+            }
+            $columns=[$target,'artist_id','organisation','role','credited_as','source_id','credit_key'];
+            $values=[$id,$artist,$c['organisation'],$c['role'],$c['credited_as'],$source,$key];
+            if($rich){$columns[]='instrument';$columns[]='relation_json';$values[]=$c['instrument']??null;$values[]=$relation===null?null:json_encode($relation,JSON_THROW_ON_ERROR);}
+            // Insert-only compatibility: never rewrite an earlier projection, rich row or manual correction.
+            self::sql($pdo,'INSERT INTO ENC_CREDITS('.implode(',',$columns).') VALUES('.implode(',',array_fill(0,count($values),'?')).') ON DUPLICATE KEY UPDATE credit_key=credit_key',$values);
         }
+    }
+
+    private static function importCreditKey(string $target,int $id,array $credit,?int $artist): string
+    {
+        $relation=$credit['relation']??null;
+        if(is_array($relation)&&isset($relation['raw'],$relation['source_kind'],$relation['source_mbid'],$relation['target_kind'],$relation['target_mbid'])&&is_array($relation['raw'])){
+            $raw=$relation['raw'];$raw['target-type']??=$relation['target_kind'];
+            $identity=MusicBrainzCreditGraph::identityKey($relation['source_kind'],$relation['source_mbid'],$relation['target_kind'],$relation['target_mbid'],$raw);
+        }else{
+            $identity=MusicBrainzCreditGraph::canonical([$artist,$credit['organisation'],$credit['role'],$credit['credited_as'],$credit['instrument']??null,$relation]);
+        }
+        return hash('sha256',json_encode(['import-v2',$target,$id,$identity],JSON_THROW_ON_ERROR));
     }
 
     private static function source(PDO $pdo, string $type, string $id, int $time): int

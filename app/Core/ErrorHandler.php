@@ -28,7 +28,7 @@ final class ErrorHandler
     {
         while (ob_get_level() > self::$bufferLevel) { ob_end_clean(); }
         $status = $error instanceof HttpException ? $error->status : 500;
-        if (!in_array($status, [400, 403, 404, 405, 422, 429, 503], true)) { $status = 500; }
+        if (!in_array($status, [400, 403, 404, 405, 409, 422, 429, 503], true)) { $status = 500; }
         http_response_code($status);
         if (!headers_sent()) {
             header('Content-Type: text/plain; charset=UTF-8');
@@ -41,6 +41,7 @@ final class ErrorHandler
             403 => 'La solicitud ha caducado o no es válida. Recarga el formulario.',
             404 => 'Recurso no encontrado.',
             405 => 'Método no permitido.',
+            409 => 'La información ha cambiado desde que abriste esta página. Recarga y revisa los datos antes de volver a intentarlo.',
             503 => 'Esta función no está disponible temporalmente.',
             429 => 'Demasiados intentos. Espera antes de volver a intentarlo.',
             default => 'No se pudo completar la solicitud. Inténtalo de nuevo más tarde.',

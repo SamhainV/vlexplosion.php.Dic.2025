@@ -77,7 +77,7 @@ final class EncyclopediaEntity
         if($kind==='album') $data['credits']=EncyclopediaRecord::creditsFor($albumId,null);
         else {
             $data['recordings']=self::rows('SELECT DISTINCT r.* FROM ENC_RECORDINGS r JOIN ENC_TRACKS t ON t.recording_id=r.id JOIN ENC_MEDIA m ON m.id=t.medium_id WHERE m.edition_id=?',[$id]);
-            $data['works']=self::rows('SELECT DISTINCT w.* FROM ENC_WORKS w JOIN ENC_RECORDING_WORKS rw ON rw.work_id=w.id JOIN ENC_TRACKS t ON t.recording_id=rw.recording_id JOIN ENC_MEDIA m ON m.id=t.medium_id WHERE m.edition_id=?',[$id]);
+            $data['works']=self::rows('SELECT DISTINCT w.*,rw.recording_id FROM ENC_WORKS w JOIN ENC_RECORDING_WORKS rw ON rw.work_id=w.id JOIN ENC_TRACKS t ON t.recording_id=rw.recording_id JOIN ENC_MEDIA m ON m.id=t.medium_id WHERE m.edition_id=?',[$id]);
             $data['sources']=EncyclopediaRecord::sourcesFor($albumId,$id);
         }
         return $data;
