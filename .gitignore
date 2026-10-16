@@ -46,3 +46,11 @@ __pycache__/
 /docs/credits/checks.json
 /docs/credits/test-results.json
 /docs/credits/upgrade-checks.json
+
+# CAA runtime and generated evidence (never source material)
+/docs/covers/latest-runtime.txt
+/docs/covers/*.png
+/docs/covers/*.jpg
+/docs/covers/*results*.json
+/docs/covers/CERTIFICADO*
+/tests/**/runtime/

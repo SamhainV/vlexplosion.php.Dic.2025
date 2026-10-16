@@ -12,11 +12,14 @@ Las pruebas necesitan Python 3 con Pillow, los ejecutables MariaDB (`mariadb-ins
 
 1. Clona el repositorio en una carpeta nueva. No copies el repositorio encima de una aplicación existente.
 2. Crea una base **vacía e independiente** y una cuenta MariaDB con permisos adecuados, usando autenticación interactiva y contraseñas locales.
-3. Sobre esa base nueva, importa `database/schema-pre005.sql` y después `migrations/005_encyclopedia_instruments_up.sql`. Por ejemplo, sustituyendo los nombres indicados:
+3. Sobre esa base nueva, importa `database/schema-pre005.sql` y después las migraciones 005, 006, 007 y 008, en ese orden. Por ejemplo, sustituyendo los nombres indicados:
 
    ```bash
    mariadb --no-defaults --protocol=socket -u TU_USUARIO -p --database=TU_BASE_NUEVA < database/schema-pre005.sql
    mariadb --no-defaults --protocol=socket -u TU_USUARIO -p --database=TU_BASE_NUEVA < migrations/005_encyclopedia_instruments_up.sql
+   mariadb --no-defaults --protocol=socket -u TU_USUARIO -p --database=TU_BASE_NUEVA < migrations/006_encyclopedia_credit_relations_up.sql
+   mariadb --no-defaults --protocol=socket -u TU_USUARIO -p --database=TU_BASE_NUEVA < migrations/007_cover_art_up.sql
+   mariadb --no-defaults --protocol=socket -u TU_USUARIO -p --database=TU_BASE_NUEVA < migrations/008_cover_visual_source_up.sql
    ```
 
    La estructura contiene 31 tablas y ningún registro, cuenta MariaDB, contraseña, contador de colección o sesión. No ejecutes además 001–004 sobre esta estructura: esas alteraciones ya están incorporadas. No utilices estos comandos para actualizar una base existente.
@@ -48,3 +51,7 @@ El reconocimiento fotográfico y Discogs permanecen desactivados. La ruta antigu
 ## Créditos musicales de MusicBrainz
 
 La actualización explícita de créditos, recuperación de consultas y presentación agrupada se documentan en [MUSICBRAINZ-CREDITS.md](docs/technical/MUSICBRAINZ-CREDITS.md). Incluye migración 006 y [pruebas aisladas](tests/credits/README.md).
+
+## Carátulas automáticas
+
+El sistema Cover Art Archive, las dependencias adicionales de imágenes, las migraciones 007/008 y la selección visual independiente se explican en [COVER-ART.md](docs/technical/COVER-ART.md). Sus [pruebas sintéticas](tests/cover-art/README.md) no requieren una colección privada.

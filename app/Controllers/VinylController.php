@@ -40,6 +40,7 @@ final class VinylController extends Controller
 
         $items = Vinyl::paginateByUser($userId, $p->perPage, $p->offset(), $sort, $filters);
 
+        \App\Models\CoverArt::preload($items, $userId);
         $this->view('vinyls/index', [
             'items' => $items,
             'p' => $p,

@@ -253,3 +253,5 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('pageshow', () => { delete form.dataset.submitted; button.disabled = false; });
 });
 </script>
+
+<?php if(!empty($vinylId) && \App\Models\CoverArt::available()): ?><p><a href="<?= e(base_url('covers?id='.(int)$vinylId)) ?>">Gestionar carátula automática (independiente de tus datos)</a></p><?php endif; ?>

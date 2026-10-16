@@ -125,3 +125,31 @@
   .vl-app #vinyl-editor details>summary,.vl-app .manual-section>summary {padding:16px;font-size:16px}
 }
 @media(prefers-reduced-motion:reduce) {.vl-app * {transition:none!important;scroll-behavior:auto!important}}
+
+/* Cover Art Archive: shares Premium panels and collection controls. */
+.caa-panel{max-width:1040px;margin:0 auto;padding:clamp(1.25rem,4vw,2.5rem);background:rgba(9,13,17,.94);border:1px solid #30383c;border-radius:24px;box-shadow:0 24px 64px #0006;overflow-wrap:anywhere}
+.caa-panel h1{font-size:clamp(1.6rem,4vw,2.5rem);font-weight:700;margin:1rem 0}.caa-panel h2{font-size:1.3rem;margin:1.5rem 0 .7rem}.caa-panel p,.caa-panel dl,.caa-panel details{margin:1rem 0;line-height:1.7}.caa-panel a{color:#6ee7b7}.caa-action{display:inline-flex;margin:.35rem .5rem .35rem 0;max-width:100%}.caa-action button{white-space:normal;text-align:left}.caa-preview{width:min(100%,320px);aspect-ratio:1;object-fit:contain;border-radius:16px;border:1px solid #34413e}.caa-panel dt{color:#b1beb9;font-size:.85rem}.caa-panel dd{margin-bottom:.65rem}.caa-counts{display:flex;gap:1.5rem;flex-wrap:wrap}.caa-counts dd{font-size:1.5rem;font-weight:600}.caa-muted,.caa-origin{color:#a1aaa6;font-size:.85rem}.caa-origin a{color:#6ee7b7}.caa-origin{margin-top:.8rem}
+
+/* Cover operation feedback: scoped to the manager; no collection layout changes. */
+.caa-panel .caa-activity,
+.caa-panel .caa-feedback { padding: .9rem 1rem; border: 1px solid #438b73; border-radius: .8rem; background: #102c25; color: #dbf8ea; overflow-wrap: anywhere; }
+.caa-panel .caa-feedback--info { border-color: #527c87; background: #14282e; }
+.caa-panel .caa-feedback--warning { border-color: #b89952; background: #30291a; color: #fff0c7; }
+.caa-panel .caa-feedback--error { border-color: #c47d7d; background: #321f25; color: #ffe0e0; }
+.caa-panel .caa-activity:not([hidden]) { display: flex; align-items: center; gap: .7rem; }
+.caa-panel .caa-activity::before { content: ''; flex: 0 0 1rem; height: 1rem; border: 2px solid #558976; border-top-color: #d4ffe9; border-radius: 50%; animation: caa-busy .9s linear infinite; }
+.caa-panel button:disabled { opacity: .65; cursor: wait; }
+@keyframes caa-busy { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .caa-panel .caa-activity::before { animation: none; } }
+
+/* Visual source consent is separate from the encyclopedia editor. */
+.caa-source{margin-block:1.5rem;padding:1rem;border:1px solid #355648;border-radius:1rem;background:#11201980}
+.caa-source summary{cursor:pointer;color:#9de8be;font-weight:600}
+.caa-comparison{max-width:100%;overflow-x:auto;margin-block:1rem}
+.caa-comparison table{width:100%;border-collapse:collapse;min-width:30rem}
+.caa-comparison caption{text-align:left;padding:.5rem 0;color:#b4c9bd}
+.caa-comparison th,.caa-comparison td{text-align:left;vertical-align:top;padding:.65rem;border-bottom:1px solid #334b3e;overflow-wrap:anywhere}
+.caa-source-form{margin:1rem 0;display:flex;flex-direction:column;align-items:flex-start;gap:.8rem}
+.caa-source-form label{display:block;line-height:1.6}.caa-source-form input[type=checkbox]{margin-right:.4rem;accent-color:#6ee7b7}
+.caa-source-tracks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.caa-source-tracks ol{padding-left:1.5rem;list-style:decimal}
+@media(max-width:600px){.caa-source-tracks{grid-template-columns:1fr}.caa-source{padding:.75rem}}

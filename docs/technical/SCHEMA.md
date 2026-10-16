@@ -2,7 +2,7 @@
 
 `database/schema-pre005.sql` es una estructura vacía reproducible de 31 tablas: 12 tradicionales/de control y 19 enciclopédicas. Se normalizaron únicamente los contadores AUTO_INCREMENT de tabla, que dependen de una colección. Mantiene tipos, índices, nulabilidad, claves foráneas y comprobaciones. No contiene INSERT, cuentas, contraseñas, triggers, datos de usuarios ni sentencias destructivas.
 
-Para una instalación nueva, carga esa estructura en una base vacía y aplica únicamente 005_up. La versión resultante añade `ENC_CREDITS.instrument VARCHAR(120) NULL`, sin modificar las otras columnas. No hay migración automática al abrir la aplicación.
+Para una instalación nueva, carga esa estructura en una base vacía y aplica 005_up, 006_up, 007_up y 008_up, por ese orden. La versión resultante añade `ENC_CREDITS.instrument VARCHAR(120) NULL`, sin modificar las otras columnas. No hay migración automática al abrir la aplicación.
 
 Se conservan las migraciones de desarrollo para reproducir las pruebas:
 
@@ -18,3 +18,7 @@ Se conservan las migraciones de desarrollo para reproducir las pruebas:
 `LegacyEncyclopediaMigration` es un auxiliar explícito utilizado por las pruebas. No tiene ruta pública ni ejecución automática: crea borradores privados con una instantánea de los campos tradicionales, sin inferir ediciones o identidades. La vinculación funcional de la aplicación se realiza mediante EncyclopediaLink y conserva el identificador del ejemplar.
 
 Esta publicación no incluye volcados ni instrucciones automáticas para modificar una instalación existente. La recuperación de datos personales requiere respaldos privados independientes.
+
+## Ampliaciones posteriores
+
+006 añade relaciones musicales enriquecidas y ENC_CREDIT_JOBS; se documenta en MUSICBRAINZ-CREDITS.md. 007 añade CAA_IMAGES, CAA_PREFERENCES y CAA_BATCHES. 008 amplía exclusivamente CAA_PREFERENCES con visual_source_json nullable y JSON_VALID. El esquema completo tiene 35 tablas. Las instrucciones y condiciones de reversión están en [COVER-ART.md](COVER-ART.md). Ninguna migración se ejecuta automáticamente.

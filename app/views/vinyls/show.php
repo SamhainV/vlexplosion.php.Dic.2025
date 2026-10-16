@@ -4,7 +4,7 @@ $returnPage = max(1, (int)($return_page ?? ($_GET['return_page'] ?? 1)));
 $returnSort = (string)($return_sort ?? ($_GET['return_sort'] ?? 'newest'));
 $returnUrl = base_url('vinyls?' . collection_query($returnPage, $returnSort));
 $fallback = \App\Core\CoverStore::fallbackUrl();
-$imagePath = $vinyl ? \App\Core\CoverStore::url($vinyl['Image_Path'] ?? null) : $fallback;
+$imagePath = $vinyl ? \App\Models\CoverArt::url($vinyl) : $fallback;
 $title = (string)($vinyl['Title'] ?? '');
 $editUrl = $vinyl ? base_url('vinyls/edit?id=' . (int)$vinyl['Id'] . '&return_page=' . $returnPage . '&return_sort=' . urlencode($returnSort) . '&' . http_build_query(\App\Core\CollectionFilter::read())) : '';
 $metadata = [
@@ -39,6 +39,7 @@ $metadata = [
             alt="<?= e(($imagePath === $fallback ? 'Carátula predeterminada de ' : 'Carátula de ') . $title) ?>"
             class="aspect-square h-auto w-full object-cover">
         </div>
+        <?php if(\App\Models\CoverArt::available()): ?><p class="caa-origin"><?= e(\App\Models\CoverArt::display($vinyl)['origin']) ?> · <a href="<?= e(base_url('covers?id='.(int)$vinyl['Id'])) ?>">Gestionar carátula</a></p><?php endif; ?>
         <figcaption class="sr-only">Carátula de <?= e($title) ?></figcaption>
       </figure>
       <div id="vinyl-information" class="flex min-w-0 flex-col">

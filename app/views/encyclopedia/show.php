@@ -3,7 +3,8 @@
 <article class="enc" id="enc-record"><p class="accent">VLexPlosion · Ficha enciclopédica</p><h1><?= e($album['title']) ?></h1>
 <?php if (getenv('VLEX_ENC_FIXTURE') === '1'): ?><p class="alert">Modo de pruebas: respuestas musicales controladas; colección aislada.</p><?php endif; ?>
 <?php if (!empty($legacy)): ?><p class="muted">Registro original conservado. Todavía no tiene identidad musical ni edición confirmadas.</p><?php endif; ?>
-<img class="cover" src="<?= e(\App\Core\CoverStore::url($vinyl['Image_Path']??null)) ?>" alt="Carátula de mi ejemplar o imagen predeterminada">
+<img class="cover" src="<?= e(\App\Models\CoverArt::url($vinyl)) ?>" alt="Carátula de mi ejemplar o imagen predeterminada">
+<?php if (\App\Models\CoverArt::available()): ?><p class="muted"><?= e(\App\Models\CoverArt::display($vinyl)['origin']) ?> · <a href="<?= e(base_url('covers?id='.(int)$vinyl['Id'])) ?>">Gestionar carátula</a></p><?php endif; ?>
 <?php if (empty($vinyl['Image_Path'])): ?><p class="muted">Puedes añadir tu carátula al editar el ejemplar.</p><?php endif; ?>
 <?php $record=['album'=>$album,'edition'=>$edition,'artists'=>$artists,'genres'=>$genres,'labels'=>$labels,'media'=>$media??[],'tracks'=>$tracks,'credits'=>$credits,'recordings'=>$recordings??[],'works'=>$works??[],'sources'=>$sources??[]];require __DIR__.'/metadata.php'; ?>
 <section class="card" id="enc-private"><h2>Mi ejemplar · Información privada</h2><p>Título revisado: <?= e($vinyl['Title']) ?></p><p>Artistas de mi ficha: <?= e($vinyl['author_name']) ?></p>

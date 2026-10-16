@@ -268,11 +268,15 @@ final class Vinyl
         $pdo = Database::pdo();
         try {
             $pdo->beginTransaction();
-            $check = $pdo->prepare("SELECT Id FROM VINYLS_TBL WHERE Id = :id AND User_Id = :uid FOR UPDATE");
+            $check = $pdo->prepare("SELECT Id,Image_Path FROM VINYLS_TBL WHERE Id = :id AND User_Id = :uid FOR UPDATE");
             $check->execute(['id' => $id, 'uid' => $userId]);
-            if (!$check->fetchColumn()) { $pdo->rollBack(); return false; }
+            $previous = $check->fetch(PDO::FETCH_ASSOC);
+            if (!$previous) { $pdo->rollBack(); return false; }
             $stmt = $pdo->prepare("UPDATE VINYLS_TBL SET Title=:title, Genres_Id=:genre_id, Format_Id=:format_id, Condition_Id=:condition_id, Record_Label_Id=:label_id, Producer=:producer, Release_date=:release_date, Edition_Id=:edition_id, Is_Favorite=:fav, Is_Desired=:desired, Image_Path=:image_path WHERE Id=:id AND User_Id=:uid");
             $stmt->execute(['id' => $id, 'uid' => $userId, 'title' => $data['title'], 'genre_id' => $data['genre_id'], 'format_id' => $data['format_id'], 'condition_id' => $data['condition_id'], 'label_id' => $data['record_label_id'], 'producer' => $data['producer'], 'release_date' => $data['release_date'], 'edition_id' => $data['edition_id'], 'fav' => $data['is_favorite'], 'desired' => $data['is_desired'], 'image_path' => $data['image_path'] ?? null]);
+            if (($data['image_path'] ?? null) !== $previous['Image_Path'] && !empty($data['image_path']) && CoverArt::available()) {
+                $pdo->prepare('UPDATE CAA_PREFERENCES SET prefer_auto=0 WHERE vinyl_id=?')->execute([$id]);
+            }
             self::replaceAuthors($id, $data, $pdo);
             if (\App\Core\Encyclopedia::enabled()) {
                 $draft = $pdo->prepare('UPDATE ENC_ALBUMS a JOIN ENC_COPIES c ON c.album_id=a.id SET a.title=? WHERE c.vinyl_id=? AND c.owner_id=? AND a.draft_owner_id=? AND c.edition_id IS NULL');

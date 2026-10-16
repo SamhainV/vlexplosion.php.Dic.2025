@@ -1,0 +1,61 @@
+<?php
+declare(strict_types=1);
+// Entirely synthetic private revision, history, tracks and manual credits.
+require dirname(__DIR__).'/encyclopedia/connect.php';
+require __DIR__.'/fixtures.php';
+use App\Models\{CoverArt,CoverArtSource,EncyclopediaRecord};
+use App\Services\{CoverArtClient,CoverArtHttp};
+$n=0;
+function verify(bool $ok,string $label):void{global $n;if(!$ok)throw new RuntimeException('FAIL '.$label);$n++;echo "PASS $label\n";}
+function rejected(callable $f,int $status):void{try{$f();}catch(App\Core\HttpException $e){verify($e->status===$status,'invalid consent rejected');return;}throw new RuntimeException('Expected rejection');}
+$release='66666666-6666-4666-8666-666666666666';
+$pdo->exec("INSERT INTO ENC_ALBUMS(id,title,draft_owner_id) VALUES(910,'Synthetic historical album',NULL),(911,'Synthetic private revision',7);
+INSERT INTO ENC_EDITIONS(id,album_id,country,release_date,musicbrainz_release_id) VALUES(910,910,'GB','1980','$release'),(911,911,'GB','1980',NULL);
+INSERT INTO ENC_MEDIA(id,edition_id,position,format) VALUES(910,910,1,'Vinyl'),(911,911,1,'Vinyl');
+INSERT INTO ENC_TRACKS(medium_id,position,title,duration_ms) VALUES(910,1,'Synthetic track',180000),(911,1,'Synthetic revised track',181000);
+INSERT INTO ENC_CREDITS(edition_id,organisation,role) VALUES(911,'Synthetic participant','producer');
+INSERT INTO VINYLS_TBL(Id,User_Id,Title,Image_Path) VALUES(910,7,'Synthetic personal copy','assets/images/default-cover.webp');");
+$history=json_encode(['link_history'=>[['operation'=>'manual_draft','before'=>'910:910','after'=>'911:911']]]);
+$pdo->prepare('INSERT INTO ENC_COPIES(vinyl_id,owner_id,album_id,edition_id,overrides_json,notes) VALUES(910,7,911,911,?,?)')->execute([$history,'Synthetic personal correction']);
+$_SESSION['user']=['id'=>7];
+function originals():array{global $pdo;$data=[];foreach($pdo->query('SHOW TABLES')->fetchAll(PDO::FETCH_COLUMN) as $t){if(str_starts_with($t,'CAA_'))continue;$rows=$pdo->query('SELECT * FROM `'.$t.'`')->fetchAll();$rows=array_map(fn($r)=>json_encode($r,JSON_THROW_ON_ERROR),$rows);sort($rows);$data[$t]=$rows;}return $data;}
+$before=originals();$review=CoverArtSource::review(910,7);$candidate=$review['candidates'][0];
+verify($review['applicable']&&!$review['active']&&count($review['candidates'])===1,'history is evidence, not consent');
+verify(CoverArt::copy(910,7)['release_mbid']===null,'private musical identity remains empty');
+rejected(fn()=>CoverArtSource::confirm(910,7,910,$candidate['context'],false),422);
+rejected(fn()=>CoverArtSource::confirm(910,7,900,$candidate['context'],true),409);
+rejected(fn()=>CoverArtSource::confirm(910,7,910,str_repeat('0',64),true),409);
+rejected(fn()=>CoverArtSource::review(910,8),404);
+CoverArtSource::confirm(910,7,910,$candidate['context'],true);
+$pref=$pdo->query('SELECT * FROM CAA_PREFERENCES WHERE vinyl_id=910')->fetch();
+CoverArtSource::confirm(910,7,910,$candidate['context'],true);
+verify($pref===$pdo->query('SELECT * FROM CAA_PREFERENCES WHERE vinyl_id=910')->fetch(),'confirmation is idempotent');
+$v=CoverArt::copy(910,7);
+verify($v['release_mbid']===$release&&$v['musical_release_mbid']===null,'visual source does not relink encyclopedia');
+verify(CoverArt::display($v)['origin']==='Carátula aportada por ti','manual priority retained');
+verify(!in_array(910,array_column(CoverArt::eligible(7),'Id')),'manual cover excluded from batch');
+$pdo->beginTransaction();$pdo->exec("UPDATE VINYLS_TBL SET Image_Path=NULL WHERE Id=910");
+verify(in_array(910,array_column(CoverArt::eligible(7),'Id')),'confirmed source eligible explicitly');$pdo->rollBack();
+$pdo->beginTransaction();$pdo->exec("UPDATE ENC_EDITIONS SET country='US' WHERE id=910");
+verify(CoverArtSource::review(910,7)['stale'],'changed source invalidates confirmation');$pdo->rollBack();
+$pdo->beginTransaction();$pdo->exec("UPDATE ENC_COPIES SET overrides_json='{}' WHERE vinyl_id=910");
+verify(CoverArtSource::review(910,7)['candidates']===[],'missing history never inferred by title');$pdo->rollBack();
+$pdo->beginTransaction();$pdo->exec("UPDATE ENC_COPIES SET overrides_json=JSON_SET(overrides_json,'$.link_history[0].operation','detach') WHERE vinyl_id=910");
+verify(CoverArtSource::review(910,7)['candidates']===[],'detached history never reused');$pdo->rollBack();
+$queue=['state'=>'paused','queue'=>[['Id'=>910,'mbid'=>$release,'visual_context'=>$candidate['context']]],'cursor'=>0,'reviewed'=>0,'downloaded'=>0,'missing'=>0,'skipped'=>0,'errors'=>0,'attempts'=>0,'retry_at'=>0];
+$pdo->prepare('INSERT INTO CAA_BATCHES(owner_id,state_json) VALUES(7,?) ON DUPLICATE KEY UPDATE state_json=VALUES(state_json)')->execute([json_encode($queue)]);
+CoverArtSource::remove(910,7,true);
+CoverArtHttp::$transport=fn()=>throw new RuntimeException('No provider work authorized');
+$batch=CoverArt::batchAction(7,'step');verify($batch['skipped']===1&&$batch['downloaded']===0,'withdrawn queued source skipped without HTTP');
+CoverArtSource::confirm(910,7,910,$candidate['context'],true);CoverArtHttp::$transport='caa_fixture';
+@unlink(app_storage_path('cover-art').'/.next');$result=CoverArtClient::fetch('release',$release);
+verify($result['result']==='ready'&&is_file(CoverArtClient::path($result['storage_key'])),'synthetic image stored locally');
+CoverArt::select(910,7,'auto');verify(CoverArt::display(CoverArt::copy(910,7))['origin']==='CAA · edición confirmada para la carátula','independent origin visible');
+rejected(fn()=>CoverArtSource::remove(910,7,false),422);
+CoverArtSource::remove(910,7,true);
+verify(is_file(CoverArtClient::path($result['storage_key'])),'withdrawal retains image bytes');
+verify(CoverArt::copy(910,7)['release_mbid']===null,'withdrawal removes visual identity only');
+verify(originals()===$before,'all original table rows, personal fields and manual credits unchanged');
+verify(!CoverArtSource::review(900,7)['applicable'],'normal active musical linkage still supported');
+$pdo->exec('DELETE FROM CAA_BATCHES');
+echo "VISUAL SOURCE CHECKS $n\n";

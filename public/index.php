@@ -60,4 +60,7 @@ $router->post('/encyclopedia/manual/save', [\App\Controllers\EncyclopediaManualC
 $router->get('/encyclopedia/label', [\App\Controllers\EncyclopediaController::class, 'label']);
 $router->get('/encyclopedia/work', [\App\Controllers\EncyclopediaController::class, 'work']);
 $router->get('/encyclopedia/recording', [\App\Controllers\EncyclopediaController::class, 'recording']);
+$router->get('/covers', [\App\Controllers\CoverArtController::class, 'show']);
+$router->post('/covers/action', [\App\Controllers\CoverArtController::class, 'action']);
+$router->get('/covers/image', [\App\Controllers\CoverArtController::class, 'image']);
 $router->dispatch();

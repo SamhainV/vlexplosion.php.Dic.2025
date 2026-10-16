@@ -48,6 +48,7 @@ $coverUrl = [\App\Core\CoverStore::class, 'url'];
       </p>
     </div>
     <div class="collection-add">
+      <?php if(\App\Models\CoverArt::available()): ?><a class="collection-assisted" href="<?= e(base_url('covers')) ?>">Carátulas automáticas</a><?php endif; ?>
       <a class="collection-button primary" href="<?= e(base_url('vinyls/create?page=' . $currentPage . '&sort=' . $sortQ)) ?>">
         <span aria-hidden="true">＋</span> Añadir disco</a>
       <a class="collection-assisted" href="<?= e(base_url(\App\Core\Encyclopedia::enabled() ? 'encyclopedia/search' : 'vinyls/ai')) ?>"><?= \App\Core\Encyclopedia::enabled() ? 'Añadir mediante búsqueda musical' : (\App\Core\AiFeature::enabled() ? 'Añadir vinilo con IA' : 'Opciones para añadir vinilos') ?>
@@ -154,7 +155,7 @@ $coverUrl = [\App\Core\CoverStore::class, 'url'];
         $condition = (string)($v['condition_name'] ?? '');
         $label = (string)($v['record_label_name'] ?? '');
         $edition = (string)($v['edition_name'] ?? '');
-        $imagePath = $coverUrl($v['Image_Path'] ?? null);
+        $imagePath = \App\Models\CoverArt::url($v);
 
         $modalData = [
         'id' => $id,
@@ -168,6 +169,7 @@ $coverUrl = [\App\Core\CoverStore::class, 'url'];
         'label' => $label !== '' ? $label : '—',
         'edition' => $edition !== '' ? $edition : '—',
         'image' => $imagePath,
+        'coverOrigin' => \App\Models\CoverArt::display($v)['origin'],
         'favorite' => !empty($v['Is_Favorite']),
         'desired' => !empty($v['Is_Desired']),
         'showUrl' => base_url('vinyls/show?id=' . $id . '&return_page=' . $currentPage . '&return_sort=' . $sortQ),
@@ -196,6 +198,7 @@ $coverUrl = [\App\Core\CoverStore::class, 'url'];
             </div>
           </div>
           <div class="collection-card-body">
+            <p class="caa-origin"><?= e($modalData['coverOrigin']) ?></p>
             <h2>
               <a href="<?= e($modalData['showUrl']) ?>" title="<?= e($title) ?>"><?= e($title) ?>
               </a>
@@ -289,6 +292,7 @@ $coverUrl = [\App\Core\CoverStore::class, 'url'];
 
       <div class="flex min-w-0 flex-col">
         <div class="mb-4">
+          <p id="cover-modal-origin" class="caa-origin"></p>
           <div id="cover-modal-badges" class="mb-3 flex flex-wrap gap-2"></div>
 
           <h2 id="cover-modal-title" class="break-words text-2xl font-bold text-zinc-100"></h2>
@@ -408,6 +412,7 @@ $coverUrl = [\App\Core\CoverStore::class, 'url'];
       label.textContent = text(data.label);
 
       image.src = text(data.image);
+      document.getElementById('cover-modal-origin').textContent = text(data.coverOrigin);
       image.dataset.coverTitle = text(data.title);
       image.alt = 'Carátula de ' + text(data.title);
 
