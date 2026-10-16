@@ -12,7 +12,9 @@ $button=function(string $action,string $label)use($id){?>
 <?php if($message):?><p role="<?= $message['kind']==='error'?'alert':'status' ?>" aria-live="<?= $message['kind']==='error'?'assertive':'polite' ?>" class="collection-flash caa-feedback caa-feedback--<?= e($message['kind']) ?>"><?= e($message['text']) ?></p><?php endif;?>
 <p class="caa-activity" role="status" aria-live="polite" aria-atomic="true" data-caa-activity hidden></p>
 <?php if($vinyl): ?>
+<div class="vl-cover-workspace"><div class="vl-cover-artwork">
 <img class="caa-preview" src="<?= e(CoverArt::url($vinyl)) ?>" alt="Carátula actualmente seleccionada"><p><?= e(CoverArt::display($vinyl)['origin']) ?></p>
+</div><div class="vl-cover-controls">
 <p>Tu imagen manual tiene prioridad por defecto. Cambiar la fuente no borra ninguna imagen.</p>
 <?php require __DIR__.'/source-review.php'; ?>
 <?php if(CoverArtClient::mbid($vinyl['release_mbid'])): ?>
@@ -26,6 +28,7 @@ $button=function(string $action,string $label)use($id){?>
 <?php if(!empty($vinyl['Image_Path']))$button('manual','Usar mi carátula');?>
 <?php if(CoverArtClient::mbid($vinyl['group_mbid'])): ?><details><summary>Valorar una alternativa aproximada</summary><p>Una portada del grupo puede pertenecer a otra edición. Solo se seleccionará si lo confirmas expresamente.</p><?php $button('fetch-group','Buscar alternativa de grupo');?><?php if(!empty($info['alternative']['storage_key'])): ?><p>Edición de origen de la alternativa: <?= e($info['alternative']['release_mbid']) ?></p><a href="<?= e(base_url('covers/image?id='.$id.'&scope=group')) ?>">Ver alternativa descargada</a><?php $button('group','Confirmar: usar alternativa aproximada');endif;?></details><?php endif;?>
 <a href="<?= e(base_url('vinyls/edit?id='.$id)) ?>">Subir o sustituir mi carátula</a>
+</div></div>
 <?php else: ?>
 <p>Vista previa: <strong><?= count($eligible) ?></strong> discos elegibles (hasta 1.000 por lote): sin imagen manual, con edición MusicBrainz activa o fuente visual expresamente confirmada y sin carátula automática local. Los demás se conservan sin cambios.</p>
 <p>Puedes procesar hasta cinco discos seguidos o avanzar uno a uno. Cada petición procesa un disco, con un máximo de 18 segundos de red y tres intentos. No busca alternativas de grupo ni inicia peticiones al abrir esta pantalla.</p>

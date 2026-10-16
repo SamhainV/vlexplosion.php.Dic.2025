@@ -1,6 +1,6 @@
 <?php $personal = json_decode($copy['overrides_json'] ?? '{}', true) ?: []; ?>
 <link rel="stylesheet" href="<?= e(base_url('assets/css/encyclopedia.css')) ?>">
-<article class="enc" id="enc-record"><p class="accent">VLexPlosion · Ficha enciclopédica</p><h1><?= e($album['title']) ?></h1>
+<article class="enc" id="enc-record"><p class="accent">EL CONTEXTO DE TU MÚSICA · ENCICLOPEDIA</p><h1><?= e($album['title']) ?></h1>
 <?php if (getenv('VLEX_ENC_FIXTURE') === '1'): ?><p class="alert">Modo de pruebas: respuestas musicales controladas; colección aislada.</p><?php endif; ?>
 <?php if (!empty($legacy)): ?><p class="muted">Registro original conservado. Todavía no tiene identidad musical ni edición confirmadas.</p><?php endif; ?>
 <img class="cover" src="<?= e(\App\Models\CoverArt::url($vinyl)) ?>" alt="Carátula de mi ejemplar o imagen predeterminada">

@@ -40,11 +40,11 @@ $coverUrl = [\App\Core\CoverStore::class, 'url'];
     <div>
       <p class="collection-eyebrow">
         <span>
-        </span> TU CATÁLOGO PERSONAL</p>
+        </span> TU ARCHIVO MUSICAL</p>
       <h1 id="collection-title">Mis discos<span class="collection-count"><?= (int)$total ?>
         </span>
       </h1>
-      <p class="collection-intro"><?= $hasFilters ? 'Tu colección, con la selección que buscas.' : 'La música que eliges. Los discos que conservas.' ?>
+      <p class="collection-intro"><?= $hasFilters ? 'Tu colección, con la selección que buscas.' : 'Todo lo que escuchas. Todo lo que merece quedarse.' ?>
       </p>
     </div>
     <div class="collection-add">
@@ -244,20 +244,7 @@ $coverUrl = [\App\Core\CoverStore::class, 'url'];
         <?php endforeach; ?>
       </div>
       <?php if ($p !== null && $p->pages > 1): ?>
-      <nav class="collection-pagination" aria-label="Paginación de la colección">
-        <span class="collection-page-info">Página <?= (int)$p->page ?> de <?= (int)$p->pages ?>
-        </span>
-        <div>
-          <a <?= $p->page === 1 ? 'aria-disabled="true" tabindex="-1"' : '' ?> href="<?= e(base_url('vinyls?page=' . max(1, $p->page - 1) . '&sort=' . $sortQ)) ?>">← <span>Anterior</span>
-          </a>
-          <?php for ($n = max(1, $p->page - 2); $n <= min($p->pages, $p->page + 2); $n++): ?>
-          <a href="<?= e(base_url('vinyls?page=' . $n . '&sort=' . $sortQ)) ?>" <?= $n === $p->page ? 'aria-current="page"' : '' ?>><?= $n ?>
-          </a>
-          <?php endfor; ?>
-          <a <?= $p->page === $p->pages ? 'aria-disabled="true" tabindex="-1"' : '' ?> href="<?= e(base_url('vinyls?page=' . min($p->pages, $p->page + 1) . '&sort=' . $sortQ)) ?>">
-            <span>Siguiente</span> →</a>
-        </div>
-      </nav>
+      <?php require __DIR__.'/pagination.php'; ?>
       <?php endif; ?>
       <?php endif; ?>
     </div>

@@ -1,5 +1,7 @@
-<div class="max-w-md mx-auto bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
-  <h1 class="text-xl font-semibold mb-4">Entrar</h1>
+<div id="vl-login" class="max-w-md mx-auto bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
+  <p class="vl-eyebrow">TU MÚSICA TIENE UN LUGAR</p>
+  <h1 class="text-xl font-semibold mb-4">Vuelve a tu colección.</h1>
+  <p class="vl-login-intro">Discos, ediciones y las historias que los conectan.</p>
 
   <?php if (!empty($error)): ?>
     <div class="mb-4 rounded-lg bg-red-900/40 border border-red-800 px-3 py-2 text-sm">

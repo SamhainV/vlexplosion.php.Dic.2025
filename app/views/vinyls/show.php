@@ -30,7 +30,7 @@ $metadata = [
       <p class="text-xs font-medium uppercase tracking-[0.18em] text-emerald-400">Ficha de la colección</p>
       <span class="h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-400" aria-hidden="true"></span>
     </div>
-    <div class="grid gap-7 p-5 sm:gap-8 sm:p-8 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
+    <div class="vl-detail-grid grid gap-7 p-5 sm:gap-8 sm:p-8 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
       <figure id="vinyl-artwork" class="min-w-0 self-start">
         <div class="overflow-hidden rounded-2xl border border-zinc-700/70 bg-zinc-900 shadow-xl shadow-black/40">
           <img id="vinyl-cover" decoding="async" fetchpriority="high" width="640" height="640"
